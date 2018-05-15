@@ -1,3 +1,4 @@
+import Building from "../artifact/Building.js";
 import BuildingCategory from "../artifact/BuildingCategory.js";
 
 import Action from "../model/Action.js";
@@ -6,7 +7,10 @@ import Select from "../view/Select.js";
 
 function mapStateToProps(state, ownProps)
 {
-   const values = BuildingCategory.keys();
+   const values = BuildingCategory.keys().filter(categoryKey =>
+   {
+      return Building.keysByCategory(state.raceKey, categoryKey).length > 0;
+   });
    const labelFunction = function(value)
    {
       const category = BuildingCategory.properties[value];

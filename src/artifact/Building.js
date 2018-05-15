@@ -1,3 +1,5 @@
+import InputValidator from "../utility/InputValidator.js";
+
 import BuildingType from "./BuildingType.js";
 import Race from "./Race.js";
 
@@ -1445,16 +1447,24 @@ Building.keys().forEach(function(buildingKey)
 
 Building.cumulativeCulture = function(buildingKey)
 {
+   InputValidator.validateIsString("buildingKey", buildingKey);
+
    return cumulative(buildingKey, "culture");
 };
 
 Building.cumulativePopulation = function(buildingKey)
 {
+   InputValidator.validateIsString("buildingKey", buildingKey);
+
    return cumulative(buildingKey, "population");
 };
 
 Building.find = function(raceKey, typeKey, level)
 {
+   InputValidator.validateIsString("raceKey", raceKey);
+   InputValidator.validateIsString("typeKey", typeKey);
+   InputValidator.validateIsNumber("level", level);
+
    let answer;
    const keys = Building.keys();
 
@@ -1471,8 +1481,47 @@ Building.find = function(raceKey, typeKey, level)
    return answer;
 };
 
+Building.keysByCategory = function(raceKey, categoryKey)
+{
+   InputValidator.validateIsString("raceKey", raceKey);
+   InputValidator.validateIsString("categoryKey", categoryKey);
+
+   return Building.keys().filter(key =>
+   {
+      const building = Building.properties[key];
+      return building.raceKey === raceKey && building.type.categoryKey === categoryKey;
+   });
+};
+
+Building.keysByType = function(raceKey, typeKey)
+{
+   InputValidator.validateIsString("raceKey", raceKey);
+   InputValidator.validateIsString("typeKey", typeKey);
+
+   return Building.keys().filter(key =>
+   {
+      const building = Building.properties[key];
+      return building.raceKey === raceKey && building.typeKey === typeKey;
+   });
+};
+
+Building.maxLevel = function(raceKey, typeKey)
+{
+   InputValidator.validateIsString("raceKey", raceKey);
+   InputValidator.validateIsString("typeKey", typeKey);
+
+   return Building.keysByType(raceKey, typeKey).reduce((accumulator, key) =>
+   {
+      const building = Building.properties[key];
+      return (building.level > accumulator ? building.level : accumulator);
+   }, 0);
+};
+
 function cumulative(buildingKey, statKey)
 {
+   InputValidator.validateIsString("buildingKey", buildingKey);
+   InputValidator.validateIsString("statKey", statKey);
+
    let answer = 0;
    const building = Building.properties[buildingKey];
 

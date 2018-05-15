@@ -15,6 +15,10 @@ function mapStateToProps(state)
    const rowData = rowDataIn.map(row =>
    {
       const building = Building.find(row.raceKey, row.typeKey, row.level);
+      if (building === undefined)
+      {
+         console.warn("can't find building for raceKey = " + row.raceKey + " typeKey = " + row.typeKey + " level = " + row.level);
+      }
       const count = row.count;
       const area = count * building.width * building.height;
       const population = count * Building.cumulativePopulation(building.key);
@@ -138,12 +142,12 @@ function createCellFunctions()
    cellFunctions.level = function(value)
    {
       let answer;
-      if (value.typeKey !== undefined && value.level !== undefined)
+      if (value.typeKey !== undefined)
       {
          answer = React.createElement(LevelInputContainer,
          {
             id: value.id,
-            max: 10,
+            typeKey: value.typeKey,
          });
       }
       return answer;
@@ -152,10 +156,13 @@ function createCellFunctions()
    cellFunctions.size = function(value)
    {
       let answer;
-      const building = Building.find(value.raceKey, value.typeKey, value.level);
-      if (building !== undefined)
+      if (value.raceKey !== undefined && value.typeKey !== undefined)
       {
-         answer = building.width + "x" + building.height;
+         const building = Building.find(value.raceKey, value.typeKey, value.level);
+         if (building !== undefined)
+         {
+            answer = building.width + "x" + building.height;
+         }
       }
       return answer;
    };
@@ -163,7 +170,7 @@ function createCellFunctions()
    cellFunctions.count = function(value)
    {
       let answer;
-      if (value.count !== undefined)
+      if (value.typeKey !== undefined)
       {
          answer = React.createElement(CountInputContainer,
          {

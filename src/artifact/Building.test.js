@@ -1,4 +1,5 @@
 import Building from "./Building.js";
+import BuildingCategory from "./BuildingCategory.js";
 import BuildingType from "./BuildingType.js";
 import Race from "./Race.js";
 
@@ -35,6 +36,80 @@ QUnit.test("Building.find()", function(assert)
 
    building = Building.find(Race.HUMAN, BuildingType.WORKSHOP, 5);
    assert.equal(building.key, Building.WORKSHOP_HUMAN_05);
+});
+
+QUnit.test("Building.keysByCategory() Elf Basic", function(assert)
+{
+   // Setup.
+   const raceKey = Race.ELF;
+   const categoryKey = BuildingCategory.BASIC;
+
+   // Run.
+   const result = Building.keysByCategory(raceKey, categoryKey);
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.length, 28);
+   assert.equal(result[0], Building.MAGIC_ACADEMY_ELF_01);
+   assert.equal(result[result.length - 1], Building.WORKSHOP_ELF_10);
+});
+
+QUnit.test("Building.keysByCategory() Human Manufactory", function(assert)
+{
+   // Setup.
+   const raceKey = Race.HUMAN;
+   const categoryKey = BuildingCategory.MANUFACTORY;
+
+   // Run.
+   const result = Building.keysByCategory(raceKey, categoryKey);
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.length, 10);
+   assert.equal(result[0], Building.MARBLE_MANUFACTORY_HUMAN_01);
+   assert.equal(result[result.length - 1], Building.MARBLE_MANUFACTORY_HUMAN_10);
+});
+
+QUnit.test("Building.keysByType() Elf Residence", function(assert)
+{
+   // Setup.
+   const raceKey = Race.ELF;
+   const typeKey = BuildingType.RESIDENCE;
+
+   // Run.
+   const result = Building.keysByType(raceKey, typeKey);
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.length, 10);
+   assert.equal(result[0], Building.RESIDENCE_ELF_01);
+   assert.equal(result[result.length - 1], Building.RESIDENCE_ELF_10);
+});
+
+QUnit.test("Building.keysByType() Human Workshop", function(assert)
+{
+   // Setup.
+   const raceKey = Race.HUMAN;
+   const typeKey = BuildingType.WORKSHOP;
+
+   // Run.
+   const result = Building.keysByType(raceKey, typeKey);
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.length, 10);
+   assert.equal(result[0], Building.WORKSHOP_HUMAN_01);
+   assert.equal(result[result.length - 1], Building.WORKSHOP_HUMAN_10);
+});
+
+QUnit.test("Building.maxLevel() Human Workshop", function(assert)
+{
+   assert.equal(Building.maxLevel(Race.ELF, BuildingType.RESIDENCE), 10);
+   assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.RESIDENCE), 10);
+   assert.equal(Building.maxLevel(Race.ELF, BuildingType.MARBLE_MANUFACTORY), 10);
+   assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.MARBLE_MANUFACTORY), 10);
+   assert.equal(Building.maxLevel(Race.ELF, BuildingType.WORKSHOP), 10);
+   assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.WORKSHOP), 10);
 });
 
 QUnit.test("keys and values", function(assert)
@@ -84,6 +159,9 @@ QUnit.test("keys()", function(assert)
       1 - // cumulativeCulture
       1 - // cumulativePopulation
       1 - // find
+      1 - // keysByCategory
+      1 - // keysByType
+      1 - // maxLevel
       1 - // keys
       1; // values
    assert.equal(result.length, count);

@@ -1,5 +1,7 @@
 import Logger from "../utility/Logger.js";
 
+import BuildingType from "../artifact/BuildingType.js";
+
 import Reducer from "../model/Reducer.js";
 
 import LevelInputContainer from "./LevelInputContainer.js";
@@ -15,5 +17,6 @@ const element = React.createElement(ReactRedux.Provider,
 }, React.createElement(LevelInputContainer,
 {
    id: 2,
+   typeKey: BuildingType.RESIDENCE,
 }));
 ReactDOM.render(element, document.getElementById("panel"));
