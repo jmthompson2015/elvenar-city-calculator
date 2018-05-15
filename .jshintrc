@@ -15,6 +15,7 @@
       "InputValidator": false,
       "localStorage": false,
       "LOGGER": false,
+      "module": false,
       "PropTypes": false,
       "QUnit": false,
       "React": false,

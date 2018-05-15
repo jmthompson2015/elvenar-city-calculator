@@ -14,6 +14,52 @@ const Building = {
    BUILDERS_HUT_HUMAN_03: "buildersHutHuman03",
    BUILDERS_HUT_HUMAN_04: "buildersHutHuman04",
    BUILDERS_HUT_HUMAN_05: "buildersHutHuman05",
+   ELIXIR_MANUFACTORY_ELF_01: "elixirManufactoryElf01",
+   ELIXIR_MANUFACTORY_ELF_02: "elixirManufactoryElf02",
+   ELIXIR_MANUFACTORY_ELF_03: "elixirManufactoryElf03",
+   ELIXIR_MANUFACTORY_ELF_04: "elixirManufactoryElf04",
+   ELIXIR_MANUFACTORY_ELF_05: "elixirManufactoryElf05",
+   ELIXIR_MANUFACTORY_ELF_06: "elixirManufactoryElf06",
+   ELIXIR_MANUFACTORY_ELF_07: "elixirManufactoryElf07",
+   ELIXIR_MANUFACTORY_ELF_08: "elixirManufactoryElf08",
+   ELIXIR_MANUFACTORY_ELF_09: "elixirManufactoryElf09",
+   ELIXIR_MANUFACTORY_ELF_10: "elixirManufactoryElf10",
+   ELIXIR_MANUFACTORY_ELF_11: "elixirManufactoryElf11",
+   ELIXIR_MANUFACTORY_ELF_12: "elixirManufactoryElf12",
+   ELIXIR_MANUFACTORY_ELF_13: "elixirManufactoryElf13",
+   ELIXIR_MANUFACTORY_ELF_14: "elixirManufactoryElf14",
+   ELIXIR_MANUFACTORY_ELF_15: "elixirManufactoryElf15",
+   ELIXIR_MANUFACTORY_ELF_16: "elixirManufactoryElf16",
+   ELIXIR_MANUFACTORY_ELF_17: "elixirManufactoryElf17",
+   ELIXIR_MANUFACTORY_ELF_18: "elixirManufactoryElf18",
+   ELIXIR_MANUFACTORY_ELF_19: "elixirManufactoryElf19",
+   ELIXIR_MANUFACTORY_ELF_20: "elixirManufactoryElf20",
+   ELIXIR_MANUFACTORY_ELF_21: "elixirManufactoryElf21",
+   ELIXIR_MANUFACTORY_ELF_22: "elixirManufactoryElf22",
+   ELIXIR_MANUFACTORY_ELF_23: "elixirManufactoryElf23",
+   ELIXIR_MANUFACTORY_HUMAN_01: "elixirManufactoryHuman01",
+   ELIXIR_MANUFACTORY_HUMAN_02: "elixirManufactoryHuman02",
+   ELIXIR_MANUFACTORY_HUMAN_03: "elixirManufactoryHuman03",
+   ELIXIR_MANUFACTORY_HUMAN_04: "elixirManufactoryHuman04",
+   ELIXIR_MANUFACTORY_HUMAN_05: "elixirManufactoryHuman05",
+   ELIXIR_MANUFACTORY_HUMAN_06: "elixirManufactoryHuman06",
+   ELIXIR_MANUFACTORY_HUMAN_07: "elixirManufactoryHuman07",
+   ELIXIR_MANUFACTORY_HUMAN_08: "elixirManufactoryHuman08",
+   ELIXIR_MANUFACTORY_HUMAN_09: "elixirManufactoryHuman09",
+   ELIXIR_MANUFACTORY_HUMAN_10: "elixirManufactoryHuman10",
+   ELIXIR_MANUFACTORY_HUMAN_11: "elixirManufactoryHuman11",
+   ELIXIR_MANUFACTORY_HUMAN_12: "elixirManufactoryHuman12",
+   ELIXIR_MANUFACTORY_HUMAN_13: "elixirManufactoryHuman13",
+   ELIXIR_MANUFACTORY_HUMAN_14: "elixirManufactoryHuman14",
+   ELIXIR_MANUFACTORY_HUMAN_15: "elixirManufactoryHuman15",
+   ELIXIR_MANUFACTORY_HUMAN_16: "elixirManufactoryHuman16",
+   ELIXIR_MANUFACTORY_HUMAN_17: "elixirManufactoryHuman17",
+   ELIXIR_MANUFACTORY_HUMAN_18: "elixirManufactoryHuman18",
+   ELIXIR_MANUFACTORY_HUMAN_19: "elixirManufactoryHuman19",
+   ELIXIR_MANUFACTORY_HUMAN_20: "elixirManufactoryHuman20",
+   ELIXIR_MANUFACTORY_HUMAN_21: "elixirManufactoryHuman21",
+   ELIXIR_MANUFACTORY_HUMAN_22: "elixirManufactoryHuman22",
+   ELIXIR_MANUFACTORY_HUMAN_23: "elixirManufactoryHuman23",
    MAGIC_ACADEMY_ELF_01: "magicAcademyElf01",
    MAGIC_ACADEMY_ELF_02: "magicAcademyElf02",
    MAGIC_ACADEMY_ELF_03: "magicAcademyElf03",
@@ -232,6 +278,558 @@ const Building = {
          population: 0,
          culture: 0,
          key: "buildersHutHuman05",
+      },
+      "elixirManufactoryElf01":
+      {
+         name: "Elixir Manufactory 1 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 1,
+         width: 4,
+         height: 3,
+         population: -211,
+         culture: 0,
+         key: "elixirManufactoryElf01"
+      },
+      "elixirManufactoryElf02":
+      {
+         name: "Elixir Manufactory 2 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 2,
+         width: 4,
+         height: 3,
+         population: -24,
+         culture: -19,
+         key: "elixirManufactoryElf02"
+      },
+      "elixirManufactoryElf03":
+      {
+         name: "Elixir Manufactory 3 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 3,
+         width: 4,
+         height: 3,
+         population: -26,
+         culture: -18,
+         key: "elixirManufactoryElf03"
+      },
+      "elixirManufactoryElf04":
+      {
+         name: "Elixir Manufactory 4 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 4,
+         width: 4,
+         height: 3,
+         population: -29,
+         culture: -24,
+         key: "elixirManufactoryElf04"
+      },
+      "elixirManufactoryElf05":
+      {
+         name: "Elixir Manufactory 5 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 5,
+         width: 4,
+         height: 4,
+         population: -139,
+         culture: -55,
+         key: "elixirManufactoryElf05"
+      },
+      "elixirManufactoryElf06":
+      {
+         name: "Elixir Manufactory 6 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 6,
+         width: 4,
+         height: 4,
+         population: -48,
+         culture: -13,
+         key: "elixirManufactoryElf06"
+      },
+      "elixirManufactoryElf07":
+      {
+         name: "Elixir Manufactory 7 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 7,
+         width: 4,
+         height: 4,
+         population: -68,
+         culture: -14,
+         key: "elixirManufactoryElf07"
+      },
+      "elixirManufactoryElf08":
+      {
+         name: "Elixir Manufactory 8 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 8,
+         width: 4,
+         height: 4,
+         population: -81,
+         culture: -16,
+         key: "elixirManufactoryElf08"
+      },
+      "elixirManufactoryElf09":
+      {
+         name: "Elixir Manufactory 9 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 9,
+         width: 4,
+         height: 5,
+         population: -260,
+         culture: -62,
+         key: "elixirManufactoryElf09"
+      },
+      "elixirManufactoryElf10":
+      {
+         name: "Elixir Manufactory 10 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 10,
+         width: 4,
+         height: 5,
+         population: -131,
+         culture: -25,
+         key: "elixirManufactoryElf10"
+      },
+      "elixirManufactoryElf11":
+      {
+         name: "Elixir Manufactory 11 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 11,
+         width: 4,
+         height: 5,
+         population: -157,
+         culture: -27,
+         key: "elixirManufactoryElf11"
+      },
+      "elixirManufactoryElf12":
+      {
+         name: "Elixir Manufactory 12 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 12,
+         width: 4,
+         height: 5,
+         population: -210,
+         culture: -31,
+         key: "elixirManufactoryElf12"
+      },
+      "elixirManufactoryElf13":
+      {
+         name: "Elixir Manufactory 13 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 13,
+         width: 4,
+         height: 5,
+         population: -214,
+         culture: -33,
+         key: "elixirManufactoryElf13"
+      },
+      "elixirManufactoryElf14":
+      {
+         name: "Elixir Manufactory 14 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 14,
+         width: 4,
+         height: 5,
+         population: -218,
+         culture: -38,
+         key: "elixirManufactoryElf14"
+      },
+      "elixirManufactoryElf15":
+      {
+         name: "Elixir Manufactory 15 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 15,
+         width: 4,
+         height: 5,
+         population: -271,
+         culture: -42,
+         key: "elixirManufactoryElf15"
+      },
+      "elixirManufactoryElf16":
+      {
+         name: "Elixir Manufactory 16 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 16,
+         width: 4,
+         height: 5,
+         population: -81,
+         culture: -123,
+         key: "elixirManufactoryElf16"
+      },
+      "elixirManufactoryElf17":
+      {
+         name: "Elixir Manufactory 17 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 17,
+         width: 4,
+         height: 5,
+         population: -333,
+         culture: -97,
+         key: "elixirManufactoryElf17"
+      },
+      "elixirManufactoryElf18":
+      {
+         name: "Elixir Manufactory 18 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 18,
+         width: 4,
+         height: 5,
+         population: -384,
+         culture: -114,
+         key: "elixirManufactoryElf18"
+      },
+      "elixirManufactoryElf19":
+      {
+         name: "Elixir Manufactory 19 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 19,
+         width: 4,
+         height: 5,
+         population: -443,
+         culture: -135,
+         key: "elixirManufactoryElf19"
+      },
+      "elixirManufactoryElf20":
+      {
+         name: "Elixir Manufactory 20 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 20,
+         width: 6,
+         height: 4,
+         population: -1280,
+         culture: -369,
+         key: "elixirManufactoryElf20"
+      },
+      "elixirManufactoryElf21":
+      {
+         name: "Elixir Manufactory 21 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 21,
+         width: 6,
+         height: 4,
+         population: -708,
+         culture: -226,
+         key: "elixirManufactoryElf21"
+      },
+      "elixirManufactoryElf22":
+      {
+         name: "Elixir Manufactory 22 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 22,
+         width: 6,
+         height: 4,
+         population: -817,
+         culture: -267,
+         key: "elixirManufactoryElf22"
+      },
+      "elixirManufactoryElf23":
+      {
+         name: "Elixir Manufactory 23 (Elf)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 23,
+         width: 6,
+         height: 4,
+         population: -943,
+         culture: -314,
+         key: "elixirManufactoryElf23"
+      },
+      "elixirManufactoryHuman01":
+      {
+         name: "Elixir Manufactory 1 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 1,
+         width: 3,
+         height: 3,
+         population: -123,
+         culture: 0,
+         key: "elixirManufactoryHuman01"
+      },
+      "elixirManufactoryHuman02":
+      {
+         name: "Elixir Manufactory 2 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 2,
+         width: 3,
+         height: 3,
+         population: -14,
+         culture: -17,
+         key: "elixirManufactoryHuman02"
+      },
+      "elixirManufactoryHuman03":
+      {
+         name: "Elixir Manufactory 3 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 3,
+         width: 3,
+         height: 3,
+         population: -15,
+         culture: -17,
+         key: "elixirManufactoryHuman03"
+      },
+      "elixirManufactoryHuman04":
+      {
+         name: "Elixir Manufactory 4 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 4,
+         width: 3,
+         height: 4,
+         population: -73,
+         culture: -41,
+         key: "elixirManufactoryHuman04"
+      },
+      "elixirManufactoryHuman05":
+      {
+         name: "Elixir Manufactory 5 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 5,
+         width: 3,
+         height: 4,
+         population: -25,
+         culture: -30,
+         key: "elixirManufactoryHuman05"
+      },
+      "elixirManufactoryHuman06":
+      {
+         name: "Elixir Manufactory 6 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 6,
+         width: 3,
+         height: 4,
+         population: -34,
+         culture: -12,
+         key: "elixirManufactoryHuman06"
+      },
+      "elixirManufactoryHuman07":
+      {
+         name: "Elixir Manufactory 7 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 7,
+         width: 3,
+         height: 4,
+         population: -42,
+         culture: -13,
+         key: "elixirManufactoryHuman07"
+      },
+      "elixirManufactoryHuman08":
+      {
+         name: "Elixir Manufactory 8 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 8,
+         width: 4,
+         height: 4,
+         population: -161,
+         culture: -62,
+         key: "elixirManufactoryHuman08"
+      },
+      "elixirManufactoryHuman09":
+      {
+         name: "Elixir Manufactory 9 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 9,
+         width: 4,
+         height: 4,
+         population: -82,
+         culture: -22,
+         key: "elixirManufactoryHuman09"
+      },
+      "elixirManufactoryHuman10":
+      {
+         name: "Elixir Manufactory 10 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 10,
+         width: 4,
+         height: 4,
+         population: -101,
+         culture: -24,
+         key: "elixirManufactoryHuman10"
+      },
+      "elixirManufactoryHuman11":
+      {
+         name: "Elixir Manufactory 11 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 11,
+         width: 4,
+         height: 4,
+         population: -103,
+         culture: -26,
+         key: "elixirManufactoryHuman11"
+      },
+      "elixirManufactoryHuman12":
+      {
+         name: "Elixir Manufactory 12 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 12,
+         width: 4,
+         height: 4,
+         population: -106,
+         culture: -29,
+         key: "elixirManufactoryHuman12"
+      },
+      "elixirManufactoryHuman13":
+      {
+         name: "Elixir Manufactory 13 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 13,
+         width: 4,
+         height: 4,
+         population: -131,
+         culture: -33,
+         key: "elixirManufactoryHuman13"
+      },
+      "elixirManufactoryHuman14":
+      {
+         name: "Elixir Manufactory 14 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 14,
+         width: 4,
+         height: 4,
+         population: -158,
+         culture: -36,
+         key: "elixirManufactoryHuman14"
+      },
+      "elixirManufactoryHuman15":
+      {
+         name: "Elixir Manufactory 15 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 15,
+         width: 4,
+         height: 4,
+         population: -185,
+         culture: -40,
+         key: "elixirManufactoryHuman15"
+      },
+      "elixirManufactoryHuman16":
+      {
+         name: "Elixir Manufactory 16 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 16,
+         width: 4,
+         height: 5,
+         population: -815,
+         culture: -138,
+         key: "elixirManufactoryHuman16"
+      },
+      "elixirManufactoryHuman17":
+      {
+         name: "Elixir Manufactory 17 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 17,
+         width: 4,
+         height: 5,
+         population: -333,
+         culture: -97,
+         key: "elixirManufactoryHuman17"
+      },
+      "elixirManufactoryHuman18":
+      {
+         name: "Elixir Manufactory 18 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 18,
+         width: 4,
+         height: 5,
+         population: -384,
+         culture: -114,
+         key: "elixirManufactoryHuman18"
+      },
+      "elixirManufactoryHuman19":
+      {
+         name: "Elixir Manufactory 19 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 19,
+         width: 4,
+         height: 5,
+         population: -443,
+         culture: -135,
+         key: "elixirManufactoryHuman19"
+      },
+      "elixirManufactoryHuman20":
+      {
+         name: "Elixir Manufactory 20 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 20,
+         width: 6,
+         height: 4,
+         population: -1280,
+         culture: -369,
+         key: "elixirManufactoryHuman20"
+      },
+      "elixirManufactoryHuman21":
+      {
+         name: "Elixir Manufactory 21 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 21,
+         width: 6,
+         height: 4,
+         population: -708,
+         culture: -226,
+         key: "elixirManufactoryHuman21"
+      },
+      "elixirManufactoryHuman22":
+      {
+         name: "Elixir Manufactory 22 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 22,
+         width: 6,
+         height: 4,
+         population: -817,
+         culture: -267,
+         key: "elixirManufactoryHuman22"
+      },
+      "elixirManufactoryHuman23":
+      {
+         name: "Elixir Manufactory 23 (Human)",
+         typeKey: BuildingType.ELIXIR_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 23,
+         width: 6,
+         height: 4,
+         population: -943,
+         culture: -314,
+         key: "elixirManufactoryHuman23"
       },
       "magicAcademyElf01":
       {

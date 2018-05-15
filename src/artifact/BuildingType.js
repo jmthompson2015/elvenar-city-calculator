@@ -3,7 +3,7 @@ import BuildingCategory from "./BuildingCategory.js";
 const BuildingType = {
    BUILDERS_HUT: "buildersHut",
    // CRYSTAL_MANUFACTORY: "crystalManufactory",
-   // ELIXIR_MANUFACTORY: "elixirManufactory",
+   ELIXIR_MANUFACTORY: "elixirManufactory",
    // GEM_MANUFACTORY: "gemManufactory",
    MAGIC_ACADEMY: "magicAcademy",
    // MAGIC_DUST_MANUFACTORY: "magicDustManufactory",
@@ -33,12 +33,12 @@ const BuildingType = {
       //    categoryKey: BuildingCategory.MANUFACTORY,
       //    key: "crystalManufactory",
       // },
-      // "elixirManufactory":
-      // {
-      //    name: "Elixir Manufactory",
-      //    categoryKey: BuildingCategory.MANUFACTORY,
-      //    key: "elixirManufactory",
-      // },
+      "elixirManufactory":
+      {
+         name: "Elixir Manufactory",
+         categoryKey: BuildingCategory.MANUFACTORY,
+         key: "elixirManufactory",
+      },
       // "gemManufactory":
       // {
       //    name: "Gem Manufactory",

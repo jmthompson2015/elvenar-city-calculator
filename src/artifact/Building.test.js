@@ -65,8 +65,8 @@ QUnit.test("Building.keysByCategory() Human Manufactory", function(assert)
 
    // Verify.
    assert.ok(result);
-   assert.equal(result.length, 10);
-   assert.equal(result[0], Building.MARBLE_MANUFACTORY_HUMAN_01);
+   assert.equal(result.length, 33);
+   assert.equal(result[0], Building.ELIXIR_MANUFACTORY_HUMAN_01);
    assert.equal(result[result.length - 1], Building.MARBLE_MANUFACTORY_HUMAN_10);
 });
 
@@ -149,7 +149,7 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 106;
+   const length = 152;
    assert.equal(result.length, length);
    assert.equal(result[0], "buildersHutElf01");
    assert.equal(result[length - 1], "workshopHuman10");

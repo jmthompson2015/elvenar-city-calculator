@@ -1,0 +1,28 @@
+{
+  "name": "elvenar-city-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmthompson2015/elvenar-city-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmthompson2015/elvenar-city-calculator/issues"
+  },
+  "homepage": "https://github.com/jmthompson2015/elvenar-city-calculator#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.86.0",
+    "request-promise": "^4.2.2"
+  }
+}
