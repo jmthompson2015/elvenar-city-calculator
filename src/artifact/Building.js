@@ -868,7 +868,7 @@ const Building = {
          culture: -4,
          population: 5,
          coin: 148, // per hour
-         key: "residenceElf01",
+         key: "residenceElf03",
       },
       "residenceElf04":
       {
@@ -881,7 +881,7 @@ const Building = {
          culture: -12,
          population: 28,
          coin: 261, // per hour
-         key: "residenceElf01",
+         key: "residenceElf04",
       },
       "residenceElf05":
       {
@@ -1438,7 +1438,7 @@ Building.values = function()
 
 Building.keys().forEach(function(buildingKey)
 {
-   var building = Building.properties[buildingKey];
+   const building = Building.properties[buildingKey];
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
 });

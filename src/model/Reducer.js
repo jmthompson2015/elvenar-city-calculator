@@ -1,3 +1,4 @@
+import BuildingCategory from "../artifact/BuildingCategory.js";
 import BuildingType from "../artifact/BuildingType.js";
 
 import Action from "./Action.js";
@@ -15,10 +16,30 @@ Reducer.root = function(state, action)
       return new InitialState();
    }
 
-   let newConstruct, newRowData, newTypeKey, oldConstruct;
+   let newCategoryKey, newConstruct, newRowData, newTypeKey, oldConstruct;
 
    switch (action.type)
    {
+      case Action.ADD_ROW:
+         LOGGER.info("Reducer addRow");
+         newCategoryKey = BuildingCategory.BASIC;
+         newTypeKey = BuildingType.RESIDENCE;
+         newConstruct = new Construct(state.rowData.length, newCategoryKey, state.raceKey, newTypeKey, 1, 1);
+         newRowData = state.rowData.slice();
+         newRowData.push(newConstruct.toPlainObject());
+         return Object.assign(
+         {}, state,
+         {
+            rowData: newRowData,
+         });
+      case Action.RESET:
+         LOGGER.info("Reducer reset");
+         newRowData = InitialState.initializeBuildings(state.raceKey);
+         return Object.assign(
+         {}, state,
+         {
+            rowData: newRowData,
+         });
       case Action.SET_CATEGORY:
          LOGGER.info("Reducer id = " + action.id + " categoryKey = " + action.categoryKey);
          oldConstruct = state.rowData[action.id];
@@ -64,10 +85,12 @@ Reducer.root = function(state, action)
          });
       case Action.SET_RACE:
          LOGGER.info("Reducer raceKey = " + action.raceKey);
+         newRowData = (state.raceKey !== action.raceKey ? InitialState.initializeBuildings(action.raceKey) : state.rowData);
          return Object.assign(
          {}, state,
          {
             raceKey: action.raceKey,
+            rowData: newRowData,
          });
       case Action.SET_TYPE:
          LOGGER.info("Reducer id = " + action.id + " typeKey = " + action.typeKey);

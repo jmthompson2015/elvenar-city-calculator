@@ -138,7 +138,7 @@ BuildingType.values = function()
 
 BuildingType.keys().forEach(function(typeKey)
 {
-   var type = BuildingType.properties[typeKey];
+   const type = BuildingType.properties[typeKey];
    type.category = BuildingCategory.properties[type.categoryKey];
 });
 

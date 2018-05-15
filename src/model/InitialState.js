@@ -7,17 +7,24 @@ import Construct from "./Construct.js";
 function InitialState()
 {
    this.raceKey = Race.ELF;
-
-   this.rowData = [];
-   let construct = new Construct(this.rowData.length, BuildingCategory.MAIN_HALL, this.raceKey, BuildingType.MAIN_HALL, 1, 1);
-   this.rowData.push(construct.toPlainObject());
-   construct = new Construct(this.rowData.length, BuildingCategory.BUILDERS_HUT, this.raceKey, BuildingType.BUILDERS_HUT, 1, 1);
-   this.rowData.push(construct.toPlainObject());
-   construct = new Construct(this.rowData.length, BuildingCategory.BASIC, this.raceKey, BuildingType.RESIDENCE, 1, 1);
-   this.rowData.push(construct.toPlainObject());
-   construct = new Construct(this.rowData.length, BuildingCategory.BASIC, this.raceKey, BuildingType.WORKSHOP, 1, 1);
-   this.rowData.push(construct.toPlainObject());
+   this.rowData = InitialState.initializeBuildings(this.raceKey);
 }
+
+InitialState.initializeBuildings = function(raceKey)
+{
+   const rowData = [];
+
+   let construct = new Construct(rowData.length, BuildingCategory.MAIN_HALL, raceKey, BuildingType.MAIN_HALL, 1, 1);
+   rowData.push(construct.toPlainObject());
+   construct = new Construct(rowData.length, BuildingCategory.BUILDERS_HUT, raceKey, BuildingType.BUILDERS_HUT, 1, 1);
+   rowData.push(construct.toPlainObject());
+   construct = new Construct(rowData.length, BuildingCategory.BASIC, raceKey, BuildingType.RESIDENCE, 1, 1);
+   rowData.push(construct.toPlainObject());
+   construct = new Construct(rowData.length, BuildingCategory.BASIC, raceKey, BuildingType.WORKSHOP, 1, 1);
+   rowData.push(construct.toPlainObject());
+
+   return rowData;
+};
 
 if (Object.freeze)
 {

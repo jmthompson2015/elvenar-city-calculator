@@ -10,12 +10,12 @@ class DataTable extends React.Component
 {
    render()
    {
-      var rowData = this.props.rowData;
-      var table = this.createTable(rowData);
+      const rowData = this.props.rowData;
+      const table = this.createTable(rowData);
 
-      var rows = [];
+      const rows = [];
 
-      var rowCount = "Row Count: " + rowData.length;
+      const rowCount = "Row Count: " + rowData.length;
       rows.push(ReactDOMFactories.tr(
       {
          key: rows.length,
@@ -70,12 +70,12 @@ class DataTable extends React.Component
       InputValidator.validateNotNull("data", data);
       InputValidator.validateNotNull("key", key);
 
-      var columns = this.props.columns;
-      var cells = [];
+      const columns = this.props.columns;
+      const cells = [];
       columns.forEach(function(column)
       {
-         var value = this.determineValue(column, data);
-         var cell = this.determineCell(column, data, value);
+         const value = this.determineValue(column, data);
+         const cell = this.determineCell(column, data, value);
          cells.push(ReactDOMFactories.td(
          {
             key: cells.length,
@@ -96,12 +96,12 @@ class DataTable extends React.Component
       InputValidator.validateNotNull("data", data);
       InputValidator.validateNotNull("key", key);
 
-      var columns = this.props.columns;
-      var cells = [];
+      const columns = this.props.columns;
+      const cells = [];
       columns.forEach(function(column)
       {
-         var value = this.determineValue(column, data);
-         var cell = this.determineCell(column, data, value);
+         const value = this.determineValue(column, data);
+         const cell = this.determineCell(column, data, value);
          cells.push(Td(
          {
             key: cells.length,
@@ -122,8 +122,8 @@ class DataTable extends React.Component
    {
       InputValidator.validateNotNull("rowData", rowData);
 
-      var columns = this.props.columns;
-      var rows = [];
+      const columns = this.props.columns;
+      const rows = [];
 
       rowData.forEach(function(data, i)
       {
@@ -148,8 +148,8 @@ class DataTable extends React.Component
       InputValidator.validateNotNull("column", column);
       InputValidator.validateNotNull("data", data);
 
-      var answer;
-      var cellFunctions = this.props.cellFunctions;
+      let answer;
+      const cellFunctions = this.props.cellFunctions;
 
       if (cellFunctions && cellFunctions[column.key])
       {
@@ -168,8 +168,8 @@ class DataTable extends React.Component
       InputValidator.validateNotNull("column", column);
       InputValidator.validateNotNull("data", data);
 
-      var answer;
-      var valueFunctions = this.props.valueFunctions;
+      let answer;
+      const valueFunctions = this.props.valueFunctions;
 
       if (valueFunctions && valueFunctions[column.key])
       {

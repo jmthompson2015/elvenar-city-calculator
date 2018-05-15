@@ -1,0 +1,11 @@
+body {
+  background-color: LightBlue;
+  background-image: url(../resource/Elvenar-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "San Francisco", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.bg-elvenar {
+  background-color: LightBlue;
+}

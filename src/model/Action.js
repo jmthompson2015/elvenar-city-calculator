@@ -2,12 +2,30 @@ import InputValidator from "../utility/InputValidator.js";
 
 const Action = {};
 
+Action.ADD_ROW = "addRow";
+Action.RESET = "reset";
 Action.SET_CATEGORY = "setCategory";
 Action.SET_CONSTRUCT = "setConstruct";
 Action.SET_COUNT = "setCount";
 Action.SET_LEVEL = "setLevel";
 Action.SET_RACE = "setRace";
 Action.SET_TYPE = "setType";
+
+Action.addRow = function()
+{
+   return (
+   {
+      type: Action.ADD_ROW,
+   });
+};
+
+Action.reset = function()
+{
+   return (
+   {
+      type: Action.RESET,
+   });
+};
 
 Action.setCategory = function(id, categoryKey)
 {

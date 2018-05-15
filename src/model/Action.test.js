@@ -8,6 +8,30 @@ import Construct from "./Construct.js";
 
 QUnit.module("Action");
 
+QUnit.test("addRow()", function(assert)
+{
+   // Setup.
+
+   // Run.
+   const result = Action.addRow();
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.type, Action.ADD_ROW);
+});
+
+QUnit.test("reset()", function(assert)
+{
+   // Setup.
+
+   // Run.
+   const result = Action.reset();
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.type, Action.RESET);
+});
+
 QUnit.test("setCategory()", function(assert)
 {
    // Setup.
