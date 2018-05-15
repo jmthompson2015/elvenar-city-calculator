@@ -100,6 +100,19 @@ const Building = {
    MARBLE_MANUFACTORY_ELF_08: "marbleManufactoryElf08",
    MARBLE_MANUFACTORY_ELF_09: "marbleManufactoryElf09",
    MARBLE_MANUFACTORY_ELF_10: "marbleManufactoryElf10",
+   MARBLE_MANUFACTORY_ELF_11: "marbleManufactoryElf11",
+   MARBLE_MANUFACTORY_ELF_12: "marbleManufactoryElf12",
+   MARBLE_MANUFACTORY_ELF_13: "marbleManufactoryElf13",
+   MARBLE_MANUFACTORY_ELF_14: "marbleManufactoryElf14",
+   MARBLE_MANUFACTORY_ELF_15: "marbleManufactoryElf15",
+   MARBLE_MANUFACTORY_ELF_16: "marbleManufactoryElf16",
+   MARBLE_MANUFACTORY_ELF_17: "marbleManufactoryElf17",
+   MARBLE_MANUFACTORY_ELF_18: "marbleManufactoryElf18",
+   MARBLE_MANUFACTORY_ELF_19: "marbleManufactoryElf19",
+   MARBLE_MANUFACTORY_ELF_20: "marbleManufactoryElf20",
+   MARBLE_MANUFACTORY_ELF_21: "marbleManufactoryElf21",
+   MARBLE_MANUFACTORY_ELF_22: "marbleManufactoryElf22",
+   MARBLE_MANUFACTORY_ELF_23: "marbleManufactoryElf23",
    MARBLE_MANUFACTORY_HUMAN_01: "marbleManufactoryHuman01",
    MARBLE_MANUFACTORY_HUMAN_02: "marbleManufactoryHuman02",
    MARBLE_MANUFACTORY_HUMAN_03: "marbleManufactoryHuman03",
@@ -110,6 +123,19 @@ const Building = {
    MARBLE_MANUFACTORY_HUMAN_08: "marbleManufactoryHuman08",
    MARBLE_MANUFACTORY_HUMAN_09: "marbleManufactoryHuman09",
    MARBLE_MANUFACTORY_HUMAN_10: "marbleManufactoryHuman10",
+   MARBLE_MANUFACTORY_HUMAN_11: "marbleManufactoryHuman11",
+   MARBLE_MANUFACTORY_HUMAN_12: "marbleManufactoryHuman12",
+   MARBLE_MANUFACTORY_HUMAN_13: "marbleManufactoryHuman13",
+   MARBLE_MANUFACTORY_HUMAN_14: "marbleManufactoryHuman14",
+   MARBLE_MANUFACTORY_HUMAN_15: "marbleManufactoryHuman15",
+   MARBLE_MANUFACTORY_HUMAN_16: "marbleManufactoryHuman16",
+   MARBLE_MANUFACTORY_HUMAN_17: "marbleManufactoryHuman17",
+   MARBLE_MANUFACTORY_HUMAN_18: "marbleManufactoryHuman18",
+   MARBLE_MANUFACTORY_HUMAN_19: "marbleManufactoryHuman19",
+   MARBLE_MANUFACTORY_HUMAN_20: "marbleManufactoryHuman20",
+   MARBLE_MANUFACTORY_HUMAN_21: "marbleManufactoryHuman21",
+   MARBLE_MANUFACTORY_HUMAN_22: "marbleManufactoryHuman22",
+   MARBLE_MANUFACTORY_HUMAN_23: "marbleManufactoryHuman23",
    RESIDENCE_ELF_01: "residenceElf01",
    RESIDENCE_ELF_02: "residenceElf02",
    RESIDENCE_ELF_03: "residenceElf03",
@@ -289,6 +315,7 @@ const Building = {
          height: 3,
          population: -211,
          culture: 0,
+         elixir: 56,
          key: "elixirManufactoryElf01"
       },
       "elixirManufactoryElf02":
@@ -301,6 +328,7 @@ const Building = {
          height: 3,
          population: -24,
          culture: -19,
+         elixir: 75,
          key: "elixirManufactoryElf02"
       },
       "elixirManufactoryElf03":
@@ -313,6 +341,7 @@ const Building = {
          height: 3,
          population: -26,
          culture: -18,
+         elixir: 91,
          key: "elixirManufactoryElf03"
       },
       "elixirManufactoryElf04":
@@ -325,6 +354,7 @@ const Building = {
          height: 3,
          population: -29,
          culture: -24,
+         elixir: 113,
          key: "elixirManufactoryElf04"
       },
       "elixirManufactoryElf05":
@@ -337,6 +367,7 @@ const Building = {
          height: 4,
          population: -139,
          culture: -55,
+         elixir: 176,
          key: "elixirManufactoryElf05"
       },
       "elixirManufactoryElf06":
@@ -349,6 +380,7 @@ const Building = {
          height: 4,
          population: -48,
          culture: -13,
+         elixir: 204,
          key: "elixirManufactoryElf06"
       },
       "elixirManufactoryElf07":
@@ -361,6 +393,7 @@ const Building = {
          height: 4,
          population: -68,
          culture: -14,
+         elixir: 232,
          key: "elixirManufactoryElf07"
       },
       "elixirManufactoryElf08":
@@ -373,6 +406,7 @@ const Building = {
          height: 4,
          population: -81,
          culture: -16,
+         elixir: 260,
          key: "elixirManufactoryElf08"
       },
       "elixirManufactoryElf09":
@@ -385,6 +419,7 @@ const Building = {
          height: 5,
          population: -260,
          culture: -62,
+         elixir: 361,
          key: "elixirManufactoryElf09"
       },
       "elixirManufactoryElf10":
@@ -397,6 +432,7 @@ const Building = {
          height: 5,
          population: -131,
          culture: -25,
+         elixir: 395,
          key: "elixirManufactoryElf10"
       },
       "elixirManufactoryElf11":
@@ -409,6 +445,7 @@ const Building = {
          height: 5,
          population: -157,
          culture: -27,
+         elixir: 430,
          key: "elixirManufactoryElf11"
       },
       "elixirManufactoryElf12":
@@ -421,6 +458,7 @@ const Building = {
          height: 5,
          population: -210,
          culture: -31,
+         elixir: 464,
          key: "elixirManufactoryElf12"
       },
       "elixirManufactoryElf13":
@@ -433,6 +471,7 @@ const Building = {
          height: 5,
          population: -214,
          culture: -33,
+         elixir: 502,
          key: "elixirManufactoryElf13"
       },
       "elixirManufactoryElf14":
@@ -445,6 +484,7 @@ const Building = {
          height: 5,
          population: -218,
          culture: -38,
+         elixir: 537,
          key: "elixirManufactoryElf14"
       },
       "elixirManufactoryElf15":
@@ -457,6 +497,7 @@ const Building = {
          height: 5,
          population: -271,
          culture: -42,
+         elixir: 571,
          key: "elixirManufactoryElf15"
       },
       "elixirManufactoryElf16":
@@ -469,6 +510,7 @@ const Building = {
          height: 5,
          population: -81,
          culture: -123,
+         elixir: 618,
          key: "elixirManufactoryElf16"
       },
       "elixirManufactoryElf17":
@@ -481,6 +523,7 @@ const Building = {
          height: 5,
          population: -333,
          culture: -97,
+         elixir: 665,
          key: "elixirManufactoryElf17"
       },
       "elixirManufactoryElf18":
@@ -493,6 +536,7 @@ const Building = {
          height: 5,
          population: -384,
          culture: -114,
+         elixir: 719,
          key: "elixirManufactoryElf18"
       },
       "elixirManufactoryElf19":
@@ -505,6 +549,7 @@ const Building = {
          height: 5,
          population: -443,
          culture: -135,
+         elixir: 775,
          key: "elixirManufactoryElf19"
       },
       "elixirManufactoryElf20":
@@ -517,6 +562,7 @@ const Building = {
          height: 4,
          population: -1280,
          culture: -369,
+         elixir: 1,
          key: "elixirManufactoryElf20"
       },
       "elixirManufactoryElf21":
@@ -529,6 +575,7 @@ const Building = {
          height: 4,
          population: -708,
          culture: -226,
+         elixir: 1,
          key: "elixirManufactoryElf21"
       },
       "elixirManufactoryElf22":
@@ -541,6 +588,7 @@ const Building = {
          height: 4,
          population: -817,
          culture: -267,
+         elixir: 1,
          key: "elixirManufactoryElf22"
       },
       "elixirManufactoryElf23":
@@ -553,6 +601,7 @@ const Building = {
          height: 4,
          population: -943,
          culture: -314,
+         elixir: 1,
          key: "elixirManufactoryElf23"
       },
       "elixirManufactoryHuman01":
@@ -565,6 +614,7 @@ const Building = {
          height: 3,
          population: -123,
          culture: 0,
+         elixir: 41,
          key: "elixirManufactoryHuman01"
       },
       "elixirManufactoryHuman02":
@@ -577,6 +627,7 @@ const Building = {
          height: 3,
          population: -14,
          culture: -17,
+         elixir: 56,
          key: "elixirManufactoryHuman02"
       },
       "elixirManufactoryHuman03":
@@ -589,6 +640,7 @@ const Building = {
          height: 3,
          population: -15,
          culture: -17,
+         elixir: 69,
          key: "elixirManufactoryHuman03"
       },
       "elixirManufactoryHuman04":
@@ -601,6 +653,7 @@ const Building = {
          height: 4,
          population: -73,
          culture: -41,
+         elixir: 113,
          key: "elixirManufactoryHuman04"
       },
       "elixirManufactoryHuman05":
@@ -613,6 +666,7 @@ const Building = {
          height: 4,
          population: -25,
          culture: -30,
+         elixir: 132,
          key: "elixirManufactoryHuman05"
       },
       "elixirManufactoryHuman06":
@@ -625,6 +679,7 @@ const Building = {
          height: 4,
          population: -34,
          culture: -12,
+         elixir: 154,
          key: "elixirManufactoryHuman06"
       },
       "elixirManufactoryHuman07":
@@ -637,6 +692,7 @@ const Building = {
          height: 4,
          population: -42,
          culture: -13,
+         elixir: 173,
          key: "elixirManufactoryHuman07"
       },
       "elixirManufactoryHuman08":
@@ -649,6 +705,7 @@ const Building = {
          height: 4,
          population: -161,
          culture: -62,
+         elixir: 260,
          key: "elixirManufactoryHuman08"
       },
       "elixirManufactoryHuman09":
@@ -661,6 +718,7 @@ const Building = {
          height: 4,
          population: -82,
          culture: -22,
+         elixir: 289,
          key: "elixirManufactoryHuman09"
       },
       "elixirManufactoryHuman10":
@@ -673,6 +731,7 @@ const Building = {
          height: 4,
          population: -101,
          culture: -24,
+         elixir: 317,
          key: "elixirManufactoryHuman10"
       },
       "elixirManufactoryHuman11":
@@ -685,6 +744,7 @@ const Building = {
          height: 4,
          population: -103,
          culture: -26,
+         elixir: 345,
          key: "elixirManufactoryHuman11"
       },
       "elixirManufactoryHuman12":
@@ -697,6 +757,7 @@ const Building = {
          height: 4,
          population: -106,
          culture: -29,
+         elixir: 373,
          key: "elixirManufactoryHuman12"
       },
       "elixirManufactoryHuman13":
@@ -709,6 +770,7 @@ const Building = {
          height: 4,
          population: -131,
          culture: -33,
+         elixir: 402,
          key: "elixirManufactoryHuman13"
       },
       "elixirManufactoryHuman14":
@@ -721,6 +783,7 @@ const Building = {
          height: 4,
          population: -158,
          culture: -36,
+         elixir: 430,
          key: "elixirManufactoryHuman14"
       },
       "elixirManufactoryHuman15":
@@ -733,6 +796,7 @@ const Building = {
          height: 4,
          population: -185,
          culture: -40,
+         elixir: 458,
          key: "elixirManufactoryHuman15"
       },
       "elixirManufactoryHuman16":
@@ -745,6 +809,7 @@ const Building = {
          height: 5,
          population: -815,
          culture: -138,
+         elixir: 618,
          key: "elixirManufactoryHuman16"
       },
       "elixirManufactoryHuman17":
@@ -757,6 +822,7 @@ const Building = {
          height: 5,
          population: -333,
          culture: -97,
+         elixir: 665,
          key: "elixirManufactoryHuman17"
       },
       "elixirManufactoryHuman18":
@@ -769,6 +835,7 @@ const Building = {
          height: 5,
          population: -384,
          culture: -114,
+         elixir: 719,
          key: "elixirManufactoryHuman18"
       },
       "elixirManufactoryHuman19":
@@ -781,6 +848,7 @@ const Building = {
          height: 5,
          population: -443,
          culture: -135,
+         elixir: 775,
          key: "elixirManufactoryHuman19"
       },
       "elixirManufactoryHuman20":
@@ -793,6 +861,7 @@ const Building = {
          height: 4,
          population: -1280,
          culture: -369,
+         elixir: 1,
          key: "elixirManufactoryHuman20"
       },
       "elixirManufactoryHuman21":
@@ -805,6 +874,7 @@ const Building = {
          height: 4,
          population: -708,
          culture: -226,
+         elixir: 1,
          key: "elixirManufactoryHuman21"
       },
       "elixirManufactoryHuman22":
@@ -817,6 +887,7 @@ const Building = {
          height: 4,
          population: -817,
          culture: -267,
+         elixir: 1,
          key: "elixirManufactoryHuman22"
       },
       "elixirManufactoryHuman23":
@@ -829,6 +900,7 @@ const Building = {
          height: 4,
          population: -943,
          culture: -314,
+         elixir: 1,
          key: "elixirManufactoryHuman23"
       },
       "magicAcademyElf01":
@@ -1181,8 +1253,8 @@ const Building = {
          height: 2,
          population: -20,
          culture: 0,
-         marble: 9, // per day
-         key: "marbleManufactoryElf01",
+         marble: 9,
+         key: "marbleManufactoryElf01"
       },
       "marbleManufactoryElf02":
       {
@@ -1194,8 +1266,8 @@ const Building = {
          height: 2,
          population: -2,
          culture: -2,
-         marble: 13, // per day
-         key: "marbleManufactoryElf02",
+         marble: 13,
+         key: "marbleManufactoryElf02"
       },
       "marbleManufactoryElf03":
       {
@@ -1207,8 +1279,8 @@ const Building = {
          height: 2,
          population: -3,
          culture: -2,
-         marble: 16, // per day
-         key: "marbleManufactoryElf03",
+         marble: 16,
+         key: "marbleManufactoryElf03"
       },
       "marbleManufactoryElf04":
       {
@@ -1220,8 +1292,8 @@ const Building = {
          height: 2,
          population: -2,
          culture: -3,
-         marble: 19, // per day
-         key: "marbleManufactoryElf04",
+         marble: 19,
+         key: "marbleManufactoryElf04"
       },
       "marbleManufactoryElf05":
       {
@@ -1233,8 +1305,8 @@ const Building = {
          height: 2,
          population: -3,
          culture: -3,
-         marble: 22, // per day
-         key: "marbleManufactoryElf05",
+         marble: 22,
+         key: "marbleManufactoryElf05"
       },
       "marbleManufactoryElf06":
       {
@@ -1246,8 +1318,8 @@ const Building = {
          height: 2,
          population: -38,
          culture: -12,
-         marble: 50, // per day
-         key: "marbleManufactoryElf06",
+         marble: 50,
+         key: "marbleManufactoryElf06"
       },
       "marbleManufactoryElf07":
       {
@@ -1259,8 +1331,8 @@ const Building = {
          height: 2,
          population: -9,
          culture: -3,
-         marble: 56, // per day
-         key: "marbleManufactoryElf07",
+         marble: 56,
+         key: "marbleManufactoryElf07"
       },
       "marbleManufactoryElf08":
       {
@@ -1272,8 +1344,8 @@ const Building = {
          height: 2,
          population: -12,
          culture: -3,
-         marble: 66, // per day
-         key: "marbleManufactoryElf08",
+         marble: 66,
+         key: "marbleManufactoryElf08"
       },
       "marbleManufactoryElf09":
       {
@@ -1285,8 +1357,8 @@ const Building = {
          height: 2,
          population: -12,
          culture: -3,
-         marble: 72, // per day
-         key: "marbleManufactoryElf09",
+         marble: 72,
+         key: "marbleManufactoryElf09"
       },
       "marbleManufactoryElf10":
       {
@@ -1298,8 +1370,177 @@ const Building = {
          height: 2,
          population: -72,
          culture: -20,
-         marble: 119, // per day
-         key: "marbleManufactoryElf10",
+         marble: 119,
+         key: "marbleManufactoryElf10"
+      },
+      "marbleManufactoryElf11":
+      {
+         name: "Marble Manufactory 11 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 11,
+         width: 3,
+         height: 2,
+         population: -27,
+         culture: -6,
+         marble: 129,
+         key: "marbleManufactoryElf11"
+      },
+      "marbleManufactoryElf12":
+      {
+         name: "Marble Manufactory 12 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 12,
+         width: 3,
+         height: 2,
+         population: -36,
+         culture: -6,
+         marble: 138,
+         key: "marbleManufactoryElf12"
+      },
+      "marbleManufactoryElf13":
+      {
+         name: "Marble Manufactory 13 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 13,
+         width: 3,
+         height: 2,
+         population: -36,
+         culture: -7,
+         marble: 151,
+         key: "marbleManufactoryElf13"
+      },
+      "marbleManufactoryElf14":
+      {
+         name: "Marble Manufactory 14 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 14,
+         width: 3,
+         height: 2,
+         population: -38,
+         culture: -8,
+         marble: 160,
+         key: "marbleManufactoryElf14"
+      },
+      "marbleManufactoryElf15":
+      {
+         name: "Marble Manufactory 15 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 15,
+         width: 3,
+         height: 2,
+         population: -46,
+         culture: -9,
+         marble: 173,
+         key: "marbleManufactoryElf15"
+      },
+      "marbleManufactoryElf16":
+      {
+         name: "Marble Manufactory 16 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 16,
+         width: 2,
+         height: 5,
+         population: -328,
+         culture: -82,
+         marble: 298,
+         key: "marbleManufactoryElf16"
+      },
+      "marbleManufactoryElf17":
+      {
+         name: "Marble Manufactory 17 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 17,
+         width: 2,
+         height: 5,
+         population: -105,
+         culture: -30,
+         marble: 320,
+         key: "marbleManufactoryElf17"
+      },
+      "marbleManufactoryElf18":
+      {
+         name: "Marble Manufactory 18 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 18,
+         width: 2,
+         height: 5,
+         population: -122,
+         culture: -36,
+         marble: 345,
+         key: "marbleManufactoryElf18"
+      },
+      "marbleManufactoryElf19":
+      {
+         name: "Marble Manufactory 19 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 19,
+         width: 2,
+         height: 5,
+         population: -139,
+         culture: -42,
+         marble: 373,
+         key: "marbleManufactoryElf19"
+      },
+      "marbleManufactoryElf20":
+      {
+         name: "Marble Manufactory 20 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 20,
+         width: 6,
+         height: 3,
+         population: -1110,
+         culture: -311,
+         marble: 725,
+         key: "marbleManufactoryElf20"
+      },
+      "marbleManufactoryElf21":
+      {
+         name: "Marble Manufactory 21 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 21,
+         width: 6,
+         height: 3,
+         population: -332,
+         culture: -106,
+         marble: 781,
+         key: "marbleManufactoryElf21"
+      },
+      "marbleManufactoryElf22":
+      {
+         name: "Marble Manufactory 22 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 22,
+         width: 6,
+         height: 3,
+         population: -383,
+         culture: -125,
+         marble: 841,
+         key: "marbleManufactoryElf22"
+      },
+      "marbleManufactoryElf23":
+      {
+         name: "Marble Manufactory 23 (Elf)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 23,
+         width: 6,
+         height: 3,
+         population: -442,
+         culture: -148,
+         marble: 910,
+         key: "marbleManufactoryElf23"
       },
       "marbleManufactoryHuman01":
       {
@@ -1311,8 +1552,8 @@ const Building = {
          height: 1,
          population: -21,
          culture: 0,
-         marble: 9, // per day
-         key: "marbleManufactoryHuman01",
+         marble: 9,
+         key: "marbleManufactoryHuman01"
       },
       "marbleManufactoryHuman02":
       {
@@ -1324,8 +1565,8 @@ const Building = {
          height: 1,
          population: -2,
          culture: -2,
-         marble: 13, // per day
-         key: "marbleManufactoryHuman02",
+         marble: 13,
+         key: "marbleManufactoryHuman02"
       },
       "marbleManufactoryHuman03":
       {
@@ -1337,8 +1578,8 @@ const Building = {
          height: 1,
          population: -3,
          culture: -2,
-         marble: 16, // per day
-         key: "marbleManufactoryHuman03",
+         marble: 16,
+         key: "marbleManufactoryHuman03"
       },
       "marbleManufactoryHuman04":
       {
@@ -1350,8 +1591,8 @@ const Building = {
          height: 1,
          population: -3,
          culture: -2,
-         marble: 19, // per day
-         key: "marbleManufactoryHuman04",
+         marble: 19,
+         key: "marbleManufactoryHuman04"
       },
       "marbleManufactoryHuman05":
       {
@@ -1363,8 +1604,8 @@ const Building = {
          height: 2,
          population: -67,
          culture: -21,
-         marble: 66, // per day
-         key: "marbleManufactoryHuman05",
+         marble: 66,
+         key: "marbleManufactoryHuman05"
       },
       "marbleManufactoryHuman06":
       {
@@ -1376,8 +1617,8 @@ const Building = {
          height: 2,
          population: -12,
          culture: -3,
-         marble: 75, // per day
-         key: "marbleManufactoryHuman06",
+         marble: 75,
+         key: "marbleManufactoryHuman06"
       },
       "marbleManufactoryHuman07":
       {
@@ -1389,8 +1630,8 @@ const Building = {
          height: 2,
          population: -17,
          culture: -3,
-         marble: 88, // per day
-         key: "marbleManufactoryHuman07",
+         marble: 88,
+         key: "marbleManufactoryHuman07"
       },
       "marbleManufactoryHuman08":
       {
@@ -1402,8 +1643,8 @@ const Building = {
          height: 2,
          population: -14,
          culture: -4,
-         marble: 97, // per day
-         key: "marbleManufactoryHuman08",
+         marble: 97,
+         key: "marbleManufactoryHuman08"
       },
       "marbleManufactoryHuman09":
       {
@@ -1415,8 +1656,8 @@ const Building = {
          height: 3,
          population: -187,
          culture: -45,
-         marble: 217, // per day
-         key: "marbleManufactoryHuman09",
+         marble: 217,
+         key: "marbleManufactoryHuman09"
       },
       "marbleManufactoryHuman10":
       {
@@ -1428,8 +1669,177 @@ const Building = {
          height: 3,
          population: -58,
          culture: -9,
-         marble: 235, // per day
-         key: "marbleManufactoryHuman10",
+         marble: 235,
+         key: "marbleManufactoryHuman10"
+      },
+      "marbleManufactoryHuman11":
+      {
+         name: "Marble Manufactory 11 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 11,
+         width: 4,
+         height: 3,
+         population: -59,
+         culture: -10,
+         marble: 257,
+         key: "marbleManufactoryHuman11"
+      },
+      "marbleManufactoryHuman12":
+      {
+         name: "Marble Manufactory 12 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 12,
+         width: 4,
+         height: 3,
+         population: -61,
+         culture: -11,
+         marble: 279,
+         key: "marbleManufactoryHuman12"
+      },
+      "marbleManufactoryHuman13":
+      {
+         name: "Marble Manufactory 13 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 13,
+         width: 4,
+         height: 3,
+         population: -75,
+         culture: -13,
+         marble: 301,
+         key: "marbleManufactoryHuman13"
+      },
+      "marbleManufactoryHuman14":
+      {
+         name: "Marble Manufactory 14 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 14,
+         width: 4,
+         height: 3,
+         population: -90,
+         culture: -14,
+         marble: 323,
+         key: "marbleManufactoryHuman14"
+      },
+      "marbleManufactoryHuman15":
+      {
+         name: "Marble Manufactory 15 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 15,
+         width: 4,
+         height: 3,
+         population: -106,
+         culture: -15,
+         marble: 342,
+         key: "marbleManufactoryHuman15"
+      },
+      "marbleManufactoryHuman16":
+      {
+         name: "Marble Manufactory 16 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 16,
+         width: 5,
+         height: 3,
+         population: -343,
+         culture: -74,
+         marble: 446,
+         key: "marbleManufactoryHuman16"
+      },
+      "marbleManufactoryHuman17":
+      {
+         name: "Marble Manufactory 17 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 17,
+         width: 5,
+         height: 3,
+         population: -171,
+         culture: -41,
+         marble: 480,
+         key: "marbleManufactoryHuman17"
+      },
+      "marbleManufactoryHuman18":
+      {
+         name: "Marble Manufactory 18 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 18,
+         width: 5,
+         height: 3,
+         population: -199,
+         culture: -48,
+         marble: 518,
+         key: "marbleManufactoryHuman18"
+      },
+      "marbleManufactoryHuman19":
+      {
+         name: "Marble Manufactory 19 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 19,
+         width: 5,
+         height: 3,
+         population: -228,
+         culture: -57,
+         marble: 559,
+         key: "marbleManufactoryHuman19"
+      },
+      "marbleManufactoryHuman20":
+      {
+         name: "Marble Manufactory 20 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 20,
+         width: 6,
+         height: 3,
+         population: -444,
+         culture: -214,
+         marble: 725,
+         key: "marbleManufactoryHuman20"
+      },
+      "marbleManufactoryHuman21":
+      {
+         name: "Marble Manufactory 21 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 21,
+         width: 6,
+         height: 3,
+         population: -332,
+         culture: -106,
+         marble: 781,
+         key: "marbleManufactoryHuman21"
+      },
+      "marbleManufactoryHuman22":
+      {
+         name: "Marble Manufactory 22 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 22,
+         width: 6,
+         height: 3,
+         population: -383,
+         culture: -125,
+         marble: 841,
+         key: "marbleManufactoryHuman22"
+      },
+      "marbleManufactoryHuman23":
+      {
+         name: "Marble Manufactory 23 (Human)",
+         typeKey: BuildingType.MARBLE_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 23,
+         width: 6,
+         height: 3,
+         population: -442,
+         culture: -148,
+         marble: 910,
+         key: "marbleManufactoryHuman23"
       },
       "residenceElf01":
       {

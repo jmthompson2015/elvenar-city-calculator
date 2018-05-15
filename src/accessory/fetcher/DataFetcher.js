@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 
 const DataFetcher = {};
 
-DataFetcher.fetch = function(uri, typeName, spanId0, spanId1)
+DataFetcher.fetch = function(uri, typeName, productName, spanId0, spanId1, propertiesFunction)
 {
    const options = {
       uri: uri,
@@ -20,13 +20,15 @@ DataFetcher.fetch = function(uri, typeName, spanId0, spanId1)
          let properties = "";
 
          const raceName0 = "Elf";
-         const result0 = parse(raceName0, typeName, spanId0, $, enums, properties);
+         const result0 = parse(raceName0, typeName, productName, spanId0, $, enums, properties);
 
          const raceName1 = "Human";
-         const result1 = parse(raceName1, typeName, spanId1, $, result0.enums, result0.properties);
+         const result1 = parse(raceName1, typeName, productName, spanId1, $, result0.enums, result0.properties);
+
+         properties = propertiesFunction(result1.properties);
 
          console.log(result1.enums);
-         console.log(result1.properties);
+         console.log(properties);
       })
       .catch((err) =>
       {
@@ -44,8 +46,11 @@ function createEnumValue(raceName, typeName, levelString)
    return toCamelCase(typeName + " " + raceName + " " + levelString.padStart(2, "0"));
 }
 
-function parse(raceName, typeName, spanId, $, enums, properties)
+function parse(raceName, typeName, productName, spanId, $, enums, properties)
 {
+   const typeKey = "BuildingType." + typeName.toUpperCase().replace(/ /g, "_");
+   const raceKey = "Race." + raceName.toUpperCase();
+
    $('span#' + spanId).parent().next().find('tr').each(function()
    {
       const children = $(this).children();
@@ -59,31 +64,37 @@ function parse(raceName, typeName, spanId, $, enums, properties)
          enums += enumName + ": \"" + enumValue + "\",\n";
 
          const sizeString = $(children[1]).text().trim();
-         const sizeParts = sizeString.split("X");
+         const sizeParts = sizeString.split(/[Xx]/);
          const width = parseInt(sizeParts[0]);
          const height = parseInt(sizeParts[1]);
          const population = parseInt($(children[2]).text().trim());
          let culture = parseInt($(children[3]).text().trim());
          culture = (Number.isInteger(culture) ? culture : 0);
+         const product = parseInt($(children[10]).text().trim());
 
          const rowData = {
             name: typeName + " " + level + " (" + raceName + ")",
-            typeKey: "BuildingType.ELIXIR_MANUFACTORY",
-            raceKey: "Race." + raceName.toUpperCase(),
+            typeKey: typeKey,
+            raceKey: raceKey,
             level: level,
             width: width,
             height: height,
             population: -population,
             culture: -culture,
-            key: enumValue,
          };
 
+         if (productName !== undefined)
+         {
+            rowData[productName] = product;
+         }
+         rowData.key = enumValue;
+
          properties += "\"" + enumValue + "\": " + stringify(rowData) + ",\n";
-         properties = properties.replace(/\"BuildingType.ELIXIR_MANUFACTORY\"/g, "BuildingType.ELIXIR_MANUFACTORY");
-         properties = properties.replace(/\"Race.ELF\"/g, "Race.ELF");
-         properties = properties.replace(/\"Race.HUMAN\"/g, "Race.HUMAN");
       }
    });
+
+   properties = properties.replace(/\"Race.ELF\"/g, "Race.ELF");
+   properties = properties.replace(/\"Race.HUMAN\"/g, "Race.HUMAN");
 
    return (
    {

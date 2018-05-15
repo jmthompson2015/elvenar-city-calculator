@@ -65,9 +65,9 @@ QUnit.test("Building.keysByCategory() Human Manufactory", function(assert)
 
    // Verify.
    assert.ok(result);
-   assert.equal(result.length, 33);
+   assert.equal(result.length, 46);
    assert.equal(result[0], Building.ELIXIR_MANUFACTORY_HUMAN_01);
-   assert.equal(result[result.length - 1], Building.MARBLE_MANUFACTORY_HUMAN_10);
+   assert.equal(result[result.length - 1], Building.MARBLE_MANUFACTORY_HUMAN_23);
 });
 
 QUnit.test("Building.keysByType() Elf Residence", function(assert)
@@ -106,8 +106,8 @@ QUnit.test("Building.maxLevel() Human Workshop", function(assert)
 {
    assert.equal(Building.maxLevel(Race.ELF, BuildingType.RESIDENCE), 10);
    assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.RESIDENCE), 10);
-   assert.equal(Building.maxLevel(Race.ELF, BuildingType.MARBLE_MANUFACTORY), 10);
-   assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.MARBLE_MANUFACTORY), 10);
+   assert.equal(Building.maxLevel(Race.ELF, BuildingType.MARBLE_MANUFACTORY), 23);
+   assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.MARBLE_MANUFACTORY), 23);
    assert.equal(Building.maxLevel(Race.ELF, BuildingType.WORKSHOP), 10);
    assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.WORKSHOP), 10);
 });
@@ -149,7 +149,7 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 152;
+   const length = 178;
    assert.equal(result.length, length);
    assert.equal(result[0], "buildersHutElf01");
    assert.equal(result[length - 1], "workshopHuman10");
