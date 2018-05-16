@@ -7491,7 +7491,17 @@ Building.keys().forEach(function(buildingKey)
    const building = Building.properties[buildingKey];
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
+   building.coin = (building.coin !== undefined ? building.coin : 0);
+   building.culture = (building.culture !== undefined ? building.culture : 0);
+   building.population = (building.population !== undefined ? building.population : 0);
 });
+
+Building.cumulativeCoin = function(buildingKey)
+{
+   InputValidator.validateIsString("buildingKey", buildingKey);
+
+   return cumulative(buildingKey, "coin");
+};
 
 Building.cumulativeCulture = function(buildingKey)
 {

@@ -21,12 +21,14 @@ function mapStateToProps(state)
       }
       const count = row.count;
       const area = count * building.width * building.height;
+      const coin = count * Building.cumulativeCoin(building.key);
       const population = count * Building.cumulativePopulation(building.key);
       const culture = count * Building.cumulativeCulture(building.key);
       return Object.assign(
       {}, row,
       {
          area: area,
+         coin: coin,
          population: population,
          culture: culture,
       });
@@ -94,6 +96,11 @@ const TableColumns = [
    {
       key: "area",
       label: "Area",
+      className: "tr",
+   },
+   {
+      key: "coin",
+      label: "Coin",
       className: "tr",
    },
    {
