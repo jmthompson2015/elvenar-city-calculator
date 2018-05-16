@@ -106,6 +106,52 @@ const Building = {
    ELIXIR_MANUFACTORY_HUMAN_21: "elixirManufactoryHuman21",
    ELIXIR_MANUFACTORY_HUMAN_22: "elixirManufactoryHuman22",
    ELIXIR_MANUFACTORY_HUMAN_23: "elixirManufactoryHuman23",
+   GEMS_MANUFACTORY_ELF_01: "gemsManufactoryElf01",
+   GEMS_MANUFACTORY_ELF_02: "gemsManufactoryElf02",
+   GEMS_MANUFACTORY_ELF_03: "gemsManufactoryElf03",
+   GEMS_MANUFACTORY_ELF_04: "gemsManufactoryElf04",
+   GEMS_MANUFACTORY_ELF_05: "gemsManufactoryElf05",
+   GEMS_MANUFACTORY_ELF_06: "gemsManufactoryElf06",
+   GEMS_MANUFACTORY_ELF_07: "gemsManufactoryElf07",
+   GEMS_MANUFACTORY_ELF_08: "gemsManufactoryElf08",
+   GEMS_MANUFACTORY_ELF_09: "gemsManufactoryElf09",
+   GEMS_MANUFACTORY_ELF_10: "gemsManufactoryElf10",
+   GEMS_MANUFACTORY_ELF_11: "gemsManufactoryElf11",
+   GEMS_MANUFACTORY_ELF_12: "gemsManufactoryElf12",
+   GEMS_MANUFACTORY_ELF_13: "gemsManufactoryElf13",
+   GEMS_MANUFACTORY_ELF_14: "gemsManufactoryElf14",
+   GEMS_MANUFACTORY_ELF_15: "gemsManufactoryElf15",
+   GEMS_MANUFACTORY_ELF_16: "gemsManufactoryElf16",
+   GEMS_MANUFACTORY_ELF_17: "gemsManufactoryElf17",
+   GEMS_MANUFACTORY_ELF_18: "gemsManufactoryElf18",
+   GEMS_MANUFACTORY_ELF_19: "gemsManufactoryElf19",
+   GEMS_MANUFACTORY_ELF_20: "gemsManufactoryElf20",
+   GEMS_MANUFACTORY_ELF_21: "gemsManufactoryElf21",
+   GEMS_MANUFACTORY_ELF_22: "gemsManufactoryElf22",
+   GEMS_MANUFACTORY_ELF_23: "gemsManufactoryElf23",
+   GEMS_MANUFACTORY_HUMAN_01: "gemsManufactoryHuman01",
+   GEMS_MANUFACTORY_HUMAN_02: "gemsManufactoryHuman02",
+   GEMS_MANUFACTORY_HUMAN_03: "gemsManufactoryHuman03",
+   GEMS_MANUFACTORY_HUMAN_04: "gemsManufactoryHuman04",
+   GEMS_MANUFACTORY_HUMAN_05: "gemsManufactoryHuman05",
+   GEMS_MANUFACTORY_HUMAN_06: "gemsManufactoryHuman06",
+   GEMS_MANUFACTORY_HUMAN_07: "gemsManufactoryHuman07",
+   GEMS_MANUFACTORY_HUMAN_08: "gemsManufactoryHuman08",
+   GEMS_MANUFACTORY_HUMAN_09: "gemsManufactoryHuman09",
+   GEMS_MANUFACTORY_HUMAN_10: "gemsManufactoryHuman10",
+   GEMS_MANUFACTORY_HUMAN_11: "gemsManufactoryHuman11",
+   GEMS_MANUFACTORY_HUMAN_12: "gemsManufactoryHuman12",
+   GEMS_MANUFACTORY_HUMAN_13: "gemsManufactoryHuman13",
+   GEMS_MANUFACTORY_HUMAN_14: "gemsManufactoryHuman14",
+   GEMS_MANUFACTORY_HUMAN_15: "gemsManufactoryHuman15",
+   GEMS_MANUFACTORY_HUMAN_16: "gemsManufactoryHuman16",
+   GEMS_MANUFACTORY_HUMAN_17: "gemsManufactoryHuman17",
+   GEMS_MANUFACTORY_HUMAN_18: "gemsManufactoryHuman18",
+   GEMS_MANUFACTORY_HUMAN_19: "gemsManufactoryHuman19",
+   GEMS_MANUFACTORY_HUMAN_20: "gemsManufactoryHuman20",
+   GEMS_MANUFACTORY_HUMAN_21: "gemsManufactoryHuman21",
+   GEMS_MANUFACTORY_HUMAN_22: "gemsManufactoryHuman22",
+   GEMS_MANUFACTORY_HUMAN_23: "gemsManufactoryHuman23",
    MAGIC_ACADEMY_ELF_01: "magicAcademyElf01",
    MAGIC_ACADEMY_ELF_02: "magicAcademyElf02",
    MAGIC_ACADEMY_ELF_03: "magicAcademyElf03",
@@ -116,6 +162,52 @@ const Building = {
    MAGIC_ACADEMY_HUMAN_03: "magicAcademyHuman03",
    MAGIC_ACADEMY_HUMAN_04: "magicAcademyHuman04",
    MAGIC_ACADEMY_HUMAN_05: "magicAcademyHuman05",
+   MAGIC_DUST_MANUFACTORY_ELF_01: "magicDustManufactoryElf01",
+   MAGIC_DUST_MANUFACTORY_ELF_02: "magicDustManufactoryElf02",
+   MAGIC_DUST_MANUFACTORY_ELF_03: "magicDustManufactoryElf03",
+   MAGIC_DUST_MANUFACTORY_ELF_04: "magicDustManufactoryElf04",
+   MAGIC_DUST_MANUFACTORY_ELF_05: "magicDustManufactoryElf05",
+   MAGIC_DUST_MANUFACTORY_ELF_06: "magicDustManufactoryElf06",
+   MAGIC_DUST_MANUFACTORY_ELF_07: "magicDustManufactoryElf07",
+   MAGIC_DUST_MANUFACTORY_ELF_08: "magicDustManufactoryElf08",
+   MAGIC_DUST_MANUFACTORY_ELF_09: "magicDustManufactoryElf09",
+   MAGIC_DUST_MANUFACTORY_ELF_10: "magicDustManufactoryElf10",
+   MAGIC_DUST_MANUFACTORY_ELF_11: "magicDustManufactoryElf11",
+   MAGIC_DUST_MANUFACTORY_ELF_12: "magicDustManufactoryElf12",
+   MAGIC_DUST_MANUFACTORY_ELF_13: "magicDustManufactoryElf13",
+   MAGIC_DUST_MANUFACTORY_ELF_14: "magicDustManufactoryElf14",
+   MAGIC_DUST_MANUFACTORY_ELF_15: "magicDustManufactoryElf15",
+   MAGIC_DUST_MANUFACTORY_ELF_16: "magicDustManufactoryElf16",
+   MAGIC_DUST_MANUFACTORY_ELF_17: "magicDustManufactoryElf17",
+   MAGIC_DUST_MANUFACTORY_ELF_18: "magicDustManufactoryElf18",
+   MAGIC_DUST_MANUFACTORY_ELF_19: "magicDustManufactoryElf19",
+   MAGIC_DUST_MANUFACTORY_ELF_20: "magicDustManufactoryElf20",
+   MAGIC_DUST_MANUFACTORY_ELF_21: "magicDustManufactoryElf21",
+   MAGIC_DUST_MANUFACTORY_ELF_22: "magicDustManufactoryElf22",
+   MAGIC_DUST_MANUFACTORY_ELF_23: "magicDustManufactoryElf23",
+   MAGIC_DUST_MANUFACTORY_HUMAN_01: "magicDustManufactoryHuman01",
+   MAGIC_DUST_MANUFACTORY_HUMAN_02: "magicDustManufactoryHuman02",
+   MAGIC_DUST_MANUFACTORY_HUMAN_03: "magicDustManufactoryHuman03",
+   MAGIC_DUST_MANUFACTORY_HUMAN_04: "magicDustManufactoryHuman04",
+   MAGIC_DUST_MANUFACTORY_HUMAN_05: "magicDustManufactoryHuman05",
+   MAGIC_DUST_MANUFACTORY_HUMAN_06: "magicDustManufactoryHuman06",
+   MAGIC_DUST_MANUFACTORY_HUMAN_07: "magicDustManufactoryHuman07",
+   MAGIC_DUST_MANUFACTORY_HUMAN_08: "magicDustManufactoryHuman08",
+   MAGIC_DUST_MANUFACTORY_HUMAN_09: "magicDustManufactoryHuman09",
+   MAGIC_DUST_MANUFACTORY_HUMAN_10: "magicDustManufactoryHuman10",
+   MAGIC_DUST_MANUFACTORY_HUMAN_11: "magicDustManufactoryHuman11",
+   MAGIC_DUST_MANUFACTORY_HUMAN_12: "magicDustManufactoryHuman12",
+   MAGIC_DUST_MANUFACTORY_HUMAN_13: "magicDustManufactoryHuman13",
+   MAGIC_DUST_MANUFACTORY_HUMAN_14: "magicDustManufactoryHuman14",
+   MAGIC_DUST_MANUFACTORY_HUMAN_15: "magicDustManufactoryHuman15",
+   MAGIC_DUST_MANUFACTORY_HUMAN_16: "magicDustManufactoryHuman16",
+   MAGIC_DUST_MANUFACTORY_HUMAN_17: "magicDustManufactoryHuman17",
+   MAGIC_DUST_MANUFACTORY_HUMAN_18: "magicDustManufactoryHuman18",
+   MAGIC_DUST_MANUFACTORY_HUMAN_19: "magicDustManufactoryHuman19",
+   MAGIC_DUST_MANUFACTORY_HUMAN_20: "magicDustManufactoryHuman20",
+   MAGIC_DUST_MANUFACTORY_HUMAN_21: "magicDustManufactoryHuman21",
+   MAGIC_DUST_MANUFACTORY_HUMAN_22: "magicDustManufactoryHuman22",
+   MAGIC_DUST_MANUFACTORY_HUMAN_23: "magicDustManufactoryHuman23",
    MAIN_HALL_ELF_01: "mainHallElf01",
    MAIN_HALL_ELF_02: "mainHallElf02",
    MAIN_HALL_ELF_03: "mainHallElf03",
@@ -248,6 +340,98 @@ const Building = {
    RESIDENCE_HUMAN_08: "residenceHuman08",
    RESIDENCE_HUMAN_09: "residenceHuman09",
    RESIDENCE_HUMAN_10: "residenceHuman10",
+   SCROLLS_MANUFACTORY_ELF_01: "scrollsManufactoryElf01",
+   SCROLLS_MANUFACTORY_ELF_02: "scrollsManufactoryElf02",
+   SCROLLS_MANUFACTORY_ELF_03: "scrollsManufactoryElf03",
+   SCROLLS_MANUFACTORY_ELF_04: "scrollsManufactoryElf04",
+   SCROLLS_MANUFACTORY_ELF_05: "scrollsManufactoryElf05",
+   SCROLLS_MANUFACTORY_ELF_06: "scrollsManufactoryElf06",
+   SCROLLS_MANUFACTORY_ELF_07: "scrollsManufactoryElf07",
+   SCROLLS_MANUFACTORY_ELF_08: "scrollsManufactoryElf08",
+   SCROLLS_MANUFACTORY_ELF_09: "scrollsManufactoryElf09",
+   SCROLLS_MANUFACTORY_ELF_10: "scrollsManufactoryElf10",
+   SCROLLS_MANUFACTORY_ELF_11: "scrollsManufactoryElf11",
+   SCROLLS_MANUFACTORY_ELF_12: "scrollsManufactoryElf12",
+   SCROLLS_MANUFACTORY_ELF_13: "scrollsManufactoryElf13",
+   SCROLLS_MANUFACTORY_ELF_14: "scrollsManufactoryElf14",
+   SCROLLS_MANUFACTORY_ELF_15: "scrollsManufactoryElf15",
+   SCROLLS_MANUFACTORY_ELF_16: "scrollsManufactoryElf16",
+   SCROLLS_MANUFACTORY_ELF_17: "scrollsManufactoryElf17",
+   SCROLLS_MANUFACTORY_ELF_18: "scrollsManufactoryElf18",
+   SCROLLS_MANUFACTORY_ELF_19: "scrollsManufactoryElf19",
+   SCROLLS_MANUFACTORY_ELF_20: "scrollsManufactoryElf20",
+   SCROLLS_MANUFACTORY_ELF_21: "scrollsManufactoryElf21",
+   SCROLLS_MANUFACTORY_ELF_22: "scrollsManufactoryElf22",
+   SCROLLS_MANUFACTORY_ELF_23: "scrollsManufactoryElf23",
+   SCROLLS_MANUFACTORY_HUMAN_01: "scrollsManufactoryHuman01",
+   SCROLLS_MANUFACTORY_HUMAN_02: "scrollsManufactoryHuman02",
+   SCROLLS_MANUFACTORY_HUMAN_03: "scrollsManufactoryHuman03",
+   SCROLLS_MANUFACTORY_HUMAN_04: "scrollsManufactoryHuman04",
+   SCROLLS_MANUFACTORY_HUMAN_05: "scrollsManufactoryHuman05",
+   SCROLLS_MANUFACTORY_HUMAN_06: "scrollsManufactoryHuman06",
+   SCROLLS_MANUFACTORY_HUMAN_07: "scrollsManufactoryHuman07",
+   SCROLLS_MANUFACTORY_HUMAN_08: "scrollsManufactoryHuman08",
+   SCROLLS_MANUFACTORY_HUMAN_09: "scrollsManufactoryHuman09",
+   SCROLLS_MANUFACTORY_HUMAN_10: "scrollsManufactoryHuman10",
+   SCROLLS_MANUFACTORY_HUMAN_11: "scrollsManufactoryHuman11",
+   SCROLLS_MANUFACTORY_HUMAN_12: "scrollsManufactoryHuman12",
+   SCROLLS_MANUFACTORY_HUMAN_13: "scrollsManufactoryHuman13",
+   SCROLLS_MANUFACTORY_HUMAN_14: "scrollsManufactoryHuman14",
+   SCROLLS_MANUFACTORY_HUMAN_15: "scrollsManufactoryHuman15",
+   SCROLLS_MANUFACTORY_HUMAN_16: "scrollsManufactoryHuman16",
+   SCROLLS_MANUFACTORY_HUMAN_17: "scrollsManufactoryHuman17",
+   SCROLLS_MANUFACTORY_HUMAN_18: "scrollsManufactoryHuman18",
+   SCROLLS_MANUFACTORY_HUMAN_19: "scrollsManufactoryHuman19",
+   SCROLLS_MANUFACTORY_HUMAN_20: "scrollsManufactoryHuman20",
+   SCROLLS_MANUFACTORY_HUMAN_21: "scrollsManufactoryHuman21",
+   SCROLLS_MANUFACTORY_HUMAN_22: "scrollsManufactoryHuman22",
+   SCROLLS_MANUFACTORY_HUMAN_23: "scrollsManufactoryHuman23",
+   SILK_MANUFACTORY_ELF_01: "silkManufactoryElf01",
+   SILK_MANUFACTORY_ELF_02: "silkManufactoryElf02",
+   SILK_MANUFACTORY_ELF_03: "silkManufactoryElf03",
+   SILK_MANUFACTORY_ELF_04: "silkManufactoryElf04",
+   SILK_MANUFACTORY_ELF_05: "silkManufactoryElf05",
+   SILK_MANUFACTORY_ELF_06: "silkManufactoryElf06",
+   SILK_MANUFACTORY_ELF_07: "silkManufactoryElf07",
+   SILK_MANUFACTORY_ELF_08: "silkManufactoryElf08",
+   SILK_MANUFACTORY_ELF_09: "silkManufactoryElf09",
+   SILK_MANUFACTORY_ELF_10: "silkManufactoryElf10",
+   SILK_MANUFACTORY_ELF_11: "silkManufactoryElf11",
+   SILK_MANUFACTORY_ELF_12: "silkManufactoryElf12",
+   SILK_MANUFACTORY_ELF_13: "silkManufactoryElf13",
+   SILK_MANUFACTORY_ELF_14: "silkManufactoryElf14",
+   SILK_MANUFACTORY_ELF_15: "silkManufactoryElf15",
+   SILK_MANUFACTORY_ELF_16: "silkManufactoryElf16",
+   SILK_MANUFACTORY_ELF_17: "silkManufactoryElf17",
+   SILK_MANUFACTORY_ELF_18: "silkManufactoryElf18",
+   SILK_MANUFACTORY_ELF_19: "silkManufactoryElf19",
+   SILK_MANUFACTORY_ELF_20: "silkManufactoryElf20",
+   SILK_MANUFACTORY_ELF_21: "silkManufactoryElf21",
+   SILK_MANUFACTORY_ELF_22: "silkManufactoryElf22",
+   SILK_MANUFACTORY_ELF_23: "silkManufactoryElf23",
+   SILK_MANUFACTORY_HUMAN_01: "silkManufactoryHuman01",
+   SILK_MANUFACTORY_HUMAN_02: "silkManufactoryHuman02",
+   SILK_MANUFACTORY_HUMAN_03: "silkManufactoryHuman03",
+   SILK_MANUFACTORY_HUMAN_04: "silkManufactoryHuman04",
+   SILK_MANUFACTORY_HUMAN_05: "silkManufactoryHuman05",
+   SILK_MANUFACTORY_HUMAN_06: "silkManufactoryHuman06",
+   SILK_MANUFACTORY_HUMAN_07: "silkManufactoryHuman07",
+   SILK_MANUFACTORY_HUMAN_08: "silkManufactoryHuman08",
+   SILK_MANUFACTORY_HUMAN_09: "silkManufactoryHuman09",
+   SILK_MANUFACTORY_HUMAN_10: "silkManufactoryHuman10",
+   SILK_MANUFACTORY_HUMAN_11: "silkManufactoryHuman11",
+   SILK_MANUFACTORY_HUMAN_12: "silkManufactoryHuman12",
+   SILK_MANUFACTORY_HUMAN_13: "silkManufactoryHuman13",
+   SILK_MANUFACTORY_HUMAN_14: "silkManufactoryHuman14",
+   SILK_MANUFACTORY_HUMAN_15: "silkManufactoryHuman15",
+   SILK_MANUFACTORY_HUMAN_16: "silkManufactoryHuman16",
+   SILK_MANUFACTORY_HUMAN_17: "silkManufactoryHuman17",
+   SILK_MANUFACTORY_HUMAN_18: "silkManufactoryHuman18",
+   SILK_MANUFACTORY_HUMAN_19: "silkManufactoryHuman19",
+   SILK_MANUFACTORY_HUMAN_20: "silkManufactoryHuman20",
+   SILK_MANUFACTORY_HUMAN_21: "silkManufactoryHuman21",
+   SILK_MANUFACTORY_HUMAN_22: "silkManufactoryHuman22",
+   SILK_MANUFACTORY_HUMAN_23: "silkManufactoryHuman23",
    STEEL_MANUFACTORY_ELF_01: "steelManufactoryElf01",
    STEEL_MANUFACTORY_ELF_02: "steelManufactoryElf02",
    STEEL_MANUFACTORY_ELF_03: "steelManufactoryElf03",
@@ -1639,6 +1823,604 @@ const Building = {
          product: 1,
          key: "elixirManufactoryHuman23"
       },
+      "gemsManufactoryElf01":
+      {
+         name: "Gems Manufactory 1 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 1,
+         width: 3,
+         height: 4,
+         population: -173,
+         culture: 0,
+         product: 56,
+         key: "gemsManufactoryElf01"
+      },
+      "gemsManufactoryElf02":
+      {
+         name: "Gems Manufactory 2 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 2,
+         width: 3,
+         height: 4,
+         population: -19,
+         culture: -23,
+         product: 75,
+         key: "gemsManufactoryElf02"
+      },
+      "gemsManufactoryElf03":
+      {
+         name: "Gems Manufactory 3 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 3,
+         width: 3,
+         height: 4,
+         population: -21,
+         culture: -22,
+         product: 91,
+         key: "gemsManufactoryElf03"
+      },
+      "gemsManufactoryElf04":
+      {
+         name: "Gems Manufactory 4 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 4,
+         width: 4,
+         height: 4,
+         population: -103,
+         culture: -54,
+         product: 151,
+         key: "gemsManufactoryElf04"
+      },
+      "gemsManufactoryElf05":
+      {
+         name: "Gems Manufactory 5 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 5,
+         width: 4,
+         height: 4,
+         population: -35,
+         culture: -43,
+         product: 176,
+         key: "gemsManufactoryElf05"
+      },
+      "gemsManufactoryElf06":
+      {
+         name: "Gems Manufactory 6 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 6,
+         width: 4,
+         height: 4,
+         population: -39,
+         culture: -16,
+         product: 204,
+         key: "gemsManufactoryElf06"
+      },
+      "gemsManufactoryElf07":
+      {
+         name: "Gems Manufactory 7 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 7,
+         width: 4,
+         height: 4,
+         population: -56,
+         culture: -17,
+         product: 232,
+         key: "gemsManufactoryElf07"
+      },
+      "gemsManufactoryElf08":
+      {
+         name: "Gems Manufactory 8 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 8,
+         width: 4,
+         height: 5,
+         population: -194,
+         culture: -69,
+         product: 323,
+         key: "gemsManufactoryElf08"
+      },
+      "gemsManufactoryElf09":
+      {
+         name: "Gems Manufactory 9 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 9,
+         width: 4,
+         height: 5,
+         population: -85,
+         culture: -27,
+         product: 361,
+         key: "gemsManufactoryElf09"
+      },
+      "gemsManufactoryElf10":
+      {
+         name: "Gems Manufactory 10 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 10,
+         width: 4,
+         height: 5,
+         population: -107,
+         culture: -30,
+         product: 395,
+         key: "gemsManufactoryElf10"
+      },
+      "gemsManufactoryElf11":
+      {
+         name: "Gems Manufactory 11 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 11,
+         width: 4,
+         height: 5,
+         population: -129,
+         culture: -33,
+         product: 430,
+         key: "gemsManufactoryElf11"
+      },
+      "gemsManufactoryElf12":
+      {
+         name: "Gems Manufactory 12 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 12,
+         width: 4,
+         height: 5,
+         population: -172,
+         culture: -37,
+         product: 464,
+         key: "gemsManufactoryElf12"
+      },
+      "gemsManufactoryElf13":
+      {
+         name: "Gems Manufactory 13 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 13,
+         width: 4,
+         height: 5,
+         population: -174,
+         culture: -41,
+         product: 502,
+         key: "gemsManufactoryElf13"
+      },
+      "gemsManufactoryElf14":
+      {
+         name: "Gems Manufactory 14 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 14,
+         width: 4,
+         height: 5,
+         population: -179,
+         culture: -46,
+         product: 537,
+         key: "gemsManufactoryElf14"
+      },
+      "gemsManufactoryElf15":
+      {
+         name: "Gems Manufactory 15 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 15,
+         width: 4,
+         height: 5,
+         population: -222,
+         culture: -51,
+         product: 571,
+         key: "gemsManufactoryElf15"
+      },
+      "gemsManufactoryElf16":
+      {
+         name: "Gems Manufactory 16 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 16,
+         width: 5,
+         height: 4,
+         population: -460,
+         culture: -31,
+         product: 618,
+         key: "gemsManufactoryElf16"
+      },
+      "gemsManufactoryElf17":
+      {
+         name: "Gems Manufactory 17 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 17,
+         width: 5,
+         height: 4,
+         population: -333,
+         culture: -97,
+         product: 665,
+         key: "gemsManufactoryElf17"
+      },
+      "gemsManufactoryElf18":
+      {
+         name: "Gems Manufactory 18 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 18,
+         width: 5,
+         height: 4,
+         population: -384,
+         culture: -114,
+         product: 719,
+         key: "gemsManufactoryElf18"
+      },
+      "gemsManufactoryElf19":
+      {
+         name: "Gems Manufactory 19 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 19,
+         width: 5,
+         height: 4,
+         population: -443,
+         culture: -135,
+         product: 775,
+         key: "gemsManufactoryElf19"
+      },
+      "gemsManufactoryElf20":
+      {
+         name: "Gems Manufactory 20 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 20,
+         width: 4,
+         height: 6,
+         population: -1280,
+         culture: -369,
+         product: 1,
+         key: "gemsManufactoryElf20"
+      },
+      "gemsManufactoryElf21":
+      {
+         name: "Gems Manufactory 21 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 21,
+         width: 4,
+         height: 6,
+         population: -708,
+         culture: -226,
+         product: 1,
+         key: "gemsManufactoryElf21"
+      },
+      "gemsManufactoryElf22":
+      {
+         name: "Gems Manufactory 22 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 22,
+         width: 4,
+         height: 6,
+         population: -817,
+         culture: -267,
+         product: 1,
+         key: "gemsManufactoryElf22"
+      },
+      "gemsManufactoryElf23":
+      {
+         name: "Gems Manufactory 23 (Elf)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 23,
+         width: 4,
+         height: 6,
+         population: -943,
+         culture: -314,
+         product: 1,
+         key: "gemsManufactoryElf23"
+      },
+      "gemsManufactoryHuman01":
+      {
+         name: "Gems Manufactory 1 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 1,
+         width: 3,
+         height: 4,
+         population: -182,
+         culture: 0,
+         product: 56,
+         key: "gemsManufactoryHuman01"
+      },
+      "gemsManufactoryHuman02":
+      {
+         name: "Gems Manufactory 2 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 2,
+         width: 3,
+         height: 4,
+         population: -21,
+         culture: -21,
+         product: 75,
+         key: "gemsManufactoryHuman02"
+      },
+      "gemsManufactoryHuman03":
+      {
+         name: "Gems Manufactory 3 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 3,
+         width: 3,
+         height: 4,
+         population: -22,
+         culture: -20,
+         product: 91,
+         key: "gemsManufactoryHuman03"
+      },
+      "gemsManufactoryHuman04":
+      {
+         name: "Gems Manufactory 4 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 4,
+         width: 3,
+         height: 4,
+         population: -25,
+         culture: -27,
+         product: 113,
+         key: "gemsManufactoryHuman04"
+      },
+      "gemsManufactoryHuman05":
+      {
+         name: "Gems Manufactory 5 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 5,
+         width: 4,
+         height: 4,
+         population: -120,
+         culture: -60,
+         product: 176,
+         key: "gemsManufactoryHuman05"
+      },
+      "gemsManufactoryHuman06":
+      {
+         name: "Gems Manufactory 6 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 6,
+         width: 4,
+         height: 4,
+         population: -50,
+         culture: -14,
+         product: 204,
+         key: "gemsManufactoryHuman06"
+      },
+      "gemsManufactoryHuman07":
+      {
+         name: "Gems Manufactory 7 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 7,
+         width: 4,
+         height: 4,
+         population: -63,
+         culture: -15,
+         product: 232,
+         key: "gemsManufactoryHuman07"
+      },
+      "gemsManufactoryHuman08":
+      {
+         name: "Gems Manufactory 8 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 8,
+         width: 4,
+         height: 4,
+         population: -58,
+         culture: -18,
+         product: 260,
+         key: "gemsManufactoryHuman08"
+      },
+      "gemsManufactoryHuman09":
+      {
+         name: "Gems Manufactory 9 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 9,
+         width: 4,
+         height: 5,
+         population: -249,
+         culture: -68,
+         product: 361,
+         key: "gemsManufactoryHuman09"
+      },
+      "gemsManufactoryHuman10":
+      {
+         name: "Gems Manufactory 10 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 10,
+         width: 4,
+         height: 5,
+         population: -140,
+         culture: -27,
+         product: 395,
+         key: "gemsManufactoryHuman10"
+      },
+      "gemsManufactoryHuman11":
+      {
+         name: "Gems Manufactory 11 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 11,
+         width: 4,
+         height: 5,
+         population: -143,
+         culture: -30,
+         product: 430,
+         key: "gemsManufactoryHuman11"
+      },
+      "gemsManufactoryHuman12":
+      {
+         name: "Gems Manufactory 12 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 12,
+         width: 4,
+         height: 5,
+         population: -148,
+         culture: -33,
+         product: 464,
+         key: "gemsManufactoryHuman12"
+      },
+      "gemsManufactoryHuman13":
+      {
+         name: "Gems Manufactory 13 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 13,
+         width: 4,
+         height: 5,
+         population: -182,
+         culture: -37,
+         product: 502,
+         key: "gemsManufactoryHuman13"
+      },
+      "gemsManufactoryHuman14":
+      {
+         name: "Gems Manufactory 14 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 14,
+         width: 4,
+         height: 5,
+         population: -219,
+         culture: -42,
+         product: 537,
+         key: "gemsManufactoryHuman14"
+      },
+      "gemsManufactoryHuman15":
+      {
+         name: "Gems Manufactory 15 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 15,
+         width: 4,
+         height: 5,
+         population: -257,
+         culture: -45,
+         product: 571,
+         key: "gemsManufactoryHuman15"
+      },
+      "gemsManufactoryHuman16":
+      {
+         name: "Gems Manufactory 16 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 16,
+         width: 5,
+         height: 4,
+         population: -289,
+         culture: -83,
+         product: 618,
+         key: "gemsManufactoryHuman16"
+      },
+      "gemsManufactoryHuman17":
+      {
+         name: "Gems Manufactory 17 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 17,
+         width: 5,
+         height: 4,
+         population: -333,
+         culture: -97,
+         product: 665,
+         key: "gemsManufactoryHuman17"
+      },
+      "gemsManufactoryHuman18":
+      {
+         name: "Gems Manufactory 18 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 18,
+         width: 5,
+         height: 4,
+         population: -384,
+         culture: -114,
+         product: 719,
+         key: "gemsManufactoryHuman18"
+      },
+      "gemsManufactoryHuman19":
+      {
+         name: "Gems Manufactory 19 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 19,
+         width: 5,
+         height: 4,
+         population: -443,
+         culture: -135,
+         product: 775,
+         key: "gemsManufactoryHuman19"
+      },
+      "gemsManufactoryHuman20":
+      {
+         name: "Gems Manufactory 20 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 20,
+         width: 4,
+         height: 6,
+         population: -1280,
+         culture: -369,
+         product: 1,
+         key: "gemsManufactoryHuman20"
+      },
+      "gemsManufactoryHuman21":
+      {
+         name: "Gems Manufactory 21 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 21,
+         width: 4,
+         height: 6,
+         population: -708,
+         culture: -226,
+         product: 1,
+         key: "gemsManufactoryHuman21"
+      },
+      "gemsManufactoryHuman22":
+      {
+         name: "Gems Manufactory 22 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 22,
+         width: 4,
+         height: 6,
+         population: -817,
+         culture: -267,
+         product: 1,
+         key: "gemsManufactoryHuman22"
+      },
+      "gemsManufactoryHuman23":
+      {
+         name: "Gems Manufactory 23 (Human)",
+         typeKey: BuildingType.GEMS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 23,
+         width: 4,
+         height: 6,
+         population: -943,
+         culture: -314,
+         product: 1,
+         key: "gemsManufactoryHuman23"
+      },
       "magicAcademyElf01":
       {
          name: "Magic Academy 1 (Elf)",
@@ -1738,6 +2520,604 @@ const Building = {
          width: 5,
          height: 4,
          key: "magicAcademyHuman05",
+      },
+      "magicDustManufactoryElf01":
+      {
+         name: "Magic Dust Manufactory 1 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 1,
+         width: 4,
+         height: 3,
+         population: -192,
+         culture: 0,
+         product: 56,
+         key: "magicDustManufactoryElf01"
+      },
+      "magicDustManufactoryElf02":
+      {
+         name: "Magic Dust Manufactory 2 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 2,
+         width: 4,
+         height: 3,
+         population: -21,
+         culture: -21,
+         product: 75,
+         key: "magicDustManufactoryElf02"
+      },
+      "magicDustManufactoryElf03":
+      {
+         name: "Magic Dust Manufactory 3 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 3,
+         width: 4,
+         height: 3,
+         population: -24,
+         culture: -20,
+         product: 91,
+         key: "magicDustManufactoryElf03"
+      },
+      "magicDustManufactoryElf04":
+      {
+         name: "Magic Dust Manufactory 4 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 4,
+         width: 4,
+         height: 4,
+         population: -114,
+         culture: -49,
+         product: 151,
+         key: "magicDustManufactoryElf04"
+      },
+      "magicDustManufactoryElf05":
+      {
+         name: "Magic Dust Manufactory 5 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 5,
+         width: 4,
+         height: 4,
+         population: -39,
+         culture: -39,
+         product: 176,
+         key: "magicDustManufactoryElf05"
+      },
+      "magicDustManufactoryElf06":
+      {
+         name: "Magic Dust Manufactory 6 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 6,
+         width: 4,
+         height: 4,
+         population: -44,
+         culture: -14,
+         product: 204,
+         key: "magicDustManufactoryElf06"
+      },
+      "magicDustManufactoryElf07":
+      {
+         name: "Magic Dust Manufactory 7 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 7,
+         width: 4,
+         height: 4,
+         population: -62,
+         culture: -16,
+         product: 232,
+         key: "magicDustManufactoryElf07"
+      },
+      "magicDustManufactoryElf08":
+      {
+         name: "Magic Dust Manufactory 8 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 8,
+         width: 5,
+         height: 4,
+         population: -215,
+         culture: -62,
+         product: 323,
+         key: "magicDustManufactoryElf08"
+      },
+      "magicDustManufactoryElf09":
+      {
+         name: "Magic Dust Manufactory 9 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 9,
+         width: 5,
+         height: 4,
+         population: -94,
+         culture: -25,
+         product: 361,
+         key: "magicDustManufactoryElf09"
+      },
+      "magicDustManufactoryElf10":
+      {
+         name: "Magic Dust Manufactory 10 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 10,
+         width: 5,
+         height: 4,
+         population: -120,
+         culture: -27,
+         product: 395,
+         key: "magicDustManufactoryElf10"
+      },
+      "magicDustManufactoryElf11":
+      {
+         name: "Magic Dust Manufactory 11 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 11,
+         width: 5,
+         height: 4,
+         population: -143,
+         culture: -31,
+         product: 430,
+         key: "magicDustManufactoryElf11"
+      },
+      "magicDustManufactoryElf12":
+      {
+         name: "Magic Dust Manufactory 12 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 12,
+         width: 5,
+         height: 4,
+         population: -190,
+         culture: -33,
+         product: 464,
+         key: "magicDustManufactoryElf12"
+      },
+      "magicDustManufactoryElf13":
+      {
+         name: "Magic Dust Manufactory 13 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 13,
+         width: 5,
+         height: 4,
+         population: -195,
+         culture: -38,
+         product: 502,
+         key: "magicDustManufactoryElf13"
+      },
+      "magicDustManufactoryElf14":
+      {
+         name: "Magic Dust Manufactory 14 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 14,
+         width: 5,
+         height: 4,
+         population: -198,
+         culture: -42,
+         product: 537,
+         key: "magicDustManufactoryElf14"
+      },
+      "magicDustManufactoryElf15":
+      {
+         name: "Magic Dust Manufactory 15 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 15,
+         width: 5,
+         height: 4,
+         population: -246,
+         culture: -46,
+         product: 571,
+         key: "magicDustManufactoryElf15"
+      },
+      "magicDustManufactoryElf16":
+      {
+         name: "Magic Dust Manufactory 16 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 16,
+         width: 5,
+         height: 4,
+         population: -271,
+         culture: -77,
+         product: 618,
+         key: "magicDustManufactoryElf16"
+      },
+      "magicDustManufactoryElf17":
+      {
+         name: "Magic Dust Manufactory 17 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 17,
+         width: 5,
+         height: 4,
+         population: -333,
+         culture: -97,
+         product: 665,
+         key: "magicDustManufactoryElf17"
+      },
+      "magicDustManufactoryElf18":
+      {
+         name: "Magic Dust Manufactory 18 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 18,
+         width: 5,
+         height: 4,
+         population: -384,
+         culture: -114,
+         product: 719,
+         key: "magicDustManufactoryElf18"
+      },
+      "magicDustManufactoryElf19":
+      {
+         name: "Magic Dust Manufactory 19 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 19,
+         width: 5,
+         height: 4,
+         population: -443,
+         culture: -135,
+         product: 775,
+         key: "magicDustManufactoryElf19"
+      },
+      "magicDustManufactoryElf20":
+      {
+         name: "Magic Dust Manufactory 20 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 20,
+         width: 4,
+         height: 6,
+         population: -1280,
+         culture: -369,
+         product: 1,
+         key: "magicDustManufactoryElf20"
+      },
+      "magicDustManufactoryElf21":
+      {
+         name: "Magic Dust Manufactory 21 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 21,
+         width: 4,
+         height: 6,
+         population: -708,
+         culture: -226,
+         product: 1,
+         key: "magicDustManufactoryElf21"
+      },
+      "magicDustManufactoryElf22":
+      {
+         name: "Magic Dust Manufactory 22 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 22,
+         width: 4,
+         height: 6,
+         population: -817,
+         culture: -267,
+         product: 1,
+         key: "magicDustManufactoryElf22"
+      },
+      "magicDustManufactoryElf23":
+      {
+         name: "Magic Dust Manufactory 23 (Elf)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 23,
+         width: 4,
+         height: 6,
+         population: -943,
+         culture: -314,
+         product: 1,
+         key: "magicDustManufactoryElf23"
+      },
+      "magicDustManufactoryHuman01":
+      {
+         name: "Magic Dust Manufactory 1 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 1,
+         width: 3,
+         height: 2,
+         population: -100,
+         culture: 0,
+         product: 28,
+         key: "magicDustManufactoryHuman01"
+      },
+      "magicDustManufactoryHuman02":
+      {
+         name: "Magic Dust Manufactory 2 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 2,
+         width: 3,
+         height: 2,
+         population: -11,
+         culture: -9,
+         product: 38,
+         key: "magicDustManufactoryHuman02"
+      },
+      "magicDustManufactoryHuman03":
+      {
+         name: "Magic Dust Manufactory 3 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 3,
+         width: 3,
+         height: 2,
+         population: -13,
+         culture: -9,
+         product: 47,
+         key: "magicDustManufactoryHuman03"
+      },
+      "magicDustManufactoryHuman04":
+      {
+         name: "Magic Dust Manufactory 4 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 4,
+         width: 4,
+         height: 3,
+         population: -151,
+         culture: -43,
+         product: 113,
+         key: "magicDustManufactoryHuman04"
+      },
+      "magicDustManufactoryHuman05":
+      {
+         name: "Magic Dust Manufactory 5 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 5,
+         width: 4,
+         height: 3,
+         population: -31,
+         culture: -25,
+         product: 132,
+         key: "magicDustManufactoryHuman05"
+      },
+      "magicDustManufactoryHuman06":
+      {
+         name: "Magic Dust Manufactory 6 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 6,
+         width: 4,
+         height: 3,
+         population: -41,
+         culture: -10,
+         product: 154,
+         key: "magicDustManufactoryHuman06"
+      },
+      "magicDustManufactoryHuman07":
+      {
+         name: "Magic Dust Manufactory 7 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 7,
+         width: 4,
+         height: 3,
+         population: -52,
+         culture: -10,
+         product: 173,
+         key: "magicDustManufactoryHuman07"
+      },
+      "magicDustManufactoryHuman08":
+      {
+         name: "Magic Dust Manufactory 8 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 8,
+         width: 5,
+         height: 4,
+         population: -344,
+         culture: -91,
+         product: 323,
+         key: "magicDustManufactoryHuman08"
+      },
+      "magicDustManufactoryHuman09":
+      {
+         name: "Magic Dust Manufactory 9 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 9,
+         width: 5,
+         height: 4,
+         population: -126,
+         culture: -22,
+         product: 361,
+         key: "magicDustManufactoryHuman09"
+      },
+      "magicDustManufactoryHuman10":
+      {
+         name: "Magic Dust Manufactory 10 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 10,
+         width: 5,
+         height: 4,
+         population: -154,
+         culture: -24,
+         product: 395,
+         key: "magicDustManufactoryHuman10"
+      },
+      "magicDustManufactoryHuman11":
+      {
+         name: "Magic Dust Manufactory 11 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 11,
+         width: 5,
+         height: 4,
+         population: -157,
+         culture: -27,
+         product: 430,
+         key: "magicDustManufactoryHuman11"
+      },
+      "magicDustManufactoryHuman12":
+      {
+         name: "Magic Dust Manufactory 12 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 12,
+         width: 5,
+         height: 4,
+         population: -163,
+         culture: -30,
+         product: 464,
+         key: "magicDustManufactoryHuman12"
+      },
+      "magicDustManufactoryHuman13":
+      {
+         name: "Magic Dust Manufactory 13 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 13,
+         width: 5,
+         height: 4,
+         population: -200,
+         culture: -33,
+         product: 502,
+         key: "magicDustManufactoryHuman13"
+      },
+      "magicDustManufactoryHuman14":
+      {
+         name: "Magic Dust Manufactory 14 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 14,
+         width: 5,
+         height: 4,
+         population: -241,
+         culture: -37,
+         product: 537,
+         key: "magicDustManufactoryHuman14"
+      },
+      "magicDustManufactoryHuman15":
+      {
+         name: "Magic Dust Manufactory 15 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 15,
+         width: 5,
+         height: 4,
+         population: -283,
+         culture: -42,
+         product: 571,
+         key: "magicDustManufactoryHuman15"
+      },
+      "magicDustManufactoryHuman16":
+      {
+         name: "Magic Dust Manufactory 16 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 16,
+         width: 5,
+         height: 4,
+         population: -101,
+         culture: -128,
+         product: 618,
+         key: "magicDustManufactoryHuman16"
+      },
+      "magicDustManufactoryHuman17":
+      {
+         name: "Magic Dust Manufactory 17 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 17,
+         width: 5,
+         height: 4,
+         population: -333,
+         culture: -97,
+         product: 665,
+         key: "magicDustManufactoryHuman17"
+      },
+      "magicDustManufactoryHuman18":
+      {
+         name: "Magic Dust Manufactory 18 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 18,
+         width: 5,
+         height: 4,
+         population: -384,
+         culture: -114,
+         product: 719,
+         key: "magicDustManufactoryHuman18"
+      },
+      "magicDustManufactoryHuman19":
+      {
+         name: "Magic Dust Manufactory 19 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 19,
+         width: 5,
+         height: 4,
+         population: -443,
+         culture: -135,
+         product: 775,
+         key: "magicDustManufactoryHuman19"
+      },
+      "magicDustManufactoryHuman20":
+      {
+         name: "Magic Dust Manufactory 20 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 20,
+         width: 4,
+         height: 6,
+         population: -1280,
+         culture: -369,
+         product: 1,
+         key: "magicDustManufactoryHuman20"
+      },
+      "magicDustManufactoryHuman21":
+      {
+         name: "Magic Dust Manufactory 21 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 21,
+         width: 4,
+         height: 6,
+         population: -708,
+         culture: -226,
+         product: 1,
+         key: "magicDustManufactoryHuman21"
+      },
+      "magicDustManufactoryHuman22":
+      {
+         name: "Magic Dust Manufactory 22 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 22,
+         width: 4,
+         height: 6,
+         population: -817,
+         culture: -267,
+         product: 1,
+         key: "magicDustManufactoryHuman22"
+      },
+      "magicDustManufactoryHuman23":
+      {
+         name: "Magic Dust Manufactory 23 (Human)",
+         typeKey: BuildingType.MAGIC_DUST_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 23,
+         width: 4,
+         height: 6,
+         population: -943,
+         culture: -314,
+         product: 1,
+         key: "magicDustManufactoryHuman23"
       },
       "mainHallElf01":
       {
@@ -3434,6 +4814,1202 @@ const Building = {
          population: 40,
          coin: 1157, // per hour
          key: "residenceHuman10",
+      },
+      "scrollsManufactoryElf01":
+      {
+         name: "Scrolls Manufactory 1 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 1,
+         width: 3,
+         height: 3,
+         population: -113,
+         culture: 0,
+         product: 41,
+         key: "scrollsManufactoryElf01"
+      },
+      "scrollsManufactoryElf02":
+      {
+         name: "Scrolls Manufactory 2 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 2,
+         width: 3,
+         height: 3,
+         population: -13,
+         culture: -15,
+         product: 56,
+         key: "scrollsManufactoryElf02"
+      },
+      "scrollsManufactoryElf03":
+      {
+         name: "Scrolls Manufactory 3 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 3,
+         width: 3,
+         height: 3,
+         population: -14,
+         culture: -14,
+         product: 69,
+         key: "scrollsManufactoryElf03"
+      },
+      "scrollsManufactoryElf04":
+      {
+         name: "Scrolls Manufactory 4 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 4,
+         width: 3,
+         height: 3,
+         population: -16,
+         culture: -20,
+         product: 85,
+         key: "scrollsManufactoryElf04"
+      },
+      "scrollsManufactoryElf05":
+      {
+         name: "Scrolls Manufactory 5 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 5,
+         width: 3,
+         height: 3,
+         population: -17,
+         culture: -21,
+         product: 100,
+         key: "scrollsManufactoryElf05"
+      },
+      "scrollsManufactoryElf06":
+      {
+         name: "Scrolls Manufactory 6 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 6,
+         width: 3,
+         height: 4,
+         population: -83,
+         culture: -34,
+         product: 154,
+         key: "scrollsManufactoryElf06"
+      },
+      "scrollsManufactoryElf07":
+      {
+         name: "Scrolls Manufactory 7 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 7,
+         width: 3,
+         height: 4,
+         population: -37,
+         culture: -11,
+         product: 173,
+         key: "scrollsManufactoryElf07"
+      },
+      "scrollsManufactoryElf08":
+      {
+         name: "Scrolls Manufactory 8 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 8,
+         width: 3,
+         height: 4,
+         population: -43,
+         culture: -13,
+         product: 195,
+         key: "scrollsManufactoryElf08"
+      },
+      "scrollsManufactoryElf09":
+      {
+         name: "Scrolls Manufactory 9 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 9,
+         width: 3,
+         height: 4,
+         population: -45,
+         culture: -14,
+         product: 217,
+         key: "scrollsManufactoryElf09"
+      },
+      "scrollsManufactoryElf10":
+      {
+         name: "Scrolls Manufactory 10 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 10,
+         width: 4,
+         height: 4,
+         population: -201,
+         culture: -68,
+         product: 317,
+         key: "scrollsManufactoryElf10"
+      },
+      "scrollsManufactoryElf11":
+      {
+         name: "Scrolls Manufactory 11 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 11,
+         width: 4,
+         height: 4,
+         population: -91,
+         culture: -24,
+         product: 345,
+         key: "scrollsManufactoryElf11"
+      },
+      "scrollsManufactoryElf12":
+      {
+         name: "Scrolls Manufactory 12 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 12,
+         width: 4,
+         height: 4,
+         population: -120,
+         culture: -26,
+         product: 373,
+         key: "scrollsManufactoryElf12"
+      },
+      "scrollsManufactoryElf13":
+      {
+         name: "Scrolls Manufactory 13 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 13,
+         width: 4,
+         height: 4,
+         population: -122,
+         culture: -29,
+         product: 402,
+         key: "scrollsManufactoryElf13"
+      },
+      "scrollsManufactoryElf14":
+      {
+         name: "Scrolls Manufactory 14 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 14,
+         width: 4,
+         height: 4,
+         population: -125,
+         culture: -32,
+         product: 430,
+         key: "scrollsManufactoryElf14"
+      },
+      "scrollsManufactoryElf15":
+      {
+         name: "Scrolls Manufactory 15 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 15,
+         width: 4,
+         height: 4,
+         population: -155,
+         culture: -35,
+         product: 458,
+         key: "scrollsManufactoryElf15"
+      },
+      "scrollsManufactoryElf16":
+      {
+         name: "Scrolls Manufactory 16 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 16,
+         width: 4,
+         height: 5,
+         population: -720,
+         culture: -116,
+         product: 618,
+         key: "scrollsManufactoryElf16"
+      },
+      "scrollsManufactoryElf17":
+      {
+         name: "Scrolls Manufactory 17 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 17,
+         width: 4,
+         height: 5,
+         population: -295,
+         culture: -85,
+         product: 665,
+         key: "scrollsManufactoryElf17"
+      },
+      "scrollsManufactoryElf18":
+      {
+         name: "Scrolls Manufactory 18 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 18,
+         width: 4,
+         height: 5,
+         population: -339,
+         culture: -100,
+         product: 719,
+         key: "scrollsManufactoryElf18"
+      },
+      "scrollsManufactoryElf19":
+      {
+         name: "Scrolls Manufactory 19 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 19,
+         width: 4,
+         height: 5,
+         population: -392,
+         culture: -119,
+         product: 775,
+         key: "scrollsManufactoryElf19"
+      },
+      "scrollsManufactoryElf20":
+      {
+         name: "Scrolls Manufactory 20 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 20,
+         width: 5,
+         height: 4,
+         population: -419,
+         culture: -139,
+         product: 835,
+         key: "scrollsManufactoryElf20"
+      },
+      "scrollsManufactoryElf21":
+      {
+         name: "Scrolls Manufactory 21 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 21,
+         width: 5,
+         height: 4,
+         population: -516,
+         culture: -165,
+         product: 901,
+         key: "scrollsManufactoryElf21"
+      },
+      "scrollsManufactoryElf22":
+      {
+         name: "Scrolls Manufactory 22 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 22,
+         width: 5,
+         height: 4,
+         population: -596,
+         culture: -194,
+         product: 973,
+         key: "scrollsManufactoryElf22"
+      },
+      "scrollsManufactoryElf23":
+      {
+         name: "Scrolls Manufactory 23 (Elf)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 23,
+         width: 5,
+         height: 4,
+         population: -687,
+         culture: -230,
+         product: 1,
+         key: "scrollsManufactoryElf23"
+      },
+      "scrollsManufactoryHuman01":
+      {
+         name: "Scrolls Manufactory 1 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 1,
+         width: 2,
+         height: 3,
+         population: -88,
+         culture: 0,
+         product: 28,
+         key: "scrollsManufactoryHuman01"
+      },
+      "scrollsManufactoryHuman02":
+      {
+         name: "Scrolls Manufactory 2 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 2,
+         width: 2,
+         height: 3,
+         population: -9,
+         culture: -8,
+         product: 38,
+         key: "scrollsManufactoryHuman02"
+      },
+      "scrollsManufactoryHuman03":
+      {
+         name: "Scrolls Manufactory 3 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 3,
+         width: 2,
+         height: 3,
+         population: -11,
+         culture: -8,
+         product: 47,
+         key: "scrollsManufactoryHuman03"
+      },
+      "scrollsManufactoryHuman04":
+      {
+         name: "Scrolls Manufactory 4 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 4,
+         width: 2,
+         height: 3,
+         population: -12,
+         culture: -11,
+         product: 56,
+         key: "scrollsManufactoryHuman04"
+      },
+      "scrollsManufactoryHuman05":
+      {
+         name: "Scrolls Manufactory 5 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 5,
+         width: 2,
+         height: 3,
+         population: -14,
+         culture: -11,
+         product: 66,
+         key: "scrollsManufactoryHuman05"
+      },
+      "scrollsManufactoryHuman06":
+      {
+         name: "Scrolls Manufactory 6 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 6,
+         width: 3,
+         height: 3,
+         population: -94,
+         culture: -25,
+         product: 116,
+         key: "scrollsManufactoryHuman06"
+      },
+      "scrollsManufactoryHuman07":
+      {
+         name: "Scrolls Manufactory 7 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 7,
+         width: 3,
+         height: 3,
+         population: -34,
+         culture: -7,
+         product: 132,
+         key: "scrollsManufactoryHuman07"
+      },
+      "scrollsManufactoryHuman08":
+      {
+         name: "Scrolls Manufactory 8 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 8,
+         width: 3,
+         height: 3,
+         population: -31,
+         culture: -8,
+         product: 148,
+         key: "scrollsManufactoryHuman08"
+      },
+      "scrollsManufactoryHuman09":
+      {
+         name: "Scrolls Manufactory 9 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 9,
+         width: 3,
+         height: 3,
+         population: -49,
+         culture: -8,
+         product: 163,
+         key: "scrollsManufactoryHuman09"
+      },
+      "scrollsManufactoryHuman10":
+      {
+         name: "Scrolls Manufactory 10 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 10,
+         width: 3,
+         height: 4,
+         population: -195,
+         culture: -42,
+         product: 235,
+         key: "scrollsManufactoryHuman10"
+      },
+      "scrollsManufactoryHuman11":
+      {
+         name: "Scrolls Manufactory 11 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 11,
+         width: 3,
+         height: 4,
+         population: -83,
+         culture: -14,
+         product: 257,
+         key: "scrollsManufactoryHuman11"
+      },
+      "scrollsManufactoryHuman12":
+      {
+         name: "Scrolls Manufactory 12 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 12,
+         width: 3,
+         height: 4,
+         population: -85,
+         culture: -15,
+         product: 279,
+         key: "scrollsManufactoryHuman12"
+      },
+      "scrollsManufactoryHuman13":
+      {
+         name: "Scrolls Manufactory 13 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 13,
+         width: 3,
+         height: 4,
+         population: -105,
+         culture: -18,
+         product: 301,
+         key: "scrollsManufactoryHuman13"
+      },
+      "scrollsManufactoryHuman14":
+      {
+         name: "Scrolls Manufactory 14 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 14,
+         width: 3,
+         height: 4,
+         population: -127,
+         culture: -19,
+         product: 323,
+         key: "scrollsManufactoryHuman14"
+      },
+      "scrollsManufactoryHuman15":
+      {
+         name: "Scrolls Manufactory 15 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 15,
+         width: 3,
+         height: 4,
+         population: -148,
+         culture: -22,
+         product: 342,
+         key: "scrollsManufactoryHuman15"
+      },
+      "scrollsManufactoryHuman16":
+      {
+         name: "Scrolls Manufactory 16 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 16,
+         width: 4,
+         height: 4,
+         population: -432,
+         culture: -162,
+         product: 493,
+         key: "scrollsManufactoryHuman16"
+      },
+      "scrollsManufactoryHuman17":
+      {
+         name: "Scrolls Manufactory 17 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 17,
+         width: 4,
+         height: 4,
+         population: -233,
+         culture: -68,
+         product: 534,
+         key: "scrollsManufactoryHuman17"
+      },
+      "scrollsManufactoryHuman18":
+      {
+         name: "Scrolls Manufactory 18 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 18,
+         width: 4,
+         height: 4,
+         population: -270,
+         culture: -80,
+         product: 574,
+         key: "scrollsManufactoryHuman18"
+      },
+      "scrollsManufactoryHuman19":
+      {
+         name: "Scrolls Manufactory 19 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 19,
+         width: 4,
+         height: 4,
+         population: -310,
+         culture: -95,
+         product: 618,
+         key: "scrollsManufactoryHuman19"
+      },
+      "scrollsManufactoryHuman20":
+      {
+         name: "Scrolls Manufactory 20 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 20,
+         width: 5,
+         height: 4,
+         population: -1030,
+         culture: -294,
+         product: 835,
+         key: "scrollsManufactoryHuman20"
+      },
+      "scrollsManufactoryHuman21":
+      {
+         name: "Scrolls Manufactory 21 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 21,
+         width: 5,
+         height: 4,
+         population: -516,
+         culture: -165,
+         product: 901,
+         key: "scrollsManufactoryHuman21"
+      },
+      "scrollsManufactoryHuman22":
+      {
+         name: "Scrolls Manufactory 22 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 22,
+         width: 5,
+         height: 4,
+         population: -596,
+         culture: -194,
+         product: 973,
+         key: "scrollsManufactoryHuman22"
+      },
+      "scrollsManufactoryHuman23":
+      {
+         name: "Scrolls Manufactory 23 (Human)",
+         typeKey: BuildingType.SCROLLS_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 23,
+         width: 5,
+         height: 4,
+         population: -687,
+         culture: -230,
+         product: 1,
+         key: "scrollsManufactoryHuman23"
+      },
+      "silkManufactoryElf01":
+      {
+         name: "Silk Manufactory 1 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 1,
+         width: 2,
+         height: 3,
+         population: -84,
+         culture: 0,
+         product: 28,
+         key: "silkManufactoryElf01"
+      },
+      "silkManufactoryElf02":
+      {
+         name: "Silk Manufactory 2 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 2,
+         width: 2,
+         height: 3,
+         population: -9,
+         culture: -9,
+         product: 38,
+         key: "silkManufactoryElf02"
+      },
+      "silkManufactoryElf03":
+      {
+         name: "Silk Manufactory 3 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 3,
+         width: 2,
+         height: 3,
+         population: -11,
+         culture: -9,
+         product: 47,
+         key: "silkManufactoryElf03"
+      },
+      "silkManufactoryElf04":
+      {
+         name: "Silk Manufactory 4 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 4,
+         width: 3,
+         height: 3,
+         population: -69,
+         culture: -27,
+         product: 85,
+         key: "silkManufactoryElf04"
+      },
+      "silkManufactoryElf05":
+      {
+         name: "Silk Manufactory 5 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 5,
+         width: 3,
+         height: 3,
+         population: -19,
+         culture: -19,
+         product: 100,
+         key: "silkManufactoryElf05"
+      },
+      "silkManufactoryElf06":
+      {
+         name: "Silk Manufactory 6 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 6,
+         width: 3,
+         height: 3,
+         population: -21,
+         culture: -7,
+         product: 116,
+         key: "silkManufactoryElf06"
+      },
+      "silkManufactoryElf07":
+      {
+         name: "Silk Manufactory 7 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 7,
+         width: 3,
+         height: 3,
+         population: -31,
+         culture: -7,
+         product: 132,
+         key: "silkManufactoryElf07"
+      },
+      "silkManufactoryElf08":
+      {
+         name: "Silk Manufactory 8 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 8,
+         width: 3,
+         height: 4,
+         population: -129,
+         culture: -38,
+         product: 195,
+         key: "silkManufactoryElf08"
+      },
+      "silkManufactoryElf09":
+      {
+         name: "Silk Manufactory 9 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 9,
+         width: 3,
+         height: 4,
+         population: -50,
+         culture: -13,
+         product: 217,
+         key: "silkManufactoryElf09"
+      },
+      "silkManufactoryElf10":
+      {
+         name: "Silk Manufactory 10 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 10,
+         width: 3,
+         height: 4,
+         population: -62,
+         culture: -15,
+         product: 235,
+         key: "silkManufactoryElf10"
+      },
+      "silkManufactoryElf11":
+      {
+         name: "Silk Manufactory 11 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 11,
+         width: 3,
+         height: 4,
+         population: -75,
+         culture: -15,
+         product: 257,
+         key: "silkManufactoryElf11"
+      },
+      "silkManufactoryElf12":
+      {
+         name: "Silk Manufactory 12 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 12,
+         width: 3,
+         height: 4,
+         population: -101,
+         culture: -18,
+         product: 279,
+         key: "silkManufactoryElf12"
+      },
+      "silkManufactoryElf13":
+      {
+         name: "Silk Manufactory 13 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 13,
+         width: 3,
+         height: 4,
+         population: -102,
+         culture: -20,
+         product: 301,
+         key: "silkManufactoryElf13"
+      },
+      "silkManufactoryElf14":
+      {
+         name: "Silk Manufactory 14 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 14,
+         width: 3,
+         height: 4,
+         population: -104,
+         culture: -22,
+         product: 323,
+         key: "silkManufactoryElf14"
+      },
+      "silkManufactoryElf15":
+      {
+         name: "Silk Manufactory 15 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 15,
+         width: 3,
+         height: 4,
+         population: -129,
+         culture: -24,
+         product: 342,
+         key: "silkManufactoryElf15"
+      },
+      "silkManufactoryElf16":
+      {
+         name: "Silk Manufactory 16 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 16,
+         width: 4,
+         height: 5,
+         population: -919,
+         culture: -229,
+         product: 618,
+         key: "silkManufactoryElf16"
+      },
+      "silkManufactoryElf17":
+      {
+         name: "Silk Manufactory 17 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 17,
+         width: 4,
+         height: 5,
+         population: -295,
+         culture: -85,
+         product: 665,
+         key: "silkManufactoryElf17"
+      },
+      "silkManufactoryElf18":
+      {
+         name: "Silk Manufactory 18 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 18,
+         width: 4,
+         height: 5,
+         population: -339,
+         culture: -100,
+         product: 719,
+         key: "silkManufactoryElf18"
+      },
+      "silkManufactoryElf19":
+      {
+         name: "Silk Manufactory 19 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 19,
+         width: 4,
+         height: 5,
+         population: -392,
+         culture: -119,
+         product: 775,
+         key: "silkManufactoryElf19"
+      },
+      "silkManufactoryElf20":
+      {
+         name: "Silk Manufactory 20 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 20,
+         width: 5,
+         height: 4,
+         population: -419,
+         culture: -139,
+         product: 835,
+         key: "silkManufactoryElf20"
+      },
+      "silkManufactoryElf21":
+      {
+         name: "Silk Manufactory 21 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 21,
+         width: 5,
+         height: 4,
+         population: -516,
+         culture: -165,
+         product: 901,
+         key: "silkManufactoryElf21"
+      },
+      "silkManufactoryElf22":
+      {
+         name: "Silk Manufactory 22 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 22,
+         width: 5,
+         height: 4,
+         population: -596,
+         culture: -194,
+         product: 973,
+         key: "silkManufactoryElf22"
+      },
+      "silkManufactoryElf23":
+      {
+         name: "Silk Manufactory 23 (Elf)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.ELF,
+         level: 23,
+         width: 5,
+         height: 4,
+         population: -687,
+         culture: -230,
+         product: 1,
+         key: "silkManufactoryElf23"
+      },
+      "silkManufactoryHuman01":
+      {
+         name: "Silk Manufactory 1 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 1,
+         width: 3,
+         height: 3,
+         population: -108,
+         culture: 0,
+         product: 41,
+         key: "silkManufactoryHuman01"
+      },
+      "silkManufactoryHuman02":
+      {
+         name: "Silk Manufactory 2 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 2,
+         width: 3,
+         height: 3,
+         population: -12,
+         culture: -15,
+         product: 56,
+         key: "silkManufactoryHuman02"
+      },
+      "silkManufactoryHuman03":
+      {
+         name: "Silk Manufactory 3 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 3,
+         width: 3,
+         height: 3,
+         population: -13,
+         culture: -14,
+         product: 69,
+         key: "silkManufactoryHuman03"
+      },
+      "silkManufactoryHuman04":
+      {
+         name: "Silk Manufactory 4 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 4,
+         width: 3,
+         height: 3,
+         population: -15,
+         culture: -20,
+         product: 85,
+         key: "silkManufactoryHuman04"
+      },
+      "silkManufactoryHuman05":
+      {
+         name: "Silk Manufactory 5 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 5,
+         width: 3,
+         height: 3,
+         population: -16,
+         culture: -20,
+         product: 100,
+         key: "silkManufactoryHuman05"
+      },
+      "silkManufactoryHuman06":
+      {
+         name: "Silk Manufactory 6 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 6,
+         width: 3,
+         height: 4,
+         population: -84,
+         culture: -33,
+         product: 154,
+         key: "silkManufactoryHuman06"
+      },
+      "silkManufactoryHuman07":
+      {
+         name: "Silk Manufactory 7 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 7,
+         width: 3,
+         height: 4,
+         population: -38,
+         culture: -12,
+         product: 173,
+         key: "silkManufactoryHuman07"
+      },
+      "silkManufactoryHuman08":
+      {
+         name: "Silk Manufactory 8 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 8,
+         width: 3,
+         height: 4,
+         population: -33,
+         culture: -12,
+         product: 195,
+         key: "silkManufactoryHuman08"
+      },
+      "silkManufactoryHuman09":
+      {
+         name: "Silk Manufactory 9 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 9,
+         width: 3,
+         height: 4,
+         population: -54,
+         culture: -14,
+         product: 217,
+         key: "silkManufactoryHuman09"
+      },
+      "silkManufactoryHuman10":
+      {
+         name: "Silk Manufactory 10 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 10,
+         width: 4,
+         height: 4,
+         population: -213,
+         culture: -68,
+         product: 317,
+         key: "silkManufactoryHuman10"
+      },
+      "silkManufactoryHuman11":
+      {
+         name: "Silk Manufactory 11 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 11,
+         width: 4,
+         height: 4,
+         population: -90,
+         culture: -23,
+         product: 345,
+         key: "silkManufactoryHuman11"
+      },
+      "silkManufactoryHuman12":
+      {
+         name: "Silk Manufactory 12 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 12,
+         width: 4,
+         height: 4,
+         population: -93,
+         culture: -26,
+         product: 373,
+         key: "silkManufactoryHuman12"
+      },
+      "silkManufactoryHuman13":
+      {
+         name: "Silk Manufactory 13 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 13,
+         width: 4,
+         height: 4,
+         population: -115,
+         culture: -28,
+         product: 402,
+         key: "silkManufactoryHuman13"
+      },
+      "silkManufactoryHuman14":
+      {
+         name: "Silk Manufactory 14 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 14,
+         width: 4,
+         height: 4,
+         population: -138,
+         culture: -32,
+         product: 430,
+         key: "silkManufactoryHuman14"
+      },
+      "silkManufactoryHuman15":
+      {
+         name: "Silk Manufactory 15 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 15,
+         width: 4,
+         height: 4,
+         population: -162,
+         culture: -35,
+         product: 458,
+         key: "silkManufactoryHuman15"
+      },
+      "silkManufactoryHuman16":
+      {
+         name: "Silk Manufactory 16 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 16,
+         width: 4,
+         height: 5,
+         population: -713,
+         culture: -120,
+         product: 618,
+         key: "silkManufactoryHuman16"
+      },
+      "silkManufactoryHuman17":
+      {
+         name: "Silk Manufactory 17 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 17,
+         width: 4,
+         height: 5,
+         population: -291,
+         culture: -85,
+         product: 665,
+         key: "silkManufactoryHuman17"
+      },
+      "silkManufactoryHuman18":
+      {
+         name: "Silk Manufactory 18 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 18,
+         width: 4,
+         height: 5,
+         population: -336,
+         culture: -100,
+         product: 719,
+         key: "silkManufactoryHuman18"
+      },
+      "silkManufactoryHuman19":
+      {
+         name: "Silk Manufactory 19 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 19,
+         width: 4,
+         height: 5,
+         population: -388,
+         culture: -119,
+         product: 775,
+         key: "silkManufactoryHuman19"
+      },
+      "silkManufactoryHuman20":
+      {
+         name: "Silk Manufactory 20 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 20,
+         width: 5,
+         height: 4,
+         population: -419,
+         culture: -139,
+         product: 835,
+         key: "silkManufactoryHuman20"
+      },
+      "silkManufactoryHuman21":
+      {
+         name: "Silk Manufactory 21 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 21,
+         width: 5,
+         height: 4,
+         population: -516,
+         culture: -165,
+         product: 901,
+         key: "silkManufactoryHuman21"
+      },
+      "silkManufactoryHuman22":
+      {
+         name: "Silk Manufactory 22 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 22,
+         width: 5,
+         height: 4,
+         population: -596,
+         culture: -194,
+         product: 973,
+         key: "silkManufactoryHuman22"
+      },
+      "silkManufactoryHuman23":
+      {
+         name: "Silk Manufactory 23 (Human)",
+         typeKey: BuildingType.SILK_MANUFACTORY,
+         raceKey: Race.HUMAN,
+         level: 23,
+         width: 5,
+         height: 4,
+         population: -687,
+         culture: -230,
+         product: 1,
+         key: "silkManufactoryHuman23"
       },
       "steelManufactoryElf01":
       {

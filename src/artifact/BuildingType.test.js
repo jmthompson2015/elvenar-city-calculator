@@ -36,7 +36,7 @@ QUnit.test("BuildingType.keysByCategory() Manufactory", function(assert)
 
    // Verify.
    assert.ok(result);
-   assert.equal(result.length, 5);
+   assert.equal(result.length, 9);
    assert.equal(result[0], BuildingType.CRYSTAL_MANUFACTORY);
    assert.equal(result[result.length - 1], BuildingType.STEEL_MANUFACTORY);
 });
@@ -78,7 +78,7 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 13;
+   const length = 17;
    assert.equal(result.length, length);
    assert.equal(result[0], "buildersHut");
    assert.equal(result[length - 1], "workshop");

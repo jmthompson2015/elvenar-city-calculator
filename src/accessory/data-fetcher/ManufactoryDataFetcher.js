@@ -5,11 +5,11 @@ const FetcherUtilities = require("./FetcherUtilities.js");
 
 const ManufactoryDataFetcher = {};
 
-ManufactoryDataFetcher.fetch = function(typeName, propertiesFunction)
+ManufactoryDataFetcher.fetch = function(typeName, propertiesFunction, spanId1In)
 {
    const uri = "https://en.wiki.elvenar.com/index.php?title=" + typeName.replace(/ /g, "_");
    const spanId0 = typeName.replace(/ /g, "_") + "_Elves";
-   const spanId1 = typeName.replace(/ /g, "_") + "_Humans";
+   const spanId1 = (spanId1In !== undefined ? spanId1In : typeName.replace(/ /g, "_") + "_Humans");
 
    const options = {
       uri: uri,
