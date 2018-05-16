@@ -49,9 +49,9 @@ QUnit.test("Building.keysByCategory() Elf Basic", function(assert)
 
    // Verify.
    assert.ok(result);
-   assert.equal(result.length, 47);
+   assert.equal(result.length, 66);
    assert.equal(result[0], Building.MAGIC_ACADEMY_ELF_01);
-   assert.equal(result[result.length - 1], Building.WORKSHOP_ELF_10);
+   assert.equal(result[result.length - 1], Building.WORKSHOP_ELF_29);
 });
 
 QUnit.test("Building.keysByCategory() Human Manufactory", function(assert)
@@ -97,19 +97,19 @@ QUnit.test("Building.keysByType() Human Workshop", function(assert)
 
    // Verify.
    assert.ok(result);
-   assert.equal(result.length, 10);
+   assert.equal(result.length, 29);
    assert.equal(result[0], Building.WORKSHOP_HUMAN_01);
-   assert.equal(result[result.length - 1], Building.WORKSHOP_HUMAN_10);
+   assert.equal(result[result.length - 1], Building.WORKSHOP_HUMAN_29);
 });
 
 QUnit.test("Building.maxLevel()", function(assert)
 {
-   assert.equal(Building.maxLevel(Race.ELF, BuildingType.RESIDENCE), 29);
-   assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.RESIDENCE), 29);
    assert.equal(Building.maxLevel(Race.ELF, BuildingType.MARBLE_MANUFACTORY), 23);
    assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.MARBLE_MANUFACTORY), 23);
-   assert.equal(Building.maxLevel(Race.ELF, BuildingType.WORKSHOP), 10);
-   assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.WORKSHOP), 10);
+   assert.equal(Building.maxLevel(Race.ELF, BuildingType.RESIDENCE), 29);
+   assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.RESIDENCE), 29);
+   assert.equal(Building.maxLevel(Race.ELF, BuildingType.WORKSHOP), 29);
+   assert.equal(Building.maxLevel(Race.HUMAN, BuildingType.WORKSHOP), 29);
 });
 
 QUnit.test("keys and values", function(assert)
@@ -149,13 +149,14 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 538;
+   const length = 576;
    assert.equal(result.length, length);
    assert.equal(result[0], "buildersHutElf01");
-   assert.equal(result[length - 1], "workshopHuman10");
+   assert.equal(result[length - 1], "workshopHuman29");
 
    const properties = Object.getOwnPropertyNames(Building);
    const count = properties.length - 1 - // properties
+      1 - // cumulativeCoin
       1 - // cumulativeCulture
       1 - // cumulativePopulation
       1 - // find

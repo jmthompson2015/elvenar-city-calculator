@@ -3,9 +3,9 @@ const cheerio = require('cheerio');
 
 const FetcherUtilities = require("./FetcherUtilities.js");
 
-const ResidenceDataFetcher = {};
+const WorkshopDataFetcher = {};
 
-ResidenceDataFetcher.fetch = function(typeName, propertiesFunction, spanId1In)
+WorkshopDataFetcher.fetch = function(typeName, propertiesFunction, spanId1In)
 {
    const uri = "https://en.wiki.elvenar.com/index.php?title=" + typeName.replace(/ /g, "_");
    const spanId0 = typeName.replace(/ /g, "_") + "_Elves";
@@ -63,10 +63,10 @@ function parse(raceName, typeName, spanId, $, enums, properties)
          const sizeParts = sizeString.split(/[Xx]/);
          const width = parseInt(sizeParts[0]);
          const height = parseInt(sizeParts[1]);
-         let culture = parseInt($(children[2]).text().trim());
+         const population = parseInt($(children[2]).text().trim());
+         let culture = parseInt($(children[3]).text().trim());
          culture = (Number.isInteger(culture) ? culture : 0);
-         const population = parseInt($(children[7]).text().trim());
-         const coin = parseInt($(children[8]).text().trim().replace(/\./g, ""));
+         const supplies = parseInt($(children[8]).text().trim().replace(/\./g, ""));
 
          const rowData = {
             name: typeName + " " + level + " (" + raceName + ")",
@@ -75,9 +75,9 @@ function parse(raceName, typeName, spanId, $, enums, properties)
             level: level,
             width: width,
             height: height,
+            population: -population,
             culture: -culture,
-            population: population,
-            coin: coin,
+            supplies: supplies,
             key: enumValue,
          };
 
@@ -95,11 +95,11 @@ function parse(raceName, typeName, spanId, $, enums, properties)
    });
 }
 
-const typeName = "Residence";
+const typeName = "Workshop";
 
 const propertiesFunction = function(properties)
 {
-   return properties.replace(/\"BuildingType.RESIDENCE\"/g, "BuildingType.RESIDENCE");
+   return properties.replace(/\"BuildingType.WORKSHOP\"/g, "BuildingType.WORKSHOP");
 };
 
-ResidenceDataFetcher.fetch(typeName, propertiesFunction);
+WorkshopDataFetcher.fetch(typeName, propertiesFunction);

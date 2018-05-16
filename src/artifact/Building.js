@@ -532,6 +532,25 @@ const Building = {
    WORKSHOP_ELF_08: "workshopElf08",
    WORKSHOP_ELF_09: "workshopElf09",
    WORKSHOP_ELF_10: "workshopElf10",
+   WORKSHOP_ELF_11: "workshopElf11",
+   WORKSHOP_ELF_12: "workshopElf12",
+   WORKSHOP_ELF_13: "workshopElf13",
+   WORKSHOP_ELF_14: "workshopElf14",
+   WORKSHOP_ELF_15: "workshopElf15",
+   WORKSHOP_ELF_16: "workshopElf16",
+   WORKSHOP_ELF_17: "workshopElf17",
+   WORKSHOP_ELF_18: "workshopElf18",
+   WORKSHOP_ELF_19: "workshopElf19",
+   WORKSHOP_ELF_20: "workshopElf20",
+   WORKSHOP_ELF_21: "workshopElf21",
+   WORKSHOP_ELF_22: "workshopElf22",
+   WORKSHOP_ELF_23: "workshopElf23",
+   WORKSHOP_ELF_24: "workshopElf24",
+   WORKSHOP_ELF_25: "workshopElf25",
+   WORKSHOP_ELF_26: "workshopElf26",
+   WORKSHOP_ELF_27: "workshopElf27",
+   WORKSHOP_ELF_28: "workshopElf28",
+   WORKSHOP_ELF_29: "workshopElf29",
    WORKSHOP_HUMAN_01: "workshopHuman01",
    WORKSHOP_HUMAN_02: "workshopHuman02",
    WORKSHOP_HUMAN_03: "workshopHuman03",
@@ -542,6 +561,25 @@ const Building = {
    WORKSHOP_HUMAN_08: "workshopHuman08",
    WORKSHOP_HUMAN_09: "workshopHuman09",
    WORKSHOP_HUMAN_10: "workshopHuman10",
+   WORKSHOP_HUMAN_11: "workshopHuman11",
+   WORKSHOP_HUMAN_12: "workshopHuman12",
+   WORKSHOP_HUMAN_13: "workshopHuman13",
+   WORKSHOP_HUMAN_14: "workshopHuman14",
+   WORKSHOP_HUMAN_15: "workshopHuman15",
+   WORKSHOP_HUMAN_16: "workshopHuman16",
+   WORKSHOP_HUMAN_17: "workshopHuman17",
+   WORKSHOP_HUMAN_18: "workshopHuman18",
+   WORKSHOP_HUMAN_19: "workshopHuman19",
+   WORKSHOP_HUMAN_20: "workshopHuman20",
+   WORKSHOP_HUMAN_21: "workshopHuman21",
+   WORKSHOP_HUMAN_22: "workshopHuman22",
+   WORKSHOP_HUMAN_23: "workshopHuman23",
+   WORKSHOP_HUMAN_24: "workshopHuman24",
+   WORKSHOP_HUMAN_25: "workshopHuman25",
+   WORKSHOP_HUMAN_26: "workshopHuman26",
+   WORKSHOP_HUMAN_27: "workshopHuman27",
+   WORKSHOP_HUMAN_28: "workshopHuman28",
+   WORKSHOP_HUMAN_29: "workshopHuman29",
 
    properties:
    {
@@ -7223,8 +7261,8 @@ const Building = {
          height: 2,
          population: -18,
          culture: 0,
-         supplies: 29, // per hour
-         key: "workshopElf01",
+         supplies: 29,
+         key: "workshopElf01"
       },
       "workshopElf02":
       {
@@ -7236,8 +7274,8 @@ const Building = {
          height: 2,
          population: -6,
          culture: -2,
-         supplies: 53, // per hour
-         key: "workshopElf02",
+         supplies: 53,
+         key: "workshopElf02"
       },
       "workshopElf03":
       {
@@ -7249,8 +7287,8 @@ const Building = {
          height: 2,
          population: -8,
          culture: -5,
-         supplies: 74, // per hour
-         key: "workshopElf03",
+         supplies: 74,
+         key: "workshopElf03"
       },
       "workshopElf04":
       {
@@ -7262,8 +7300,8 @@ const Building = {
          height: 2,
          population: -8,
          culture: -7,
-         supplies: 94, // per hour
-         key: "workshopElf04",
+         supplies: 94,
+         key: "workshopElf04"
       },
       "workshopElf05":
       {
@@ -7275,8 +7313,8 @@ const Building = {
          height: 2,
          population: -32,
          culture: -21,
-         supplies: 169, // per hour
-         key: "workshopElf05",
+         supplies: 169,
+         key: "workshopElf05"
       },
       "workshopElf06":
       {
@@ -7288,8 +7326,8 @@ const Building = {
          height: 2,
          population: -9,
          culture: -6,
-         supplies: 196, // per hour
-         key: "workshopElf06",
+         supplies: 196,
+         key: "workshopElf06"
       },
       "workshopElf07":
       {
@@ -7301,8 +7339,8 @@ const Building = {
          height: 2,
          population: -12,
          culture: -6,
-         supplies: 223, // per hour
-         key: "workshopElf07",
+         supplies: 223,
+         key: "workshopElf07"
       },
       "workshopElf08":
       {
@@ -7314,8 +7352,8 @@ const Building = {
          height: 2,
          population: -14,
          culture: -6,
-         supplies: 249, // per hour
-         key: "workshopElf08",
+         supplies: 249,
+         key: "workshopElf08"
       },
       "workshopElf09":
       {
@@ -7327,8 +7365,8 @@ const Building = {
          height: 3,
          population: -130,
          culture: -63,
-         supplies: 547, // per hour
-         key: "workshopElf09",
+         supplies: 547,
+         key: "workshopElf09"
       },
       "workshopElf10":
       {
@@ -7340,8 +7378,255 @@ const Building = {
          height: 3,
          population: -32,
          culture: -11,
-         supplies: 596, // per hour
-         key: "workshopElf10",
+         supplies: 596,
+         key: "workshopElf10"
+      },
+      "workshopElf11":
+      {
+         name: "Workshop 11 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 11,
+         width: 4,
+         height: 3,
+         population: -33,
+         culture: -9,
+         supplies: 644,
+         key: "workshopElf11"
+      },
+      "workshopElf12":
+      {
+         name: "Workshop 12 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 12,
+         width: 4,
+         height: 3,
+         population: -45,
+         culture: -10,
+         supplies: 691,
+         key: "workshopElf12"
+      },
+      "workshopElf13":
+      {
+         name: "Workshop 13 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 13,
+         width: 4,
+         height: 3,
+         population: -41,
+         culture: -8,
+         supplies: 738,
+         key: "workshopElf13"
+      },
+      "workshopElf14":
+      {
+         name: "Workshop 14 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 14,
+         width: 4,
+         height: 3,
+         population: -39,
+         culture: -8,
+         supplies: 783,
+         key: "workshopElf14"
+      },
+      "workshopElf15":
+      {
+         name: "Workshop 15 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 15,
+         width: 4,
+         height: 3,
+         population: -49,
+         culture: -7,
+         supplies: 828,
+         key: "workshopElf15"
+      },
+      "workshopElf16":
+      {
+         name: "Workshop 16 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 16,
+         width: 5,
+         height: 3,
+         population: -136,
+         culture: -122,
+         supplies: 1090,
+         key: "workshopElf16"
+      },
+      "workshopElf17":
+      {
+         name: "Workshop 17 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 17,
+         width: 5,
+         height: 3,
+         population: -48,
+         culture: -34,
+         supplies: 1160,
+         key: "workshopElf17"
+      },
+      "workshopElf18":
+      {
+         name: "Workshop 18 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 18,
+         width: 3,
+         height: 6,
+         population: -202,
+         culture: -109,
+         supplies: 1470,
+         key: "workshopElf18"
+      },
+      "workshopElf19":
+      {
+         name: "Workshop 19 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 19,
+         width: 3,
+         height: 6,
+         population: -60,
+         culture: -48,
+         supplies: 1550,
+         key: "workshopElf19"
+      },
+      "workshopElf20":
+      {
+         name: "Workshop 20 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 20,
+         width: 3,
+         height: 6,
+         population: -101,
+         culture: -51,
+         supplies: 1640,
+         key: "workshopElf20"
+      },
+      "workshopElf21":
+      {
+         name: "Workshop 21 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 21,
+         width: 3,
+         height: 6,
+         population: -109,
+         culture: -56,
+         supplies: 1740,
+         key: "workshopElf21"
+      },
+      "workshopElf22":
+      {
+         name: "Workshop 22 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 22,
+         width: 4,
+         height: 5,
+         population: -257,
+         culture: -141,
+         supplies: 2040,
+         key: "workshopElf22"
+      },
+      "workshopElf23":
+      {
+         name: "Workshop 23 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 23,
+         width: 4,
+         height: 5,
+         population: -145,
+         culture: -82,
+         supplies: 2160,
+         key: "workshopElf23"
+      },
+      "workshopElf24":
+      {
+         name: "Workshop 24 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 24,
+         width: 4,
+         height: 5,
+         population: -159,
+         culture: -88,
+         supplies: 2280,
+         key: "workshopElf24"
+      },
+      "workshopElf25":
+      {
+         name: "Workshop 25 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 25,
+         width: 4,
+         height: 5,
+         population: -179,
+         culture: -96,
+         supplies: 2410,
+         key: "workshopElf25"
+      },
+      "workshopElf26":
+      {
+         name: "Workshop 26 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 26,
+         width: 3,
+         height: 7,
+         population: -293,
+         culture: -162,
+         supplies: 2680,
+         key: "workshopElf26"
+      },
+      "workshopElf27":
+      {
+         name: "Workshop 27 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 27,
+         width: 3,
+         height: 7,
+         population: -222,
+         culture: -122,
+         supplies: 2830,
+         key: "workshopElf27"
+      },
+      "workshopElf28":
+      {
+         name: "Workshop 28 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 28,
+         width: 3,
+         height: 7,
+         population: -263,
+         culture: -137,
+         supplies: 3000,
+         key: "workshopElf28"
+      },
+      "workshopElf29":
+      {
+         name: "Workshop 29 (Elf)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.ELF,
+         level: 29,
+         width: 3,
+         height: 7,
+         population: -209,
+         culture: -149,
+         supplies: 3170,
+         key: "workshopElf29"
       },
       "workshopHuman01":
       {
@@ -7353,8 +7638,8 @@ const Building = {
          height: 2,
          population: -15,
          culture: 0,
-         supplies: 29, // per hour
-         key: "workshopHuman01",
+         supplies: 29,
+         key: "workshopHuman01"
       },
       "workshopHuman02":
       {
@@ -7366,8 +7651,8 @@ const Building = {
          height: 2,
          population: -7,
          culture: -2,
-         supplies: 53, // per hour
-         key: "workshopHuman02",
+         supplies: 53,
+         key: "workshopHuman02"
       },
       "workshopHuman03":
       {
@@ -7379,8 +7664,8 @@ const Building = {
          height: 2,
          population: -9,
          culture: -5,
-         supplies: 74, // per hour
-         key: "workshopHuman03",
+         supplies: 74,
+         key: "workshopHuman03"
       },
       "workshopHuman04":
       {
@@ -7392,8 +7677,8 @@ const Building = {
          height: 2,
          population: -8,
          culture: -7,
-         supplies: 94, // per hour
-         key: "workshopHuman04",
+         supplies: 94,
+         key: "workshopHuman04"
       },
       "workshopHuman05":
       {
@@ -7405,8 +7690,8 @@ const Building = {
          height: 2,
          population: -6,
          culture: -9,
-         supplies: 113, // per hour
-         key: "workshopHuman05",
+         supplies: 113,
+         key: "workshopHuman05"
       },
       "workshopHuman06":
       {
@@ -7418,8 +7703,8 @@ const Building = {
          height: 2,
          population: -8,
          culture: -5,
-         supplies: 131, // per hour
-         key: "workshopHuman06",
+         supplies: 131,
+         key: "workshopHuman06"
       },
       "workshopHuman07":
       {
@@ -7431,8 +7716,8 @@ const Building = {
          height: 3,
          population: -38,
          culture: -19,
-         supplies: 223, // per hour
-         key: "workshopHuman07",
+         supplies: 223,
+         key: "workshopHuman07"
       },
       "workshopHuman08":
       {
@@ -7444,8 +7729,8 @@ const Building = {
          height: 3,
          population: -11,
          culture: -6,
-         supplies: 249, // per hour
-         key: "workshopHuman08",
+         supplies: 249,
+         key: "workshopHuman08"
       },
       "workshopHuman09":
       {
@@ -7457,8 +7742,8 @@ const Building = {
          height: 3,
          population: -15,
          culture: -5,
-         supplies: 274, // per hour
-         key: "workshopHuman09",
+         supplies: 274,
+         key: "workshopHuman09"
       },
       "workshopHuman10":
       {
@@ -7470,8 +7755,255 @@ const Building = {
          height: 3,
          population: -19,
          culture: -5,
-         supplies: 298, // per hour
-         key: "workshopHuman10",
+         supplies: 298,
+         key: "workshopHuman10"
+      },
+      "workshopHuman11":
+      {
+         name: "Workshop 11 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 11,
+         width: 3,
+         height: 4,
+         population: -168,
+         culture: -73,
+         supplies: 644,
+         key: "workshopHuman11"
+      },
+      "workshopHuman12":
+      {
+         name: "Workshop 12 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 12,
+         width: 3,
+         height: 4,
+         population: -33,
+         culture: -10,
+         supplies: 691,
+         key: "workshopHuman12"
+      },
+      "workshopHuman13":
+      {
+         name: "Workshop 13 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 13,
+         width: 3,
+         height: 4,
+         population: -38,
+         culture: -8,
+         supplies: 738,
+         key: "workshopHuman13"
+      },
+      "workshopHuman14":
+      {
+         name: "Workshop 14 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 14,
+         width: 3,
+         height: 4,
+         population: -45,
+         culture: -8,
+         supplies: 783,
+         key: "workshopHuman14"
+      },
+      "workshopHuman15":
+      {
+         name: "Workshop 15 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 15,
+         width: 3,
+         height: 4,
+         population: -51,
+         culture: -7,
+         supplies: 828,
+         key: "workshopHuman15"
+      },
+      "workshopHuman16":
+      {
+         name: "Workshop 16 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 16,
+         width: 3,
+         height: 5,
+         population: -169,
+         culture: -122,
+         supplies: 1090,
+         key: "workshopHuman16"
+      },
+      "workshopHuman17":
+      {
+         name: "Workshop 17 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 17,
+         width: 3,
+         height: 5,
+         population: -39,
+         culture: -34,
+         supplies: 1160,
+         key: "workshopHuman17"
+      },
+      "workshopHuman18":
+      {
+         name: "Workshop 18 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 18,
+         width: 6,
+         height: 3,
+         population: -183,
+         culture: -109,
+         supplies: 1470,
+         key: "workshopHuman18"
+      },
+      "workshopHuman19":
+      {
+         name: "Workshop 19 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 19,
+         width: 6,
+         height: 3,
+         population: -60,
+         culture: -48,
+         supplies: 1550,
+         key: "workshopHuman19"
+      },
+      "workshopHuman20":
+      {
+         name: "Workshop 20 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 20,
+         width: 6,
+         height: 3,
+         population: -101,
+         culture: -51,
+         supplies: 1640,
+         key: "workshopHuman20"
+      },
+      "workshopHuman21":
+      {
+         name: "Workshop 21 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 21,
+         width: 6,
+         height: 3,
+         population: -109,
+         culture: -56,
+         supplies: 1740,
+         key: "workshopHuman21"
+      },
+      "workshopHuman22":
+      {
+         name: "Workshop 22 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 22,
+         width: 4,
+         height: 5,
+         population: -257,
+         culture: -141,
+         supplies: 2040,
+         key: "workshopHuman22"
+      },
+      "workshopHuman23":
+      {
+         name: "Workshop 23 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 23,
+         width: 4,
+         height: 5,
+         population: -145,
+         culture: -82,
+         supplies: 2160,
+         key: "workshopHuman23"
+      },
+      "workshopHuman24":
+      {
+         name: "Workshop 24 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 24,
+         width: 4,
+         height: 5,
+         population: -159,
+         culture: -88,
+         supplies: 2280,
+         key: "workshopHuman24"
+      },
+      "workshopHuman25":
+      {
+         name: "Workshop 25 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 25,
+         width: 4,
+         height: 5,
+         population: -179,
+         culture: -96,
+         supplies: 2410,
+         key: "workshopHuman25"
+      },
+      "workshopHuman26":
+      {
+         name: "Workshop 26 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 26,
+         width: 3,
+         height: 7,
+         population: -293,
+         culture: -162,
+         supplies: 2680,
+         key: "workshopHuman26"
+      },
+      "workshopHuman27":
+      {
+         name: "Workshop 27 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 27,
+         width: 3,
+         height: 7,
+         population: -222,
+         culture: -122,
+         supplies: 2830,
+         key: "workshopHuman27"
+      },
+      "workshopHuman28":
+      {
+         name: "Workshop 28 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 28,
+         width: 3,
+         height: 7,
+         population: -263,
+         culture: -137,
+         supplies: 3000,
+         key: "workshopHuman28"
+      },
+      "workshopHuman29":
+      {
+         name: "Workshop 29 (Human)",
+         typeKey: BuildingType.WORKSHOP,
+         raceKey: Race.HUMAN,
+         level: 29,
+         width: 3,
+         height: 7,
+         population: -209,
+         culture: -149,
+         supplies: 3170,
+         key: "workshopHuman29"
       },
    },
 };
