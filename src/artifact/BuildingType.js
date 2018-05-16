@@ -2,7 +2,7 @@ import BuildingCategory from "./BuildingCategory.js";
 
 const BuildingType = {
    BUILDERS_HUT: "buildersHut",
-   // CRYSTAL_MANUFACTORY: "crystalManufactory",
+   CRYSTAL_MANUFACTORY: "crystalManufactory",
    ELIXIR_MANUFACTORY: "elixirManufactory",
    // GEM_MANUFACTORY: "gemManufactory",
    MAGIC_ACADEMY: "magicAcademy",
@@ -11,11 +11,11 @@ const BuildingType = {
    MAGIC_WORKSHOP: "magicWorkshop",
    MAIN_HALL: "mainHall",
    MARBLE_MANUFACTORY: "marbleManufactory",
-   // PLANK_MANUFACTORY: "plankManufactory",
+   PLANKS_MANUFACTORY: "planksManufactory",
    RESIDENCE: "residence",
    // SCROLL_MANUFACTORY: "scrollManufactory",
    // SILK_MANUFACTORY: "silkManufactory",
-   // STEEL_MANUFACTORY: "steelManufactory",
+   STEEL_MANUFACTORY: "steelManufactory",
    TRADER: "trader",
    WORKSHOP: "workshop",
 
@@ -27,12 +27,12 @@ const BuildingType = {
          categoryKey: BuildingCategory.BUILDERS_HUT,
          key: "buildersHut",
       },
-      // "crystalManufactory":
-      // {
-      //    name: "Crystal Manufactory",
-      //    categoryKey: BuildingCategory.MANUFACTORY,
-      //    key: "crystalManufactory",
-      // },
+      "crystalManufactory":
+      {
+         name: "Crystal Manufactory",
+         categoryKey: BuildingCategory.MANUFACTORY,
+         key: "crystalManufactory",
+      },
       "elixirManufactory":
       {
          name: "Elixir Manufactory",
@@ -81,12 +81,12 @@ const BuildingType = {
          categoryKey: BuildingCategory.MANUFACTORY,
          key: "marbleManufactory",
       },
-      // "plankManufactory":
-      // {
-      //    name: "Plank Manufactory",
-      //    categoryKey: BuildingCategory.MANUFACTORY,
-      //    key: "plankManufactory",
-      // },
+      "planksManufactory":
+      {
+         name: "Planks Manufactory",
+         categoryKey: BuildingCategory.MANUFACTORY,
+         key: "planksManufactory",
+      },
       "residence":
       {
          name: "Residence",
@@ -105,12 +105,12 @@ const BuildingType = {
       //    categoryKey: BuildingCategory.MANUFACTORY,
       //    key: "silkManufactory",
       // },
-      // "steelManufactory":
-      // {
-      //    name: "Steel Manufactory",
-      //    categoryKey: BuildingCategory.MANUFACTORY,
-      //    key: "steelManufactory",
-      // },
+      "steelManufactory":
+      {
+         name: "Steel Manufactory",
+         categoryKey: BuildingCategory.MANUFACTORY,
+         key: "steelManufactory",
+      },
       "trader":
       {
          name: "Trader",

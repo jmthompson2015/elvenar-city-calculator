@@ -36,9 +36,9 @@ QUnit.test("BuildingType.keysByCategory() Manufactory", function(assert)
 
    // Verify.
    assert.ok(result);
-   assert.equal(result.length, 2);
-   assert.equal(result[0], BuildingType.ELIXIR_MANUFACTORY);
-   assert.equal(result[result.length - 1], BuildingType.MARBLE_MANUFACTORY);
+   assert.equal(result.length, 5);
+   assert.equal(result[0], BuildingType.CRYSTAL_MANUFACTORY);
+   assert.equal(result[result.length - 1], BuildingType.STEEL_MANUFACTORY);
 });
 
 QUnit.test("keys and values", function(assert)
@@ -78,7 +78,7 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 10;
+   const length = 13;
    assert.equal(result.length, length);
    assert.equal(result[0], "buildersHut");
    assert.equal(result[length - 1], "workshop");
