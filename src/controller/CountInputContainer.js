@@ -17,10 +17,11 @@ function mapStateToProps(state, ownProps)
 
    return (
    {
+      key: "countInput" + initialSelectedValue,
       clientProps: clientProps,
       initialSelectedValue: initialSelectedValue,
       min: 0,
-      max: 999,
+      max: 99,
    });
 }
 

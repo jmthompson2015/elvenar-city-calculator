@@ -16,6 +16,7 @@ function mapStateToProps(state)
 
    return (
    {
+      key: "raceSelect" + initialSelectedValue,
       values: values,
       initialSelectedValue: initialSelectedValue,
       labelFunction: labelFunction,

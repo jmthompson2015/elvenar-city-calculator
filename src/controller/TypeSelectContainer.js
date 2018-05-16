@@ -24,6 +24,7 @@ function mapStateToProps(state, ownProps)
 
    return (
    {
+      key: "typeSelect" + initialSelectedValue,
       values: values,
       clientProps: clientProps,
       initialSelectedValue: initialSelectedValue,

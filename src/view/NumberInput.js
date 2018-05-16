@@ -16,6 +16,7 @@ class NumberInput extends React.Component
    {
       const inputProps = {
          type: "number",
+         className: "tr",
          min: this.props.min,
          max: this.props.max,
          value: this.state.selectedValue,

@@ -22,6 +22,7 @@ function mapStateToProps(state, ownProps)
 
    return (
    {
+      key: "categorySelect" + initialSelectedValue,
       values: values,
       clientProps: clientProps,
       initialSelectedValue: initialSelectedValue,

@@ -20,7 +20,7 @@ function mapStateToProps(state, ownProps)
 
    return (
    {
-      key: "levelInput" + max,
+      key: "levelInput" + max + "_" + initialSelectedValue,
       clientProps: clientProps,
       initialSelectedValue: initialSelectedValue,
       min: 1,
