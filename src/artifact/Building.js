@@ -330,6 +330,25 @@ const Building = {
    RESIDENCE_ELF_08: "residenceElf08",
    RESIDENCE_ELF_09: "residenceElf09",
    RESIDENCE_ELF_10: "residenceElf10",
+   RESIDENCE_ELF_11: "residenceElf11",
+   RESIDENCE_ELF_12: "residenceElf12",
+   RESIDENCE_ELF_13: "residenceElf13",
+   RESIDENCE_ELF_14: "residenceElf14",
+   RESIDENCE_ELF_15: "residenceElf15",
+   RESIDENCE_ELF_16: "residenceElf16",
+   RESIDENCE_ELF_17: "residenceElf17",
+   RESIDENCE_ELF_18: "residenceElf18",
+   RESIDENCE_ELF_19: "residenceElf19",
+   RESIDENCE_ELF_20: "residenceElf20",
+   RESIDENCE_ELF_21: "residenceElf21",
+   RESIDENCE_ELF_22: "residenceElf22",
+   RESIDENCE_ELF_23: "residenceElf23",
+   RESIDENCE_ELF_24: "residenceElf24",
+   RESIDENCE_ELF_25: "residenceElf25",
+   RESIDENCE_ELF_26: "residenceElf26",
+   RESIDENCE_ELF_27: "residenceElf27",
+   RESIDENCE_ELF_28: "residenceElf28",
+   RESIDENCE_ELF_29: "residenceElf29",
    RESIDENCE_HUMAN_01: "residenceHuman01",
    RESIDENCE_HUMAN_02: "residenceHuman02",
    RESIDENCE_HUMAN_03: "residenceHuman03",
@@ -340,6 +359,25 @@ const Building = {
    RESIDENCE_HUMAN_08: "residenceHuman08",
    RESIDENCE_HUMAN_09: "residenceHuman09",
    RESIDENCE_HUMAN_10: "residenceHuman10",
+   RESIDENCE_HUMAN_11: "residenceHuman11",
+   RESIDENCE_HUMAN_12: "residenceHuman12",
+   RESIDENCE_HUMAN_13: "residenceHuman13",
+   RESIDENCE_HUMAN_14: "residenceHuman14",
+   RESIDENCE_HUMAN_15: "residenceHuman15",
+   RESIDENCE_HUMAN_16: "residenceHuman16",
+   RESIDENCE_HUMAN_17: "residenceHuman17",
+   RESIDENCE_HUMAN_18: "residenceHuman18",
+   RESIDENCE_HUMAN_19: "residenceHuman19",
+   RESIDENCE_HUMAN_20: "residenceHuman20",
+   RESIDENCE_HUMAN_21: "residenceHuman21",
+   RESIDENCE_HUMAN_22: "residenceHuman22",
+   RESIDENCE_HUMAN_23: "residenceHuman23",
+   RESIDENCE_HUMAN_24: "residenceHuman24",
+   RESIDENCE_HUMAN_25: "residenceHuman25",
+   RESIDENCE_HUMAN_26: "residenceHuman26",
+   RESIDENCE_HUMAN_27: "residenceHuman27",
+   RESIDENCE_HUMAN_28: "residenceHuman28",
+   RESIDENCE_HUMAN_29: "residenceHuman29",
    SCROLLS_MANUFACTORY_ELF_01: "scrollsManufactoryElf01",
    SCROLLS_MANUFACTORY_ELF_02: "scrollsManufactoryElf02",
    SCROLLS_MANUFACTORY_ELF_03: "scrollsManufactoryElf03",
@@ -4565,8 +4603,8 @@ const Building = {
          height: 2,
          culture: 0,
          population: 31,
-         coin: 80, // per hour
-         key: "residenceElf01",
+         coin: 80,
+         key: "residenceElf01"
       },
       "residenceElf02":
       {
@@ -4578,8 +4616,8 @@ const Building = {
          height: 2,
          culture: -3,
          population: 4,
-         coin: 118, // per hour
-         key: "residenceElf02",
+         coin: 118,
+         key: "residenceElf02"
       },
       "residenceElf03":
       {
@@ -4591,8 +4629,8 @@ const Building = {
          height: 2,
          culture: -4,
          population: 5,
-         coin: 148, // per hour
-         key: "residenceElf03",
+         coin: 148,
+         key: "residenceElf03"
       },
       "residenceElf04":
       {
@@ -4604,8 +4642,8 @@ const Building = {
          height: 3,
          culture: -12,
          population: 28,
-         coin: 261, // per hour
-         key: "residenceElf04",
+         coin: 261,
+         key: "residenceElf04"
       },
       "residenceElf05":
       {
@@ -4617,8 +4655,8 @@ const Building = {
          height: 3,
          culture: -11,
          population: 10,
-         coin: 314, // per hour
-         key: "residenceElf05",
+         coin: 314,
+         key: "residenceElf05"
       },
       "residenceElf06":
       {
@@ -4630,8 +4668,8 @@ const Building = {
          height: 3,
          culture: -6,
          population: 10,
-         coin: 373, // per hour
-         key: "residenceElf06",
+         coin: 373,
+         key: "residenceElf06"
       },
       "residenceElf07":
       {
@@ -4643,8 +4681,8 @@ const Building = {
          height: 3,
          culture: -4,
          population: 12,
-         coin: 425, // per hour
-         key: "residenceElf07",
+         coin: 425,
+         key: "residenceElf07"
       },
       "residenceElf08":
       {
@@ -4656,8 +4694,8 @@ const Building = {
          height: 3,
          culture: -27,
          population: 70,
-         coin: 717, // per hour
-         key: "residenceElf08",
+         coin: 717,
+         key: "residenceElf08"
       },
       "residenceElf09":
       {
@@ -4669,8 +4707,8 @@ const Building = {
          height: 3,
          culture: -7,
          population: 20,
-         coin: 811, // per hour
-         key: "residenceElf09",
+         coin: 811,
+         key: "residenceElf09"
       },
       "residenceElf10":
       {
@@ -4682,8 +4720,255 @@ const Building = {
          height: 3,
          culture: -9,
          population: 30,
-         coin: 905, // per hour
-         key: "residenceElf10",
+         coin: 905,
+         key: "residenceElf10"
+      },
+      "residenceElf11":
+      {
+         name: "Residence 11 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 11,
+         width: 3,
+         height: 3,
+         culture: -7,
+         population: 30,
+         coin: 1000,
+         key: "residenceElf11"
+      },
+      "residenceElf12":
+      {
+         name: "Residence 12 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 12,
+         width: 3,
+         height: 3,
+         culture: -6,
+         population: 40,
+         coin: 1142,
+         key: "residenceElf12"
+      },
+      "residenceElf13":
+      {
+         name: "Residence 13 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 13,
+         width: 3,
+         height: 3,
+         culture: -7,
+         population: 40,
+         coin: 1272,
+         key: "residenceElf13"
+      },
+      "residenceElf14":
+      {
+         name: "Residence 14 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 14,
+         width: 3,
+         height: 3,
+         culture: -8,
+         population: 40,
+         coin: 1391,
+         key: "residenceElf14"
+      },
+      "residenceElf15":
+      {
+         name: "Residence 15 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 15,
+         width: 3,
+         height: 3,
+         culture: -7,
+         population: 50,
+         coin: 1500,
+         key: "residenceElf15"
+      },
+      "residenceElf16":
+      {
+         name: "Residence 16 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 16,
+         width: 2,
+         height: 4,
+         culture: -37,
+         population: 20,
+         coin: 1680,
+         key: "residenceElf16"
+      },
+      "residenceElf17":
+      {
+         name: "Residence 17 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 17,
+         width: 2,
+         height: 4,
+         culture: -17,
+         population: 30,
+         coin: 1769,
+         key: "residenceElf17"
+      },
+      "residenceElf18":
+      {
+         name: "Residence 18 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 18,
+         width: 2,
+         height: 4,
+         culture: -18,
+         population: 40,
+         coin: 1859,
+         key: "residenceElf18"
+      },
+      "residenceElf19":
+      {
+         name: "Residence 19 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 19,
+         width: 2,
+         height: 4,
+         culture: -20,
+         population: 40,
+         coin: 1957,
+         key: "residenceElf19"
+      },
+      "residenceElf20":
+      {
+         name: "Residence 20 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 20,
+         width: 4,
+         height: 3,
+         culture: -137,
+         population: 200,
+         coin: 3082,
+         key: "residenceElf20"
+      },
+      "residenceElf21":
+      {
+         name: "Residence 21 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 21,
+         width: 4,
+         height: 3,
+         culture: -35,
+         population: 150,
+         coin: 3246,
+         key: "residenceElf21"
+      },
+      "residenceElf22":
+      {
+         name: "Residence 22 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 22,
+         width: 4,
+         height: 3,
+         culture: -46,
+         population: 190,
+         coin: 3425,
+         key: "residenceElf22"
+      },
+      "residenceElf23":
+      {
+         name: "Residence 23 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 23,
+         width: 4,
+         height: 3,
+         culture: -47,
+         population: 110,
+         coin: 3612,
+         key: "residenceElf23"
+      },
+      "residenceElf24":
+      {
+         name: "Residence 24 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 24,
+         width: 3,
+         height: 5,
+         culture: -181,
+         population: 450,
+         coin: 4763,
+         key: "residenceElf24"
+      },
+      "residenceElf25":
+      {
+         name: "Residence 25 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 25,
+         width: 3,
+         height: 5,
+         culture: -68,
+         population: 170,
+         coin: 5023,
+         key: "residenceElf25"
+      },
+      "residenceElf26":
+      {
+         name: "Residence 26 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 26,
+         width: 3,
+         height: 5,
+         culture: -76,
+         population: 180,
+         coin: 5302,
+         key: "residenceElf26"
+      },
+      "residenceElf27":
+      {
+         name: "Residence 27 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 27,
+         width: 3,
+         height: 5,
+         culture: -83,
+         population: 200,
+         coin: 5611,
+         key: "residenceElf27"
+      },
+      "residenceElf28":
+      {
+         name: "Residence 28 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 28,
+         width: 4,
+         height: 4,
+         culture: -158,
+         population: 400,
+         coin: 6324,
+         key: "residenceElf28"
+      },
+      "residenceElf29":
+      {
+         name: "Residence 29 (Elf)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.ELF,
+         level: 29,
+         width: 4,
+         height: 4,
+         culture: -108,
+         population: 200,
+         coin: 6631,
+         key: "residenceElf29"
       },
       "residenceHuman01":
       {
@@ -4695,8 +4980,8 @@ const Building = {
          height: 2,
          culture: 0,
          population: 31,
-         coin: 88, // per hour
-         key: "residenceHuman01",
+         coin: 88,
+         key: "residenceHuman01"
       },
       "residenceHuman02":
       {
@@ -4708,8 +4993,8 @@ const Building = {
          height: 2,
          culture: -3,
          population: 4,
-         coin: 127, // per hour
-         key: "residenceHuman02",
+         coin: 127,
+         key: "residenceHuman02"
       },
       "residenceHuman03":
       {
@@ -4721,8 +5006,8 @@ const Building = {
          height: 2,
          culture: -4,
          population: 5,
-         coin: 155, // per hour
-         key: "residenceHuman03",
+         coin: 155,
+         key: "residenceHuman03"
       },
       "residenceHuman04":
       {
@@ -4734,8 +5019,8 @@ const Building = {
          height: 2,
          culture: -6,
          population: 6,
-         coin: 184, // per hour
-         key: "residenceHuman04",
+         coin: 184,
+         key: "residenceHuman04"
       },
       "residenceHuman05":
       {
@@ -4747,8 +5032,8 @@ const Building = {
          height: 2,
          culture: -19,
          population: 32,
-         coin: 328, // per hour
-         key: "residenceHuman05",
+         coin: 328,
+         key: "residenceHuman05"
       },
       "residenceHuman06":
       {
@@ -4760,8 +5045,8 @@ const Building = {
          height: 2,
          culture: -5,
          population: 10,
-         coin: 373, // per hour
-         key: "residenceHuman06",
+         coin: 373,
+         key: "residenceHuman06"
       },
       "residenceHuman07":
       {
@@ -4773,8 +5058,8 @@ const Building = {
          height: 2,
          culture: -4,
          population: 12,
-         coin: 437, // per hour
-         key: "residenceHuman07",
+         coin: 437,
+         key: "residenceHuman07"
       },
       "residenceHuman08":
       {
@@ -4786,8 +5071,8 @@ const Building = {
          height: 2,
          culture: -5,
          population: 10,
-         coin: 482, // per hour
-         key: "residenceHuman08",
+         coin: 482,
+         key: "residenceHuman08"
       },
       "residenceHuman09":
       {
@@ -4799,8 +5084,8 @@ const Building = {
          height: 3,
          culture: -57,
          population: 150,
-         coin: 1088, // per hour
-         key: "residenceHuman09",
+         coin: 1088,
+         key: "residenceHuman09"
       },
       "residenceHuman10":
       {
@@ -4812,8 +5097,255 @@ const Building = {
          height: 3,
          culture: -9,
          population: 40,
-         coin: 1157, // per hour
-         key: "residenceHuman10",
+         coin: 1157,
+         key: "residenceHuman10"
+      },
+      "residenceHuman11":
+      {
+         name: "Residence 11 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 11,
+         width: 4,
+         height: 3,
+         culture: -9,
+         population: 40,
+         coin: 1300,
+         key: "residenceHuman11"
+      },
+      "residenceHuman12":
+      {
+         name: "Residence 12 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 12,
+         width: 4,
+         height: 3,
+         culture: -9,
+         population: 40,
+         coin: 1523,
+         key: "residenceHuman12"
+      },
+      "residenceHuman13":
+      {
+         name: "Residence 13 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 13,
+         width: 4,
+         height: 3,
+         culture: -9,
+         population: 50,
+         coin: 1636,
+         key: "residenceHuman13"
+      },
+      "residenceHuman14":
+      {
+         name: "Residence 14 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 14,
+         width: 4,
+         height: 3,
+         culture: -10,
+         population: 60,
+         coin: 1826,
+         key: "residenceHuman14"
+      },
+      "residenceHuman15":
+      {
+         name: "Residence 15 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 15,
+         width: 4,
+         height: 3,
+         culture: -9,
+         population: 70,
+         coin: 2083,
+         key: "residenceHuman15"
+      },
+      "residenceHuman16":
+      {
+         name: "Residence 16 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 16,
+         width: 5,
+         height: 2,
+         culture: -38,
+         population: 20,
+         coin: 2160,
+         key: "residenceHuman16"
+      },
+      "residenceHuman17":
+      {
+         name: "Residence 17 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 17,
+         width: 5,
+         height: 2,
+         culture: -21,
+         population: 30,
+         coin: 2230,
+         key: "residenceHuman17"
+      },
+      "residenceHuman18":
+      {
+         name: "Residence 18 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 18,
+         width: 5,
+         height: 2,
+         culture: -23,
+         population: 30,
+         coin: 2340,
+         key: "residenceHuman18"
+      },
+      "residenceHuman19":
+      {
+         name: "Residence 19 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 19,
+         width: 5,
+         height: 2,
+         culture: -25,
+         population: 40,
+         coin: 2457,
+         key: "residenceHuman19"
+      },
+      "residenceHuman20":
+      {
+         name: "Residence 20 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 20,
+         width: 4,
+         height: 3,
+         culture: -85,
+         population: 70,
+         coin: 3103,
+         key: "residenceHuman20"
+      },
+      "residenceHuman21":
+      {
+         name: "Residence 21 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 21,
+         width: 4,
+         height: 3,
+         culture: -34,
+         population: 150,
+         coin: 3266,
+         key: "residenceHuman21"
+      },
+      "residenceHuman22":
+      {
+         name: "Residence 22 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 22,
+         width: 4,
+         height: 3,
+         culture: -44,
+         population: 190,
+         coin: 3445,
+         key: "residenceHuman22"
+      },
+      "residenceHuman23":
+      {
+         name: "Residence 23 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 23,
+         width: 4,
+         height: 3,
+         culture: -47,
+         population: 110,
+         coin: 3631,
+         key: "residenceHuman23"
+      },
+      "residenceHuman24":
+      {
+         name: "Residence 24 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 24,
+         width: 3,
+         height: 5,
+         culture: -181,
+         population: 450,
+         coin: 4763,
+         key: "residenceHuman24"
+      },
+      "residenceHuman25":
+      {
+         name: "Residence 25 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 25,
+         width: 3,
+         height: 5,
+         culture: -68,
+         population: 170,
+         coin: 5023,
+         key: "residenceHuman25"
+      },
+      "residenceHuman26":
+      {
+         name: "Residence 26 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 26,
+         width: 3,
+         height: 5,
+         culture: -76,
+         population: 180,
+         coin: 5302,
+         key: "residenceHuman26"
+      },
+      "residenceHuman27":
+      {
+         name: "Residence 27 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 27,
+         width: 3,
+         height: 5,
+         culture: -83,
+         population: 200,
+         coin: 5611,
+         key: "residenceHuman27"
+      },
+      "residenceHuman28":
+      {
+         name: "Residence 28 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 28,
+         width: 4,
+         height: 4,
+         culture: -158,
+         population: 400,
+         coin: 6324,
+         key: "residenceHuman28"
+      },
+      "residenceHuman29":
+      {
+         name: "Residence 29 (Human)",
+         typeKey: BuildingType.RESIDENCE,
+         raceKey: Race.HUMAN,
+         level: 29,
+         width: 4,
+         height: 4,
+         culture: -108,
+         population: 200,
+         coin: 6631,
+         key: "residenceHuman29"
       },
       "scrollsManufactoryElf01":
       {
