@@ -43,6 +43,7 @@ const zarekLockElfButton = ReactDOMFactories.button(
    onClick: function()
    {
       console.log("zarekLockElfButton onClick()");
+      store.dispatch(Action.reset());
       store.dispatch(Action.setRace(Race.ELF));
       store.dispatch(Action.setLevel(0, 9)); // Main Hall
       store.dispatch(Action.setLevel(1, 3)); // Builder's Hut
@@ -57,6 +58,17 @@ const zarekLockElfButton = ReactDOMFactories.button(
       store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.STEEL_MANUFACTORY, 8, 3)));
       store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.CRYSTAL_MANUFACTORY, 10, 3)));
       store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.ELIXIR_MANUFACTORY, 4, 3)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.MARBLE_MANUFACTORY, 9, 1)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.PLANKS_MANUFACTORY, 9, 1)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.SCROLLS_MANUFACTORY, 5, 1)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.SILK_MANUFACTORY, 7, 1)));
+      // store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.GEMS_MANUFACTORY, 4, 1)));
+      // store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.MAGIC_DUST_MANUFACTORY, 10, 1)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.CULTURE, state.raceKey, BuildingType.LUMINOUS_SIGNPOST_ELF, 1, 5)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.CULTURE, state.raceKey, BuildingType.PURPLE_BLOSSOM_TREES_ELF, 1, 2)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.CULTURE, state.raceKey, BuildingType.SPOT_OF_WHISPERING_TREES_ELF, 1, 3)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.CULTURE, state.raceKey, BuildingType.ANCIENT_RUNES_ELF, 1, 6)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.CULTURE, state.raceKey, BuildingType.ORANGE_BERRIES_TREES_ELF, 1, 2)));
    },
 }, "Zarek Lock (Elf)");
 const zarekLockHumanButton = ReactDOMFactories.button(
@@ -78,6 +90,18 @@ const zarekLockHumanButton = ReactDOMFactories.button(
       store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.BASIC, state.raceKey, BuildingType.TRADER, 1, 1)));
       store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.STEEL_MANUFACTORY, 10, 3)));
       store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.CRYSTAL_MANUFACTORY, 4, 3)));
+      // store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.ELIXIR_MANUFACTORY, 4, 3)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.MARBLE_MANUFACTORY, 8, 1)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.PLANKS_MANUFACTORY, 7, 1)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.SCROLLS_MANUFACTORY, 5, 1)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.SILK_MANUFACTORY, 5, 1)));
+      // store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.GEMS_MANUFACTORY, 4, 1)));
+      // store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.MANUFACTORY, state.raceKey, BuildingType.MAGIC_DUST_MANUFACTORY, 10, 1)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.CULTURE, state.raceKey, BuildingType.GLORIOUS_STATUE_HUMAN, 1, 7)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.CULTURE, state.raceKey, BuildingType.BLUE_FLOWERS_HUMAN, 1, 2)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.CULTURE, state.raceKey, BuildingType.HOLY_CODEX_HUMAN, 1, 2)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.CULTURE, state.raceKey, BuildingType.DELICATESSEN_BUTCHER_HUMAN, 1, 2)));
+      store.dispatch(Action.setConstruct(new Construct(id++, BuildingCategory.CULTURE, state.raceKey, BuildingType.RED_FLOWERS_HUMAN, 1, 2)));
    },
 }, "Zarek Lock (Human)");
 const resetButton = ReactDOMFactories.button(

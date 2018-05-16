@@ -1,5 +1,6 @@
 import BuildingCategory from "./BuildingCategory.js";
 import BuildingType from "./BuildingType.js";
+import Race from "./Race.js";
 
 QUnit.module("BuildingType");
 
@@ -14,10 +15,11 @@ QUnit.test("BuildingType properties Residence", function(assert)
 QUnit.test("BuildingType.keysByCategory() Basic", function(assert)
 {
    // Setup.
+   const raceKey = Race.ELF;
    const categoryKey = BuildingCategory.BASIC;
 
    // Run.
-   const result = BuildingType.keysByCategory(categoryKey);
+   const result = BuildingType.keysByCategory(raceKey, categoryKey);
 
    // Verify.
    assert.ok(result);
@@ -29,10 +31,11 @@ QUnit.test("BuildingType.keysByCategory() Basic", function(assert)
 QUnit.test("BuildingType.keysByCategory() Manufactory", function(assert)
 {
    // Setup.
+   const raceKey = Race.ELF;
    const categoryKey = BuildingCategory.MANUFACTORY;
 
    // Run.
-   const result = BuildingType.keysByCategory(categoryKey);
+   const result = BuildingType.keysByCategory(raceKey, categoryKey);
 
    // Verify.
    assert.ok(result);
@@ -78,10 +81,10 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 17;
+   const length = 71;
    assert.equal(result.length, length);
    assert.equal(result[0], "buildersHut");
-   assert.equal(result[length - 1], "workshop");
+   assert.equal(result[length - 1], "battleArenaHuman");
 
    const properties = Object.getOwnPropertyNames(BuildingType);
    const count = properties.length - 1 - // properties

@@ -149,10 +149,10 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 576;
+   const length = 630;
    assert.equal(result.length, length);
    assert.equal(result[0], "buildersHutElf01");
-   assert.equal(result[length - 1], "workshopHuman29");
+   assert.equal(result[length - 1], "battleArenaHuman");
 
    const properties = Object.getOwnPropertyNames(Building);
    const count = properties.length - 1 - // properties

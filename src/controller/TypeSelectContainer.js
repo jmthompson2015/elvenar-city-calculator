@@ -8,7 +8,7 @@ import Select from "../view/Select.js";
 function mapStateToProps(state, ownProps)
 {
    const categoryKey = ownProps.buildingCategoryKey;
-   const values = BuildingType.keysByCategory(categoryKey).filter(typeKey =>
+   const values = BuildingType.keysByCategory(state.raceKey, categoryKey).filter(typeKey =>
    {
       return Building.keysByType(state.raceKey, typeKey).length > 0;
    });
