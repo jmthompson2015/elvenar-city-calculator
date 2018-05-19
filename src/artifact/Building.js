@@ -768,7 +768,7 @@ const Building = {
          height: 2,
          population: -92,
          culture: 0,
-         product: 28,
+         tier2Product: 28,
          key: "crystalManufactoryElf01"
       },
       "crystalManufactoryElf02":
@@ -781,7 +781,7 @@ const Building = {
          height: 2,
          population: -11,
          culture: -8,
-         product: 38,
+         tier2Product: 38,
          key: "crystalManufactoryElf02"
       },
       "crystalManufactoryElf03":
@@ -794,7 +794,7 @@ const Building = {
          height: 2,
          population: -11,
          culture: -8,
-         product: 47,
+         tier2Product: 47,
          key: "crystalManufactoryElf03"
       },
       "crystalManufactoryElf04":
@@ -807,7 +807,7 @@ const Building = {
          height: 2,
          population: -13,
          culture: -11,
-         product: 56,
+         tier2Product: 56,
          key: "crystalManufactoryElf04"
       },
       "crystalManufactoryElf05":
@@ -820,7 +820,7 @@ const Building = {
          height: 2,
          population: -14,
          culture: -11,
-         product: 66,
+         tier2Product: 66,
          key: "crystalManufactoryElf05"
       },
       "crystalManufactoryElf06":
@@ -833,7 +833,7 @@ const Building = {
          height: 2,
          population: -16,
          culture: -4,
-         product: 75,
+         tier2Product: 75,
          key: "crystalManufactoryElf06"
       },
       "crystalManufactoryElf07":
@@ -846,7 +846,7 @@ const Building = {
          height: 3,
          population: -111,
          culture: -29,
-         product: 132,
+         tier2Product: 132,
          key: "crystalManufactoryElf07"
       },
       "crystalManufactoryElf08":
@@ -859,7 +859,7 @@ const Building = {
          height: 3,
          population: -40,
          culture: -7,
-         product: 148,
+         tier2Product: 148,
          key: "crystalManufactoryElf08"
       },
       "crystalManufactoryElf09":
@@ -872,7 +872,7 @@ const Building = {
          height: 3,
          population: -41,
          culture: -9,
-         product: 163,
+         tier2Product: 163,
          key: "crystalManufactoryElf09"
       },
       "crystalManufactoryElf10":
@@ -885,7 +885,7 @@ const Building = {
          height: 3,
          population: -51,
          culture: -10,
-         product: 179,
+         tier2Product: 179,
          key: "crystalManufactoryElf10"
       },
       "crystalManufactoryElf11":
@@ -898,7 +898,7 @@ const Building = {
          height: 3,
          population: -217,
          culture: -47,
-         product: 257,
+         tier2Product: 257,
          key: "crystalManufactoryElf11"
       },
       "crystalManufactoryElf12":
@@ -911,7 +911,7 @@ const Building = {
          height: 3,
          population: -110,
          culture: -15,
-         product: 279,
+         tier2Product: 279,
          key: "crystalManufactoryElf12"
       },
       "crystalManufactoryElf13":
@@ -924,7 +924,7 @@ const Building = {
          height: 3,
          population: -112,
          culture: -18,
-         product: 301,
+         tier2Product: 301,
          key: "crystalManufactoryElf13"
       },
       "crystalManufactoryElf14":
@@ -937,7 +937,7 @@ const Building = {
          height: 3,
          population: -114,
          culture: -20,
-         product: 323,
+         tier2Product: 323,
          key: "crystalManufactoryElf14"
       },
       "crystalManufactoryElf15":
@@ -950,7 +950,7 @@ const Building = {
          height: 3,
          population: -143,
          culture: -22,
-         product: 342,
+         tier2Product: 342,
          key: "crystalManufactoryElf15"
       },
       "crystalManufactoryElf16":
@@ -963,7 +963,7 @@ const Building = {
          height: 4,
          population: -436,
          culture: -159,
-         product: 493,
+         tier2Product: 493,
          key: "crystalManufactoryElf16"
       },
       "crystalManufactoryElf17":
@@ -976,7 +976,7 @@ const Building = {
          height: 4,
          population: -236,
          culture: -68,
-         product: 534,
+         tier2Product: 534,
          key: "crystalManufactoryElf17"
       },
       "crystalManufactoryElf18":
@@ -989,7 +989,7 @@ const Building = {
          height: 4,
          population: -272,
          culture: -80,
-         product: 574,
+         tier2Product: 574,
          key: "crystalManufactoryElf18"
       },
       "crystalManufactoryElf19":
@@ -1002,7 +1002,7 @@ const Building = {
          height: 4,
          population: -313,
          culture: -95,
-         product: 618,
+         tier2Product: 618,
          key: "crystalManufactoryElf19"
       },
       "crystalManufactoryElf20":
@@ -1015,7 +1015,7 @@ const Building = {
          height: 5,
          population: -1007,
          culture: -294,
-         product: 835,
+         tier2Product: 835,
          key: "crystalManufactoryElf20"
       },
       "crystalManufactoryElf21":
@@ -1028,7 +1028,7 @@ const Building = {
          height: 5,
          population: -516,
          culture: -165,
-         product: 901,
+         tier2Product: 901,
          key: "crystalManufactoryElf21"
       },
       "crystalManufactoryElf22":
@@ -1041,7 +1041,7 @@ const Building = {
          height: 5,
          population: -596,
          culture: -194,
-         product: 973,
+         tier2Product: 973,
          key: "crystalManufactoryElf22"
       },
       "crystalManufactoryElf23":
@@ -1054,7 +1054,7 @@ const Building = {
          height: 5,
          population: -687,
          culture: -230,
-         product: 1,
+         tier2Product: 1,
          key: "crystalManufactoryElf23"
       },
       "crystalManufactoryHuman01":
@@ -1067,7 +1067,7 @@ const Building = {
          height: 2,
          population: -80,
          culture: 0,
-         product: 28,
+         tier2Product: 28,
          key: "crystalManufactoryHuman01"
       },
       "crystalManufactoryHuman02":
@@ -1080,7 +1080,7 @@ const Building = {
          height: 2,
          population: -9,
          culture: -9,
-         product: 38,
+         tier2Product: 38,
          key: "crystalManufactoryHuman02"
       },
       "crystalManufactoryHuman03":
@@ -1093,7 +1093,7 @@ const Building = {
          height: 2,
          population: -9,
          culture: -9,
-         product: 47,
+         tier2Product: 47,
          key: "crystalManufactoryHuman03"
       },
       "crystalManufactoryHuman04":
@@ -1106,7 +1106,7 @@ const Building = {
          height: 2,
          population: -11,
          culture: -12,
-         product: 56,
+         tier2Product: 56,
          key: "crystalManufactoryHuman04"
       },
       "crystalManufactoryHuman05":
@@ -1119,7 +1119,7 @@ const Building = {
          height: 3,
          population: -73,
          culture: -33,
-         product: 100,
+         tier2Product: 100,
          key: "crystalManufactoryHuman05"
       },
       "crystalManufactoryHuman06":
@@ -1132,7 +1132,7 @@ const Building = {
          height: 3,
          population: -25,
          culture: -7,
-         product: 116,
+         tier2Product: 116,
          key: "crystalManufactoryHuman06"
       },
       "crystalManufactoryHuman07":
@@ -1145,7 +1145,7 @@ const Building = {
          height: 3,
          population: -31,
          culture: -8,
-         product: 132,
+         tier2Product: 132,
          key: "crystalManufactoryHuman07"
       },
       "crystalManufactoryHuman08":
@@ -1158,7 +1158,7 @@ const Building = {
          height: 3,
          population: -28,
          culture: -8,
-         product: 148,
+         tier2Product: 148,
          key: "crystalManufactoryHuman08"
       },
       "crystalManufactoryHuman09":
@@ -1171,7 +1171,7 @@ const Building = {
          height: 3,
          population: -149,
          culture: -42,
-         product: 217,
+         tier2Product: 217,
          key: "crystalManufactoryHuman09"
       },
       "crystalManufactoryHuman10":
@@ -1184,7 +1184,7 @@ const Building = {
          height: 3,
          population: -73,
          culture: -14,
-         product: 235,
+         tier2Product: 235,
          key: "crystalManufactoryHuman10"
       },
       "crystalManufactoryHuman11":
@@ -1197,7 +1197,7 @@ const Building = {
          height: 3,
          population: -75,
          culture: -15,
-         product: 257,
+         tier2Product: 257,
          key: "crystalManufactoryHuman11"
       },
       "crystalManufactoryHuman12":
@@ -1210,7 +1210,7 @@ const Building = {
          height: 3,
          population: -78,
          culture: -18,
-         product: 279,
+         tier2Product: 279,
          key: "crystalManufactoryHuman12"
       },
       "crystalManufactoryHuman13":
@@ -1223,7 +1223,7 @@ const Building = {
          height: 3,
          population: -96,
          culture: -19,
-         product: 301,
+         tier2Product: 301,
          key: "crystalManufactoryHuman13"
       },
       "crystalManufactoryHuman14":
@@ -1236,7 +1236,7 @@ const Building = {
          height: 3,
          population: -115,
          culture: -22,
-         product: 323,
+         tier2Product: 323,
          key: "crystalManufactoryHuman14"
       },
       "crystalManufactoryHuman15":
@@ -1249,7 +1249,7 @@ const Building = {
          height: 3,
          population: -134,
          culture: -24,
-         product: 342,
+         tier2Product: 342,
          key: "crystalManufactoryHuman15"
       },
       "crystalManufactoryHuman16":
@@ -1262,7 +1262,7 @@ const Building = {
          height: 4,
          population: -531,
          culture: -138,
-         product: 493,
+         tier2Product: 493,
          key: "crystalManufactoryHuman16"
       },
       "crystalManufactoryHuman17":
@@ -1275,7 +1275,7 @@ const Building = {
          height: 4,
          population: -233,
          culture: -68,
-         product: 534,
+         tier2Product: 534,
          key: "crystalManufactoryHuman17"
       },
       "crystalManufactoryHuman18":
@@ -1288,7 +1288,7 @@ const Building = {
          height: 4,
          population: -270,
          culture: -80,
-         product: 574,
+         tier2Product: 574,
          key: "crystalManufactoryHuman18"
       },
       "crystalManufactoryHuman19":
@@ -1301,7 +1301,7 @@ const Building = {
          height: 4,
          population: -310,
          culture: -95,
-         product: 618,
+         tier2Product: 618,
          key: "crystalManufactoryHuman19"
       },
       "crystalManufactoryHuman20":
@@ -1314,7 +1314,7 @@ const Building = {
          height: 5,
          population: -1030,
          culture: -294,
-         product: 835,
+         tier2Product: 835,
          key: "crystalManufactoryHuman20"
       },
       "crystalManufactoryHuman21":
@@ -1327,7 +1327,7 @@ const Building = {
          height: 5,
          population: -516,
          culture: -165,
-         product: 901,
+         tier2Product: 901,
          key: "crystalManufactoryHuman21"
       },
       "crystalManufactoryHuman22":
@@ -1340,7 +1340,7 @@ const Building = {
          height: 5,
          population: -596,
          culture: -194,
-         product: 973,
+         tier2Product: 973,
          key: "crystalManufactoryHuman22"
       },
       "crystalManufactoryHuman23":
@@ -1353,7 +1353,7 @@ const Building = {
          height: 5,
          population: -687,
          culture: -230,
-         product: 1,
+         tier2Product: 1,
          key: "crystalManufactoryHuman23"
       },
       "elixirManufactoryElf01":
@@ -1366,7 +1366,7 @@ const Building = {
          height: 3,
          population: -211,
          culture: 0,
-         product: 56,
+         tier3Product: 56,
          key: "elixirManufactoryElf01"
       },
       "elixirManufactoryElf02":
@@ -1379,7 +1379,7 @@ const Building = {
          height: 3,
          population: -24,
          culture: -19,
-         product: 75,
+         tier3Product: 75,
          key: "elixirManufactoryElf02"
       },
       "elixirManufactoryElf03":
@@ -1392,7 +1392,7 @@ const Building = {
          height: 3,
          population: -26,
          culture: -18,
-         product: 91,
+         tier3Product: 91,
          key: "elixirManufactoryElf03"
       },
       "elixirManufactoryElf04":
@@ -1405,7 +1405,7 @@ const Building = {
          height: 3,
          population: -29,
          culture: -24,
-         product: 113,
+         tier3Product: 113,
          key: "elixirManufactoryElf04"
       },
       "elixirManufactoryElf05":
@@ -1418,7 +1418,7 @@ const Building = {
          height: 4,
          population: -139,
          culture: -55,
-         product: 176,
+         tier3Product: 176,
          key: "elixirManufactoryElf05"
       },
       "elixirManufactoryElf06":
@@ -1431,7 +1431,7 @@ const Building = {
          height: 4,
          population: -48,
          culture: -13,
-         product: 204,
+         tier3Product: 204,
          key: "elixirManufactoryElf06"
       },
       "elixirManufactoryElf07":
@@ -1444,7 +1444,7 @@ const Building = {
          height: 4,
          population: -68,
          culture: -14,
-         product: 232,
+         tier3Product: 232,
          key: "elixirManufactoryElf07"
       },
       "elixirManufactoryElf08":
@@ -1457,7 +1457,7 @@ const Building = {
          height: 4,
          population: -81,
          culture: -16,
-         product: 260,
+         tier3Product: 260,
          key: "elixirManufactoryElf08"
       },
       "elixirManufactoryElf09":
@@ -1470,7 +1470,7 @@ const Building = {
          height: 5,
          population: -260,
          culture: -62,
-         product: 361,
+         tier3Product: 361,
          key: "elixirManufactoryElf09"
       },
       "elixirManufactoryElf10":
@@ -1483,7 +1483,7 @@ const Building = {
          height: 5,
          population: -131,
          culture: -25,
-         product: 395,
+         tier3Product: 395,
          key: "elixirManufactoryElf10"
       },
       "elixirManufactoryElf11":
@@ -1496,7 +1496,7 @@ const Building = {
          height: 5,
          population: -157,
          culture: -27,
-         product: 430,
+         tier3Product: 430,
          key: "elixirManufactoryElf11"
       },
       "elixirManufactoryElf12":
@@ -1509,7 +1509,7 @@ const Building = {
          height: 5,
          population: -210,
          culture: -31,
-         product: 464,
+         tier3Product: 464,
          key: "elixirManufactoryElf12"
       },
       "elixirManufactoryElf13":
@@ -1522,7 +1522,7 @@ const Building = {
          height: 5,
          population: -214,
          culture: -33,
-         product: 502,
+         tier3Product: 502,
          key: "elixirManufactoryElf13"
       },
       "elixirManufactoryElf14":
@@ -1535,7 +1535,7 @@ const Building = {
          height: 5,
          population: -218,
          culture: -38,
-         product: 537,
+         tier3Product: 537,
          key: "elixirManufactoryElf14"
       },
       "elixirManufactoryElf15":
@@ -1548,7 +1548,7 @@ const Building = {
          height: 5,
          population: -271,
          culture: -42,
-         product: 571,
+         tier3Product: 571,
          key: "elixirManufactoryElf15"
       },
       "elixirManufactoryElf16":
@@ -1561,7 +1561,7 @@ const Building = {
          height: 5,
          population: -81,
          culture: -123,
-         product: 618,
+         tier3Product: 618,
          key: "elixirManufactoryElf16"
       },
       "elixirManufactoryElf17":
@@ -1574,7 +1574,7 @@ const Building = {
          height: 5,
          population: -333,
          culture: -97,
-         product: 665,
+         tier3Product: 665,
          key: "elixirManufactoryElf17"
       },
       "elixirManufactoryElf18":
@@ -1587,7 +1587,7 @@ const Building = {
          height: 5,
          population: -384,
          culture: -114,
-         product: 719,
+         tier3Product: 719,
          key: "elixirManufactoryElf18"
       },
       "elixirManufactoryElf19":
@@ -1600,7 +1600,7 @@ const Building = {
          height: 5,
          population: -443,
          culture: -135,
-         product: 775,
+         tier3Product: 775,
          key: "elixirManufactoryElf19"
       },
       "elixirManufactoryElf20":
@@ -1613,7 +1613,7 @@ const Building = {
          height: 4,
          population: -1280,
          culture: -369,
-         product: 1,
+         tier3Product: 1,
          key: "elixirManufactoryElf20"
       },
       "elixirManufactoryElf21":
@@ -1626,7 +1626,7 @@ const Building = {
          height: 4,
          population: -708,
          culture: -226,
-         product: 1,
+         tier3Product: 1,
          key: "elixirManufactoryElf21"
       },
       "elixirManufactoryElf22":
@@ -1639,7 +1639,7 @@ const Building = {
          height: 4,
          population: -817,
          culture: -267,
-         product: 1,
+         tier3Product: 1,
          key: "elixirManufactoryElf22"
       },
       "elixirManufactoryElf23":
@@ -1652,7 +1652,7 @@ const Building = {
          height: 4,
          population: -943,
          culture: -314,
-         product: 1,
+         tier3Product: 1,
          key: "elixirManufactoryElf23"
       },
       "elixirManufactoryHuman01":
@@ -1665,7 +1665,7 @@ const Building = {
          height: 3,
          population: -123,
          culture: 0,
-         product: 41,
+         tier3Product: 41,
          key: "elixirManufactoryHuman01"
       },
       "elixirManufactoryHuman02":
@@ -1678,7 +1678,7 @@ const Building = {
          height: 3,
          population: -14,
          culture: -17,
-         product: 56,
+         tier3Product: 56,
          key: "elixirManufactoryHuman02"
       },
       "elixirManufactoryHuman03":
@@ -1691,7 +1691,7 @@ const Building = {
          height: 3,
          population: -15,
          culture: -17,
-         product: 69,
+         tier3Product: 69,
          key: "elixirManufactoryHuman03"
       },
       "elixirManufactoryHuman04":
@@ -1704,7 +1704,7 @@ const Building = {
          height: 4,
          population: -73,
          culture: -41,
-         product: 113,
+         tier3Product: 113,
          key: "elixirManufactoryHuman04"
       },
       "elixirManufactoryHuman05":
@@ -1717,7 +1717,7 @@ const Building = {
          height: 4,
          population: -25,
          culture: -30,
-         product: 132,
+         tier3Product: 132,
          key: "elixirManufactoryHuman05"
       },
       "elixirManufactoryHuman06":
@@ -1730,7 +1730,7 @@ const Building = {
          height: 4,
          population: -34,
          culture: -12,
-         product: 154,
+         tier3Product: 154,
          key: "elixirManufactoryHuman06"
       },
       "elixirManufactoryHuman07":
@@ -1743,7 +1743,7 @@ const Building = {
          height: 4,
          population: -42,
          culture: -13,
-         product: 173,
+         tier3Product: 173,
          key: "elixirManufactoryHuman07"
       },
       "elixirManufactoryHuman08":
@@ -1756,7 +1756,7 @@ const Building = {
          height: 4,
          population: -161,
          culture: -62,
-         product: 260,
+         tier3Product: 260,
          key: "elixirManufactoryHuman08"
       },
       "elixirManufactoryHuman09":
@@ -1769,7 +1769,7 @@ const Building = {
          height: 4,
          population: -82,
          culture: -22,
-         product: 289,
+         tier3Product: 289,
          key: "elixirManufactoryHuman09"
       },
       "elixirManufactoryHuman10":
@@ -1782,7 +1782,7 @@ const Building = {
          height: 4,
          population: -101,
          culture: -24,
-         product: 317,
+         tier3Product: 317,
          key: "elixirManufactoryHuman10"
       },
       "elixirManufactoryHuman11":
@@ -1795,7 +1795,7 @@ const Building = {
          height: 4,
          population: -103,
          culture: -26,
-         product: 345,
+         tier3Product: 345,
          key: "elixirManufactoryHuman11"
       },
       "elixirManufactoryHuman12":
@@ -1808,7 +1808,7 @@ const Building = {
          height: 4,
          population: -106,
          culture: -29,
-         product: 373,
+         tier3Product: 373,
          key: "elixirManufactoryHuman12"
       },
       "elixirManufactoryHuman13":
@@ -1821,7 +1821,7 @@ const Building = {
          height: 4,
          population: -131,
          culture: -33,
-         product: 402,
+         tier3Product: 402,
          key: "elixirManufactoryHuman13"
       },
       "elixirManufactoryHuman14":
@@ -1834,7 +1834,7 @@ const Building = {
          height: 4,
          population: -158,
          culture: -36,
-         product: 430,
+         tier3Product: 430,
          key: "elixirManufactoryHuman14"
       },
       "elixirManufactoryHuman15":
@@ -1847,7 +1847,7 @@ const Building = {
          height: 4,
          population: -185,
          culture: -40,
-         product: 458,
+         tier3Product: 458,
          key: "elixirManufactoryHuman15"
       },
       "elixirManufactoryHuman16":
@@ -1860,7 +1860,7 @@ const Building = {
          height: 5,
          population: -815,
          culture: -138,
-         product: 618,
+         tier3Product: 618,
          key: "elixirManufactoryHuman16"
       },
       "elixirManufactoryHuman17":
@@ -1873,7 +1873,7 @@ const Building = {
          height: 5,
          population: -333,
          culture: -97,
-         product: 665,
+         tier3Product: 665,
          key: "elixirManufactoryHuman17"
       },
       "elixirManufactoryHuman18":
@@ -1886,7 +1886,7 @@ const Building = {
          height: 5,
          population: -384,
          culture: -114,
-         product: 719,
+         tier3Product: 719,
          key: "elixirManufactoryHuman18"
       },
       "elixirManufactoryHuman19":
@@ -1899,7 +1899,7 @@ const Building = {
          height: 5,
          population: -443,
          culture: -135,
-         product: 775,
+         tier3Product: 775,
          key: "elixirManufactoryHuman19"
       },
       "elixirManufactoryHuman20":
@@ -1912,7 +1912,7 @@ const Building = {
          height: 4,
          population: -1280,
          culture: -369,
-         product: 1,
+         tier3Product: 1,
          key: "elixirManufactoryHuman20"
       },
       "elixirManufactoryHuman21":
@@ -1925,7 +1925,7 @@ const Building = {
          height: 4,
          population: -708,
          culture: -226,
-         product: 1,
+         tier3Product: 1,
          key: "elixirManufactoryHuman21"
       },
       "elixirManufactoryHuman22":
@@ -1938,7 +1938,7 @@ const Building = {
          height: 4,
          population: -817,
          culture: -267,
-         product: 1,
+         tier3Product: 1,
          key: "elixirManufactoryHuman22"
       },
       "elixirManufactoryHuman23":
@@ -1951,7 +1951,7 @@ const Building = {
          height: 4,
          population: -943,
          culture: -314,
-         product: 1,
+         tier3Product: 1,
          key: "elixirManufactoryHuman23"
       },
       "gemsManufactoryElf01":
@@ -1964,7 +1964,7 @@ const Building = {
          height: 4,
          population: -173,
          culture: 0,
-         product: 56,
+         tier3Product: 56,
          key: "gemsManufactoryElf01"
       },
       "gemsManufactoryElf02":
@@ -1977,7 +1977,7 @@ const Building = {
          height: 4,
          population: -19,
          culture: -23,
-         product: 75,
+         tier3Product: 75,
          key: "gemsManufactoryElf02"
       },
       "gemsManufactoryElf03":
@@ -1990,7 +1990,7 @@ const Building = {
          height: 4,
          population: -21,
          culture: -22,
-         product: 91,
+         tier3Product: 91,
          key: "gemsManufactoryElf03"
       },
       "gemsManufactoryElf04":
@@ -2003,7 +2003,7 @@ const Building = {
          height: 4,
          population: -103,
          culture: -54,
-         product: 151,
+         tier3Product: 151,
          key: "gemsManufactoryElf04"
       },
       "gemsManufactoryElf05":
@@ -2016,7 +2016,7 @@ const Building = {
          height: 4,
          population: -35,
          culture: -43,
-         product: 176,
+         tier3Product: 176,
          key: "gemsManufactoryElf05"
       },
       "gemsManufactoryElf06":
@@ -2029,7 +2029,7 @@ const Building = {
          height: 4,
          population: -39,
          culture: -16,
-         product: 204,
+         tier3Product: 204,
          key: "gemsManufactoryElf06"
       },
       "gemsManufactoryElf07":
@@ -2042,7 +2042,7 @@ const Building = {
          height: 4,
          population: -56,
          culture: -17,
-         product: 232,
+         tier3Product: 232,
          key: "gemsManufactoryElf07"
       },
       "gemsManufactoryElf08":
@@ -2055,7 +2055,7 @@ const Building = {
          height: 5,
          population: -194,
          culture: -69,
-         product: 323,
+         tier3Product: 323,
          key: "gemsManufactoryElf08"
       },
       "gemsManufactoryElf09":
@@ -2068,7 +2068,7 @@ const Building = {
          height: 5,
          population: -85,
          culture: -27,
-         product: 361,
+         tier3Product: 361,
          key: "gemsManufactoryElf09"
       },
       "gemsManufactoryElf10":
@@ -2081,7 +2081,7 @@ const Building = {
          height: 5,
          population: -107,
          culture: -30,
-         product: 395,
+         tier3Product: 395,
          key: "gemsManufactoryElf10"
       },
       "gemsManufactoryElf11":
@@ -2094,7 +2094,7 @@ const Building = {
          height: 5,
          population: -129,
          culture: -33,
-         product: 430,
+         tier3Product: 430,
          key: "gemsManufactoryElf11"
       },
       "gemsManufactoryElf12":
@@ -2107,7 +2107,7 @@ const Building = {
          height: 5,
          population: -172,
          culture: -37,
-         product: 464,
+         tier3Product: 464,
          key: "gemsManufactoryElf12"
       },
       "gemsManufactoryElf13":
@@ -2120,7 +2120,7 @@ const Building = {
          height: 5,
          population: -174,
          culture: -41,
-         product: 502,
+         tier3Product: 502,
          key: "gemsManufactoryElf13"
       },
       "gemsManufactoryElf14":
@@ -2133,7 +2133,7 @@ const Building = {
          height: 5,
          population: -179,
          culture: -46,
-         product: 537,
+         tier3Product: 537,
          key: "gemsManufactoryElf14"
       },
       "gemsManufactoryElf15":
@@ -2146,7 +2146,7 @@ const Building = {
          height: 5,
          population: -222,
          culture: -51,
-         product: 571,
+         tier3Product: 571,
          key: "gemsManufactoryElf15"
       },
       "gemsManufactoryElf16":
@@ -2159,7 +2159,7 @@ const Building = {
          height: 4,
          population: -460,
          culture: -31,
-         product: 618,
+         tier3Product: 618,
          key: "gemsManufactoryElf16"
       },
       "gemsManufactoryElf17":
@@ -2172,7 +2172,7 @@ const Building = {
          height: 4,
          population: -333,
          culture: -97,
-         product: 665,
+         tier3Product: 665,
          key: "gemsManufactoryElf17"
       },
       "gemsManufactoryElf18":
@@ -2185,7 +2185,7 @@ const Building = {
          height: 4,
          population: -384,
          culture: -114,
-         product: 719,
+         tier3Product: 719,
          key: "gemsManufactoryElf18"
       },
       "gemsManufactoryElf19":
@@ -2198,7 +2198,7 @@ const Building = {
          height: 4,
          population: -443,
          culture: -135,
-         product: 775,
+         tier3Product: 775,
          key: "gemsManufactoryElf19"
       },
       "gemsManufactoryElf20":
@@ -2211,7 +2211,7 @@ const Building = {
          height: 6,
          population: -1280,
          culture: -369,
-         product: 1,
+         tier3Product: 1,
          key: "gemsManufactoryElf20"
       },
       "gemsManufactoryElf21":
@@ -2224,7 +2224,7 @@ const Building = {
          height: 6,
          population: -708,
          culture: -226,
-         product: 1,
+         tier3Product: 1,
          key: "gemsManufactoryElf21"
       },
       "gemsManufactoryElf22":
@@ -2237,7 +2237,7 @@ const Building = {
          height: 6,
          population: -817,
          culture: -267,
-         product: 1,
+         tier3Product: 1,
          key: "gemsManufactoryElf22"
       },
       "gemsManufactoryElf23":
@@ -2250,7 +2250,7 @@ const Building = {
          height: 6,
          population: -943,
          culture: -314,
-         product: 1,
+         tier3Product: 1,
          key: "gemsManufactoryElf23"
       },
       "gemsManufactoryHuman01":
@@ -2263,7 +2263,7 @@ const Building = {
          height: 4,
          population: -182,
          culture: 0,
-         product: 56,
+         tier3Product: 56,
          key: "gemsManufactoryHuman01"
       },
       "gemsManufactoryHuman02":
@@ -2276,7 +2276,7 @@ const Building = {
          height: 4,
          population: -21,
          culture: -21,
-         product: 75,
+         tier3Product: 75,
          key: "gemsManufactoryHuman02"
       },
       "gemsManufactoryHuman03":
@@ -2289,7 +2289,7 @@ const Building = {
          height: 4,
          population: -22,
          culture: -20,
-         product: 91,
+         tier3Product: 91,
          key: "gemsManufactoryHuman03"
       },
       "gemsManufactoryHuman04":
@@ -2302,7 +2302,7 @@ const Building = {
          height: 4,
          population: -25,
          culture: -27,
-         product: 113,
+         tier3Product: 113,
          key: "gemsManufactoryHuman04"
       },
       "gemsManufactoryHuman05":
@@ -2315,7 +2315,7 @@ const Building = {
          height: 4,
          population: -120,
          culture: -60,
-         product: 176,
+         tier3Product: 176,
          key: "gemsManufactoryHuman05"
       },
       "gemsManufactoryHuman06":
@@ -2328,7 +2328,7 @@ const Building = {
          height: 4,
          population: -50,
          culture: -14,
-         product: 204,
+         tier3Product: 204,
          key: "gemsManufactoryHuman06"
       },
       "gemsManufactoryHuman07":
@@ -2341,7 +2341,7 @@ const Building = {
          height: 4,
          population: -63,
          culture: -15,
-         product: 232,
+         tier3Product: 232,
          key: "gemsManufactoryHuman07"
       },
       "gemsManufactoryHuman08":
@@ -2354,7 +2354,7 @@ const Building = {
          height: 4,
          population: -58,
          culture: -18,
-         product: 260,
+         tier3Product: 260,
          key: "gemsManufactoryHuman08"
       },
       "gemsManufactoryHuman09":
@@ -2367,7 +2367,7 @@ const Building = {
          height: 5,
          population: -249,
          culture: -68,
-         product: 361,
+         tier3Product: 361,
          key: "gemsManufactoryHuman09"
       },
       "gemsManufactoryHuman10":
@@ -2380,7 +2380,7 @@ const Building = {
          height: 5,
          population: -140,
          culture: -27,
-         product: 395,
+         tier3Product: 395,
          key: "gemsManufactoryHuman10"
       },
       "gemsManufactoryHuman11":
@@ -2393,7 +2393,7 @@ const Building = {
          height: 5,
          population: -143,
          culture: -30,
-         product: 430,
+         tier3Product: 430,
          key: "gemsManufactoryHuman11"
       },
       "gemsManufactoryHuman12":
@@ -2406,7 +2406,7 @@ const Building = {
          height: 5,
          population: -148,
          culture: -33,
-         product: 464,
+         tier3Product: 464,
          key: "gemsManufactoryHuman12"
       },
       "gemsManufactoryHuman13":
@@ -2419,7 +2419,7 @@ const Building = {
          height: 5,
          population: -182,
          culture: -37,
-         product: 502,
+         tier3Product: 502,
          key: "gemsManufactoryHuman13"
       },
       "gemsManufactoryHuman14":
@@ -2432,7 +2432,7 @@ const Building = {
          height: 5,
          population: -219,
          culture: -42,
-         product: 537,
+         tier3Product: 537,
          key: "gemsManufactoryHuman14"
       },
       "gemsManufactoryHuman15":
@@ -2445,7 +2445,7 @@ const Building = {
          height: 5,
          population: -257,
          culture: -45,
-         product: 571,
+         tier3Product: 571,
          key: "gemsManufactoryHuman15"
       },
       "gemsManufactoryHuman16":
@@ -2458,7 +2458,7 @@ const Building = {
          height: 4,
          population: -289,
          culture: -83,
-         product: 618,
+         tier3Product: 618,
          key: "gemsManufactoryHuman16"
       },
       "gemsManufactoryHuman17":
@@ -2471,7 +2471,7 @@ const Building = {
          height: 4,
          population: -333,
          culture: -97,
-         product: 665,
+         tier3Product: 665,
          key: "gemsManufactoryHuman17"
       },
       "gemsManufactoryHuman18":
@@ -2484,7 +2484,7 @@ const Building = {
          height: 4,
          population: -384,
          culture: -114,
-         product: 719,
+         tier3Product: 719,
          key: "gemsManufactoryHuman18"
       },
       "gemsManufactoryHuman19":
@@ -2497,7 +2497,7 @@ const Building = {
          height: 4,
          population: -443,
          culture: -135,
-         product: 775,
+         tier3Product: 775,
          key: "gemsManufactoryHuman19"
       },
       "gemsManufactoryHuman20":
@@ -2510,7 +2510,7 @@ const Building = {
          height: 6,
          population: -1280,
          culture: -369,
-         product: 1,
+         tier3Product: 1,
          key: "gemsManufactoryHuman20"
       },
       "gemsManufactoryHuman21":
@@ -2523,7 +2523,7 @@ const Building = {
          height: 6,
          population: -708,
          culture: -226,
-         product: 1,
+         tier3Product: 1,
          key: "gemsManufactoryHuman21"
       },
       "gemsManufactoryHuman22":
@@ -2536,7 +2536,7 @@ const Building = {
          height: 6,
          population: -817,
          culture: -267,
-         product: 1,
+         tier3Product: 1,
          key: "gemsManufactoryHuman22"
       },
       "gemsManufactoryHuman23":
@@ -2549,7 +2549,7 @@ const Building = {
          height: 6,
          population: -943,
          culture: -314,
-         product: 1,
+         tier3Product: 1,
          key: "gemsManufactoryHuman23"
       },
       "magicAcademyElf01":
@@ -2662,7 +2662,7 @@ const Building = {
          height: 3,
          population: -192,
          culture: 0,
-         product: 56,
+         tier3Product: 56,
          key: "magicDustManufactoryElf01"
       },
       "magicDustManufactoryElf02":
@@ -2675,7 +2675,7 @@ const Building = {
          height: 3,
          population: -21,
          culture: -21,
-         product: 75,
+         tier3Product: 75,
          key: "magicDustManufactoryElf02"
       },
       "magicDustManufactoryElf03":
@@ -2688,7 +2688,7 @@ const Building = {
          height: 3,
          population: -24,
          culture: -20,
-         product: 91,
+         tier3Product: 91,
          key: "magicDustManufactoryElf03"
       },
       "magicDustManufactoryElf04":
@@ -2701,7 +2701,7 @@ const Building = {
          height: 4,
          population: -114,
          culture: -49,
-         product: 151,
+         tier3Product: 151,
          key: "magicDustManufactoryElf04"
       },
       "magicDustManufactoryElf05":
@@ -2714,7 +2714,7 @@ const Building = {
          height: 4,
          population: -39,
          culture: -39,
-         product: 176,
+         tier3Product: 176,
          key: "magicDustManufactoryElf05"
       },
       "magicDustManufactoryElf06":
@@ -2727,7 +2727,7 @@ const Building = {
          height: 4,
          population: -44,
          culture: -14,
-         product: 204,
+         tier3Product: 204,
          key: "magicDustManufactoryElf06"
       },
       "magicDustManufactoryElf07":
@@ -2740,7 +2740,7 @@ const Building = {
          height: 4,
          population: -62,
          culture: -16,
-         product: 232,
+         tier3Product: 232,
          key: "magicDustManufactoryElf07"
       },
       "magicDustManufactoryElf08":
@@ -2753,7 +2753,7 @@ const Building = {
          height: 4,
          population: -215,
          culture: -62,
-         product: 323,
+         tier3Product: 323,
          key: "magicDustManufactoryElf08"
       },
       "magicDustManufactoryElf09":
@@ -2766,7 +2766,7 @@ const Building = {
          height: 4,
          population: -94,
          culture: -25,
-         product: 361,
+         tier3Product: 361,
          key: "magicDustManufactoryElf09"
       },
       "magicDustManufactoryElf10":
@@ -2779,7 +2779,7 @@ const Building = {
          height: 4,
          population: -120,
          culture: -27,
-         product: 395,
+         tier3Product: 395,
          key: "magicDustManufactoryElf10"
       },
       "magicDustManufactoryElf11":
@@ -2792,7 +2792,7 @@ const Building = {
          height: 4,
          population: -143,
          culture: -31,
-         product: 430,
+         tier3Product: 430,
          key: "magicDustManufactoryElf11"
       },
       "magicDustManufactoryElf12":
@@ -2805,7 +2805,7 @@ const Building = {
          height: 4,
          population: -190,
          culture: -33,
-         product: 464,
+         tier3Product: 464,
          key: "magicDustManufactoryElf12"
       },
       "magicDustManufactoryElf13":
@@ -2818,7 +2818,7 @@ const Building = {
          height: 4,
          population: -195,
          culture: -38,
-         product: 502,
+         tier3Product: 502,
          key: "magicDustManufactoryElf13"
       },
       "magicDustManufactoryElf14":
@@ -2831,7 +2831,7 @@ const Building = {
          height: 4,
          population: -198,
          culture: -42,
-         product: 537,
+         tier3Product: 537,
          key: "magicDustManufactoryElf14"
       },
       "magicDustManufactoryElf15":
@@ -2844,7 +2844,7 @@ const Building = {
          height: 4,
          population: -246,
          culture: -46,
-         product: 571,
+         tier3Product: 571,
          key: "magicDustManufactoryElf15"
       },
       "magicDustManufactoryElf16":
@@ -2857,7 +2857,7 @@ const Building = {
          height: 4,
          population: -271,
          culture: -77,
-         product: 618,
+         tier3Product: 618,
          key: "magicDustManufactoryElf16"
       },
       "magicDustManufactoryElf17":
@@ -2870,7 +2870,7 @@ const Building = {
          height: 4,
          population: -333,
          culture: -97,
-         product: 665,
+         tier3Product: 665,
          key: "magicDustManufactoryElf17"
       },
       "magicDustManufactoryElf18":
@@ -2883,7 +2883,7 @@ const Building = {
          height: 4,
          population: -384,
          culture: -114,
-         product: 719,
+         tier3Product: 719,
          key: "magicDustManufactoryElf18"
       },
       "magicDustManufactoryElf19":
@@ -2896,7 +2896,7 @@ const Building = {
          height: 4,
          population: -443,
          culture: -135,
-         product: 775,
+         tier3Product: 775,
          key: "magicDustManufactoryElf19"
       },
       "magicDustManufactoryElf20":
@@ -2909,7 +2909,7 @@ const Building = {
          height: 6,
          population: -1280,
          culture: -369,
-         product: 1,
+         tier3Product: 1,
          key: "magicDustManufactoryElf20"
       },
       "magicDustManufactoryElf21":
@@ -2922,7 +2922,7 @@ const Building = {
          height: 6,
          population: -708,
          culture: -226,
-         product: 1,
+         tier3Product: 1,
          key: "magicDustManufactoryElf21"
       },
       "magicDustManufactoryElf22":
@@ -2935,7 +2935,7 @@ const Building = {
          height: 6,
          population: -817,
          culture: -267,
-         product: 1,
+         tier3Product: 1,
          key: "magicDustManufactoryElf22"
       },
       "magicDustManufactoryElf23":
@@ -2948,7 +2948,7 @@ const Building = {
          height: 6,
          population: -943,
          culture: -314,
-         product: 1,
+         tier3Product: 1,
          key: "magicDustManufactoryElf23"
       },
       "magicDustManufactoryHuman01":
@@ -2961,7 +2961,7 @@ const Building = {
          height: 2,
          population: -100,
          culture: 0,
-         product: 28,
+         tier3Product: 28,
          key: "magicDustManufactoryHuman01"
       },
       "magicDustManufactoryHuman02":
@@ -2974,7 +2974,7 @@ const Building = {
          height: 2,
          population: -11,
          culture: -9,
-         product: 38,
+         tier3Product: 38,
          key: "magicDustManufactoryHuman02"
       },
       "magicDustManufactoryHuman03":
@@ -2987,7 +2987,7 @@ const Building = {
          height: 2,
          population: -13,
          culture: -9,
-         product: 47,
+         tier3Product: 47,
          key: "magicDustManufactoryHuman03"
       },
       "magicDustManufactoryHuman04":
@@ -3000,7 +3000,7 @@ const Building = {
          height: 3,
          population: -151,
          culture: -43,
-         product: 113,
+         tier3Product: 113,
          key: "magicDustManufactoryHuman04"
       },
       "magicDustManufactoryHuman05":
@@ -3013,7 +3013,7 @@ const Building = {
          height: 3,
          population: -31,
          culture: -25,
-         product: 132,
+         tier3Product: 132,
          key: "magicDustManufactoryHuman05"
       },
       "magicDustManufactoryHuman06":
@@ -3026,7 +3026,7 @@ const Building = {
          height: 3,
          population: -41,
          culture: -10,
-         product: 154,
+         tier3Product: 154,
          key: "magicDustManufactoryHuman06"
       },
       "magicDustManufactoryHuman07":
@@ -3039,7 +3039,7 @@ const Building = {
          height: 3,
          population: -52,
          culture: -10,
-         product: 173,
+         tier3Product: 173,
          key: "magicDustManufactoryHuman07"
       },
       "magicDustManufactoryHuman08":
@@ -3052,7 +3052,7 @@ const Building = {
          height: 4,
          population: -344,
          culture: -91,
-         product: 323,
+         tier3Product: 323,
          key: "magicDustManufactoryHuman08"
       },
       "magicDustManufactoryHuman09":
@@ -3065,7 +3065,7 @@ const Building = {
          height: 4,
          population: -126,
          culture: -22,
-         product: 361,
+         tier3Product: 361,
          key: "magicDustManufactoryHuman09"
       },
       "magicDustManufactoryHuman10":
@@ -3078,7 +3078,7 @@ const Building = {
          height: 4,
          population: -154,
          culture: -24,
-         product: 395,
+         tier3Product: 395,
          key: "magicDustManufactoryHuman10"
       },
       "magicDustManufactoryHuman11":
@@ -3091,7 +3091,7 @@ const Building = {
          height: 4,
          population: -157,
          culture: -27,
-         product: 430,
+         tier3Product: 430,
          key: "magicDustManufactoryHuman11"
       },
       "magicDustManufactoryHuman12":
@@ -3104,7 +3104,7 @@ const Building = {
          height: 4,
          population: -163,
          culture: -30,
-         product: 464,
+         tier3Product: 464,
          key: "magicDustManufactoryHuman12"
       },
       "magicDustManufactoryHuman13":
@@ -3117,7 +3117,7 @@ const Building = {
          height: 4,
          population: -200,
          culture: -33,
-         product: 502,
+         tier3Product: 502,
          key: "magicDustManufactoryHuman13"
       },
       "magicDustManufactoryHuman14":
@@ -3130,7 +3130,7 @@ const Building = {
          height: 4,
          population: -241,
          culture: -37,
-         product: 537,
+         tier3Product: 537,
          key: "magicDustManufactoryHuman14"
       },
       "magicDustManufactoryHuman15":
@@ -3143,7 +3143,7 @@ const Building = {
          height: 4,
          population: -283,
          culture: -42,
-         product: 571,
+         tier3Product: 571,
          key: "magicDustManufactoryHuman15"
       },
       "magicDustManufactoryHuman16":
@@ -3156,7 +3156,7 @@ const Building = {
          height: 4,
          population: -101,
          culture: -128,
-         product: 618,
+         tier3Product: 618,
          key: "magicDustManufactoryHuman16"
       },
       "magicDustManufactoryHuman17":
@@ -3169,7 +3169,7 @@ const Building = {
          height: 4,
          population: -333,
          culture: -97,
-         product: 665,
+         tier3Product: 665,
          key: "magicDustManufactoryHuman17"
       },
       "magicDustManufactoryHuman18":
@@ -3182,7 +3182,7 @@ const Building = {
          height: 4,
          population: -384,
          culture: -114,
-         product: 719,
+         tier3Product: 719,
          key: "magicDustManufactoryHuman18"
       },
       "magicDustManufactoryHuman19":
@@ -3195,7 +3195,7 @@ const Building = {
          height: 4,
          population: -443,
          culture: -135,
-         product: 775,
+         tier3Product: 775,
          key: "magicDustManufactoryHuman19"
       },
       "magicDustManufactoryHuman20":
@@ -3208,7 +3208,7 @@ const Building = {
          height: 6,
          population: -1280,
          culture: -369,
-         product: 1,
+         tier3Product: 1,
          key: "magicDustManufactoryHuman20"
       },
       "magicDustManufactoryHuman21":
@@ -3221,7 +3221,7 @@ const Building = {
          height: 6,
          population: -708,
          culture: -226,
-         product: 1,
+         tier3Product: 1,
          key: "magicDustManufactoryHuman21"
       },
       "magicDustManufactoryHuman22":
@@ -3234,7 +3234,7 @@ const Building = {
          height: 6,
          population: -817,
          culture: -267,
-         product: 1,
+         tier3Product: 1,
          key: "magicDustManufactoryHuman22"
       },
       "magicDustManufactoryHuman23":
@@ -3247,7 +3247,7 @@ const Building = {
          height: 6,
          population: -943,
          culture: -314,
-         product: 1,
+         tier3Product: 1,
          key: "magicDustManufactoryHuman23"
       },
       "mainHallElf01":
@@ -3500,7 +3500,7 @@ const Building = {
          height: 2,
          population: -20,
          culture: 0,
-         product: 9,
+         tier1Product: 9,
          key: "marbleManufactoryElf01"
       },
       "marbleManufactoryElf02":
@@ -3513,7 +3513,7 @@ const Building = {
          height: 2,
          population: -2,
          culture: -2,
-         product: 13,
+         tier1Product: 13,
          key: "marbleManufactoryElf02"
       },
       "marbleManufactoryElf03":
@@ -3526,7 +3526,7 @@ const Building = {
          height: 2,
          population: -3,
          culture: -2,
-         product: 16,
+         tier1Product: 16,
          key: "marbleManufactoryElf03"
       },
       "marbleManufactoryElf04":
@@ -3539,7 +3539,7 @@ const Building = {
          height: 2,
          population: -2,
          culture: -3,
-         product: 19,
+         tier1Product: 19,
          key: "marbleManufactoryElf04"
       },
       "marbleManufactoryElf05":
@@ -3552,7 +3552,7 @@ const Building = {
          height: 2,
          population: -3,
          culture: -3,
-         product: 22,
+         tier1Product: 22,
          key: "marbleManufactoryElf05"
       },
       "marbleManufactoryElf06":
@@ -3565,7 +3565,7 @@ const Building = {
          height: 2,
          population: -38,
          culture: -12,
-         product: 50,
+         tier1Product: 50,
          key: "marbleManufactoryElf06"
       },
       "marbleManufactoryElf07":
@@ -3578,7 +3578,7 @@ const Building = {
          height: 2,
          population: -9,
          culture: -3,
-         product: 56,
+         tier1Product: 56,
          key: "marbleManufactoryElf07"
       },
       "marbleManufactoryElf08":
@@ -3591,7 +3591,7 @@ const Building = {
          height: 2,
          population: -12,
          culture: -3,
-         product: 66,
+         tier1Product: 66,
          key: "marbleManufactoryElf08"
       },
       "marbleManufactoryElf09":
@@ -3604,7 +3604,7 @@ const Building = {
          height: 2,
          population: -12,
          culture: -3,
-         product: 72,
+         tier1Product: 72,
          key: "marbleManufactoryElf09"
       },
       "marbleManufactoryElf10":
@@ -3617,7 +3617,7 @@ const Building = {
          height: 2,
          population: -72,
          culture: -20,
-         product: 119,
+         tier1Product: 119,
          key: "marbleManufactoryElf10"
       },
       "marbleManufactoryElf11":
@@ -3630,7 +3630,7 @@ const Building = {
          height: 2,
          population: -27,
          culture: -6,
-         product: 129,
+         tier1Product: 129,
          key: "marbleManufactoryElf11"
       },
       "marbleManufactoryElf12":
@@ -3643,7 +3643,7 @@ const Building = {
          height: 2,
          population: -36,
          culture: -6,
-         product: 138,
+         tier1Product: 138,
          key: "marbleManufactoryElf12"
       },
       "marbleManufactoryElf13":
@@ -3656,7 +3656,7 @@ const Building = {
          height: 2,
          population: -36,
          culture: -7,
-         product: 151,
+         tier1Product: 151,
          key: "marbleManufactoryElf13"
       },
       "marbleManufactoryElf14":
@@ -3669,7 +3669,7 @@ const Building = {
          height: 2,
          population: -38,
          culture: -8,
-         product: 160,
+         tier1Product: 160,
          key: "marbleManufactoryElf14"
       },
       "marbleManufactoryElf15":
@@ -3682,7 +3682,7 @@ const Building = {
          height: 2,
          population: -46,
          culture: -9,
-         product: 173,
+         tier1Product: 173,
          key: "marbleManufactoryElf15"
       },
       "marbleManufactoryElf16":
@@ -3695,7 +3695,7 @@ const Building = {
          height: 5,
          population: -328,
          culture: -82,
-         product: 298,
+         tier1Product: 298,
          key: "marbleManufactoryElf16"
       },
       "marbleManufactoryElf17":
@@ -3708,7 +3708,7 @@ const Building = {
          height: 5,
          population: -105,
          culture: -30,
-         product: 320,
+         tier1Product: 320,
          key: "marbleManufactoryElf17"
       },
       "marbleManufactoryElf18":
@@ -3721,7 +3721,7 @@ const Building = {
          height: 5,
          population: -122,
          culture: -36,
-         product: 345,
+         tier1Product: 345,
          key: "marbleManufactoryElf18"
       },
       "marbleManufactoryElf19":
@@ -3734,7 +3734,7 @@ const Building = {
          height: 5,
          population: -139,
          culture: -42,
-         product: 373,
+         tier1Product: 373,
          key: "marbleManufactoryElf19"
       },
       "marbleManufactoryElf20":
@@ -3747,7 +3747,7 @@ const Building = {
          height: 3,
          population: -1110,
          culture: -311,
-         product: 725,
+         tier1Product: 725,
          key: "marbleManufactoryElf20"
       },
       "marbleManufactoryElf21":
@@ -3760,7 +3760,7 @@ const Building = {
          height: 3,
          population: -332,
          culture: -106,
-         product: 781,
+         tier1Product: 781,
          key: "marbleManufactoryElf21"
       },
       "marbleManufactoryElf22":
@@ -3773,7 +3773,7 @@ const Building = {
          height: 3,
          population: -383,
          culture: -125,
-         product: 841,
+         tier1Product: 841,
          key: "marbleManufactoryElf22"
       },
       "marbleManufactoryElf23":
@@ -3786,7 +3786,7 @@ const Building = {
          height: 3,
          population: -442,
          culture: -148,
-         product: 910,
+         tier1Product: 910,
          key: "marbleManufactoryElf23"
       },
       "marbleManufactoryHuman01":
@@ -3799,7 +3799,7 @@ const Building = {
          height: 1,
          population: -21,
          culture: 0,
-         product: 9,
+         tier1Product: 9,
          key: "marbleManufactoryHuman01"
       },
       "marbleManufactoryHuman02":
@@ -3812,7 +3812,7 @@ const Building = {
          height: 1,
          population: -2,
          culture: -2,
-         product: 13,
+         tier1Product: 13,
          key: "marbleManufactoryHuman02"
       },
       "marbleManufactoryHuman03":
@@ -3825,7 +3825,7 @@ const Building = {
          height: 1,
          population: -3,
          culture: -2,
-         product: 16,
+         tier1Product: 16,
          key: "marbleManufactoryHuman03"
       },
       "marbleManufactoryHuman04":
@@ -3838,7 +3838,7 @@ const Building = {
          height: 1,
          population: -3,
          culture: -2,
-         product: 19,
+         tier1Product: 19,
          key: "marbleManufactoryHuman04"
       },
       "marbleManufactoryHuman05":
@@ -3851,7 +3851,7 @@ const Building = {
          height: 2,
          population: -67,
          culture: -21,
-         product: 66,
+         tier1Product: 66,
          key: "marbleManufactoryHuman05"
       },
       "marbleManufactoryHuman06":
@@ -3864,7 +3864,7 @@ const Building = {
          height: 2,
          population: -12,
          culture: -3,
-         product: 75,
+         tier1Product: 75,
          key: "marbleManufactoryHuman06"
       },
       "marbleManufactoryHuman07":
@@ -3877,7 +3877,7 @@ const Building = {
          height: 2,
          population: -17,
          culture: -3,
-         product: 88,
+         tier1Product: 88,
          key: "marbleManufactoryHuman07"
       },
       "marbleManufactoryHuman08":
@@ -3890,7 +3890,7 @@ const Building = {
          height: 2,
          population: -14,
          culture: -4,
-         product: 97,
+         tier1Product: 97,
          key: "marbleManufactoryHuman08"
       },
       "marbleManufactoryHuman09":
@@ -3903,7 +3903,7 @@ const Building = {
          height: 3,
          population: -187,
          culture: -45,
-         product: 217,
+         tier1Product: 217,
          key: "marbleManufactoryHuman09"
       },
       "marbleManufactoryHuman10":
@@ -3916,7 +3916,7 @@ const Building = {
          height: 3,
          population: -58,
          culture: -9,
-         product: 235,
+         tier1Product: 235,
          key: "marbleManufactoryHuman10"
       },
       "marbleManufactoryHuman11":
@@ -3929,7 +3929,7 @@ const Building = {
          height: 3,
          population: -59,
          culture: -10,
-         product: 257,
+         tier1Product: 257,
          key: "marbleManufactoryHuman11"
       },
       "marbleManufactoryHuman12":
@@ -3942,7 +3942,7 @@ const Building = {
          height: 3,
          population: -61,
          culture: -11,
-         product: 279,
+         tier1Product: 279,
          key: "marbleManufactoryHuman12"
       },
       "marbleManufactoryHuman13":
@@ -3955,7 +3955,7 @@ const Building = {
          height: 3,
          population: -75,
          culture: -13,
-         product: 301,
+         tier1Product: 301,
          key: "marbleManufactoryHuman13"
       },
       "marbleManufactoryHuman14":
@@ -3968,7 +3968,7 @@ const Building = {
          height: 3,
          population: -90,
          culture: -14,
-         product: 323,
+         tier1Product: 323,
          key: "marbleManufactoryHuman14"
       },
       "marbleManufactoryHuman15":
@@ -3981,7 +3981,7 @@ const Building = {
          height: 3,
          population: -106,
          culture: -15,
-         product: 342,
+         tier1Product: 342,
          key: "marbleManufactoryHuman15"
       },
       "marbleManufactoryHuman16":
@@ -3994,7 +3994,7 @@ const Building = {
          height: 3,
          population: -343,
          culture: -74,
-         product: 446,
+         tier1Product: 446,
          key: "marbleManufactoryHuman16"
       },
       "marbleManufactoryHuman17":
@@ -4007,7 +4007,7 @@ const Building = {
          height: 3,
          population: -171,
          culture: -41,
-         product: 480,
+         tier1Product: 480,
          key: "marbleManufactoryHuman17"
       },
       "marbleManufactoryHuman18":
@@ -4020,7 +4020,7 @@ const Building = {
          height: 3,
          population: -199,
          culture: -48,
-         product: 518,
+         tier1Product: 518,
          key: "marbleManufactoryHuman18"
       },
       "marbleManufactoryHuman19":
@@ -4033,7 +4033,7 @@ const Building = {
          height: 3,
          population: -228,
          culture: -57,
-         product: 559,
+         tier1Product: 559,
          key: "marbleManufactoryHuman19"
       },
       "marbleManufactoryHuman20":
@@ -4046,7 +4046,7 @@ const Building = {
          height: 3,
          population: -444,
          culture: -214,
-         product: 725,
+         tier1Product: 725,
          key: "marbleManufactoryHuman20"
       },
       "marbleManufactoryHuman21":
@@ -4059,7 +4059,7 @@ const Building = {
          height: 3,
          population: -332,
          culture: -106,
-         product: 781,
+         tier1Product: 781,
          key: "marbleManufactoryHuman21"
       },
       "marbleManufactoryHuman22":
@@ -4072,7 +4072,7 @@ const Building = {
          height: 3,
          population: -383,
          culture: -125,
-         product: 841,
+         tier1Product: 841,
          key: "marbleManufactoryHuman22"
       },
       "marbleManufactoryHuman23":
@@ -4085,7 +4085,7 @@ const Building = {
          height: 3,
          population: -442,
          culture: -148,
-         product: 910,
+         tier1Product: 910,
          key: "marbleManufactoryHuman23"
       },
       "planksManufactoryElf01":
@@ -4098,7 +4098,7 @@ const Building = {
          height: 1,
          population: -22,
          culture: 0,
-         product: 9,
+         tier1Product: 9,
          key: "planksManufactoryElf01"
       },
       "planksManufactoryElf02":
@@ -4111,7 +4111,7 @@ const Building = {
          height: 1,
          population: -2,
          culture: -2,
-         product: 13,
+         tier1Product: 13,
          key: "planksManufactoryElf02"
       },
       "planksManufactoryElf03":
@@ -4124,7 +4124,7 @@ const Building = {
          height: 1,
          population: -3,
          culture: -2,
-         product: 16,
+         tier1Product: 16,
          key: "planksManufactoryElf03"
       },
       "planksManufactoryElf04":
@@ -4137,7 +4137,7 @@ const Building = {
          height: 1,
          population: -3,
          culture: -2,
-         product: 19,
+         tier1Product: 19,
          key: "planksManufactoryElf04"
       },
       "planksManufactoryElf05":
@@ -4150,7 +4150,7 @@ const Building = {
          height: 1,
          population: -4,
          culture: -3,
-         product: 22,
+         tier1Product: 22,
          key: "planksManufactoryElf05"
       },
       "planksManufactoryElf06":
@@ -4163,7 +4163,7 @@ const Building = {
          height: 1,
          population: -3,
          culture: -1,
-         product: 25,
+         tier1Product: 25,
          key: "planksManufactoryElf06"
       },
       "planksManufactoryElf07":
@@ -4176,7 +4176,7 @@ const Building = {
          height: 2,
          population: -48,
          culture: -12,
-         product: 56,
+         tier1Product: 56,
          key: "planksManufactoryElf07"
       },
       "planksManufactoryElf08":
@@ -4189,7 +4189,7 @@ const Building = {
          height: 2,
          population: -13,
          culture: -3,
-         product: 66,
+         tier1Product: 66,
          key: "planksManufactoryElf08"
       },
       "planksManufactoryElf09":
@@ -4202,7 +4202,7 @@ const Building = {
          height: 2,
          population: -13,
          culture: -3,
-         product: 72,
+         tier1Product: 72,
          key: "planksManufactoryElf09"
       },
       "planksManufactoryElf10":
@@ -4215,7 +4215,7 @@ const Building = {
          height: 2,
          population: -16,
          culture: -3,
-         product: 78,
+         tier1Product: 78,
          key: "planksManufactoryElf10"
       },
       "planksManufactoryElf11":
@@ -4228,7 +4228,7 @@ const Building = {
          height: 2,
          population: -93,
          culture: -20,
-         product: 129,
+         tier1Product: 129,
          key: "planksManufactoryElf11"
       },
       "planksManufactoryElf12":
@@ -4241,7 +4241,7 @@ const Building = {
          height: 2,
          population: -40,
          culture: -6,
-         product: 138,
+         tier1Product: 138,
          key: "planksManufactoryElf12"
       },
       "planksManufactoryElf13":
@@ -4254,7 +4254,7 @@ const Building = {
          height: 2,
          population: -40,
          culture: -6,
-         product: 151,
+         tier1Product: 151,
          key: "planksManufactoryElf13"
       },
       "planksManufactoryElf14":
@@ -4267,7 +4267,7 @@ const Building = {
          height: 2,
          population: -40,
          culture: -7,
-         product: 160,
+         tier1Product: 160,
          key: "planksManufactoryElf14"
       },
       "planksManufactoryElf15":
@@ -4280,7 +4280,7 @@ const Building = {
          height: 2,
          population: -51,
          culture: -8,
-         product: 173,
+         tier1Product: 173,
          key: "planksManufactoryElf15"
       },
       "planksManufactoryElf16":
@@ -4293,7 +4293,7 @@ const Building = {
          height: 2,
          population: -361,
          culture: -74,
-         product: 298,
+         tier1Product: 298,
          key: "planksManufactoryElf16"
       },
       "planksManufactoryElf17":
@@ -4306,7 +4306,7 @@ const Building = {
          height: 2,
          population: -116,
          culture: -27,
-         product: 320,
+         tier1Product: 320,
          key: "planksManufactoryElf17"
       },
       "planksManufactoryElf18":
@@ -4319,7 +4319,7 @@ const Building = {
          height: 2,
          population: -134,
          culture: -32,
-         product: 345,
+         tier1Product: 345,
          key: "planksManufactoryElf18"
       },
       "planksManufactoryElf19":
@@ -4332,7 +4332,7 @@ const Building = {
          height: 2,
          population: -154,
          culture: -38,
-         product: 373,
+         tier1Product: 373,
          key: "planksManufactoryElf19"
       },
       "planksManufactoryElf20":
@@ -4345,7 +4345,7 @@ const Building = {
          height: 3,
          population: -1004,
          culture: -339,
-         product: 725,
+         tier1Product: 725,
          key: "planksManufactoryElf20"
       },
       "planksManufactoryElf21":
@@ -4358,7 +4358,7 @@ const Building = {
          height: 3,
          population: -332,
          culture: -106,
-         product: 781,
+         tier1Product: 781,
          key: "planksManufactoryElf21"
       },
       "planksManufactoryElf22":
@@ -4371,7 +4371,7 @@ const Building = {
          height: 3,
          population: -383,
          culture: -125,
-         product: 841,
+         tier1Product: 841,
          key: "planksManufactoryElf22"
       },
       "planksManufactoryElf23":
@@ -4384,7 +4384,7 @@ const Building = {
          height: 3,
          population: -442,
          culture: -148,
-         product: 910,
+         tier1Product: 910,
          key: "planksManufactoryElf23"
       },
       "planksManufactoryHuman01":
@@ -4397,7 +4397,7 @@ const Building = {
          height: 2,
          population: -34,
          culture: 0,
-         product: 19,
+         tier1Product: 19,
          key: "planksManufactoryHuman01"
       },
       "planksManufactoryHuman02":
@@ -4410,7 +4410,7 @@ const Building = {
          height: 2,
          population: -4,
          culture: -5,
-         product: 25,
+         tier1Product: 25,
          key: "planksManufactoryHuman02"
       },
       "planksManufactoryHuman03":
@@ -4423,7 +4423,7 @@ const Building = {
          height: 2,
          population: -4,
          culture: -4,
-         product: 31,
+         tier1Product: 31,
          key: "planksManufactoryHuman03"
       },
       "planksManufactoryHuman04":
@@ -4436,7 +4436,7 @@ const Building = {
          height: 2,
          population: -5,
          culture: -7,
-         product: 38,
+         tier1Product: 38,
          key: "planksManufactoryHuman04"
       },
       "planksManufactoryHuman05":
@@ -4449,7 +4449,7 @@ const Building = {
          height: 2,
          population: -5,
          culture: -6,
-         product: 44,
+         tier1Product: 44,
          key: "planksManufactoryHuman05"
       },
       "planksManufactoryHuman06":
@@ -4462,7 +4462,7 @@ const Building = {
          height: 3,
          population: -81,
          culture: -33,
-         product: 116,
+         tier1Product: 116,
          key: "planksManufactoryHuman06"
       },
       "planksManufactoryHuman07":
@@ -4475,7 +4475,7 @@ const Building = {
          height: 3,
          population: -20,
          culture: -6,
-         product: 132,
+         tier1Product: 132,
          key: "planksManufactoryHuman07"
       },
       "planksManufactoryHuman08":
@@ -4488,7 +4488,7 @@ const Building = {
          height: 3,
          population: -18,
          culture: -7,
-         product: 148,
+         tier1Product: 148,
          key: "planksManufactoryHuman08"
       },
       "planksManufactoryHuman09":
@@ -4501,7 +4501,7 @@ const Building = {
          height: 3,
          population: -29,
          culture: -7,
-         product: 163,
+         tier1Product: 163,
          key: "planksManufactoryHuman09"
       },
       "planksManufactoryHuman10":
@@ -4514,7 +4514,7 @@ const Building = {
          height: 4,
          population: -218,
          culture: -73,
-         product: 317,
+         tier1Product: 317,
          key: "planksManufactoryHuman10"
       },
       "planksManufactoryHuman11":
@@ -4527,7 +4527,7 @@ const Building = {
          height: 4,
          population: -65,
          culture: -17,
-         product: 345,
+         tier1Product: 345,
          key: "planksManufactoryHuman11"
       },
       "planksManufactoryHuman12":
@@ -4540,7 +4540,7 @@ const Building = {
          height: 4,
          population: -66,
          culture: -18,
-         product: 373,
+         tier1Product: 373,
          key: "planksManufactoryHuman12"
       },
       "planksManufactoryHuman13":
@@ -4553,7 +4553,7 @@ const Building = {
          height: 4,
          population: -82,
          culture: -21,
-         product: 402,
+         tier1Product: 402,
          key: "planksManufactoryHuman13"
       },
       "planksManufactoryHuman14":
@@ -4566,7 +4566,7 @@ const Building = {
          height: 4,
          population: -99,
          culture: -22,
-         product: 430,
+         tier1Product: 430,
          key: "planksManufactoryHuman14"
       },
       "planksManufactoryHuman15":
@@ -4579,7 +4579,7 @@ const Building = {
          height: 4,
          population: -115,
          culture: -25,
-         product: 458,
+         tier1Product: 458,
          key: "planksManufactoryHuman15"
       },
       "planksManufactoryHuman16":
@@ -4592,7 +4592,7 @@ const Building = {
          height: 6,
          population: -252,
          culture: -83,
-         product: 534,
+         tier1Product: 534,
          key: "planksManufactoryHuman16"
       },
       "planksManufactoryHuman17":
@@ -4605,7 +4605,7 @@ const Building = {
          height: 6,
          population: -169,
          culture: -60,
-         product: 577,
+         tier1Product: 577,
          key: "planksManufactoryHuman17"
       },
       "planksManufactoryHuman18":
@@ -4618,7 +4618,7 @@ const Building = {
          height: 6,
          population: -195,
          culture: -71,
-         product: 621,
+         tier1Product: 621,
          key: "planksManufactoryHuman18"
       },
       "planksManufactoryHuman19":
@@ -4631,7 +4631,7 @@ const Building = {
          height: 6,
          population: -224,
          culture: -84,
-         product: 672,
+         tier1Product: 672,
          key: "planksManufactoryHuman19"
       },
       "planksManufactoryHuman20":
@@ -4644,7 +4644,7 @@ const Building = {
          height: 3,
          population: -475,
          culture: -39,
-         product: 725,
+         tier1Product: 725,
          key: "planksManufactoryHuman20"
       },
       "planksManufactoryHuman21":
@@ -4657,7 +4657,7 @@ const Building = {
          height: 3,
          population: -332,
          culture: -106,
-         product: 781,
+         tier1Product: 781,
          key: "planksManufactoryHuman21"
       },
       "planksManufactoryHuman22":
@@ -4670,7 +4670,7 @@ const Building = {
          height: 3,
          population: -383,
          culture: -125,
-         product: 841,
+         tier1Product: 841,
          key: "planksManufactoryHuman22"
       },
       "planksManufactoryHuman23":
@@ -4683,7 +4683,7 @@ const Building = {
          height: 3,
          population: -442,
          culture: -148,
-         product: 910,
+         tier1Product: 910,
          key: "planksManufactoryHuman23"
       },
       "residenceElf01":
@@ -5450,7 +5450,7 @@ const Building = {
          height: 3,
          population: -113,
          culture: 0,
-         product: 41,
+         tier2Product: 41,
          key: "scrollsManufactoryElf01"
       },
       "scrollsManufactoryElf02":
@@ -5463,7 +5463,7 @@ const Building = {
          height: 3,
          population: -13,
          culture: -15,
-         product: 56,
+         tier2Product: 56,
          key: "scrollsManufactoryElf02"
       },
       "scrollsManufactoryElf03":
@@ -5476,7 +5476,7 @@ const Building = {
          height: 3,
          population: -14,
          culture: -14,
-         product: 69,
+         tier2Product: 69,
          key: "scrollsManufactoryElf03"
       },
       "scrollsManufactoryElf04":
@@ -5489,7 +5489,7 @@ const Building = {
          height: 3,
          population: -16,
          culture: -20,
-         product: 85,
+         tier2Product: 85,
          key: "scrollsManufactoryElf04"
       },
       "scrollsManufactoryElf05":
@@ -5502,7 +5502,7 @@ const Building = {
          height: 3,
          population: -17,
          culture: -21,
-         product: 100,
+         tier2Product: 100,
          key: "scrollsManufactoryElf05"
       },
       "scrollsManufactoryElf06":
@@ -5515,7 +5515,7 @@ const Building = {
          height: 4,
          population: -83,
          culture: -34,
-         product: 154,
+         tier2Product: 154,
          key: "scrollsManufactoryElf06"
       },
       "scrollsManufactoryElf07":
@@ -5528,7 +5528,7 @@ const Building = {
          height: 4,
          population: -37,
          culture: -11,
-         product: 173,
+         tier2Product: 173,
          key: "scrollsManufactoryElf07"
       },
       "scrollsManufactoryElf08":
@@ -5541,7 +5541,7 @@ const Building = {
          height: 4,
          population: -43,
          culture: -13,
-         product: 195,
+         tier2Product: 195,
          key: "scrollsManufactoryElf08"
       },
       "scrollsManufactoryElf09":
@@ -5554,7 +5554,7 @@ const Building = {
          height: 4,
          population: -45,
          culture: -14,
-         product: 217,
+         tier2Product: 217,
          key: "scrollsManufactoryElf09"
       },
       "scrollsManufactoryElf10":
@@ -5567,7 +5567,7 @@ const Building = {
          height: 4,
          population: -201,
          culture: -68,
-         product: 317,
+         tier2Product: 317,
          key: "scrollsManufactoryElf10"
       },
       "scrollsManufactoryElf11":
@@ -5580,7 +5580,7 @@ const Building = {
          height: 4,
          population: -91,
          culture: -24,
-         product: 345,
+         tier2Product: 345,
          key: "scrollsManufactoryElf11"
       },
       "scrollsManufactoryElf12":
@@ -5593,7 +5593,7 @@ const Building = {
          height: 4,
          population: -120,
          culture: -26,
-         product: 373,
+         tier2Product: 373,
          key: "scrollsManufactoryElf12"
       },
       "scrollsManufactoryElf13":
@@ -5606,7 +5606,7 @@ const Building = {
          height: 4,
          population: -122,
          culture: -29,
-         product: 402,
+         tier2Product: 402,
          key: "scrollsManufactoryElf13"
       },
       "scrollsManufactoryElf14":
@@ -5619,7 +5619,7 @@ const Building = {
          height: 4,
          population: -125,
          culture: -32,
-         product: 430,
+         tier2Product: 430,
          key: "scrollsManufactoryElf14"
       },
       "scrollsManufactoryElf15":
@@ -5632,7 +5632,7 @@ const Building = {
          height: 4,
          population: -155,
          culture: -35,
-         product: 458,
+         tier2Product: 458,
          key: "scrollsManufactoryElf15"
       },
       "scrollsManufactoryElf16":
@@ -5645,7 +5645,7 @@ const Building = {
          height: 5,
          population: -720,
          culture: -116,
-         product: 618,
+         tier2Product: 618,
          key: "scrollsManufactoryElf16"
       },
       "scrollsManufactoryElf17":
@@ -5658,7 +5658,7 @@ const Building = {
          height: 5,
          population: -295,
          culture: -85,
-         product: 665,
+         tier2Product: 665,
          key: "scrollsManufactoryElf17"
       },
       "scrollsManufactoryElf18":
@@ -5671,7 +5671,7 @@ const Building = {
          height: 5,
          population: -339,
          culture: -100,
-         product: 719,
+         tier2Product: 719,
          key: "scrollsManufactoryElf18"
       },
       "scrollsManufactoryElf19":
@@ -5684,7 +5684,7 @@ const Building = {
          height: 5,
          population: -392,
          culture: -119,
-         product: 775,
+         tier2Product: 775,
          key: "scrollsManufactoryElf19"
       },
       "scrollsManufactoryElf20":
@@ -5697,7 +5697,7 @@ const Building = {
          height: 4,
          population: -419,
          culture: -139,
-         product: 835,
+         tier2Product: 835,
          key: "scrollsManufactoryElf20"
       },
       "scrollsManufactoryElf21":
@@ -5710,7 +5710,7 @@ const Building = {
          height: 4,
          population: -516,
          culture: -165,
-         product: 901,
+         tier2Product: 901,
          key: "scrollsManufactoryElf21"
       },
       "scrollsManufactoryElf22":
@@ -5723,7 +5723,7 @@ const Building = {
          height: 4,
          population: -596,
          culture: -194,
-         product: 973,
+         tier2Product: 973,
          key: "scrollsManufactoryElf22"
       },
       "scrollsManufactoryElf23":
@@ -5736,7 +5736,7 @@ const Building = {
          height: 4,
          population: -687,
          culture: -230,
-         product: 1,
+         tier2Product: 1,
          key: "scrollsManufactoryElf23"
       },
       "scrollsManufactoryHuman01":
@@ -5749,7 +5749,7 @@ const Building = {
          height: 3,
          population: -88,
          culture: 0,
-         product: 28,
+         tier2Product: 28,
          key: "scrollsManufactoryHuman01"
       },
       "scrollsManufactoryHuman02":
@@ -5762,7 +5762,7 @@ const Building = {
          height: 3,
          population: -9,
          culture: -8,
-         product: 38,
+         tier2Product: 38,
          key: "scrollsManufactoryHuman02"
       },
       "scrollsManufactoryHuman03":
@@ -5775,7 +5775,7 @@ const Building = {
          height: 3,
          population: -11,
          culture: -8,
-         product: 47,
+         tier2Product: 47,
          key: "scrollsManufactoryHuman03"
       },
       "scrollsManufactoryHuman04":
@@ -5788,7 +5788,7 @@ const Building = {
          height: 3,
          population: -12,
          culture: -11,
-         product: 56,
+         tier2Product: 56,
          key: "scrollsManufactoryHuman04"
       },
       "scrollsManufactoryHuman05":
@@ -5801,7 +5801,7 @@ const Building = {
          height: 3,
          population: -14,
          culture: -11,
-         product: 66,
+         tier2Product: 66,
          key: "scrollsManufactoryHuman05"
       },
       "scrollsManufactoryHuman06":
@@ -5814,7 +5814,7 @@ const Building = {
          height: 3,
          population: -94,
          culture: -25,
-         product: 116,
+         tier2Product: 116,
          key: "scrollsManufactoryHuman06"
       },
       "scrollsManufactoryHuman07":
@@ -5827,7 +5827,7 @@ const Building = {
          height: 3,
          population: -34,
          culture: -7,
-         product: 132,
+         tier2Product: 132,
          key: "scrollsManufactoryHuman07"
       },
       "scrollsManufactoryHuman08":
@@ -5840,7 +5840,7 @@ const Building = {
          height: 3,
          population: -31,
          culture: -8,
-         product: 148,
+         tier2Product: 148,
          key: "scrollsManufactoryHuman08"
       },
       "scrollsManufactoryHuman09":
@@ -5853,7 +5853,7 @@ const Building = {
          height: 3,
          population: -49,
          culture: -8,
-         product: 163,
+         tier2Product: 163,
          key: "scrollsManufactoryHuman09"
       },
       "scrollsManufactoryHuman10":
@@ -5866,7 +5866,7 @@ const Building = {
          height: 4,
          population: -195,
          culture: -42,
-         product: 235,
+         tier2Product: 235,
          key: "scrollsManufactoryHuman10"
       },
       "scrollsManufactoryHuman11":
@@ -5879,7 +5879,7 @@ const Building = {
          height: 4,
          population: -83,
          culture: -14,
-         product: 257,
+         tier2Product: 257,
          key: "scrollsManufactoryHuman11"
       },
       "scrollsManufactoryHuman12":
@@ -5892,7 +5892,7 @@ const Building = {
          height: 4,
          population: -85,
          culture: -15,
-         product: 279,
+         tier2Product: 279,
          key: "scrollsManufactoryHuman12"
       },
       "scrollsManufactoryHuman13":
@@ -5905,7 +5905,7 @@ const Building = {
          height: 4,
          population: -105,
          culture: -18,
-         product: 301,
+         tier2Product: 301,
          key: "scrollsManufactoryHuman13"
       },
       "scrollsManufactoryHuman14":
@@ -5918,7 +5918,7 @@ const Building = {
          height: 4,
          population: -127,
          culture: -19,
-         product: 323,
+         tier2Product: 323,
          key: "scrollsManufactoryHuman14"
       },
       "scrollsManufactoryHuman15":
@@ -5931,7 +5931,7 @@ const Building = {
          height: 4,
          population: -148,
          culture: -22,
-         product: 342,
+         tier2Product: 342,
          key: "scrollsManufactoryHuman15"
       },
       "scrollsManufactoryHuman16":
@@ -5944,7 +5944,7 @@ const Building = {
          height: 4,
          population: -432,
          culture: -162,
-         product: 493,
+         tier2Product: 493,
          key: "scrollsManufactoryHuman16"
       },
       "scrollsManufactoryHuman17":
@@ -5957,7 +5957,7 @@ const Building = {
          height: 4,
          population: -233,
          culture: -68,
-         product: 534,
+         tier2Product: 534,
          key: "scrollsManufactoryHuman17"
       },
       "scrollsManufactoryHuman18":
@@ -5970,7 +5970,7 @@ const Building = {
          height: 4,
          population: -270,
          culture: -80,
-         product: 574,
+         tier2Product: 574,
          key: "scrollsManufactoryHuman18"
       },
       "scrollsManufactoryHuman19":
@@ -5983,7 +5983,7 @@ const Building = {
          height: 4,
          population: -310,
          culture: -95,
-         product: 618,
+         tier2Product: 618,
          key: "scrollsManufactoryHuman19"
       },
       "scrollsManufactoryHuman20":
@@ -5996,7 +5996,7 @@ const Building = {
          height: 4,
          population: -1030,
          culture: -294,
-         product: 835,
+         tier2Product: 835,
          key: "scrollsManufactoryHuman20"
       },
       "scrollsManufactoryHuman21":
@@ -6009,7 +6009,7 @@ const Building = {
          height: 4,
          population: -516,
          culture: -165,
-         product: 901,
+         tier2Product: 901,
          key: "scrollsManufactoryHuman21"
       },
       "scrollsManufactoryHuman22":
@@ -6022,7 +6022,7 @@ const Building = {
          height: 4,
          population: -596,
          culture: -194,
-         product: 973,
+         tier2Product: 973,
          key: "scrollsManufactoryHuman22"
       },
       "scrollsManufactoryHuman23":
@@ -6035,7 +6035,7 @@ const Building = {
          height: 4,
          population: -687,
          culture: -230,
-         product: 1,
+         tier2Product: 1,
          key: "scrollsManufactoryHuman23"
       },
       "silkManufactoryElf01":
@@ -6048,7 +6048,7 @@ const Building = {
          height: 3,
          population: -84,
          culture: 0,
-         product: 28,
+         tier2Product: 28,
          key: "silkManufactoryElf01"
       },
       "silkManufactoryElf02":
@@ -6061,7 +6061,7 @@ const Building = {
          height: 3,
          population: -9,
          culture: -9,
-         product: 38,
+         tier2Product: 38,
          key: "silkManufactoryElf02"
       },
       "silkManufactoryElf03":
@@ -6074,7 +6074,7 @@ const Building = {
          height: 3,
          population: -11,
          culture: -9,
-         product: 47,
+         tier2Product: 47,
          key: "silkManufactoryElf03"
       },
       "silkManufactoryElf04":
@@ -6087,7 +6087,7 @@ const Building = {
          height: 3,
          population: -69,
          culture: -27,
-         product: 85,
+         tier2Product: 85,
          key: "silkManufactoryElf04"
       },
       "silkManufactoryElf05":
@@ -6100,7 +6100,7 @@ const Building = {
          height: 3,
          population: -19,
          culture: -19,
-         product: 100,
+         tier2Product: 100,
          key: "silkManufactoryElf05"
       },
       "silkManufactoryElf06":
@@ -6113,7 +6113,7 @@ const Building = {
          height: 3,
          population: -21,
          culture: -7,
-         product: 116,
+         tier2Product: 116,
          key: "silkManufactoryElf06"
       },
       "silkManufactoryElf07":
@@ -6126,7 +6126,7 @@ const Building = {
          height: 3,
          population: -31,
          culture: -7,
-         product: 132,
+         tier2Product: 132,
          key: "silkManufactoryElf07"
       },
       "silkManufactoryElf08":
@@ -6139,7 +6139,7 @@ const Building = {
          height: 4,
          population: -129,
          culture: -38,
-         product: 195,
+         tier2Product: 195,
          key: "silkManufactoryElf08"
       },
       "silkManufactoryElf09":
@@ -6152,7 +6152,7 @@ const Building = {
          height: 4,
          population: -50,
          culture: -13,
-         product: 217,
+         tier2Product: 217,
          key: "silkManufactoryElf09"
       },
       "silkManufactoryElf10":
@@ -6165,7 +6165,7 @@ const Building = {
          height: 4,
          population: -62,
          culture: -15,
-         product: 235,
+         tier2Product: 235,
          key: "silkManufactoryElf10"
       },
       "silkManufactoryElf11":
@@ -6178,7 +6178,7 @@ const Building = {
          height: 4,
          population: -75,
          culture: -15,
-         product: 257,
+         tier2Product: 257,
          key: "silkManufactoryElf11"
       },
       "silkManufactoryElf12":
@@ -6191,7 +6191,7 @@ const Building = {
          height: 4,
          population: -101,
          culture: -18,
-         product: 279,
+         tier2Product: 279,
          key: "silkManufactoryElf12"
       },
       "silkManufactoryElf13":
@@ -6204,7 +6204,7 @@ const Building = {
          height: 4,
          population: -102,
          culture: -20,
-         product: 301,
+         tier2Product: 301,
          key: "silkManufactoryElf13"
       },
       "silkManufactoryElf14":
@@ -6217,7 +6217,7 @@ const Building = {
          height: 4,
          population: -104,
          culture: -22,
-         product: 323,
+         tier2Product: 323,
          key: "silkManufactoryElf14"
       },
       "silkManufactoryElf15":
@@ -6230,7 +6230,7 @@ const Building = {
          height: 4,
          population: -129,
          culture: -24,
-         product: 342,
+         tier2Product: 342,
          key: "silkManufactoryElf15"
       },
       "silkManufactoryElf16":
@@ -6243,7 +6243,7 @@ const Building = {
          height: 5,
          population: -919,
          culture: -229,
-         product: 618,
+         tier2Product: 618,
          key: "silkManufactoryElf16"
       },
       "silkManufactoryElf17":
@@ -6256,7 +6256,7 @@ const Building = {
          height: 5,
          population: -295,
          culture: -85,
-         product: 665,
+         tier2Product: 665,
          key: "silkManufactoryElf17"
       },
       "silkManufactoryElf18":
@@ -6269,7 +6269,7 @@ const Building = {
          height: 5,
          population: -339,
          culture: -100,
-         product: 719,
+         tier2Product: 719,
          key: "silkManufactoryElf18"
       },
       "silkManufactoryElf19":
@@ -6282,7 +6282,7 @@ const Building = {
          height: 5,
          population: -392,
          culture: -119,
-         product: 775,
+         tier2Product: 775,
          key: "silkManufactoryElf19"
       },
       "silkManufactoryElf20":
@@ -6295,7 +6295,7 @@ const Building = {
          height: 4,
          population: -419,
          culture: -139,
-         product: 835,
+         tier2Product: 835,
          key: "silkManufactoryElf20"
       },
       "silkManufactoryElf21":
@@ -6308,7 +6308,7 @@ const Building = {
          height: 4,
          population: -516,
          culture: -165,
-         product: 901,
+         tier2Product: 901,
          key: "silkManufactoryElf21"
       },
       "silkManufactoryElf22":
@@ -6321,7 +6321,7 @@ const Building = {
          height: 4,
          population: -596,
          culture: -194,
-         product: 973,
+         tier2Product: 973,
          key: "silkManufactoryElf22"
       },
       "silkManufactoryElf23":
@@ -6334,7 +6334,7 @@ const Building = {
          height: 4,
          population: -687,
          culture: -230,
-         product: 1,
+         tier2Product: 1,
          key: "silkManufactoryElf23"
       },
       "silkManufactoryHuman01":
@@ -6347,7 +6347,7 @@ const Building = {
          height: 3,
          population: -108,
          culture: 0,
-         product: 41,
+         tier2Product: 41,
          key: "silkManufactoryHuman01"
       },
       "silkManufactoryHuman02":
@@ -6360,7 +6360,7 @@ const Building = {
          height: 3,
          population: -12,
          culture: -15,
-         product: 56,
+         tier2Product: 56,
          key: "silkManufactoryHuman02"
       },
       "silkManufactoryHuman03":
@@ -6373,7 +6373,7 @@ const Building = {
          height: 3,
          population: -13,
          culture: -14,
-         product: 69,
+         tier2Product: 69,
          key: "silkManufactoryHuman03"
       },
       "silkManufactoryHuman04":
@@ -6386,7 +6386,7 @@ const Building = {
          height: 3,
          population: -15,
          culture: -20,
-         product: 85,
+         tier2Product: 85,
          key: "silkManufactoryHuman04"
       },
       "silkManufactoryHuman05":
@@ -6399,7 +6399,7 @@ const Building = {
          height: 3,
          population: -16,
          culture: -20,
-         product: 100,
+         tier2Product: 100,
          key: "silkManufactoryHuman05"
       },
       "silkManufactoryHuman06":
@@ -6412,7 +6412,7 @@ const Building = {
          height: 4,
          population: -84,
          culture: -33,
-         product: 154,
+         tier2Product: 154,
          key: "silkManufactoryHuman06"
       },
       "silkManufactoryHuman07":
@@ -6425,7 +6425,7 @@ const Building = {
          height: 4,
          population: -38,
          culture: -12,
-         product: 173,
+         tier2Product: 173,
          key: "silkManufactoryHuman07"
       },
       "silkManufactoryHuman08":
@@ -6438,7 +6438,7 @@ const Building = {
          height: 4,
          population: -33,
          culture: -12,
-         product: 195,
+         tier2Product: 195,
          key: "silkManufactoryHuman08"
       },
       "silkManufactoryHuman09":
@@ -6451,7 +6451,7 @@ const Building = {
          height: 4,
          population: -54,
          culture: -14,
-         product: 217,
+         tier2Product: 217,
          key: "silkManufactoryHuman09"
       },
       "silkManufactoryHuman10":
@@ -6464,7 +6464,7 @@ const Building = {
          height: 4,
          population: -213,
          culture: -68,
-         product: 317,
+         tier2Product: 317,
          key: "silkManufactoryHuman10"
       },
       "silkManufactoryHuman11":
@@ -6477,7 +6477,7 @@ const Building = {
          height: 4,
          population: -90,
          culture: -23,
-         product: 345,
+         tier2Product: 345,
          key: "silkManufactoryHuman11"
       },
       "silkManufactoryHuman12":
@@ -6490,7 +6490,7 @@ const Building = {
          height: 4,
          population: -93,
          culture: -26,
-         product: 373,
+         tier2Product: 373,
          key: "silkManufactoryHuman12"
       },
       "silkManufactoryHuman13":
@@ -6503,7 +6503,7 @@ const Building = {
          height: 4,
          population: -115,
          culture: -28,
-         product: 402,
+         tier2Product: 402,
          key: "silkManufactoryHuman13"
       },
       "silkManufactoryHuman14":
@@ -6516,7 +6516,7 @@ const Building = {
          height: 4,
          population: -138,
          culture: -32,
-         product: 430,
+         tier2Product: 430,
          key: "silkManufactoryHuman14"
       },
       "silkManufactoryHuman15":
@@ -6529,7 +6529,7 @@ const Building = {
          height: 4,
          population: -162,
          culture: -35,
-         product: 458,
+         tier2Product: 458,
          key: "silkManufactoryHuman15"
       },
       "silkManufactoryHuman16":
@@ -6542,7 +6542,7 @@ const Building = {
          height: 5,
          population: -713,
          culture: -120,
-         product: 618,
+         tier2Product: 618,
          key: "silkManufactoryHuman16"
       },
       "silkManufactoryHuman17":
@@ -6555,7 +6555,7 @@ const Building = {
          height: 5,
          population: -291,
          culture: -85,
-         product: 665,
+         tier2Product: 665,
          key: "silkManufactoryHuman17"
       },
       "silkManufactoryHuman18":
@@ -6568,7 +6568,7 @@ const Building = {
          height: 5,
          population: -336,
          culture: -100,
-         product: 719,
+         tier2Product: 719,
          key: "silkManufactoryHuman18"
       },
       "silkManufactoryHuman19":
@@ -6581,7 +6581,7 @@ const Building = {
          height: 5,
          population: -388,
          culture: -119,
-         product: 775,
+         tier2Product: 775,
          key: "silkManufactoryHuman19"
       },
       "silkManufactoryHuman20":
@@ -6594,7 +6594,7 @@ const Building = {
          height: 4,
          population: -419,
          culture: -139,
-         product: 835,
+         tier2Product: 835,
          key: "silkManufactoryHuman20"
       },
       "silkManufactoryHuman21":
@@ -6607,7 +6607,7 @@ const Building = {
          height: 4,
          population: -516,
          culture: -165,
-         product: 901,
+         tier2Product: 901,
          key: "silkManufactoryHuman21"
       },
       "silkManufactoryHuman22":
@@ -6620,7 +6620,7 @@ const Building = {
          height: 4,
          population: -596,
          culture: -194,
-         product: 973,
+         tier2Product: 973,
          key: "silkManufactoryHuman22"
       },
       "silkManufactoryHuman23":
@@ -6633,7 +6633,7 @@ const Building = {
          height: 4,
          population: -687,
          culture: -230,
-         product: 1,
+         tier2Product: 1,
          key: "silkManufactoryHuman23"
       },
       "steelManufactoryElf01":
@@ -6646,7 +6646,7 @@ const Building = {
          height: 2,
          population: -36,
          culture: 0,
-         product: 19,
+         tier1Product: 19,
          key: "steelManufactoryElf01"
       },
       "steelManufactoryElf02":
@@ -6659,7 +6659,7 @@ const Building = {
          height: 2,
          population: -4,
          culture: -5,
-         product: 25,
+         tier1Product: 25,
          key: "steelManufactoryElf02"
       },
       "steelManufactoryElf03":
@@ -6672,7 +6672,7 @@ const Building = {
          height: 2,
          population: -4,
          culture: -4,
-         product: 31,
+         tier1Product: 31,
          key: "steelManufactoryElf03"
       },
       "steelManufactoryElf04":
@@ -6685,7 +6685,7 @@ const Building = {
          height: 2,
          population: -5,
          culture: -7,
-         product: 38,
+         tier1Product: 38,
          key: "steelManufactoryElf04"
       },
       "steelManufactoryElf05":
@@ -6698,7 +6698,7 @@ const Building = {
          height: 3,
          population: -33,
          culture: -17,
-         product: 66,
+         tier1Product: 66,
          key: "steelManufactoryElf05"
       },
       "steelManufactoryElf06":
@@ -6711,7 +6711,7 @@ const Building = {
          height: 3,
          population: -9,
          culture: -4,
-         product: 75,
+         tier1Product: 75,
          key: "steelManufactoryElf06"
       },
       "steelManufactoryElf07":
@@ -6724,7 +6724,7 @@ const Building = {
          height: 3,
          population: -14,
          culture: -4,
-         product: 88,
+         tier1Product: 88,
          key: "steelManufactoryElf07"
       },
       "steelManufactoryElf08":
@@ -6737,7 +6737,7 @@ const Building = {
          height: 3,
          population: -15,
          culture: -5,
-         product: 97,
+         tier1Product: 97,
          key: "steelManufactoryElf08"
       },
       "steelManufactoryElf09":
@@ -6750,7 +6750,7 @@ const Building = {
          height: 3,
          population: -84,
          culture: -30,
-         product: 163,
+         tier1Product: 163,
          key: "steelManufactoryElf09"
       },
       "steelManufactoryElf10":
@@ -6763,7 +6763,7 @@ const Building = {
          height: 3,
          population: -30,
          culture: -9,
-         product: 179,
+         tier1Product: 179,
          key: "steelManufactoryElf10"
       },
       "steelManufactoryElf11":
@@ -6776,7 +6776,7 @@ const Building = {
          height: 3,
          population: -36,
          culture: -9,
-         product: 195,
+         tier1Product: 195,
          key: "steelManufactoryElf11"
       },
       "steelManufactoryElf12":
@@ -6789,7 +6789,7 @@ const Building = {
          height: 3,
          population: -49,
          culture: -10,
-         product: 210,
+         tier1Product: 210,
          key: "steelManufactoryElf12"
       },
       "steelManufactoryElf13":
@@ -6802,7 +6802,7 @@ const Building = {
          height: 3,
          population: -49,
          culture: -12,
-         product: 226,
+         tier1Product: 226,
          key: "steelManufactoryElf13"
       },
       "steelManufactoryElf14":
@@ -6815,7 +6815,7 @@ const Building = {
          height: 3,
          population: -50,
          culture: -13,
-         product: 242,
+         tier1Product: 242,
          key: "steelManufactoryElf14"
       },
       "steelManufactoryElf15":
@@ -6828,7 +6828,7 @@ const Building = {
          height: 3,
          population: -62,
          culture: -14,
-         product: 257,
+         tier1Product: 257,
          key: "steelManufactoryElf15"
       },
       "steelManufactoryElf16":
@@ -6841,7 +6841,7 @@ const Building = {
          height: 5,
          population: -444,
          culture: -135,
-         product: 446,
+         tier1Product: 446,
          key: "steelManufactoryElf16"
       },
       "steelManufactoryElf17":
@@ -6854,7 +6854,7 @@ const Building = {
          height: 5,
          population: -141,
          culture: -50,
-         product: 480,
+         tier1Product: 480,
          key: "steelManufactoryElf17"
       },
       "steelManufactoryElf18":
@@ -6867,7 +6867,7 @@ const Building = {
          height: 5,
          population: -164,
          culture: -59,
-         product: 518,
+         tier1Product: 518,
          key: "steelManufactoryElf18"
       },
       "steelManufactoryElf19":
@@ -6880,7 +6880,7 @@ const Building = {
          height: 5,
          population: -189,
          culture: -70,
-         product: 559,
+         tier1Product: 559,
          key: "steelManufactoryElf19"
       },
       "steelManufactoryElf20":
@@ -6893,7 +6893,7 @@ const Building = {
          height: 6,
          population: -742,
          culture: -131,
-         product: 725,
+         tier1Product: 725,
          key: "steelManufactoryElf20"
       },
       "steelManufactoryElf21":
@@ -6906,7 +6906,7 @@ const Building = {
          height: 6,
          population: -332,
          culture: -106,
-         product: 781,
+         tier1Product: 781,
          key: "steelManufactoryElf21"
       },
       "steelManufactoryElf22":
@@ -6919,7 +6919,7 @@ const Building = {
          height: 6,
          population: -383,
          culture: -125,
-         product: 841,
+         tier1Product: 841,
          key: "steelManufactoryElf22"
       },
       "steelManufactoryElf23":
@@ -6932,7 +6932,7 @@ const Building = {
          height: 6,
          population: -442,
          culture: -148,
-         product: 910,
+         tier1Product: 910,
          key: "steelManufactoryElf23"
       },
       "steelManufactoryHuman01":
@@ -6945,7 +6945,7 @@ const Building = {
          height: 2,
          population: -38,
          culture: 0,
-         product: 19,
+         tier1Product: 19,
          key: "steelManufactoryHuman01"
       },
       "steelManufactoryHuman02":
@@ -6958,7 +6958,7 @@ const Building = {
          height: 2,
          population: -4,
          culture: -4,
-         product: 25,
+         tier1Product: 25,
          key: "steelManufactoryHuman02"
       },
       "steelManufactoryHuman03":
@@ -6971,7 +6971,7 @@ const Building = {
          height: 2,
          population: -5,
          culture: -4,
-         product: 31,
+         tier1Product: 31,
          key: "steelManufactoryHuman03"
       },
       "steelManufactoryHuman04":
@@ -6984,7 +6984,7 @@ const Building = {
          height: 2,
          population: -5,
          culture: -6,
-         product: 38,
+         tier1Product: 38,
          key: "steelManufactoryHuman04"
       },
       "steelManufactoryHuman05":
@@ -6997,7 +6997,7 @@ const Building = {
          height: 2,
          population: -6,
          culture: -6,
-         product: 44,
+         tier1Product: 44,
          key: "steelManufactoryHuman05"
       },
       "steelManufactoryHuman06":
@@ -7010,7 +7010,7 @@ const Building = {
          height: 2,
          population: -8,
          culture: -2,
-         product: 50,
+         tier1Product: 50,
          key: "steelManufactoryHuman06"
       },
       "steelManufactoryHuman07":
@@ -7023,7 +7023,7 @@ const Building = {
          height: 3,
          population: -104,
          culture: -33,
-         product: 132,
+         tier1Product: 132,
          key: "steelManufactoryHuman07"
       },
       "steelManufactoryHuman08":
@@ -7036,7 +7036,7 @@ const Building = {
          height: 3,
          population: -20,
          culture: -7,
-         product: 148,
+         tier1Product: 148,
          key: "steelManufactoryHuman08"
       },
       "steelManufactoryHuman09":
@@ -7049,7 +7049,7 @@ const Building = {
          height: 3,
          population: -32,
          culture: -6,
-         product: 163,
+         tier1Product: 163,
          key: "steelManufactoryHuman09"
       },
       "steelManufactoryHuman10":
@@ -7062,7 +7062,7 @@ const Building = {
          height: 3,
          population: -40,
          culture: -8,
-         product: 179,
+         tier1Product: 179,
          key: "steelManufactoryHuman10"
       },
       "steelManufactoryHuman11":
@@ -7075,7 +7075,7 @@ const Building = {
          height: 4,
          population: -275,
          culture: -74,
-         product: 345,
+         tier1Product: 345,
          key: "steelManufactoryHuman11"
       },
       "steelManufactoryHuman12":
@@ -7088,7 +7088,7 @@ const Building = {
          height: 4,
          population: -73,
          culture: -17,
-         product: 373,
+         tier1Product: 373,
          key: "steelManufactoryHuman12"
       },
       "steelManufactoryHuman13":
@@ -7101,7 +7101,7 @@ const Building = {
          height: 4,
          population: -91,
          culture: -18,
-         product: 402,
+         tier1Product: 402,
          key: "steelManufactoryHuman13"
       },
       "steelManufactoryHuman14":
@@ -7114,7 +7114,7 @@ const Building = {
          height: 4,
          population: -110,
          culture: -21,
-         product: 430,
+         tier1Product: 430,
          key: "steelManufactoryHuman14"
       },
       "steelManufactoryHuman15":
@@ -7127,7 +7127,7 @@ const Building = {
          height: 4,
          population: -128,
          culture: -23,
-         product: 458,
+         tier1Product: 458,
          key: "steelManufactoryHuman15"
       },
       "steelManufactoryHuman16":
@@ -7140,7 +7140,7 @@ const Building = {
          height: 5,
          population: -77,
          culture: -24,
-         product: 468,
+         tier1Product: 468,
          key: "steelManufactoryHuman16"
       },
       "steelManufactoryHuman17":
@@ -7153,7 +7153,7 @@ const Building = {
          height: 5,
          population: -156,
          culture: -45,
-         product: 480,
+         tier1Product: 480,
          key: "steelManufactoryHuman17"
       },
       "steelManufactoryHuman18":
@@ -7166,7 +7166,7 @@ const Building = {
          height: 5,
          population: -180,
          culture: -54,
-         product: 518,
+         tier1Product: 518,
          key: "steelManufactoryHuman18"
       },
       "steelManufactoryHuman19":
@@ -7179,7 +7179,7 @@ const Building = {
          height: 5,
          population: -208,
          culture: -64,
-         product: 559,
+         tier1Product: 559,
          key: "steelManufactoryHuman19"
       },
       "steelManufactoryHuman20":
@@ -7192,7 +7192,7 @@ const Building = {
          height: 6,
          population: -600,
          culture: -172,
-         product: 725,
+         tier1Product: 725,
          key: "steelManufactoryHuman20"
       },
       "steelManufactoryHuman21":
@@ -7205,7 +7205,7 @@ const Building = {
          height: 6,
          population: -332,
          culture: -106,
-         product: 781,
+         tier1Product: 781,
          key: "steelManufactoryHuman21"
       },
       "steelManufactoryHuman22":
@@ -7218,7 +7218,7 @@ const Building = {
          height: 6,
          population: -383,
          culture: -125,
-         product: 841,
+         tier1Product: 841,
          key: "steelManufactoryHuman22"
       },
       "steelManufactoryHuman23":
@@ -7231,7 +7231,7 @@ const Building = {
          height: 6,
          population: -442,
          culture: -148,
-         product: 910,
+         tier1Product: 910,
          key: "steelManufactoryHuman23"
       },
       "traderElf01":
@@ -8722,6 +8722,42 @@ Building.values = function()
    return Object.values(Building.properties);
 };
 
+// Supplementary data.
+Building.properties[Building.MARBLE_MANUFACTORY_ELF_09].coin = -1440 / 24;
+Building.properties[Building.MARBLE_MANUFACTORY_ELF_09].supplies = -144 / 24;
+Building.properties[Building.PLANKS_MANUFACTORY_ELF_09].coin = -1440 / 24;
+Building.properties[Building.PLANKS_MANUFACTORY_ELF_09].supplies = -144 / 24;
+Building.properties[Building.STEEL_MANUFACTORY_ELF_08].coin = -1940 / 24;
+Building.properties[Building.STEEL_MANUFACTORY_ELF_08].supplies = -194 / 24;
+
+Building.properties[Building.CRYSTAL_MANUFACTORY_ELF_08].coin = -11800 / 24;
+Building.properties[Building.CRYSTAL_MANUFACTORY_ELF_08].supplies = -1180 / 24;
+Building.properties[Building.CRYSTAL_MANUFACTORY_ELF_10].coin = -14300 / 24;
+Building.properties[Building.CRYSTAL_MANUFACTORY_ELF_10].supplies = -1430 / 24;
+Building.properties[Building.SCROLLS_MANUFACTORY_ELF_06].coin = -12300 / 24;
+Building.properties[Building.SCROLLS_MANUFACTORY_ELF_06].supplies = -1230 / 24;
+Building.properties[Building.SILK_MANUFACTORY_ELF_07].coin = -10600 / 24;
+Building.properties[Building.SILK_MANUFACTORY_ELF_07].supplies = -1060 / 24;
+
+Building.properties[Building.ELIXIR_MANUFACTORY_ELF_03].coin = -29100 / 24;
+Building.properties[Building.ELIXIR_MANUFACTORY_ELF_03].supplies = -2910 / 24;
+Building.properties[Building.ELIXIR_MANUFACTORY_ELF_04].coin = -36200 / 24;
+Building.properties[Building.ELIXIR_MANUFACTORY_ELF_04].supplies = -3620 / 24;
+
+Building.properties[Building.MARBLE_MANUFACTORY_HUMAN_08].coin = -1940 / 24;
+Building.properties[Building.MARBLE_MANUFACTORY_HUMAN_08].supplies = -194 / 24;
+Building.properties[Building.PLANKS_MANUFACTORY_HUMAN_07].coin = -2640 / 24;
+Building.properties[Building.PLANKS_MANUFACTORY_HUMAN_07].supplies = -264 / 24;
+Building.properties[Building.STEEL_MANUFACTORY_HUMAN_10].coin = -3580 / 24;
+Building.properties[Building.STEEL_MANUFACTORY_HUMAN_10].supplies = -358 / 24;
+
+Building.properties[Building.CRYSTAL_MANUFACTORY_HUMAN_04].coin = -4480 / 24;
+Building.properties[Building.CRYSTAL_MANUFACTORY_HUMAN_04].supplies = -448 / 24;
+Building.properties[Building.SCROLLS_MANUFACTORY_HUMAN_05].coin = -5280 / 24;
+Building.properties[Building.SCROLLS_MANUFACTORY_HUMAN_05].supplies = -528 / 24;
+Building.properties[Building.SILK_MANUFACTORY_HUMAN_05].coin = -8000 / 24;
+Building.properties[Building.SILK_MANUFACTORY_HUMAN_05].supplies = -800 / 24;
+
 Building.keys().forEach(function(buildingKey)
 {
    const building = Building.properties[buildingKey];
@@ -8730,14 +8766,11 @@ Building.keys().forEach(function(buildingKey)
    building.coin = (building.coin !== undefined ? building.coin : 0);
    building.culture = (building.culture !== undefined ? building.culture : 0);
    building.population = (building.population !== undefined ? building.population : 0);
+   building.supplies = (building.supplies !== undefined ? building.supplies : 0);
+   building.tier1Product = (building.tier1Product !== undefined ? building.tier1Product : 0);
+   building.tier2Product = (building.tier2Product !== undefined ? building.tier2Product : 0);
+   building.tier3Product = (building.tier3Product !== undefined ? building.tier3Product : 0);
 });
-
-Building.cumulativeCoin = function(buildingKey)
-{
-   InputValidator.validateIsString("buildingKey", buildingKey);
-
-   return cumulative(buildingKey, "coin");
-};
 
 Building.cumulativeCulture = function(buildingKey)
 {

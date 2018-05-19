@@ -156,7 +156,6 @@ QUnit.test("keys()", function(assert)
 
    const properties = Object.getOwnPropertyNames(Building);
    const count = properties.length - 1 - // properties
-      1 - // cumulativeCoin
       1 - // cumulativeCulture
       1 - // cumulativePopulation
       1 - // find

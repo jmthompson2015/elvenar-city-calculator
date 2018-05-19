@@ -21,16 +21,24 @@ function mapStateToProps(state)
       }
       const count = row.count;
       const area = count * building.width * building.height;
-      const coin = count * Building.cumulativeCoin(building.key);
-      const population = count * Building.cumulativePopulation(building.key);
+      const coin = Math.round(count * building.coin);
       const culture = count * Building.cumulativeCulture(building.key);
+      const population = count * Building.cumulativePopulation(building.key);
+      const supplies = Math.round(count * building.supplies);
+      const tier1Product = count * building.tier1Product;
+      const tier2Product = count * building.tier2Product;
+      const tier3Product = count * building.tier3Product;
       return Object.assign(
       {}, row,
       {
          area: area,
          coin: coin,
-         population: population,
          culture: culture,
+         population: population,
+         supplies: supplies,
+         tier1Product: tier1Product,
+         tier2Product: tier2Product,
+         tier3Product: tier3Product,
       });
    });
    const cellFunctions = createCellFunctions();
@@ -99,8 +107,8 @@ const TableColumns = [
       className: "tr",
    },
    {
-      key: "coin",
-      label: "Coin",
+      key: "culture",
+      label: "Culture",
       className: "tr",
    },
    {
@@ -109,8 +117,28 @@ const TableColumns = [
       className: "tr",
    },
    {
-      key: "culture",
-      label: "Culture",
+      key: "coin",
+      label: "Coin/h",
+      className: "tr",
+   },
+   {
+      key: "supplies",
+      label: "Supplies/h",
+      className: "tr",
+   },
+   {
+      key: "tier1Product",
+      label: "Tier 1 Product/h",
+      className: "tr",
+   },
+   {
+      key: "tier2Product",
+      label: "Tier 2 Product/h",
+      className: "tr",
+   },
+   {
+      key: "tier3Product",
+      label: "Tier 3 Product/h",
       className: "tr",
    },
 ];
