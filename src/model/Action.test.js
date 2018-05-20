@@ -36,7 +36,7 @@ QUnit.test("setCategory()", function(assert)
 {
    // Setup.
    const id = 2;
-   const categoryKey = BuildingCategory.BASIC;
+   const categoryKey = BuildingCategory.BASICS;
 
    // Run.
    const result = Action.setCategory(id, categoryKey);

@@ -12,11 +12,11 @@ QUnit.test("BuildingType properties Residence", function(assert)
    assert.equal(type.key, typeKey);
 });
 
-QUnit.test("BuildingType.keysByRaceCategory() Elf Basic", function(assert)
+QUnit.test("BuildingType.keysByRaceCategory() Elf Basics", function(assert)
 {
    // Setup.
    const raceKey = Race.ELF;
-   const categoryKey = BuildingCategory.BASIC;
+   const categoryKey = BuildingCategory.BASICS;
 
    // Run.
    const result = BuildingType.keysByRaceCategory(raceKey, categoryKey);
@@ -60,11 +60,11 @@ QUnit.test("BuildingType.keysByRaceCategory() Elf Culture", function(assert)
    assert.equal(result[result.length - 1], BuildingType.BATTLE_ARENA_HUMAN);
 });
 
-QUnit.test("BuildingType.keysByRaceCategory() Human Manufactory", function(assert)
+QUnit.test("BuildingType.keysByRaceCategory() Human Goods", function(assert)
 {
    // Setup.
    const raceKey = Race.HUMAN;
-   const categoryKey = BuildingCategory.MANUFACTORY;
+   const categoryKey = BuildingCategory.GOODS;
 
    // Run.
    const result = BuildingType.keysByRaceCategory(raceKey, categoryKey);

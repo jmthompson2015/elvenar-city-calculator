@@ -82,103 +82,103 @@ const BuildingType = {
       "buildersHut":
       {
          name: "Builder's Hut",
-         categoryKey: BuildingCategory.BUILDERS_HUT,
+         categoryKey: BuildingCategory.START,
          key: "buildersHut",
       },
       "crystalManufactory":
       {
          name: "Crystal Manufactory",
-         categoryKey: BuildingCategory.MANUFACTORY,
+         categoryKey: BuildingCategory.GOODS,
          key: "crystalManufactory",
       },
       "elixirManufactory":
       {
          name: "Elixir Manufactory",
-         categoryKey: BuildingCategory.MANUFACTORY,
+         categoryKey: BuildingCategory.GOODS,
          key: "elixirManufactory",
       },
       "gemsManufactory":
       {
          name: "Gems Manufactory",
-         categoryKey: BuildingCategory.MANUFACTORY,
+         categoryKey: BuildingCategory.GOODS,
          key: "gemsManufactory",
       },
       "magicAcademy":
       {
          name: "Magic Academy",
-         categoryKey: BuildingCategory.BASIC,
+         categoryKey: BuildingCategory.BASICS,
          key: "magicAcademy",
       },
       "magicDustManufactory":
       {
          name: "Magic Dust Manufactory",
-         categoryKey: BuildingCategory.MANUFACTORY,
+         categoryKey: BuildingCategory.GOODS,
          key: "magicDustManufactory",
       },
       // "magicResidence":
       // {
       //    name: "Magic Residence",
-      //    categoryKey: BuildingCategory.BASIC,
+      //    categoryKey: BuildingCategory.BASICS,
       //    key: "magicResidence",
       // },
       // "magicWorkshop":
       // {
       //    name: "Magic Workshop",
-      //    categoryKey: BuildingCategory.BASIC,
+      //    categoryKey: BuildingCategory.BASICS,
       //    key: "magicWorkshop",
       // },
       "mainHall":
       {
          name: "Main Hall",
-         categoryKey: BuildingCategory.MAIN_HALL,
+         categoryKey: BuildingCategory.START,
          key: "mainHall",
       },
       "marbleManufactory":
       {
          name: "Marble Manufactory",
-         categoryKey: BuildingCategory.MANUFACTORY,
+         categoryKey: BuildingCategory.GOODS,
          key: "marbleManufactory",
       },
       "planksManufactory":
       {
          name: "Planks Manufactory",
-         categoryKey: BuildingCategory.MANUFACTORY,
+         categoryKey: BuildingCategory.GOODS,
          key: "planksManufactory",
       },
       "residence":
       {
          name: "Residence",
-         categoryKey: BuildingCategory.BASIC,
+         categoryKey: BuildingCategory.BASICS,
          key: "residence",
       },
       "scrollsManufactory":
       {
          name: "Scrolls Manufactory",
-         categoryKey: BuildingCategory.MANUFACTORY,
+         categoryKey: BuildingCategory.GOODS,
          key: "scrollsManufactory",
       },
       "silkManufactory":
       {
          name: "Silk Manufactory",
-         categoryKey: BuildingCategory.MANUFACTORY,
+         categoryKey: BuildingCategory.GOODS,
          key: "silkManufactory",
       },
       "steelManufactory":
       {
          name: "Steel Manufactory",
-         categoryKey: BuildingCategory.MANUFACTORY,
+         categoryKey: BuildingCategory.GOODS,
          key: "steelManufactory",
       },
       "trader":
       {
          name: "Trader",
-         categoryKey: BuildingCategory.BASIC,
+         categoryKey: BuildingCategory.BASICS,
          key: "trader",
       },
       "workshop":
       {
          name: "Workshop",
-         categoryKey: BuildingCategory.BASIC,
+         categoryKey: BuildingCategory.BASICS,
          key: "workshop",
       },
 

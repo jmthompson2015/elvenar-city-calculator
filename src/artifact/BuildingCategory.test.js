@@ -2,11 +2,11 @@ import BuildingCategory from "./BuildingCategory.js";
 
 QUnit.module("BuildingCategory");
 
-QUnit.test("BuildingCategory properties Basic", function(assert)
+QUnit.test("BuildingCategory properties Basics", function(assert)
 {
-   const categoryKey = BuildingCategory.BASIC;
+   const categoryKey = BuildingCategory.BASICS;
    const category = BuildingCategory.properties[categoryKey];
-   assert.equal(category.name, "Basic");
+   assert.equal(category.name, "Basics");
    assert.equal(category.key, categoryKey);
 });
 
@@ -47,10 +47,10 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 5;
+   const length = 4;
    assert.equal(result.length, length);
-   assert.equal(result[0], "basic");
-   assert.equal(result[length - 1], "manufactory");
+   assert.equal(result[0], BuildingCategory.START);
+   assert.equal(result[length - 1], BuildingCategory.CULTURE);
 
    const properties = Object.getOwnPropertyNames(BuildingCategory);
    const count = properties.length - 1 - // properties

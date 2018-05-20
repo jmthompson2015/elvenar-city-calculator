@@ -39,7 +39,7 @@ QUnit.test("toPlainObject()", function(assert)
    // Verify.
    assert.ok(result);
    assert.equal(result.id, 1);
-   assert.equal(result.categoryKey, BuildingCategory.BASIC);
+   assert.equal(result.categoryKey, BuildingCategory.BASICS);
    assert.equal(result.raceKey, Race.ELF);
    assert.equal(result.typeKey, BuildingType.RESIDENCE);
    assert.equal(result.level, 1);
@@ -67,7 +67,7 @@ QUnit.test("Construct.fromPlainObject()", function(assert)
    // Verify.
    assert.ok(result);
    assert.equal(result.id, 1);
-   assert.equal(result.categoryKey, BuildingCategory.BASIC);
+   assert.equal(result.categoryKey, BuildingCategory.BASICS);
    assert.equal(result.raceKey, Race.ELF);
    assert.equal(result.typeKey, BuildingType.RESIDENCE);
    assert.equal(result.level, 1);

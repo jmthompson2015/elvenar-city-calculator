@@ -14,13 +14,13 @@ InitialState.initializeBuildings = function(raceKey)
 {
    const rowData = [];
 
-   let construct = new Construct(rowData.length, BuildingCategory.MAIN_HALL, raceKey, BuildingType.MAIN_HALL, 1, 1);
+   let construct = new Construct(rowData.length, BuildingCategory.START, raceKey, BuildingType.MAIN_HALL, 1, 1);
    rowData.push(construct.toPlainObject());
-   construct = new Construct(rowData.length, BuildingCategory.BUILDERS_HUT, raceKey, BuildingType.BUILDERS_HUT, 1, 1);
+   construct = new Construct(rowData.length, BuildingCategory.START, raceKey, BuildingType.BUILDERS_HUT, 1, 1);
    rowData.push(construct.toPlainObject());
-   construct = new Construct(rowData.length, BuildingCategory.BASIC, raceKey, BuildingType.RESIDENCE, 1, 1);
+   construct = new Construct(rowData.length, BuildingCategory.BASICS, raceKey, BuildingType.RESIDENCE, 1, 1);
    rowData.push(construct.toPlainObject());
-   construct = new Construct(rowData.length, BuildingCategory.BASIC, raceKey, BuildingType.WORKSHOP, 1, 1);
+   construct = new Construct(rowData.length, BuildingCategory.BASICS, raceKey, BuildingType.WORKSHOP, 1, 1);
    rowData.push(construct.toPlainObject());
 
    return rowData;

@@ -1,66 +1,48 @@
 const BuildingCategory = {
-   // ANCIENT_WONDER: "ancientWonder",
-   BASIC: "basic",
-   BUILDERS_HUT: "buildersHut",
-   CULTURE: "culture",
-   // EXPANSION: "expansion",
-   MAIN_HALL: "mainHall",
-   MANUFACTORY: "manufactory",
+   START: "start",
+   BASICS: "basics",
    // MILITARY: "military",
-   // SETTLEMENT: "settlement",
-   // STREET: "street",
+   GOODS: "goods",
+   CULTURE: "culture",
+   // SETTLEMENTS: "settlements",
+   // ANCIENT_WONDERS: "ancientWonders",
 
    properties:
    {
-      // "ancientWonder":
-      // {
-      //    name: "Ancient Wonder",
-      //    key: "ancientWonder",
-      // },
-      "basic":
+      "start":
       {
-         name: "Basic",
-         key: "basic",
+         name: "Start",
+         key: "start",
       },
-      "buildersHut":
+      "basics":
       {
-         name: "Builder's Hut",
-         key: "buildersHut",
-      },
-      "culture":
-      {
-         name: "Culture",
-         key: "culture",
-      },
-      // "expansion":
-      // {
-      //    name: "Expansion",
-      //    key: "expansion",
-      // },
-      "mainHall":
-      {
-         name: "Main Hall",
-         key: "mainHall",
-      },
-      "manufactory":
-      {
-         name: "Manufactory",
-         key: "manufactory",
+         name: "Basics",
+         key: "basics",
       },
       // "military":
       // {
       //    name: "Military",
       //    key: "military",
       // },
-      // "settlement":
+      "goods":
+      {
+         name: "Goods",
+         key: "goods",
+      },
+      "culture":
+      {
+         name: "Culture",
+         key: "culture",
+      },
+      // "settlements":
       // {
-      //    name: "Settlement",
-      //    key: "settlement",
+      //    name: "Settlements",
+      //    key: "settlements",
       // },
-      // "street":
+      // "ancientWonders":
       // {
-      //    name: "Street",
-      //    key: "street",
+      //    name: "Ancient Wonders",
+      //    key: "ancientWonders",
       // },
    },
 };
