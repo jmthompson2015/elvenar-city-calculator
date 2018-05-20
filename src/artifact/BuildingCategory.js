@@ -1,7 +1,7 @@
 const BuildingCategory = {
    START: "start",
    BASICS: "basics",
-   // MILITARY: "military",
+   MILITARY: "military",
    GOODS: "goods",
    CULTURE: "culture",
    // SETTLEMENTS: "settlements",
@@ -19,11 +19,11 @@ const BuildingCategory = {
          name: "Basics",
          key: "basics",
       },
-      // "military":
-      // {
-      //    name: "Military",
-      //    key: "military",
-      // },
+      "military":
+      {
+         name: "Military",
+         key: "military",
+      },
       "goods":
       {
          name: "Goods",

@@ -16,7 +16,7 @@ const element = React.createElement(ReactRedux.Provider,
    store: store,
 }, React.createElement(TypeSelectContainer,
 {
-   buildingCategoryKey: BuildingCategory.BASIC,
+   buildingCategoryKey: BuildingCategory.BASICS,
    id: 2,
 }));
 ReactDOM.render(element, document.getElementById("panel"));

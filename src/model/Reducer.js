@@ -22,7 +22,7 @@ Reducer.root = function(state, action)
    {
       case Action.ADD_ROW:
          LOGGER.info("Reducer addRow");
-         newCategoryKey = BuildingCategory.BASIC;
+         newCategoryKey = BuildingCategory.BASICS;
          newTypeKey = BuildingType.RESIDENCE;
          newConstruct = new Construct(state.rowData.length, newCategoryKey, state.raceKey, newTypeKey, 1, 1);
          newRowData = state.rowData.slice();

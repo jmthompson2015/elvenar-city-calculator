@@ -1,5 +1,6 @@
 import Logger from "../utility/Logger.js";
 
+import BarracksTest from "./Barracks.test.js";
 import BuildersHutTest from "./BuildersHut.test.js";
 import BuildingCategoryTest from "./BuildingCategory.test.js";
 import BuildingResolverTest from "./BuildingResolver.test.js";

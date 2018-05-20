@@ -1,5 +1,6 @@
 import InputValidator from "../utility/InputValidator.js";
 
+import Barracks from "./Barracks.js";
 import BuildersHut from "./BuildersHut.js";
 import BuildingType from "./BuildingType.js";
 import CrystalManufactory from "./CrystalManufactory.js";
@@ -21,6 +22,7 @@ import Workshop from "./Workshop.js";
 var BuildingResolver = {};
 
 BuildingResolver.TYPE_TO_CLASS = {};
+BuildingResolver.TYPE_TO_CLASS[BuildingType.BARRACKS] = Barracks;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.BUILDERS_HUT] = BuildersHut;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.CRYSTAL_MANUFACTORY] = CrystalManufactory;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.ELIXIR_MANUFACTORY] = ElixirManufactory;

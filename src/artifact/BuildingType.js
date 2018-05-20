@@ -4,6 +4,7 @@ import BuildingCategory from "./BuildingCategory.js";
 import Race from "./Race.js";
 
 const BuildingType = {
+   BARRACKS: "barracks",
    BUILDERS_HUT: "buildersHut",
    CRYSTAL_MANUFACTORY: "crystalManufactory",
    ELIXIR_MANUFACTORY: "elixirManufactory",
@@ -79,6 +80,12 @@ const BuildingType = {
 
    properties:
    {
+      "barracks":
+      {
+         name: "Barracks",
+         categoryKey: BuildingCategory.MILITARY,
+         key: "barracks",
+      },
       "buildersHut":
       {
          name: "Builder's Hut",
