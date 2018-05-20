@@ -1,5 +1,5 @@
-import Building from "../artifact/Building.js";
 import BuildingCategory from "../artifact/BuildingCategory.js";
+import BuildingUtilities from "../artifact/BuildingUtilities.js";
 
 import Action from "../model/Action.js";
 
@@ -9,7 +9,7 @@ function mapStateToProps(state, ownProps)
 {
    const values = BuildingCategory.keys().filter(categoryKey =>
    {
-      return Building.keysByCategory(state.raceKey, categoryKey).length > 0;
+      return BuildingUtilities.raceCategoryHasBuildings(state.raceKey, categoryKey);
    });
    const labelFunction = function(value)
    {

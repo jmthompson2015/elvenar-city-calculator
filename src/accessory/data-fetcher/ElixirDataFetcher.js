@@ -7,4 +7,4 @@ const propertiesFunction = function(properties)
    return properties.replace(/\"BuildingType.ELIXIR_MANUFACTORY\"/g, "BuildingType.ELIXIR_MANUFACTORY");
 };
 
-ManufactoryDataFetcher.fetch(typeName, propertiesFunction);
+ManufactoryDataFetcher.fetch(typeName, 3, propertiesFunction);

@@ -2,12 +2,30 @@ const FetcherUtilities = {};
 
 FetcherUtilities.createEnumName = function(raceName, typeName, levelString)
 {
-   return typeName.toUpperCase().replace(/ /g, "_") + "_" + raceName.toUpperCase() + "_" + levelString.padStart(2, "0");
+   let answer = "";
+
+   if (typeName !== undefined)
+   {
+      answer = typeName.toUpperCase().replace(/ /g, "_") + "_";
+   }
+
+   answer += raceName.toUpperCase() + "_" + levelString.padStart(2, "0");
+
+   return answer;
 };
 
 FetcherUtilities.createEnumValue = function(raceName, typeName, levelString)
 {
-   return FetcherUtilities.toCamelCase(typeName + " " + raceName + " " + levelString.padStart(2, "0"));
+   let name = "";
+
+   if (typeName !== undefined)
+   {
+      name = typeName + " ";
+   }
+
+   name += raceName + " " + levelString.padStart(2, "0");
+
+   return FetcherUtilities.toCamelCase(name);
 };
 
 FetcherUtilities.stringify = function(obj_from_json)

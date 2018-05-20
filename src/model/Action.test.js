@@ -1,7 +1,7 @@
-import Building from "../artifact/Building.js";
 import BuildingCategory from "../artifact/BuildingCategory.js";
 import BuildingType from "../artifact/BuildingType.js";
 import Race from "../artifact/Race.js";
+import Residence from "../artifact/Residence.js";
 
 import Action from "./Action.js";
 import Construct from "./Construct.js";
@@ -126,8 +126,8 @@ QUnit.test("setType()", function(assert)
 
 function createConstruct()
 {
-   const buildingKey = Building.RESIDENCE_ELF_01;
-   const building = Building.properties[buildingKey];
+   const buildingKey = Residence.ELF_01;
+   const building = Residence.properties[buildingKey];
    const id = 1;
    const count = 18;
 

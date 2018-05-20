@@ -74,7 +74,7 @@ function parse(raceName, typeName, spanId, $, typeEnums, typeProperties, enums, 
          const sizeParts = sizeString.split(/[Xx]/);
          const width = parseInt(sizeParts[0]);
          const height = parseInt(sizeParts[1]);
-         let culture = parseInt($(children[6]).text().trim());
+         let culture = parseInt($(children[6]).text().trim().replace(/\./g, ""));
          culture = (Number.isInteger(culture) ? culture : 0);
          let population = parseInt($(children[7]).text().trim());
          population = (Number.isInteger(population) ? population : 0);

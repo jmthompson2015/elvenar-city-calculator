@@ -1,22 +1,22 @@
 const BuildingCategory = {
-   ANCIENT_WONDER: "ancientWonder",
+   // ANCIENT_WONDER: "ancientWonder",
    BASIC: "basic",
    BUILDERS_HUT: "buildersHut",
    CULTURE: "culture",
-   EXPANSION: "expansion",
+   // EXPANSION: "expansion",
    MAIN_HALL: "mainHall",
    MANUFACTORY: "manufactory",
-   MILITARY: "military",
-   SETTLEMENT: "settlement",
-   STREET: "street",
+   // MILITARY: "military",
+   // SETTLEMENT: "settlement",
+   // STREET: "street",
 
    properties:
    {
-      "ancientWonder":
-      {
-         name: "Ancient Wonder",
-         key: "ancientWonder",
-      },
+      // "ancientWonder":
+      // {
+      //    name: "Ancient Wonder",
+      //    key: "ancientWonder",
+      // },
       "basic":
       {
          name: "Basic",
@@ -32,11 +32,11 @@ const BuildingCategory = {
          name: "Culture",
          key: "culture",
       },
-      "expansion":
-      {
-         name: "Expansion",
-         key: "expansion",
-      },
+      // "expansion":
+      // {
+      //    name: "Expansion",
+      //    key: "expansion",
+      // },
       "mainHall":
       {
          name: "Main Hall",
@@ -47,21 +47,21 @@ const BuildingCategory = {
          name: "Manufactory",
          key: "manufactory",
       },
-      "military":
-      {
-         name: "Military",
-         key: "military",
-      },
-      "settlement":
-      {
-         name: "Settlement",
-         key: "settlement",
-      },
-      "street":
-      {
-         name: "Street",
-         key: "street",
-      },
+      // "military":
+      // {
+      //    name: "Military",
+      //    key: "military",
+      // },
+      // "settlement":
+      // {
+      //    name: "Settlement",
+      //    key: "settlement",
+      // },
+      // "street":
+      // {
+      //    name: "Street",
+      //    key: "street",
+      // },
    },
 };
 

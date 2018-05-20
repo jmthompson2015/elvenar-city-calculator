@@ -1,6 +1,6 @@
 import InputValidator from "../utility/InputValidator.js";
 
-import Building from "../artifact/Building.js";
+import BuildingResolver from "../artifact/BuildingResolver.js";
 
 class Construct
 {
@@ -19,7 +19,7 @@ class Construct
       this._raceKey = raceKey;
       this._level = level;
       this._count = count;
-      this._building = Building.find(raceKey, typeKey, level);
+      this._building = BuildingResolver.find(raceKey, typeKey, level);
    }
 
    get id()

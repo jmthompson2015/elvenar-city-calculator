@@ -1,7 +1,7 @@
-import Building from "../artifact/Building.js";
 import BuildingCategory from "../artifact/BuildingCategory.js";
 import BuildingType from "../artifact/BuildingType.js";
 import Race from "../artifact/Race.js";
+import Residence from "../artifact/Residence.js";
 
 import Construct from "./Construct.js";
 
@@ -10,8 +10,8 @@ QUnit.module("Construct");
 QUnit.test("Construct()", function(assert)
 {
    // Setup.
-   const buildingKey = Building.RESIDENCE_ELF_01;
-   const building = Building.properties[buildingKey];
+   const buildingKey = Residence.ELF_01;
+   const building = Residence.properties[buildingKey];
    const id = 1;
    const count = 18;
 
@@ -49,8 +49,8 @@ QUnit.test("toPlainObject()", function(assert)
 QUnit.test("Construct.fromPlainObject()", function(assert)
 {
    // Setup.
-   const buildingKey = Building.RESIDENCE_ELF_01;
-   const building = Building.properties[buildingKey];
+   const buildingKey = Residence.ELF_01;
+   const building = Residence.properties[buildingKey];
    const count = 18;
    const instance = {
       id: 1,
@@ -76,8 +76,8 @@ QUnit.test("Construct.fromPlainObject()", function(assert)
 
 function createConstruct()
 {
-   const buildingKey = Building.RESIDENCE_ELF_01;
-   const building = Building.properties[buildingKey];
+   const buildingKey = Residence.ELF_01;
+   const building = Residence.properties[buildingKey];
    const id = 1;
    const count = 18;
 

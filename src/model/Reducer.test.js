@@ -1,4 +1,4 @@
-import Building from "../artifact/Building.js";
+import Residence from "../artifact/Residence.js";
 
 import Action from "./Action.js";
 import Construct from "./Construct.js";
@@ -26,8 +26,8 @@ QUnit.test("addConstruct()", function(assert)
 
 function createConstruct()
 {
-   const buildingKey = Building.RESIDENCE_ELF_01;
-   const building = Building.properties[buildingKey];
+   const buildingKey = Residence.ELF_01;
+   const building = Residence.properties[buildingKey];
    const id = 4;
    const count = 18;
 

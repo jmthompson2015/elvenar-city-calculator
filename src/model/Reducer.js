@@ -43,7 +43,7 @@ Reducer.root = function(state, action)
       case Action.SET_CATEGORY:
          LOGGER.info("Reducer id = " + action.id + " categoryKey = " + action.categoryKey);
          oldConstruct = state.rowData[action.id];
-         newTypeKey = BuildingType.keysByCategory(state.raceKey, action.categoryKey)[0];
+         newTypeKey = BuildingType.keysByRaceCategory(state.raceKey, action.categoryKey)[0];
          newConstruct = new Construct(action.id, action.categoryKey, oldConstruct.raceKey, newTypeKey, oldConstruct.level, oldConstruct.count);
          newRowData = state.rowData.slice();
          newRowData[action.id] = newConstruct.toPlainObject();

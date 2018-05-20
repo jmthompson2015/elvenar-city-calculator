@@ -5,7 +5,7 @@ const FetcherUtilities = require("./FetcherUtilities.js");
 
 const ManufactoryDataFetcher = {};
 
-ManufactoryDataFetcher.fetch = function(typeName, propertiesFunction, spanId1In)
+ManufactoryDataFetcher.fetch = function(typeName, tier, propertiesFunction, spanId1In)
 {
    const uri = "https://en.wiki.elvenar.com/index.php?title=" + typeName.replace(/ /g, "_");
    const spanId0 = typeName.replace(/ /g, "_") + "_Elves";
@@ -26,10 +26,10 @@ ManufactoryDataFetcher.fetch = function(typeName, propertiesFunction, spanId1In)
          let properties = "";
 
          const raceName0 = "Elf";
-         const result0 = parse(raceName0, typeName, spanId0, $, enums, properties);
+         const result0 = parse(raceName0, typeName, tier, spanId0, $, enums, properties);
 
          const raceName1 = "Human";
-         const result1 = parse(raceName1, typeName, spanId1, $, result0.enums, result0.properties);
+         const result1 = parse(raceName1, typeName, tier, spanId1, $, result0.enums, result0.properties);
 
          properties = propertiesFunction(result1.properties);
 
@@ -42,9 +42,8 @@ ManufactoryDataFetcher.fetch = function(typeName, propertiesFunction, spanId1In)
       });
 };
 
-function parse(raceName, typeName, spanId, $, enums, properties)
+function parse(raceName, typeName, tier, spanId, $, enums, properties)
 {
-   const typeKey = "BuildingType." + typeName.toUpperCase().replace(/ /g, "_");
    const raceKey = "Race." + raceName.toUpperCase();
 
    $('span#' + spanId).parent().next().find('tr').each(function()
@@ -55,8 +54,8 @@ function parse(raceName, typeName, spanId, $, enums, properties)
 
       if (Number.isInteger(level))
       {
-         const enumName = FetcherUtilities.createEnumName(raceName, typeName, levelString);
-         const enumValue = FetcherUtilities.createEnumValue(raceName, typeName, levelString);
+         const enumName = FetcherUtilities.createEnumName(raceName, undefined, levelString);
+         const enumValue = FetcherUtilities.createEnumValue(raceName, undefined, levelString);
          enums += enumName + ": \"" + enumValue + "\",\n";
 
          const sizeString = $(children[1]).text().trim();
@@ -70,16 +69,16 @@ function parse(raceName, typeName, spanId, $, enums, properties)
 
          const rowData = {
             name: typeName + " " + level + " (" + raceName + ")",
-            typeKey: typeKey,
             raceKey: raceKey,
             level: level,
             width: width,
             height: height,
             population: -population,
             culture: -culture,
-            product: product,
-            key: enumValue,
          };
+
+         rowData["tier" + tier + "Product"] = product;
+         rowData.key = enumValue;
 
          properties += "\"" + enumValue + "\": " + FetcherUtilities.stringify(rowData) + ",\n";
       }

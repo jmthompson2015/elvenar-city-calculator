@@ -10,8 +10,8 @@ const BuildingType = {
    GEMS_MANUFACTORY: "gemsManufactory",
    MAGIC_ACADEMY: "magicAcademy",
    MAGIC_DUST_MANUFACTORY: "magicDustManufactory",
-   MAGIC_RESIDENCE: "magicResidence",
-   MAGIC_WORKSHOP: "magicWorkshop",
+   // MAGIC_RESIDENCE: "magicResidence",
+   // MAGIC_WORKSHOP: "magicWorkshop",
    MAIN_HALL: "mainHall",
    MARBLE_MANUFACTORY: "marbleManufactory",
    PLANKS_MANUFACTORY: "planksManufactory",
@@ -115,18 +115,18 @@ const BuildingType = {
          categoryKey: BuildingCategory.MANUFACTORY,
          key: "magicDustManufactory",
       },
-      "magicResidence":
-      {
-         name: "Magic Residence",
-         categoryKey: BuildingCategory.BASIC,
-         key: "magicResidence",
-      },
-      "magicWorkshop":
-      {
-         name: "Magic Workshop",
-         categoryKey: BuildingCategory.BASIC,
-         key: "magicWorkshop",
-      },
+      // "magicResidence":
+      // {
+      //    name: "Magic Residence",
+      //    categoryKey: BuildingCategory.BASIC,
+      //    key: "magicResidence",
+      // },
+      // "magicWorkshop":
+      // {
+      //    name: "Magic Workshop",
+      //    categoryKey: BuildingCategory.BASIC,
+      //    key: "magicWorkshop",
+      // },
       "mainHall":
       {
          name: "Main Hall",
@@ -534,7 +534,7 @@ BuildingType.keys().forEach(function(typeKey)
    }
 });
 
-BuildingType.keysByCategory = function(raceKey, categoryKey)
+BuildingType.keysByRaceCategory = function(raceKey, categoryKey)
 {
    InputValidator.validateIsString("raceKey", raceKey);
    InputValidator.validateIsString("categoryKey", categoryKey);

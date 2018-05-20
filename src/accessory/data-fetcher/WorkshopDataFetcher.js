@@ -44,7 +44,6 @@ WorkshopDataFetcher.fetch = function(typeName, propertiesFunction, spanId1In)
 
 function parse(raceName, typeName, spanId, $, enums, properties)
 {
-   const typeKey = "BuildingType." + typeName.toUpperCase().replace(/ /g, "_");
    const raceKey = "Race." + raceName.toUpperCase();
 
    $('span#' + spanId).parent().next().find('tr').each(function()
@@ -55,8 +54,8 @@ function parse(raceName, typeName, spanId, $, enums, properties)
 
       if (Number.isInteger(level))
       {
-         const enumName = FetcherUtilities.createEnumName(raceName, typeName, levelString);
-         const enumValue = FetcherUtilities.createEnumValue(raceName, typeName, levelString);
+         const enumName = FetcherUtilities.createEnumName(raceName, undefined, levelString);
+         const enumValue = FetcherUtilities.createEnumValue(raceName, undefined, levelString);
          enums += enumName + ": \"" + enumValue + "\",\n";
 
          const sizeString = $(children[1]).text().trim();
@@ -70,7 +69,6 @@ function parse(raceName, typeName, spanId, $, enums, properties)
 
          const rowData = {
             name: typeName + " " + level + " (" + raceName + ")",
-            typeKey: typeKey,
             raceKey: raceKey,
             level: level,
             width: width,

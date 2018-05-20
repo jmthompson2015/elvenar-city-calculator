@@ -7,4 +7,4 @@ const propertiesFunction = function(properties)
    return properties.replace(/\"BuildingType.MAGIC_DUST_MANUFACTORY\"/g, "BuildingType.MAGIC_DUST_MANUFACTORY");
 };
 
-ManufactoryDataFetcher.fetch(typeName, propertiesFunction);
+ManufactoryDataFetcher.fetch(typeName, 3, propertiesFunction);

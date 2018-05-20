@@ -12,30 +12,62 @@ QUnit.test("BuildingType properties Residence", function(assert)
    assert.equal(type.key, typeKey);
 });
 
-QUnit.test("BuildingType.keysByCategory() Basic", function(assert)
+QUnit.test("BuildingType.keysByRaceCategory() Elf Basic", function(assert)
 {
    // Setup.
    const raceKey = Race.ELF;
    const categoryKey = BuildingCategory.BASIC;
 
    // Run.
-   const result = BuildingType.keysByCategory(raceKey, categoryKey);
+   const result = BuildingType.keysByRaceCategory(raceKey, categoryKey);
 
    // Verify.
    assert.ok(result);
-   assert.equal(result.length, 6);
+   assert.equal(result.length, 4);
    assert.equal(result[0], BuildingType.MAGIC_ACADEMY);
    assert.equal(result[result.length - 1], BuildingType.WORKSHOP);
 });
 
-QUnit.test("BuildingType.keysByCategory() Manufactory", function(assert)
+QUnit.test("BuildingType.keysByRaceCategory() Elf Culture", function(assert)
 {
    // Setup.
    const raceKey = Race.ELF;
+   const categoryKey = BuildingCategory.CULTURE;
+
+   // Run.
+   const result = BuildingType.keysByRaceCategory(raceKey, categoryKey);
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.length, 27);
+   assert.equal(result[0], BuildingType.LUMINOUS_SIGNPOST_ELF);
+   assert.equal(result[result.length - 1], BuildingType.HARMONY_BOARDWALK_ELF);
+});
+
+QUnit.test("BuildingType.keysByRaceCategory() Elf Culture", function(assert)
+{
+   // Setup.
+   const raceKey = Race.HUMAN;
+   const categoryKey = BuildingCategory.CULTURE;
+
+   // Run.
+   const result = BuildingType.keysByRaceCategory(raceKey, categoryKey);
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.length, 27);
+   assert.equal(result[0], BuildingType.GLORIOUS_STATUE_HUMAN);
+   assert.equal(result[result.length - 1], BuildingType.BATTLE_ARENA_HUMAN);
+});
+
+QUnit.test("BuildingType.keysByRaceCategory() Human Manufactory", function(assert)
+{
+   // Setup.
+   const raceKey = Race.HUMAN;
    const categoryKey = BuildingCategory.MANUFACTORY;
 
    // Run.
-   const result = BuildingType.keysByCategory(raceKey, categoryKey);
+   const result = BuildingType.keysByRaceCategory(raceKey, categoryKey);
 
    // Verify.
    assert.ok(result);
@@ -81,14 +113,14 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 71;
+   const length = 69;
    assert.equal(result.length, length);
    assert.equal(result[0], "buildersHut");
    assert.equal(result[length - 1], "battleArenaHuman");
 
    const properties = Object.getOwnPropertyNames(BuildingType);
    const count = properties.length - 1 - // properties
-      1 - // keysByCategory
+      1 - // keysByRaceCategory
       1 - // keys
       1; // values
    assert.equal(result.length, count);

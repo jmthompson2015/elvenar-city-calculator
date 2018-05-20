@@ -1,6 +1,6 @@
 import InputValidator from "../utility/InputValidator.js";
 
-import Building from "../artifact/Building.js";
+import BuildingUtilities from "../artifact/BuildingUtilities.js";
 
 import Action from "../model/Action.js";
 
@@ -13,7 +13,7 @@ function mapStateToProps(state, ownProps)
 
    const id = ownProps.id;
    const typeKey = ownProps.typeKey;
-   const max = Building.maxLevel(state.raceKey, typeKey);
+   const max = BuildingUtilities.maxLevel(state.raceKey, typeKey);
    const clientProps = {};
    clientProps["data-id"] = id;
    const initialSelectedValue = state.rowData[id].level;

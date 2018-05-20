@@ -1,4 +1,5 @@
-import Building from "../artifact/Building.js";
+import BuildingResolver from "../artifact/BuildingResolver.js";
+import BuildingUtilities from "../artifact/BuildingUtilities.js";
 
 import Action from "../model/Action.js";
 
@@ -14,7 +15,7 @@ function mapStateToProps(state)
    const rowDataIn = state.rowData;
    const rowData = rowDataIn.map(row =>
    {
-      const building = Building.find(row.raceKey, row.typeKey, row.level);
+      const building = BuildingResolver.find(row.raceKey, row.typeKey, row.level);
       if (building === undefined)
       {
          console.warn("can't find building for raceKey = " + row.raceKey + " typeKey = " + row.typeKey + " level = " + row.level);
@@ -22,8 +23,8 @@ function mapStateToProps(state)
       const count = row.count;
       const area = count * building.width * building.height;
       const coin = Math.round(count * building.coin);
-      const culture = count * Building.cumulativeCulture(building.key);
-      const population = count * Building.cumulativePopulation(building.key);
+      const culture = count * BuildingUtilities.cumulativeCulture(building.typeKey, building.key);
+      const population = count * BuildingUtilities.cumulativePopulation(building.typeKey, building.key);
       const supplies = Math.round(count * building.supplies);
       const tier1Product = count * building.tier1Product;
       const tier2Product = count * building.tier2Product;
@@ -193,7 +194,7 @@ function createCellFunctions()
       let answer;
       if (value.raceKey !== undefined && value.typeKey !== undefined)
       {
-         const building = Building.find(value.raceKey, value.typeKey, value.level);
+         const building = BuildingResolver.find(value.raceKey, value.typeKey, value.level);
          if (building !== undefined)
          {
             answer = building.width + "x" + building.height;
