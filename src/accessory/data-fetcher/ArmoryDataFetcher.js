@@ -3,9 +3,9 @@ const cheerio = require('cheerio');
 
 const FetcherUtilities = require("./FetcherUtilities.js");
 
-const BarracksDataFetcher = {};
+const ArmoryDataFetcher = {};
 
-BarracksDataFetcher.fetch = function(typeName, propertiesFunction, spanId1In)
+ArmoryDataFetcher.fetch = function(typeName, propertiesFunction, spanId1In)
 {
    const uri = "https://en.wiki.elvenar.com/index.php?title=" + typeName.replace(/ /g, "_");
    const spanId0 = typeName.replace(/ /g, "_") + "_Elves";
@@ -91,11 +91,11 @@ function parse(raceName, typeName, spanId, $, enums, properties)
    });
 }
 
-const typeName = "Barracks";
+const typeName = "Armory";
 
 const propertiesFunction = function(properties)
 {
-   return properties.replace(/\"BuildingType.BARRACKS\"/g, "BuildingType.BARRACKS");
+   return properties.replace(/\"BuildingType.ARMORY\"/g, "BuildingType.ARMORY");
 };
 
-BarracksDataFetcher.fetch(typeName, propertiesFunction);
+ArmoryDataFetcher.fetch(typeName, propertiesFunction);
