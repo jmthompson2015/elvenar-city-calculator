@@ -35,7 +35,6 @@ const Street = {
          level: 1,
          width: 1,
          height: 1,
-         culture: 0,
          key: "footpathElf"
       },
       "simpleTrailElf":
@@ -156,7 +155,6 @@ const Street = {
          level: 1,
          width: 1,
          height: 1,
-         culture: 0,
          key: "footpathHuman"
       },
       "simpleTrailHuman":
@@ -287,20 +285,7 @@ Street.keys().forEach(function(buildingKey)
    const building = Street.properties[buildingKey];
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
-
-   building.coin = valueOrZero(building.coin);
-   building.culture = valueOrZero(building.culture);
-   building.population = valueOrZero(building.population);
-   building.supplies = valueOrZero(building.supplies);
-   building.tier1Product = valueOrZero(building.tier1Product);
-   building.tier2Product = valueOrZero(building.tier2Product);
-   building.tier3Product = valueOrZero(building.tier3Product);
 });
-
-function valueOrZero(value)
-{
-   return (value !== undefined ? value : 0);
-}
 
 if (Object.freeze)
 {

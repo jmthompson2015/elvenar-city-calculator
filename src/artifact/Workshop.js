@@ -71,7 +71,6 @@ const Workshop = {
          width: 2,
          height: 2,
          population: -18,
-         culture: 0,
          supplies: 29,
          key: "elf01"
       },
@@ -419,7 +418,6 @@ const Workshop = {
          width: 2,
          height: 2,
          population: -15,
-         culture: 0,
          supplies: 29,
          key: "human01"
       },
@@ -778,20 +776,7 @@ Workshop.keys().forEach(function(buildingKey)
    building.typeKey = BuildingType.WORKSHOP;
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
-
-   building.coin = valueOrZero(building.coin);
-   building.culture = valueOrZero(building.culture);
-   building.population = valueOrZero(building.population);
-   building.supplies = valueOrZero(building.supplies);
-   building.tier1Product = valueOrZero(building.tier1Product);
-   building.tier2Product = valueOrZero(building.tier2Product);
-   building.tier3Product = valueOrZero(building.tier3Product);
 });
-
-function valueOrZero(value)
-{
-   return (value !== undefined ? value : 0);
-}
 
 if (Object.freeze)
 {

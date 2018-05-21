@@ -59,7 +59,6 @@ const MarbleManufactory = {
          width: 1,
          height: 2,
          population: -20,
-         culture: 0,
          tier1Product: 9,
          key: "elf01"
       },
@@ -335,7 +334,6 @@ const MarbleManufactory = {
          width: 2,
          height: 1,
          population: -21,
-         culture: 0,
          tier1Product: 9,
          key: "human01"
       },
@@ -629,20 +627,7 @@ MarbleManufactory.keys().forEach(function(buildingKey)
    building.typeKey = BuildingType.MARBLE_MANUFACTORY;
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
-
-   building.coin = valueOrZero(building.coin);
-   building.culture = valueOrZero(building.culture);
-   building.population = valueOrZero(building.population);
-   building.supplies = valueOrZero(building.supplies);
-   building.tier1Product = valueOrZero(building.tier1Product);
-   building.tier2Product = valueOrZero(building.tier2Product);
-   building.tier3Product = valueOrZero(building.tier3Product);
 });
-
-function valueOrZero(value)
-{
-   return (value !== undefined ? value : 0);
-}
 
 if (Object.freeze)
 {

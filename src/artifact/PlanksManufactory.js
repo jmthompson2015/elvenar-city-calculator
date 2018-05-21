@@ -59,7 +59,6 @@ const PlanksManufactory = {
          width: 2,
          height: 1,
          population: -22,
-         culture: 0,
          tier1Product: 9,
          key: "elf01"
       },
@@ -335,7 +334,6 @@ const PlanksManufactory = {
          width: 2,
          height: 2,
          population: -34,
-         culture: 0,
          tier1Product: 19,
          key: "human01"
       },
@@ -629,20 +627,7 @@ PlanksManufactory.keys().forEach(function(buildingKey)
    building.typeKey = BuildingType.PLANKS_MANUFACTORY;
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
-
-   building.coin = valueOrZero(building.coin);
-   building.culture = valueOrZero(building.culture);
-   building.population = valueOrZero(building.population);
-   building.supplies = valueOrZero(building.supplies);
-   building.tier1Product = valueOrZero(building.tier1Product);
-   building.tier2Product = valueOrZero(building.tier2Product);
-   building.tier3Product = valueOrZero(building.tier3Product);
 });
-
-function valueOrZero(value)
-{
-   return (value !== undefined ? value : 0);
-}
 
 if (Object.freeze)
 {

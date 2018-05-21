@@ -33,8 +33,6 @@ const MainHall = {
          level: 1,
          width: 6,
          height: 6,
-         population: 0,
-         culture: 0,
          key: "mainHallElf01",
       },
       "mainHallElf02":
@@ -153,8 +151,6 @@ const MainHall = {
          level: 1,
          width: 6,
          height: 7,
-         population: 0,
-         culture: 0,
          key: "mainHallHuman01",
       },
       "mainHallHuman02":
@@ -283,13 +279,6 @@ MainHall.keys().forEach(function(buildingKey)
    const building = MainHall.properties[buildingKey];
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
-   building.coin = (building.coin !== undefined ? building.coin : 0);
-   building.culture = (building.culture !== undefined ? building.culture : 0);
-   building.population = (building.population !== undefined ? building.population : 0);
-   building.supplies = (building.supplies !== undefined ? building.supplies : 0);
-   building.tier1Product = (building.tier1Product !== undefined ? building.tier1Product : 0);
-   building.tier2Product = (building.tier2Product !== undefined ? building.tier2Product : 0);
-   building.tier3Product = (building.tier3Product !== undefined ? building.tier3Product : 0);
 });
 
 if (Object.freeze)

@@ -59,7 +59,6 @@ const GemsManufactory = {
          width: 3,
          height: 4,
          population: -173,
-         culture: 0,
          tier3Product: 56,
          key: "elf01"
       },
@@ -335,7 +334,6 @@ const GemsManufactory = {
          width: 3,
          height: 4,
          population: -182,
-         culture: 0,
          tier3Product: 56,
          key: "human01"
       },
@@ -629,20 +627,7 @@ GemsManufactory.keys().forEach(function(buildingKey)
    building.typeKey = BuildingType.GEMS_MANUFACTORY;
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
-
-   building.coin = valueOrZero(building.coin);
-   building.culture = valueOrZero(building.culture);
-   building.population = valueOrZero(building.population);
-   building.supplies = valueOrZero(building.supplies);
-   building.tier1Product = valueOrZero(building.tier1Product);
-   building.tier2Product = valueOrZero(building.tier2Product);
-   building.tier3Product = valueOrZero(building.tier3Product);
 });
-
-function valueOrZero(value)
-{
-   return (value !== undefined ? value : 0);
-}
 
 if (Object.freeze)
 {

@@ -23,8 +23,6 @@ const BuildersHut = {
          level: 1,
          width: 3,
          height: 3,
-         population: 0,
-         culture: 0,
          key: "elf01",
       },
       "elf02":
@@ -35,8 +33,6 @@ const BuildersHut = {
          level: 2,
          width: 3,
          height: 3,
-         population: 0,
-         culture: 0,
          key: "elf02",
       },
       "elf03":
@@ -47,8 +43,6 @@ const BuildersHut = {
          level: 3,
          width: 3,
          height: 3,
-         population: 0,
-         culture: 0,
          key: "elf03",
       },
       "elf04":
@@ -59,8 +53,6 @@ const BuildersHut = {
          level: 4,
          width: 3,
          height: 3,
-         population: 0,
-         culture: 0,
          key: "elf04",
       },
       "elf05":
@@ -71,8 +63,6 @@ const BuildersHut = {
          level: 5,
          width: 3,
          height: 3,
-         population: 0,
-         culture: 0,
          key: "elf05",
       },
       "human01":
@@ -83,8 +73,6 @@ const BuildersHut = {
          level: 1,
          width: 2,
          height: 3,
-         population: 0,
-         culture: 0,
          key: "human01",
       },
       "human02":
@@ -95,8 +83,6 @@ const BuildersHut = {
          level: 2,
          width: 2,
          height: 3,
-         population: 0,
-         culture: 0,
          key: "human02",
       },
       "human03":
@@ -107,8 +93,6 @@ const BuildersHut = {
          level: 3,
          width: 2,
          height: 3,
-         population: 0,
-         culture: 0,
          key: "human03",
       },
       "human04":
@@ -119,8 +103,6 @@ const BuildersHut = {
          level: 4,
          width: 2,
          height: 3,
-         population: 0,
-         culture: 0,
          key: "human04",
       },
       "human05":
@@ -131,8 +113,6 @@ const BuildersHut = {
          level: 5,
          width: 2,
          height: 3,
-         population: 0,
-         culture: 0,
          key: "human05",
       },
    },
@@ -153,13 +133,6 @@ BuildersHut.keys().forEach(function(buildingKey)
    const building = BuildersHut.properties[buildingKey];
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
-   building.coin = (building.coin !== undefined ? building.coin : 0);
-   building.culture = (building.culture !== undefined ? building.culture : 0);
-   building.population = (building.population !== undefined ? building.population : 0);
-   building.supplies = (building.supplies !== undefined ? building.supplies : 0);
-   building.tier1Product = (building.tier1Product !== undefined ? building.tier1Product : 0);
-   building.tier2Product = (building.tier2Product !== undefined ? building.tier2Product : 0);
-   building.tier3Product = (building.tier3Product !== undefined ? building.tier3Product : 0);
 });
 
 if (Object.freeze)

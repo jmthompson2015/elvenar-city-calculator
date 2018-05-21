@@ -91,7 +91,7 @@ function cumulative(typeKey, buildingKey, statKey)
    for (let i = 1; i <= building.level; i++)
    {
       const myBuilding = BuildingResolver.find(building.raceKey, typeKey, i);
-      answer += myBuilding[statKey];
+      answer += (myBuilding[statKey] !== undefined ? myBuilding[statKey] : 0);
    }
 
    return answer;

@@ -59,7 +59,6 @@ const ScrollsManufactory = {
          width: 3,
          height: 3,
          population: -113,
-         culture: 0,
          tier2Product: 41,
          key: "elf01"
       },
@@ -335,7 +334,6 @@ const ScrollsManufactory = {
          width: 2,
          height: 3,
          population: -88,
-         culture: 0,
          tier2Product: 28,
          key: "human01"
       },
@@ -629,20 +627,7 @@ ScrollsManufactory.keys().forEach(function(buildingKey)
    building.typeKey = BuildingType.SCROLLS_MANUFACTORY;
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
-
-   building.coin = valueOrZero(building.coin);
-   building.culture = valueOrZero(building.culture);
-   building.population = valueOrZero(building.population);
-   building.supplies = valueOrZero(building.supplies);
-   building.tier1Product = valueOrZero(building.tier1Product);
-   building.tier2Product = valueOrZero(building.tier2Product);
-   building.tier3Product = valueOrZero(building.tier3Product);
 });
-
-function valueOrZero(value)
-{
-   return (value !== undefined ? value : 0);
-}
 
 if (Object.freeze)
 {

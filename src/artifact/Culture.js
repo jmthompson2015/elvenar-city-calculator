@@ -68,7 +68,6 @@ const Culture = {
          width: 1,
          height: 1,
          culture: 21,
-         population: 0,
          key: "luminousSignpostElf"
       },
       "purpleBlossomTreesElf":
@@ -80,7 +79,6 @@ const Culture = {
          width: 1,
          height: 3,
          culture: 67,
-         population: 0,
          key: "purpleBlossomTreesElf"
       },
       "shrineOfEnarElf":
@@ -92,7 +90,6 @@ const Culture = {
          width: 3,
          height: 3,
          culture: 450,
-         population: 0,
          key: "shrineOfEnarElf"
       },
       "flyingBoatElf":
@@ -104,7 +101,6 @@ const Culture = {
          width: 3,
          height: 3,
          culture: 250,
-         population: 0,
          key: "flyingBoatElf"
       },
       "anchorPointElf":
@@ -116,7 +112,6 @@ const Culture = {
          width: 3,
          height: 1,
          culture: 170,
-         population: 0,
          key: "anchorPointElf"
       },
       "spotOfWhisperingTreesElf":
@@ -128,7 +123,6 @@ const Culture = {
          width: 4,
          height: 3,
          culture: 400,
-         population: 0,
          key: "spotOfWhisperingTreesElf"
       },
       "flowerCageElf":
@@ -140,7 +134,6 @@ const Culture = {
          width: 1,
          height: 1,
          culture: 62,
-         population: 0,
          key: "flowerCageElf"
       },
       "wellOfFloatingIslandsElf":
@@ -164,7 +157,6 @@ const Culture = {
          width: 2,
          height: 1,
          culture: 60,
-         population: 0,
          key: "ancientRunesElf"
       },
       "orangeBerriesTreesElf":
@@ -176,7 +168,6 @@ const Culture = {
          width: 3,
          height: 1,
          culture: 92,
-         population: 0,
          key: "orangeBerriesTreesElf"
       },
       "protectorOfTheWoodsElf":
@@ -188,7 +179,6 @@ const Culture = {
          width: 4,
          height: 3,
          culture: 840,
-         population: 0,
          key: "protectorOfTheWoodsElf"
       },
       "statueOfTheSacredSageElf":
@@ -200,7 +190,6 @@ const Culture = {
          width: 1,
          height: 2,
          culture: 74,
-         population: 0,
          key: "statueOfTheSacredSageElf"
       },
       "giftOfTheGardenFairyElf":
@@ -212,7 +201,6 @@ const Culture = {
          width: 1,
          height: 1,
          culture: 36,
-         population: 0,
          key: "giftOfTheGardenFairyElf"
       },
       "vallorianSeasnakeElf":
@@ -224,7 +212,6 @@ const Culture = {
          width: 3,
          height: 4,
          culture: 1000,
-         population: 0,
          key: "vallorianSeasnakeElf"
       },
       "mysteriousCycloneElf":
@@ -236,7 +223,6 @@ const Culture = {
          width: 3,
          height: 3,
          culture: 440,
-         population: 0,
          key: "mysteriousCycloneElf"
       },
       "stairwayOfTheWindElf":
@@ -248,7 +234,6 @@ const Culture = {
          width: 1,
          height: 3,
          culture: 290,
-         population: 0,
          key: "stairwayOfTheWindElf"
       },
       "splendidStoneOfArtElf":
@@ -260,7 +245,6 @@ const Culture = {
          width: 3,
          height: 1,
          culture: 140,
-         population: 0,
          key: "splendidStoneOfArtElf"
       },
       "cropOfJoyElf":
@@ -272,7 +256,6 @@ const Culture = {
          width: 1,
          height: 2,
          culture: 92,
-         population: 0,
          key: "cropOfJoyElf"
       },
       "mothertreeElf":
@@ -284,7 +267,6 @@ const Culture = {
          width: 2,
          height: 2,
          culture: 400,
-         population: 0,
          key: "mothertreeElf"
       },
       "templeOfAgesElf":
@@ -296,7 +278,6 @@ const Culture = {
          width: 5,
          height: 4,
          culture: 1200,
-         population: 0,
          key: "templeOfAgesElf"
       },
       "enarsUnicornElf":
@@ -308,7 +289,6 @@ const Culture = {
          width: 2,
          height: 1,
          culture: 220,
-         population: 0,
          key: "enarsUnicornElf"
       },
       "goddessOfFertilityElf":
@@ -332,7 +312,6 @@ const Culture = {
          width: 1,
          height: 3,
          culture: 160,
-         population: 0,
          key: "altarOfTheForefathersElf"
       },
       "naturesBlessingElf":
@@ -344,7 +323,6 @@ const Culture = {
          width: 2,
          height: 1,
          culture: 100,
-         population: 0,
          key: "naturesBlessingElf"
       },
       "goldenTorchTowerElf":
@@ -356,7 +334,6 @@ const Culture = {
          width: 3,
          height: 3,
          culture: 1200,
-         population: 0,
          key: "goldenTorchTowerElf"
       },
       "gardenOfHarmonyElf":
@@ -368,7 +345,6 @@ const Culture = {
          width: 5,
          height: 6,
          culture: 2100,
-         population: 0,
          key: "gardenOfHarmonyElf"
       },
       "harmonyBoardwalkElf":
@@ -380,7 +356,6 @@ const Culture = {
          width: 1,
          height: 2,
          culture: 250,
-         population: 0,
          key: "harmonyBoardwalkElf"
       },
       "gloriousStatueHuman":
@@ -392,7 +367,6 @@ const Culture = {
          width: 1,
          height: 1,
          culture: 21,
-         population: 0,
          key: "gloriousStatueHuman"
       },
       "blueFlowersHuman":
@@ -404,7 +378,6 @@ const Culture = {
          width: 1,
          height: 3,
          culture: 67,
-         population: 0,
          key: "blueFlowersHuman"
       },
       "prisonOfTheCondemnedHuman":
@@ -416,7 +389,6 @@ const Culture = {
          width: 3,
          height: 3,
          culture: 450,
-         population: 0,
          key: "prisonOfTheCondemnedHuman"
       },
       "holyCodexHuman":
@@ -428,7 +400,6 @@ const Culture = {
          width: 2,
          height: 2,
          culture: 110,
-         population: 0,
          key: "holyCodexHuman"
       },
       "magicChasmHuman":
@@ -440,7 +411,6 @@ const Culture = {
          width: 2,
          height: 1,
          culture: 110,
-         population: 0,
          key: "magicChasmHuman"
       },
       "delicatessenButcherHuman":
@@ -452,7 +422,6 @@ const Culture = {
          width: 3,
          height: 4,
          culture: 430,
-         population: 0,
          key: "delicatessenButcherHuman"
       },
       "barbecueAreaHuman":
@@ -464,7 +433,6 @@ const Culture = {
          width: 1,
          height: 2,
          culture: 140,
-         population: 0,
          key: "barbecueAreaHuman"
       },
       "hallowedShrineHuman":
@@ -488,7 +456,6 @@ const Culture = {
          width: 2,
          height: 1,
          culture: 65,
-         population: 0,
          key: "goldenGuardsHuman"
       },
       "redFlowersHuman":
@@ -500,7 +467,6 @@ const Culture = {
          width: 3,
          height: 1,
          culture: 99,
-         population: 0,
          key: "redFlowersHuman"
       },
       "floatingCitadelHuman":
@@ -512,7 +478,6 @@ const Culture = {
          width: 4,
          height: 3,
          culture: 900,
-         population: 0,
          key: "floatingCitadelHuman"
       },
       "monsterFountainHuman":
@@ -524,7 +489,6 @@ const Culture = {
          width: 3,
          height: 3,
          culture: 410,
-         population: 0,
          key: "monsterFountainHuman"
       },
       "smallForecourtHuman":
@@ -536,7 +500,6 @@ const Culture = {
          width: 3,
          height: 1,
          culture: 270,
-         population: 0,
          key: "smallForecourtHuman"
       },
       "lordOfTheLegendHuman":
@@ -548,7 +511,6 @@ const Culture = {
          width: 1,
          height: 2,
          culture: 85,
-         population: 0,
          key: "lordOfTheLegendHuman"
       },
       "decorativeFlowerPotHuman":
@@ -560,7 +522,6 @@ const Culture = {
          width: 1,
          height: 1,
          culture: 42,
-         population: 0,
          key: "decorativeFlowerPotHuman"
       },
       "mageTowerHuman":
@@ -572,7 +533,6 @@ const Culture = {
          width: 3,
          height: 2,
          culture: 570,
-         population: 0,
          key: "mageTowerHuman"
       },
       "fratricidalWarMemorialHuman":
@@ -584,7 +544,6 @@ const Culture = {
          width: 3,
          height: 1,
          culture: 150,
-         population: 0,
          key: "fratricidalWarMemorialHuman"
       },
       "twinFlowerbedHuman":
@@ -596,7 +555,6 @@ const Culture = {
          width: 1,
          height: 2,
          culture: 98,
-         population: 0,
          key: "twinFlowerbedHuman"
       },
       "astrolabeHuman":
@@ -608,7 +566,6 @@ const Culture = {
          width: 3,
          height: 3,
          culture: 1000,
-         population: 0,
          key: "astrolabeHuman"
       },
       "battleMonumentHuman":
@@ -620,7 +577,6 @@ const Culture = {
          width: 4,
          height: 3,
          culture: 690,
-         population: 0,
          key: "battleMonumentHuman"
       },
       "monumentSquareHuman":
@@ -632,7 +588,6 @@ const Culture = {
          width: 1,
          height: 3,
          culture: 330,
-         population: 0,
          key: "monumentSquareHuman"
       },
       "fountainOfYouthHuman":
@@ -656,7 +611,6 @@ const Culture = {
          width: 4,
          height: 5,
          culture: 1400,
-         population: 0,
          key: "centralPlaceHuman"
       },
       "royalGuardHuman":
@@ -668,7 +622,6 @@ const Culture = {
          width: 1,
          height: 1,
          culture: 120,
-         population: 0,
          key: "royalGuardHuman"
       },
       "dragonsKeepHuman":
@@ -680,7 +633,6 @@ const Culture = {
          width: 1,
          height: 3,
          culture: 182,
-         population: 0,
          key: "dragonsKeepHuman"
       },
       "smallGardenHuman":
@@ -692,7 +644,6 @@ const Culture = {
          width: 2,
          height: 1,
          culture: 120,
-         population: 0,
          key: "smallGardenHuman"
       },
       "battleArenaHuman":
@@ -704,7 +655,6 @@ const Culture = {
          width: 4,
          height: 3,
          culture: 1700,
-         population: 0,
          key: "battleArenaHuman"
       },
    },
@@ -725,20 +675,7 @@ Culture.keys().forEach(function(buildingKey)
    const building = Culture.properties[buildingKey];
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
-
-   building.coin = valueOrZero(building.coin);
-   building.culture = valueOrZero(building.culture);
-   building.population = valueOrZero(building.population);
-   building.supplies = valueOrZero(building.supplies);
-   building.tier1Product = valueOrZero(building.tier1Product);
-   building.tier2Product = valueOrZero(building.tier2Product);
-   building.tier3Product = valueOrZero(building.tier3Product);
 });
-
-function valueOrZero(value)
-{
-   return (value !== undefined ? value : 0);
-}
 
 if (Object.freeze)
 {

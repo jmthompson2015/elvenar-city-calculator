@@ -73,11 +73,21 @@ function parse(raceName, typeName, spanId, $, enums, properties)
             level: level,
             width: width,
             height: height,
-            culture: -culture,
-            population: population,
-            coin: coin,
-            key: enumValue,
          };
+
+         if (culture !== undefined && culture > 0)
+         {
+            rowData.culture = -culture;
+         }
+         if (population !== undefined && population > 0)
+         {
+            rowData.population = population;
+         }
+         if (coin !== undefined && coin > 0)
+         {
+            rowData.coin = coin;
+         }
+         rowData.key = enumValue;
 
          properties += "\"" + enumValue + "\": " + FetcherUtilities.stringify(rowData) + ",\n";
       }

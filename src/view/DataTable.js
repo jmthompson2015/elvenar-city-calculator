@@ -43,17 +43,16 @@ class DataTable extends React.Component
 
    createFooterRow(rowData)
    {
-      let firstData = rowData[0];
-      let keys = Object.keys(firstData);
+      const columns = this.props.columns;
       let myData = {};
-      keys.forEach(key =>
+      columns.forEach(column =>
       {
-         if (Number.isInteger(firstData[key]))
+         if (column.isinfooter === "true")
          {
-            myData[key] = 0;
+            myData[column.key] = 0;
             rowData.forEach(data =>
             {
-               myData[key] += (Number.isInteger(data[key]) ? data[key] : 0);
+               myData[column.key] += (Number.isInteger(data[column.key]) ? data[column.key] : 0);
             });
          }
       });
@@ -61,7 +60,7 @@ class DataTable extends React.Component
       return Tfoot(
       {
          key: "footer",
-         className: "ba bg-lotr-medium",
+         className: "ba",
       }, this.createRow0(myData, rowData.length));
    }
 

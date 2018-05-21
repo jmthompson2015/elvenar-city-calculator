@@ -133,13 +133,6 @@ MagicAcademy.keys().forEach(function(buildingKey)
    const building = MagicAcademy.properties[buildingKey];
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
-   building.coin = (building.coin !== undefined ? building.coin : 0);
-   building.culture = (building.culture !== undefined ? building.culture : 0);
-   building.population = (building.population !== undefined ? building.population : 0);
-   building.supplies = (building.supplies !== undefined ? building.supplies : 0);
-   building.tier1Product = (building.tier1Product !== undefined ? building.tier1Product : 0);
-   building.tier2Product = (building.tier2Product !== undefined ? building.tier2Product : 0);
-   building.tier3Product = (building.tier3Product !== undefined ? building.tier3Product : 0);
 });
 
 if (Object.freeze)

@@ -22,13 +22,13 @@ function mapStateToProps(state)
       }
       const count = row.count;
       const area = count * building.width * building.height;
-      const coin = Math.round(count * building.coin);
-      const culture = count * BuildingUtilities.cumulativeCulture(building.typeKey, building.key);
-      const population = count * BuildingUtilities.cumulativePopulation(building.typeKey, building.key);
-      const supplies = Math.round(count * building.supplies);
-      const tier1Product = count * building.tier1Product;
-      const tier2Product = count * building.tier2Product;
-      const tier3Product = count * building.tier3Product;
+      const coin = valueOrUndefined(Math.round(count * building.coin));
+      const culture = valueOrUndefined(count * BuildingUtilities.cumulativeCulture(building.typeKey, building.key));
+      const population = valueOrUndefined(count * BuildingUtilities.cumulativePopulation(building.typeKey, building.key));
+      const supplies = valueOrUndefined(Math.round(count * building.supplies));
+      const tier1Product = valueOrUndefined(count * building.tier1Product);
+      const tier2Product = valueOrUndefined(count * building.tier2Product);
+      const tier3Product = valueOrUndefined(count * building.tier3Product);
       return Object.assign(
       {}, row,
       {
@@ -76,6 +76,11 @@ function mapDispatchToProps(dispatch)
    });
 }
 
+function valueOrUndefined(value)
+{
+   return (value !== undefined && !isNaN(value) && Math.abs(value) !== 0 ? value : undefined);
+}
+
 const TableColumns = [
    {
       key: "category",
@@ -101,46 +106,55 @@ const TableColumns = [
       key: "count",
       label: "Count",
       className: "tr",
+      isinfooter: "true",
    },
    {
       key: "area",
       label: "Area",
       className: "tr",
+      isinfooter: "true",
    },
    {
       key: "culture",
       label: "Culture",
       className: "tr",
+      isinfooter: "true",
    },
    {
       key: "population",
       label: "Population",
       className: "tr",
+      isinfooter: "true",
    },
    {
       key: "coin",
       label: "Coin/h",
       className: "tr",
+      isinfooter: "true",
    },
    {
       key: "supplies",
       label: "Supplies/h",
       className: "tr",
+      isinfooter: "true",
    },
    {
       key: "tier1Product",
       label: "Tier 1 Product/h",
       className: "tr",
+      isinfooter: "true",
    },
    {
       key: "tier2Product",
       label: "Tier 2 Product/h",
       className: "tr",
+      isinfooter: "true",
    },
    {
       key: "tier3Product",
       label: "Tier 3 Product/h",
       className: "tr",
+      isinfooter: "true",
    },
 ];
 

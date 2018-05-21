@@ -93,9 +93,13 @@ function parse(raceName, typeName, spanId, $, typeEnums, typeProperties, enums, 
             width: width,
             height: height,
             culture: culture,
-            population: population,
-            key: enumValue,
          };
+
+         if (population !== undefined && population > 0)
+         {
+            rowData.population = population;
+         }
+         rowData.key = enumValue;
 
          typeProperties += "\"" + enumValue + "\": " + FetcherUtilities.stringify(typeData) + ",\n";
          properties += "\"" + enumValue + "\": " + FetcherUtilities.stringify(rowData) + ",\n";

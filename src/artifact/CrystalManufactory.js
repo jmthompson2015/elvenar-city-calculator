@@ -59,7 +59,6 @@ const CrystalManufactory = {
          width: 3,
          height: 2,
          population: -92,
-         culture: 0,
          tier2Product: 28,
          key: "elf01"
       },
@@ -335,7 +334,6 @@ const CrystalManufactory = {
          width: 3,
          height: 2,
          population: -80,
-         culture: 0,
          tier2Product: 28,
          key: "human01"
       },
@@ -631,20 +629,7 @@ CrystalManufactory.keys().forEach(function(buildingKey)
    building.typeKey = BuildingType.CRYSTAL_MANUFACTORY;
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
-
-   building.coin = valueOrZero(building.coin);
-   building.culture = valueOrZero(building.culture);
-   building.population = valueOrZero(building.population);
-   building.supplies = valueOrZero(building.supplies);
-   building.tier1Product = valueOrZero(building.tier1Product);
-   building.tier2Product = valueOrZero(building.tier2Product);
-   building.tier3Product = valueOrZero(building.tier3Product);
 });
-
-function valueOrZero(value)
-{
-   return (value !== undefined ? value : 0);
-}
 
 if (Object.freeze)
 {

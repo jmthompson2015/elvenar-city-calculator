@@ -73,10 +73,16 @@ function parse(raceName, typeName, tier, spanId, $, enums, properties)
             level: level,
             width: width,
             height: height,
-            population: -population,
-            culture: -culture,
          };
 
+         if (population !== undefined && population > 0)
+         {
+            rowData.population = -population;
+         }
+         if (culture !== undefined && culture > 0)
+         {
+            rowData.culture = -culture;
+         }
          rowData["tier" + tier + "Product"] = product;
          rowData.key = enumValue;
 
