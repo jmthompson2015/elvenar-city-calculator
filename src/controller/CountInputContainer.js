@@ -1,3 +1,5 @@
+import BuildingType from "../artifact/BuildingType.js";
+
 import Action from "../model/Action.js";
 
 import NumberInput from "../view/NumberInput.js";
@@ -15,13 +17,26 @@ function mapStateToProps(state, ownProps)
       initialSelectedValue = rowData.count;
    }
 
+   let min = 0;
+   let max = 99;
+
+   if ([BuildingType.BUILDERS_HUT, BuildingType.MAIN_HALL].includes(rowData.typeKey))
+   {
+      min = 1;
+   }
+
+   if ([BuildingType.BARRACKS, BuildingType.BUILDERS_HUT, BuildingType.MAGIC_ACADEMY, BuildingType.MAIN_HALL, BuildingType.TRADER, BuildingType.TRAINING_GROUNDS].includes(rowData.typeKey))
+   {
+      max = 1;
+   }
+
    return (
    {
       key: "countInput" + initialSelectedValue,
       clientProps: clientProps,
       initialSelectedValue: initialSelectedValue,
-      min: 0,
-      max: 99,
+      min: min,
+      max: max,
    });
 }
 

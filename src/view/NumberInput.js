@@ -33,7 +33,18 @@ class NumberInput extends React.Component
          });
       }
 
-      return ReactDOMFactories.input(inputProps);
+      let answer;
+
+      if (this.props.min === this.props.max)
+      {
+         answer = ReactDOMFactories.span(inputProps, this.props.min);
+      }
+      else
+      {
+         answer = ReactDOMFactories.input(inputProps);
+      }
+
+      return answer;
    }
 
    handleChange(event)
