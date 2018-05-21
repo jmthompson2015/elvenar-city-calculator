@@ -22,6 +22,7 @@ const BuildingType = {
    SILK_MANUFACTORY: "silkManufactory",
    STEEL_MANUFACTORY: "steelManufactory",
    TRADER: "trader",
+   TRAINING_GROUNDS: "trainingGrounds",
    WORKSHOP: "workshop",
 
    LUMINOUS_SIGNPOST_ELF: "luminousSignpostElf",
@@ -188,6 +189,12 @@ const BuildingType = {
          name: "Trader",
          categoryKey: BuildingCategory.BASICS,
          key: "trader",
+      },
+      "trainingGrounds":
+      {
+         name: "Training Grounds",
+         categoryKey: BuildingCategory.MILITARY,
+         key: "trainingGrounds",
       },
       "workshop":
       {

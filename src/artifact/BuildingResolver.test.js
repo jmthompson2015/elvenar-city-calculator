@@ -1,3 +1,5 @@
+import Armory from "./Armory.js";
+import Barracks from "./Barracks.js";
 import BuildersHut from "./BuildersHut.js";
 import BuildingResolver from "./BuildingResolver.js";
 import BuildingType from "./BuildingType.js";
@@ -16,6 +18,7 @@ import ScrollsManufactory from "./ScrollsManufactory.js";
 import SilkManufactory from "./SilkManufactory.js";
 import SteelManufactory from "./SteelManufactory.js";
 import Trader from "./Trader.js";
+import TrainingGrounds from "./TrainingGrounds.js";
 import Workshop from "./Workshop.js";
 
 QUnit.module("BuildingResolver");
@@ -32,6 +35,8 @@ QUnit.test("BuildingResolver.buildingClass()", function(assert)
    assert.ok(result);
    assert.equal(result, MarbleManufactory);
 
+   assert.equal(BuildingResolver.buildingClass(BuildingType.ARMORY), Armory, "Armory");
+   assert.equal(BuildingResolver.buildingClass(BuildingType.BARRACKS), Barracks, "Barracks");
    assert.equal(BuildingResolver.buildingClass(BuildingType.BUILDERS_HUT), BuildersHut, "BuildersHut");
    assert.equal(BuildingResolver.buildingClass(BuildingType.CRYSTAL_MANUFACTORY), CrystalManufactory, "CrystalManufactory");
    assert.equal(BuildingResolver.buildingClass(BuildingType.ELIXIR_MANUFACTORY), ElixirManufactory, "ElixirManufactory");
@@ -46,6 +51,7 @@ QUnit.test("BuildingResolver.buildingClass()", function(assert)
    assert.equal(BuildingResolver.buildingClass(BuildingType.SILK_MANUFACTORY), SilkManufactory, "SilkManufactory");
    assert.equal(BuildingResolver.buildingClass(BuildingType.STEEL_MANUFACTORY), SteelManufactory, "SteelManufactory");
    assert.equal(BuildingResolver.buildingClass(BuildingType.TRADER), Trader, "Trader");
+   assert.equal(BuildingResolver.buildingClass(BuildingType.TRAINING_GROUNDS), TrainingGrounds, "TrainingGrounds");
    assert.equal(BuildingResolver.buildingClass(BuildingType.WORKSHOP), Workshop, "Workshop");
 
    CultureBuilding.keys().forEach(buildingKey =>
@@ -89,6 +95,42 @@ QUnit.test("BuildingResolver.find() Marble Manufactory Elf 1", function(assert)
    assert.equal(result.typeKey, typeKey);
    assert.equal(result.level, level);
    assert.equal(result.key, MarbleManufactory.ELF_01);
+});
+
+QUnit.test("BuildingResolver.find() Training Grounds Elf 1", function(assert)
+{
+   // Setup.
+   const raceKey = Race.ELF;
+   const typeKey = BuildingType.TRAINING_GROUNDS;
+   const level = 1;
+
+   // Run.
+   const result = BuildingResolver.find(raceKey, typeKey, level);
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.raceKey, raceKey);
+   assert.equal(result.typeKey, typeKey);
+   assert.equal(result.level, level);
+   assert.equal(result.key, TrainingGrounds.ELF_01);
+});
+
+QUnit.test("BuildingResolver.find() Training Grounds Human 20", function(assert)
+{
+   // Setup.
+   const raceKey = Race.HUMAN;
+   const typeKey = BuildingType.TRAINING_GROUNDS;
+   const level = 20;
+
+   // Run.
+   const result = BuildingResolver.find(raceKey, typeKey, level);
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.raceKey, raceKey);
+   assert.equal(result.typeKey, typeKey);
+   assert.equal(result.level, level);
+   assert.equal(result.key, TrainingGrounds.HUMAN_20);
 });
 
 QUnit.test("BuildingResolver.find() Workshop Human 5", function(assert)

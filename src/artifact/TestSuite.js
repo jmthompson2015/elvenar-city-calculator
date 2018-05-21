@@ -21,6 +21,7 @@ import ScrollsManufactoryTest from "./ScrollsManufactory.test.js";
 import SilkManufactoryTest from "./SilkManufactory.test.js";
 import SteelManufactoryTest from "./SteelManufactory.test.js";
 import TraderTest from "./Trader.test.js";
+import TrainingGroundsTest from "./TrainingGrounds.test.js";
 import WorkshopTest from "./Workshop.test.js";
 
 window.LOGGER = new Logger();

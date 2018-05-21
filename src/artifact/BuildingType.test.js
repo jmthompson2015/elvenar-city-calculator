@@ -113,7 +113,7 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 71;
+   const length = 72;
    assert.equal(result.length, length);
    assert.equal(result[0], BuildingType.ARMORY);
    assert.equal(result[length - 1], BuildingType.BATTLE_ARENA_HUMAN);

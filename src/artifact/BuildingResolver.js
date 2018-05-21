@@ -18,6 +18,7 @@ import ScrollsManufactory from "./ScrollsManufactory.js";
 import SilkManufactory from "./SilkManufactory.js";
 import SteelManufactory from "./SteelManufactory.js";
 import Trader from "./Trader.js";
+import TrainingGrounds from "./TrainingGrounds.js";
 import Workshop from "./Workshop.js";
 
 var BuildingResolver = {};
@@ -39,6 +40,7 @@ BuildingResolver.TYPE_TO_CLASS[BuildingType.SCROLLS_MANUFACTORY] = ScrollsManufa
 BuildingResolver.TYPE_TO_CLASS[BuildingType.SILK_MANUFACTORY] = SilkManufactory;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.STEEL_MANUFACTORY] = SteelManufactory;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.TRADER] = Trader;
+BuildingResolver.TYPE_TO_CLASS[BuildingType.TRAINING_GROUNDS] = TrainingGrounds;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.WORKSHOP] = Workshop;
 
 CultureBuilding.keys().forEach(buildingKey =>
