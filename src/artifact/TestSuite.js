@@ -13,6 +13,7 @@ import ElixirManufactoryTest from "./ElixirManufactory.test.js";
 import GemsManufactoryTest from "./GemsManufactory.test.js";
 import MagicAcademyTest from "./MagicAcademy.test.js";
 import MagicDustManufactoryTest from "./MagicDustManufactory.test.js";
+import MainHallTest from "./MainHall.test.js";
 import MarbleManufactoryTest from "./MarbleManufactory.test.js";
 import PlanksManufactoryTest from "./PlanksManufactory.test.js";
 import RaceTest from "./Race.test.js";

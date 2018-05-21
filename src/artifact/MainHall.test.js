@@ -49,10 +49,10 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 10;
+   const length = 58;
    assert.equal(result.length, length);
-   assert.equal(result[0], "elf01");
-   assert.equal(result[length - 1], "human05");
+   assert.equal(result[0], MainHall.ELF_01);
+   assert.equal(result[length - 1], MainHall.HUMAN_29);
 
    const properties = Object.getOwnPropertyNames(MainHall);
    const count = properties.length - 1 - // properties
