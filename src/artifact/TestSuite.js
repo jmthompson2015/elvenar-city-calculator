@@ -8,7 +8,7 @@ import BuildingResolverTest from "./BuildingResolver.test.js";
 import BuildingTypeTest from "./BuildingType.test.js";
 import BuildingUtilitiesTest from "./BuildingUtilities.test.js";
 import CrystalManufactoryTest from "./CrystalManufactory.test.js";
-import CultureBuildingTest from "./CultureBuilding.test.js";
+import CultureBuildingTest from "./Culture.test.js";
 import ElixirManufactoryTest from "./ElixirManufactory.test.js";
 import GemsManufactoryTest from "./GemsManufactory.test.js";
 import MagicAcademyTest from "./MagicAcademy.test.js";

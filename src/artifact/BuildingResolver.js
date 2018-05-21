@@ -5,7 +5,7 @@ import Barracks from "./Barracks.js";
 import BuildersHut from "./BuildersHut.js";
 import BuildingType from "./BuildingType.js";
 import CrystalManufactory from "./CrystalManufactory.js";
-import CultureBuilding from "./CultureBuilding.js";
+import Culture from "./Culture.js";
 import ElixirManufactory from "./ElixirManufactory.js";
 import GemsManufactory from "./GemsManufactory.js";
 import MagicAcademy from "./MagicAcademy.js";
@@ -45,10 +45,10 @@ BuildingResolver.TYPE_TO_CLASS[BuildingType.TRADER] = Trader;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.TRAINING_GROUNDS] = TrainingGrounds;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.WORKSHOP] = Workshop;
 
-CultureBuilding.keys().forEach(buildingKey =>
+Culture.keys().forEach(buildingKey =>
 {
    const typeKey = buildingKey;
-   BuildingResolver.TYPE_TO_CLASS[typeKey] = CultureBuilding;
+   BuildingResolver.TYPE_TO_CLASS[typeKey] = Culture;
 });
 
 Street.keys().forEach(buildingKey =>

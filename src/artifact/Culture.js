@@ -1,7 +1,7 @@
 import BuildingType from "./BuildingType.js";
 import Race from "./Race.js";
 
-const CultureBuilding = {
+const Culture = {
    LUMINOUS_SIGNPOST_ELF: "luminousSignpostElf",
    PURPLE_BLOSSOM_TREES_ELF: "purpleBlossomTreesElf",
    SHRINE_OF_ENAR_ELF: "shrineOfEnarElf",
@@ -710,19 +710,19 @@ const CultureBuilding = {
    },
 };
 
-CultureBuilding.keys = function()
+Culture.keys = function()
 {
-   return Object.keys(CultureBuilding.properties);
+   return Object.keys(Culture.properties);
 };
 
-CultureBuilding.values = function()
+Culture.values = function()
 {
-   return Object.values(CultureBuilding.properties);
+   return Object.values(Culture.properties);
 };
 
-CultureBuilding.keys().forEach(function(buildingKey)
+Culture.keys().forEach(function(buildingKey)
 {
-   const building = CultureBuilding.properties[buildingKey];
+   const building = Culture.properties[buildingKey];
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
 
@@ -742,7 +742,7 @@ function valueOrZero(value)
 
 if (Object.freeze)
 {
-   Object.freeze(CultureBuilding);
+   Object.freeze(Culture);
 }
 
-export default CultureBuilding;
+export default Culture;

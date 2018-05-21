@@ -4,7 +4,7 @@ import BuildersHut from "./BuildersHut.js";
 import BuildingResolver from "./BuildingResolver.js";
 import BuildingType from "./BuildingType.js";
 import CrystalManufactory from "./CrystalManufactory.js";
-import CultureBuilding from "./CultureBuilding.js";
+import Culture from "./Culture.js";
 import ElixirManufactory from "./ElixirManufactory.js";
 import GemsManufactory from "./GemsManufactory.js";
 import MagicAcademy from "./MagicAcademy.js";
@@ -55,10 +55,10 @@ QUnit.test("BuildingResolver.buildingClass()", function(assert)
    assert.equal(BuildingResolver.buildingClass(BuildingType.TRAINING_GROUNDS), TrainingGrounds, "TrainingGrounds");
    assert.equal(BuildingResolver.buildingClass(BuildingType.WORKSHOP), Workshop, "Workshop");
 
-   CultureBuilding.keys().forEach(buildingKey =>
+   Culture.keys().forEach(buildingKey =>
    {
       const typeKey = buildingKey;
-      assert.equal(BuildingResolver.buildingClass(typeKey), CultureBuilding, typeKey);
+      assert.equal(BuildingResolver.buildingClass(typeKey), Culture, typeKey);
    });
 
    Street.keys().forEach(buildingKey =>
@@ -101,7 +101,7 @@ QUnit.test("BuildingResolver.find() Luminous Signpost Elf 1", function(assert)
    assert.equal(result.raceKey, raceKey);
    assert.equal(result.typeKey, typeKey);
    assert.equal(result.level, level);
-   assert.equal(result.key, CultureBuilding.LUMINOUS_SIGNPOST_ELF);
+   assert.equal(result.key, Culture.LUMINOUS_SIGNPOST_ELF);
 });
 
 QUnit.test("BuildingResolver.find() Marble Manufactory Elf 1", function(assert)
@@ -195,7 +195,7 @@ QUnit.test("BuildingResolver.resolve() Luminous Signpost Elf 1", function(assert
 {
    // Setup.
    const typeKey = BuildingType.LUMINOUS_SIGNPOST_ELF;
-   const buildingKey = CultureBuilding.LUMINOUS_SIGNPOST_ELF;
+   const buildingKey = Culture.LUMINOUS_SIGNPOST_ELF;
 
    // Run.
    const result = BuildingResolver.resolve(typeKey, buildingKey);
