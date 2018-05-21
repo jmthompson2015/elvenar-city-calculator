@@ -44,6 +44,7 @@ Reducer.root = function(state, action)
          LOGGER.info("Reducer id = " + action.id + " categoryKey = " + action.categoryKey);
          oldConstruct = state.rowData[action.id];
          newTypeKey = BuildingType.keysByRaceCategory(state.raceKey, action.categoryKey)[0];
+         console.log("Reducer SET_CATEGORY newTypeKey = " + newTypeKey);
          newConstruct = new Construct(action.id, action.categoryKey, oldConstruct.raceKey, newTypeKey, oldConstruct.level, oldConstruct.count);
          newRowData = state.rowData.slice();
          newRowData[action.id] = newConstruct.toPlainObject();

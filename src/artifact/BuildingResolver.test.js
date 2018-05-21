@@ -17,6 +17,7 @@ import Race from "./Race.js";
 import ScrollsManufactory from "./ScrollsManufactory.js";
 import SilkManufactory from "./SilkManufactory.js";
 import SteelManufactory from "./SteelManufactory.js";
+import Street from "./Street.js";
 import Trader from "./Trader.js";
 import TrainingGrounds from "./TrainingGrounds.js";
 import Workshop from "./Workshop.js";
@@ -59,6 +60,30 @@ QUnit.test("BuildingResolver.buildingClass()", function(assert)
       const typeKey = buildingKey;
       assert.equal(BuildingResolver.buildingClass(typeKey), CultureBuilding, typeKey);
    });
+
+   Street.keys().forEach(buildingKey =>
+   {
+      const typeKey = buildingKey;
+      assert.equal(BuildingResolver.buildingClass(typeKey), Street, typeKey);
+   });
+});
+
+QUnit.test("BuildingResolver.find() Footpath Elf 1", function(assert)
+{
+   // Setup.
+   const raceKey = Race.ELF;
+   const typeKey = BuildingType.FOOTPATH_ELF;
+   const level = 1;
+
+   // Run.
+   const result = BuildingResolver.find(raceKey, typeKey, level);
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.raceKey, raceKey);
+   assert.equal(result.typeKey, typeKey);
+   assert.equal(result.level, level);
+   assert.equal(result.key, Street.FOOTPATH_ELF);
 });
 
 QUnit.test("BuildingResolver.find() Luminous Signpost Elf 1", function(assert)
@@ -149,6 +174,21 @@ QUnit.test("BuildingResolver.find() Workshop Human 5", function(assert)
    assert.equal(result.typeKey, typeKey);
    assert.equal(result.level, level);
    assert.equal(result.key, Workshop.HUMAN_05);
+});
+
+QUnit.test("BuildingResolver.resolve() Footpath Elf 1", function(assert)
+{
+   // Setup.
+   const typeKey = BuildingType.FOOTPATH_ELF;
+   const buildingKey = Street.FOOTPATH_ELF;
+
+   // Run.
+   const result = BuildingResolver.resolve(typeKey, buildingKey);
+
+   // Verify.
+   assert.ok(result);
+   assert.equal(result.typeKey, typeKey);
+   assert.equal(result.key, buildingKey);
 });
 
 QUnit.test("BuildingResolver.resolve() Luminous Signpost Elf 1", function(assert)

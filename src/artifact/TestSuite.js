@@ -20,6 +20,7 @@ import ResidenceTest from "./Residence.test.js";
 import ScrollsManufactoryTest from "./ScrollsManufactory.test.js";
 import SilkManufactoryTest from "./SilkManufactory.test.js";
 import SteelManufactoryTest from "./SteelManufactory.test.js";
+import StreetsTest from "./Street.test.js";
 import TraderTest from "./Trader.test.js";
 import TrainingGroundsTest from "./TrainingGrounds.test.js";
 import WorkshopTest from "./Workshop.test.js";

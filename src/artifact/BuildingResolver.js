@@ -17,6 +17,7 @@ import Residence from "./Residence.js";
 import ScrollsManufactory from "./ScrollsManufactory.js";
 import SilkManufactory from "./SilkManufactory.js";
 import SteelManufactory from "./SteelManufactory.js";
+import Street from "./Street.js";
 import Trader from "./Trader.js";
 import TrainingGrounds from "./TrainingGrounds.js";
 import Workshop from "./Workshop.js";
@@ -39,6 +40,7 @@ BuildingResolver.TYPE_TO_CLASS[BuildingType.RESIDENCE] = Residence;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.SCROLLS_MANUFACTORY] = ScrollsManufactory;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.SILK_MANUFACTORY] = SilkManufactory;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.STEEL_MANUFACTORY] = SteelManufactory;
+BuildingResolver.TYPE_TO_CLASS[BuildingType.STREETS] = Street;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.TRADER] = Trader;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.TRAINING_GROUNDS] = TrainingGrounds;
 BuildingResolver.TYPE_TO_CLASS[BuildingType.WORKSHOP] = Workshop;
@@ -47,6 +49,12 @@ CultureBuilding.keys().forEach(buildingKey =>
 {
    const typeKey = buildingKey;
    BuildingResolver.TYPE_TO_CLASS[typeKey] = CultureBuilding;
+});
+
+Street.keys().forEach(buildingKey =>
+{
+   const typeKey = buildingKey;
+   BuildingResolver.TYPE_TO_CLASS[typeKey] = Street;
 });
 
 BuildingResolver.buildingClass = function(typeKey)

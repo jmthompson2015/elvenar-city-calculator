@@ -25,6 +25,7 @@ const BuildingType = {
    TRAINING_GROUNDS: "trainingGrounds",
    WORKSHOP: "workshop",
 
+   // Culture.
    LUMINOUS_SIGNPOST_ELF: "luminousSignpostElf",
    PURPLE_BLOSSOM_TREES_ELF: "purpleBlossomTreesElf",
    SHRINE_OF_ENAR_ELF: "shrineOfEnarElf",
@@ -79,6 +80,30 @@ const BuildingType = {
    DRAGONS_KEEP_HUMAN: "dragonsKeepHuman",
    SMALL_GARDEN_HUMAN: "smallGardenHuman",
    BATTLE_ARENA_HUMAN: "battleArenaHuman",
+
+   // Streets.
+   FOOTPATH_ELF: "footpathElf",
+   SIMPLE_TRAIL_ELF: "simpleTrailElf",
+   COBBLED_ROAD_ELF: "cobbledRoadElf",
+   ORNATE_STREET_ELF: "ornateStreetElf",
+   DWARVEN_STREET_ELF: "dwarvenStreetElf",
+   BLOSSOM_STREET_ELF: "blossomStreetElf",
+   WOODEN_TRAIL_ELF: "woodenTrailElf",
+   GREENERY_STREET_ELF: "greeneryStreetElf",
+   LORE_STREET_ELF: "loreStreetElf",
+   COUNTRY_LANE_ELF: "countryLaneElf",
+   ETERNAL_STREET_ELF: "eternalStreetElf",
+   FOOTPATH_HUMAN: "footpathHuman",
+   SIMPLE_TRAIL_HUMAN: "simpleTrailHuman",
+   COBBLED_ROAD_HUMAN: "cobbledRoadHuman",
+   LUXURY_STREET_HUMAN: "luxuryStreetHuman",
+   DWARVEN_STREET_HUMAN: "dwarvenStreetHuman",
+   BLOSSOM_STREET_HUMAN: "blossomStreetHuman",
+   ROCKY_ROAD_HUMAN: "rockyRoadHuman",
+   GREENERY_STREET_HUMAN: "greeneryStreetHuman",
+   LORE_STREET_HUMAN: "loreStreetHuman",
+   COUNTRY_LANE_HUMAN: "countryLaneHuman",
+   ETERNAL_STREET_HUMAN: "eternalStreetHuman",
 
    properties:
    {
@@ -203,6 +228,8 @@ const BuildingType = {
          key: "workshop",
       },
 
+      //////////////////////////////////////////////////////////////////////////
+      // Culture.
       "luminousSignpostElf":
       {
          name: "Luminous Signpost (Elf)",
@@ -526,6 +553,141 @@ const BuildingType = {
          name: "Battle Arena (Human)",
          categoryKey: BuildingCategory.CULTURE,
          key: "battleArenaHuman"
+      },
+
+      //////////////////////////////////////////////////////////////////////////
+      // Streets.
+      "footpathElf":
+      {
+         name: "Footpath (Elf)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "footpathElf"
+      },
+      "simpleTrailElf":
+      {
+         name: "Simple Trail (Elf)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "simpleTrailElf"
+      },
+      "cobbledRoadElf":
+      {
+         name: "Cobbled Road (Elf)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "cobbledRoadElf"
+      },
+      "ornateStreetElf":
+      {
+         name: "Ornate Street (Elf)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "ornateStreetElf"
+      },
+      "dwarvenStreetElf":
+      {
+         name: "Dwarven Street (Elf)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "dwarvenStreetElf"
+      },
+      "blossomStreetElf":
+      {
+         name: "Blossom Street (Elf)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "blossomStreetElf"
+      },
+      "woodenTrailElf":
+      {
+         name: "Wooden Trail (Elf)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "woodenTrailElf"
+      },
+      "greeneryStreetElf":
+      {
+         name: "Greenery Street (Elf)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "greeneryStreetElf"
+      },
+      "loreStreetElf":
+      {
+         name: "Lore Street (Elf)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "loreStreetElf"
+      },
+      "countryLaneElf":
+      {
+         name: "Country Lane (Elf)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "countryLaneElf"
+      },
+      "eternalStreetElf":
+      {
+         name: "Eternal Street (Elf)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "eternalStreetElf"
+      },
+      "footpathHuman":
+      {
+         name: "Footpath (Human)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "footpathHuman"
+      },
+      "simpleTrailHuman":
+      {
+         name: "Simple Trail (Human)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "simpleTrailHuman"
+      },
+      "cobbledRoadHuman":
+      {
+         name: "Cobbled Road (Human)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "cobbledRoadHuman"
+      },
+      "luxuryStreetHuman":
+      {
+         name: "Luxury Street (Human)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "luxuryStreetHuman"
+      },
+      "dwarvenStreetHuman":
+      {
+         name: "Dwarven Street (Human)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "dwarvenStreetHuman"
+      },
+      "blossomStreetHuman":
+      {
+         name: "Blossom Street (Human)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "blossomStreetHuman"
+      },
+      "rockyRoadHuman":
+      {
+         name: "Rocky Road (Human)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "rockyRoadHuman"
+      },
+      "greeneryStreetHuman":
+      {
+         name: "Greenery Street (Human)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "greeneryStreetHuman"
+      },
+      "loreStreetHuman":
+      {
+         name: "Lore Street (Human)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "loreStreetHuman"
+      },
+      "countryLaneHuman":
+      {
+         name: "Country Lane (Human)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "countryLaneHuman"
+      },
+      "eternalStreetHuman":
+      {
+         name: "Eternal Street (Human)",
+         categoryKey: BuildingCategory.STREETS,
+         key: "eternalStreetHuman"
       },
    },
 };

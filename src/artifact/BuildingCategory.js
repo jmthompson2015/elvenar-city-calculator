@@ -1,6 +1,7 @@
 const BuildingCategory = {
    START: "start",
    BASICS: "basics",
+   STREETS: "streets",
    MILITARY: "military",
    GOODS: "goods",
    CULTURE: "culture",
@@ -18,6 +19,11 @@ const BuildingCategory = {
       {
          name: "Basics",
          key: "basics",
+      },
+      "streets":
+      {
+         name: "Streets",
+         key: "streets",
       },
       "military":
       {

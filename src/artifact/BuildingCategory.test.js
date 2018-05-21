@@ -47,7 +47,7 @@ QUnit.test("keys()", function(assert)
 
    // Verify.
    assert.ok(result);
-   const length = 5;
+   const length = 6;
    assert.equal(result.length, length);
    assert.equal(result[0], BuildingCategory.START);
    assert.equal(result[length - 1], BuildingCategory.CULTURE);
