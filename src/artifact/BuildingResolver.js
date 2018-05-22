@@ -77,7 +77,7 @@ BuildingResolver.find = function(raceKey, typeKey, level)
    keys.some(buildingKey =>
    {
       const building = buildingClass.properties[buildingKey];
-      if (building.raceKey === raceKey && building.level === level)
+      if (building.raceKey === raceKey && building.typeKey === typeKey && building.level === level)
       {
          answer = building;
       }
