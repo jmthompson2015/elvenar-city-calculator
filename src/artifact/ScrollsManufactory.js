@@ -323,7 +323,7 @@ const ScrollsManufactory = {
          height: 4,
          population: -687,
          culture: -230,
-         tier2Product: 1,
+         tier2Product: 1048,
          key: "elf23"
       },
       "human01":
@@ -598,7 +598,7 @@ const ScrollsManufactory = {
          height: 4,
          population: -687,
          culture: -230,
-         tier2Product: 1,
+         tier2Product: 1048,
          key: "human23"
       },
    },

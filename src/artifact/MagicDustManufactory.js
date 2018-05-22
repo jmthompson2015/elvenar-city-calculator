@@ -287,7 +287,7 @@ const MagicDustManufactory = {
          height: 6,
          population: -1280,
          culture: -369,
-         tier3Product: 1,
+         tier3Product: 1004,
          key: "elf20"
       },
       "elf21":
@@ -299,7 +299,7 @@ const MagicDustManufactory = {
          height: 6,
          population: -708,
          culture: -226,
-         tier3Product: 1,
+         tier3Product: 1083,
          key: "elf21"
       },
       "elf22":
@@ -311,7 +311,7 @@ const MagicDustManufactory = {
          height: 6,
          population: -817,
          culture: -267,
-         tier3Product: 1,
+         tier3Product: 1167,
          key: "elf22"
       },
       "elf23":
@@ -323,7 +323,7 @@ const MagicDustManufactory = {
          height: 6,
          population: -943,
          culture: -314,
-         tier3Product: 1,
+         tier3Product: 1262,
          key: "elf23"
       },
       "human01":
@@ -562,7 +562,7 @@ const MagicDustManufactory = {
          height: 6,
          population: -1280,
          culture: -369,
-         tier3Product: 1,
+         tier3Product: 1004,
          key: "human20"
       },
       "human21":
@@ -574,7 +574,7 @@ const MagicDustManufactory = {
          height: 6,
          population: -708,
          culture: -226,
-         tier3Product: 1,
+         tier3Product: 1083,
          key: "human21"
       },
       "human22":
@@ -586,7 +586,7 @@ const MagicDustManufactory = {
          height: 6,
          population: -817,
          culture: -267,
-         tier3Product: 1,
+         tier3Product: 1167,
          key: "human22"
       },
       "human23":
@@ -598,7 +598,7 @@ const MagicDustManufactory = {
          height: 6,
          population: -943,
          culture: -314,
-         tier3Product: 1,
+         tier3Product: 1262,
          key: "human23"
       },
    },

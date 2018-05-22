@@ -23,6 +23,7 @@ class Select extends React.Component
       const selectProps = {
          value: this.state.selectedValue,
          onChange: this.handleChange.bind(this),
+         disabled: this.props.disabled,
       };
 
       const clientProps = this.props.clientProps;
@@ -75,6 +76,8 @@ Select.propTypes = {
 
    // Client properties. (optional)
    clientProps: PropTypes.object,
+   // Disabled flag. (optional)
+   disabled: PropTypes.bool,
    // Initially selected value. (optional)
    initialSelectedValue: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
    // Function which returns the label for a value. Defaults to simply return the value. (optional)

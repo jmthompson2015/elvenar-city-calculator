@@ -65,7 +65,7 @@ function parse(raceName, typeName, tier, spanId, $, enums, properties)
          const population = parseInt($(children[2]).text().trim());
          let culture = parseInt($(children[3]).text().trim());
          culture = (Number.isInteger(culture) ? culture : 0);
-         const product = parseInt($(children[10]).text().trim());
+         const product = parseInt($(children[10]).text().trim().replace(/\./g, ""));
 
          const rowData = {
             name: typeName + " " + level + " (" + raceName + ")",

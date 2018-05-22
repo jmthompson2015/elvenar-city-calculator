@@ -37,7 +37,9 @@ class DataTable extends React.Component
       }, rowCount)));
 
       return ReactDOMFactories.table(
-      {}, ReactDOMFactories.tbody(
+      {
+         className: this.props.className,
+      }, ReactDOMFactories.tbody(
       {}, rows));
    }
 
@@ -188,6 +190,7 @@ DataTable.propTypes = {
    rowData: PropTypes.array.isRequired,
 
    cellFunctions: PropTypes.object,
+   className: PropTypes.string,
    showFooter: PropTypes.bool,
    valueFunctions: PropTypes.object,
 };
