@@ -9,3 +9,17 @@ body {
 .bg-elvenar {
   background-color: LightBlue;
 }
+
+.dataTable th {
+  background-color: #555555;
+  border: 1px solid LightGray;
+  color: White;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.dataTable td {
+  border: 1px solid LightGray;
+  padding-left: 4px;
+  padding-right: 4px;
+}
