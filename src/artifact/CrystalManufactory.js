@@ -622,6 +622,10 @@ CrystalManufactory.properties[CrystalManufactory.ELF_10].supplies = -1430 / 24;
 
 CrystalManufactory.properties[CrystalManufactory.HUMAN_04].coin = -4480 / 24;
 CrystalManufactory.properties[CrystalManufactory.HUMAN_04].supplies = -448 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_05].coin = -8000 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_05].supplies = -800 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_06].coin = -9280 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_06].supplies = -928 / 24;
 
 CrystalManufactory.keys().forEach(function(buildingKey)
 {

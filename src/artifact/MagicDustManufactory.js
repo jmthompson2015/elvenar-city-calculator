@@ -615,11 +615,10 @@ MagicDustManufactory.values = function()
 };
 
 // Supplementary data.
-MagicDustManufactory.properties[MagicDustManufactory.ELF_08].coin = -1940 / 24;
-MagicDustManufactory.properties[MagicDustManufactory.ELF_08].supplies = -194 / 24;
-
-MagicDustManufactory.properties[MagicDustManufactory.HUMAN_10].coin = -3580 / 24;
-MagicDustManufactory.properties[MagicDustManufactory.HUMAN_10].supplies = -358 / 24;
+MagicDustManufactory.properties[MagicDustManufactory.ELF_01].coin = -17900 / 24;
+MagicDustManufactory.properties[MagicDustManufactory.ELF_01].supplies = -1790 / 24;
+MagicDustManufactory.properties[MagicDustManufactory.ELF_02].coin = -24000 / 24;
+MagicDustManufactory.properties[MagicDustManufactory.ELF_02].supplies = -2400 / 24;
 
 MagicDustManufactory.keys().forEach(function(buildingKey)
 {

@@ -615,11 +615,8 @@ GemsManufactory.values = function()
 };
 
 // Supplementary data.
-GemsManufactory.properties[GemsManufactory.ELF_08].coin = -1940 / 24;
-GemsManufactory.properties[GemsManufactory.ELF_08].supplies = -194 / 24;
-
-GemsManufactory.properties[GemsManufactory.HUMAN_10].coin = -3580 / 24;
-GemsManufactory.properties[GemsManufactory.HUMAN_10].supplies = -358 / 24;
+GemsManufactory.properties[GemsManufactory.ELF_02].coin = -24000 / 24;
+GemsManufactory.properties[GemsManufactory.ELF_02].supplies = -2400 / 24;
 
 GemsManufactory.keys().forEach(function(buildingKey)
 {
