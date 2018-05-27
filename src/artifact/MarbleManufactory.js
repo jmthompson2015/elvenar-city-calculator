@@ -615,9 +615,13 @@ MarbleManufactory.values = function()
 };
 
 // Supplementary data.
+MarbleManufactory.properties[MarbleManufactory.ELF_03].coin = -320 / 24;
+MarbleManufactory.properties[MarbleManufactory.ELF_03].supplies = -32 / 24;
 MarbleManufactory.properties[MarbleManufactory.ELF_09].coin = -1440 / 24;
 MarbleManufactory.properties[MarbleManufactory.ELF_09].supplies = -144 / 24;
 
+MarbleManufactory.properties[MarbleManufactory.HUMAN_02].coin = -260 / 24;
+MarbleManufactory.properties[MarbleManufactory.HUMAN_02].supplies = -26 / 24;
 MarbleManufactory.properties[MarbleManufactory.HUMAN_08].coin = -1940 / 24;
 MarbleManufactory.properties[MarbleManufactory.HUMAN_08].supplies = -194 / 24;
 

@@ -615,9 +615,13 @@ PlanksManufactory.values = function()
 };
 
 // Supplementary data.
+PlanksManufactory.properties[PlanksManufactory.ELF_03].coin = -320 / 24;
+PlanksManufactory.properties[PlanksManufactory.ELF_03].supplies = -32 / 24;
 PlanksManufactory.properties[PlanksManufactory.ELF_09].coin = -1440 / 24;
 PlanksManufactory.properties[PlanksManufactory.ELF_09].supplies = -144 / 24;
 
+PlanksManufactory.properties[PlanksManufactory.HUMAN_02].coin = -500 / 24;
+PlanksManufactory.properties[PlanksManufactory.HUMAN_02].supplies = -50 / 24;
 PlanksManufactory.properties[PlanksManufactory.HUMAN_07].coin = -2640 / 24;
 PlanksManufactory.properties[PlanksManufactory.HUMAN_07].supplies = -264 / 24;
 

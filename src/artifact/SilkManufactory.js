@@ -615,9 +615,13 @@ SilkManufactory.values = function()
 };
 
 // Supplementary data.
+SilkManufactory.properties[SilkManufactory.ELF_02].coin = -3040 / 24;
+SilkManufactory.properties[SilkManufactory.ELF_02].supplies = -304 / 24;
 SilkManufactory.properties[SilkManufactory.ELF_07].coin = -10600 / 24;
 SilkManufactory.properties[SilkManufactory.ELF_07].supplies = -1060 / 24;
 
+SilkManufactory.properties[SilkManufactory.HUMAN_02].coin = -4480 / 24;
+SilkManufactory.properties[SilkManufactory.HUMAN_02].supplies = -448 / 24;
 SilkManufactory.properties[SilkManufactory.HUMAN_05].coin = -8000 / 24;
 SilkManufactory.properties[SilkManufactory.HUMAN_05].supplies = -800 / 24;
 

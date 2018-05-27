@@ -615,9 +615,13 @@ ScrollsManufactory.values = function()
 };
 
 // Supplementary data.
+ScrollsManufactory.properties[ScrollsManufactory.ELF_01].coin = -3280 / 24;
+ScrollsManufactory.properties[ScrollsManufactory.ELF_01].supplies = -328 / 24;
 ScrollsManufactory.properties[ScrollsManufactory.ELF_06].coin = -12300 / 24;
 ScrollsManufactory.properties[ScrollsManufactory.ELF_06].supplies = -1230 / 24;
 
+ScrollsManufactory.properties[ScrollsManufactory.HUMAN_02].coin = -3040 / 24;
+ScrollsManufactory.properties[ScrollsManufactory.HUMAN_02].supplies = -304 / 24;
 ScrollsManufactory.properties[ScrollsManufactory.HUMAN_05].coin = -5280 / 24;
 ScrollsManufactory.properties[ScrollsManufactory.HUMAN_05].supplies = -528 / 24;
 

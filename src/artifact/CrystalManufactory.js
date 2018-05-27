@@ -615,17 +615,33 @@ CrystalManufactory.values = function()
 };
 
 // Supplementary data.
+CrystalManufactory.properties[CrystalManufactory.ELF_01].coin = -2240 / 24;
+CrystalManufactory.properties[CrystalManufactory.ELF_01].supplies = -224 / 24;
+CrystalManufactory.properties[CrystalManufactory.ELF_02].coin = -3040 / 24;
+CrystalManufactory.properties[CrystalManufactory.ELF_02].supplies = -304 / 24;
+CrystalManufactory.properties[CrystalManufactory.ELF_03].coin = -3760 / 24;
+CrystalManufactory.properties[CrystalManufactory.ELF_03].supplies = -376 / 24;
+CrystalManufactory.properties[CrystalManufactory.ELF_04].coin = -4480 / 24;
+CrystalManufactory.properties[CrystalManufactory.ELF_04].supplies = -448 / 24;
 CrystalManufactory.properties[CrystalManufactory.ELF_08].coin = -11800 / 24;
 CrystalManufactory.properties[CrystalManufactory.ELF_08].supplies = -1180 / 24;
 CrystalManufactory.properties[CrystalManufactory.ELF_10].coin = -14300 / 24;
 CrystalManufactory.properties[CrystalManufactory.ELF_10].supplies = -1430 / 24;
 
+CrystalManufactory.properties[CrystalManufactory.HUMAN_01].coin = -2240 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_01].supplies = -224 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_02].coin = -3040 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_02].supplies = -304 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_03].coin = -3760 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_03].supplies = -376 / 24;
 CrystalManufactory.properties[CrystalManufactory.HUMAN_04].coin = -4480 / 24;
 CrystalManufactory.properties[CrystalManufactory.HUMAN_04].supplies = -448 / 24;
 CrystalManufactory.properties[CrystalManufactory.HUMAN_05].coin = -8000 / 24;
 CrystalManufactory.properties[CrystalManufactory.HUMAN_05].supplies = -800 / 24;
 CrystalManufactory.properties[CrystalManufactory.HUMAN_06].coin = -9280 / 24;
 CrystalManufactory.properties[CrystalManufactory.HUMAN_06].supplies = -928 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_07].coin = -10600 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_07].supplies = -1060 / 24;
 
 CrystalManufactory.keys().forEach(function(buildingKey)
 {

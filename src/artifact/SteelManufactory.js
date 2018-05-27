@@ -615,9 +615,31 @@ SteelManufactory.values = function()
 };
 
 // Supplementary data.
+SteelManufactory.properties[SteelManufactory.ELF_01].coin = -380 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_01].supplies = -38 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_02].coin = -500 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_02].supplies = -50 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_03].coin = -620 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_03].supplies = -62 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_04].coin = -760 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_04].supplies = -76 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_05].coin = -1320 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_05].supplies = -132 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_06].coin = -1500 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_06].supplies = -150 / 24;
 SteelManufactory.properties[SteelManufactory.ELF_08].coin = -1940 / 24;
 SteelManufactory.properties[SteelManufactory.ELF_08].supplies = -194 / 24;
 
+SteelManufactory.properties[SteelManufactory.HUMAN_01].coin = -380 / 24;
+SteelManufactory.properties[SteelManufactory.HUMAN_01].supplies = -38 / 24;
+SteelManufactory.properties[SteelManufactory.HUMAN_02].coin = -500 / 24;
+SteelManufactory.properties[SteelManufactory.HUMAN_02].supplies = -50 / 24;
+SteelManufactory.properties[SteelManufactory.HUMAN_03].coin = -620 / 24;
+SteelManufactory.properties[SteelManufactory.HUMAN_03].supplies = -62 / 24;
+SteelManufactory.properties[SteelManufactory.HUMAN_04].coin = -760 / 24;
+SteelManufactory.properties[SteelManufactory.HUMAN_04].supplies = -76 / 24;
+SteelManufactory.properties[SteelManufactory.HUMAN_05].coin = -880 / 24;
+SteelManufactory.properties[SteelManufactory.HUMAN_05].supplies = -88 / 24;
 SteelManufactory.properties[SteelManufactory.HUMAN_10].coin = -3580 / 24;
 SteelManufactory.properties[SteelManufactory.HUMAN_10].supplies = -358 / 24;
 
