@@ -2,6 +2,7 @@ import BuildingCategory from "../../artifact/BuildingCategory.js";
 import BuildingType from "../../artifact/BuildingType.js";
 import BuildingResolver from "../../artifact/BuildingResolver.js";
 import BuildingUtilities from "../../artifact/BuildingUtilities.js";
+import TimeSpan from "../../artifact/TimeSpan.js";
 
 import DataTable from "../../view/DataTable.js";
 
@@ -17,22 +18,19 @@ function mapStateToProps(state)
       }
       const count = row.count;
       const area = count * building.width * building.height;
-      const coin = valueOrUndefined(Math.round(count * building.coin));
       const culture = valueOrUndefined(count * BuildingUtilities.cumulativeCulture(building.typeKey, building.key));
       const population = valueOrUndefined(count * BuildingUtilities.cumulativePopulation(building.typeKey, building.key));
-      const supplies = valueOrUndefined(Math.round(count * building.supplies));
-      let product;
-      if (building.tier1Product !== undefined)
+      const timeSpan = TimeSpan.properties[state.timeSpanKey];
+      const coin = determineValue("coin", building, count, timeSpan);
+      const supplies = determineValue("supplies", building, count, timeSpan);
+      let product = determineValue("tier1Product", building, count, timeSpan);
+      if (product === undefined)
       {
-         product = valueOrUndefined(count * building.tier1Product);
+         product = determineValue("tier2Product", building, count, timeSpan);
       }
-      else if (building.tier2Product !== undefined)
+      if (product === undefined)
       {
-         product = valueOrUndefined(count * building.tier2Product);
-      }
-      else if (building.tier3Product !== undefined)
-      {
-         product = valueOrUndefined(count * building.tier3Product);
+         product = determineValue("tier3Product", building, count, timeSpan);
       }
       const culturePerArea = (culture !== undefined ? culture : 0) / area;
       const populationPerArea = (population !== undefined ? population : 0) / area;
@@ -64,11 +62,6 @@ function mapStateToProps(state)
       rowData: rowData,
       cellFunctions: cellFunctions,
    });
-}
-
-function valueOrUndefined(value)
-{
-   return (value !== undefined && !isNaN(value) && Math.abs(value) !== 0 ? value : undefined);
 }
 
 const TableColumns = [
@@ -208,6 +201,31 @@ function createCellFunctions()
    };
 
    return cellFunctions;
+}
+
+function determineValue(propertyName, building, count, timeSpan)
+{
+   let answer;
+   const map = building[propertyName + "Map"];
+
+   if (timeSpan !== undefined && map !== undefined)
+   {
+      const value = map[timeSpan.key];
+      const perHour = 60 / timeSpan.minutes;
+      answer = valueOrUndefined(Math.round(count * value * perHour));
+   }
+
+   if (answer === undefined)
+   {
+      answer = valueOrUndefined(Math.round(count * building[propertyName]));
+   }
+
+   return answer;
+}
+
+function valueOrUndefined(value)
+{
+   return (value !== undefined && !isNaN(value) && Math.abs(value) !== 0 ? value : undefined);
 }
 
 export default ReactRedux.connect(mapStateToProps)(DataTable);

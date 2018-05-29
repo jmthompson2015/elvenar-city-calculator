@@ -1,5 +1,6 @@
 import BuildingType from "./BuildingType.js";
 import Race from "./Race.js";
+import TimeSpan from "./TimeSpan.js";
 
 const ElixirManufactory = {
    ELF_01: "elf01",
@@ -615,10 +616,18 @@ ElixirManufactory.values = function()
 };
 
 // Supplementary data.
-ElixirManufactory.properties[ElixirManufactory.ELF_03].coin = -29100 / 24;
-ElixirManufactory.properties[ElixirManufactory.ELF_03].supplies = -2910 / 24;
-ElixirManufactory.properties[ElixirManufactory.ELF_04].coin = -36200 / 24;
-ElixirManufactory.properties[ElixirManufactory.ELF_04].supplies = -3620 / 24;
+ElixirManufactory.properties[ElixirManufactory.ELF_01].coinMap = createTimeMap(-5760, -10600, -17900, -26600);
+ElixirManufactory.properties[ElixirManufactory.ELF_01].suppliesMap = createTimeMap(-576, -1060, -1790, -2660);
+ElixirManufactory.properties[ElixirManufactory.ELF_01].tier3ProductMap = createTimeMap(64, 117, 199, 294);
+ElixirManufactory.properties[ElixirManufactory.ELF_02].coinMap = createTimeMap(-7680, -14100, -24000, -35200);
+ElixirManufactory.properties[ElixirManufactory.ELF_02].suppliesMap = createTimeMap(-768, -1410, -2400, -3520);
+ElixirManufactory.properties[ElixirManufactory.ELF_02].tier3ProductMap = createTimeMap(85, 156, 266, 390);
+ElixirManufactory.properties[ElixirManufactory.ELF_03].coinMap = createTimeMap(-9280, -17000, -29100, -42600);
+ElixirManufactory.properties[ElixirManufactory.ELF_03].suppliesMap = createTimeMap(-928, -1700, -2910, -4260);
+ElixirManufactory.properties[ElixirManufactory.ELF_03].tier3ProductMap = createTimeMap(103, 188, 323, 471);
+ElixirManufactory.properties[ElixirManufactory.ELF_04].coinMap = createTimeMap(-11500, -21100, -36200, -52800);
+ElixirManufactory.properties[ElixirManufactory.ELF_04].suppliesMap = createTimeMap(-1150, -2110, -3620, -5280);
+ElixirManufactory.properties[ElixirManufactory.ELF_04].tier3ProductMap = createTimeMap(128, 234, 401, 585);
 
 ElixirManufactory.keys().forEach(function(buildingKey)
 {
@@ -627,6 +636,18 @@ ElixirManufactory.keys().forEach(function(buildingKey)
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
 });
+
+function createTimeMap(value3, value9, value24, value48)
+{
+   const answer = {};
+
+   answer[TimeSpan.THREE_HOURS] = value3;
+   answer[TimeSpan.NINE_HOURS] = value9;
+   answer[TimeSpan.ONE_DAY] = value24;
+   answer[TimeSpan.TWO_DAYS] = value48;
+
+   return answer;
+}
 
 if (Object.freeze)
 {

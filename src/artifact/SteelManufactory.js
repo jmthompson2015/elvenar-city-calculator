@@ -1,5 +1,6 @@
 import BuildingType from "./BuildingType.js";
 import Race from "./Race.js";
+import TimeSpan from "./TimeSpan.js";
 
 const SteelManufactory = {
    ELF_01: "elf01",
@@ -615,33 +616,61 @@ SteelManufactory.values = function()
 };
 
 // Supplementary data.
-SteelManufactory.properties[SteelManufactory.ELF_01].coin = -380 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_01].supplies = -38 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_02].coin = -500 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_02].supplies = -50 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_03].coin = -620 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_03].supplies = -62 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_04].coin = -760 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_04].supplies = -76 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_05].coin = -1320 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_05].supplies = -132 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_06].coin = -1500 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_06].supplies = -150 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_08].coin = -1940 / 24;
-SteelManufactory.properties[SteelManufactory.ELF_08].supplies = -194 / 24;
+SteelManufactory.properties[SteelManufactory.ELF_01].coinMap = createTimeMap(-120, -220, -380, -560);
+SteelManufactory.properties[SteelManufactory.ELF_01].suppliesMap = createTimeMap(-12, -22, -38, -56);
+SteelManufactory.properties[SteelManufactory.ELF_01].tier1ProductMap = createTimeMap(20, 37, 63, 92);
+SteelManufactory.properties[SteelManufactory.ELF_02].coinMap = createTimeMap(-160, -300, -500, -740);
+SteelManufactory.properties[SteelManufactory.ELF_02].suppliesMap = createTimeMap(-16, -30, -50, -74);
+SteelManufactory.properties[SteelManufactory.ELF_02].tier1ProductMap = createTimeMap(27, 50, 82, 122);
+SteelManufactory.properties[SteelManufactory.ELF_03].coinMap = createTimeMap(-200, -360, -620, -920);
+SteelManufactory.properties[SteelManufactory.ELF_03].suppliesMap = createTimeMap(-20, -36, -62, -92);
+SteelManufactory.properties[SteelManufactory.ELF_03].tier1ProductMap = createTimeMap(33, 60, 102, 151);
+SteelManufactory.properties[SteelManufactory.ELF_04].coinMap = createTimeMap(-240, -440, -760, -1100);
+SteelManufactory.properties[SteelManufactory.ELF_04].suppliesMap = createTimeMap(-24, -44, -76, -110);
+SteelManufactory.properties[SteelManufactory.ELF_04].tier1ProductMap = createTimeMap(40, 73, 125, 181);
+SteelManufactory.properties[SteelManufactory.ELF_05].coinMap = createTimeMap(-420, -760, -1320, -1920);
+SteelManufactory.properties[SteelManufactory.ELF_05].suppliesMap = createTimeMap(-42, -76, -132, -192);
+SteelManufactory.properties[SteelManufactory.ELF_05].tier1ProductMap = createTimeMap(69, 125, 217, 315);
+SteelManufactory.properties[SteelManufactory.ELF_06].coinMap = createTimeMap(-480, -880, -1500, -2200);
+SteelManufactory.properties[SteelManufactory.ELF_06].suppliesMap = createTimeMap(-48, -88, -150, -220);
+SteelManufactory.properties[SteelManufactory.ELF_06].tier1ProductMap = createTimeMap(79, 145, 246, 361);
+SteelManufactory.properties[SteelManufactory.ELF_07].coinMap = createTimeMap(-560, -1020, -1760, -2580);
+SteelManufactory.properties[SteelManufactory.ELF_07].suppliesMap = createTimeMap(-56, -102, -176, -258);
+SteelManufactory.properties[SteelManufactory.ELF_07].tier1ProductMap = createTimeMap(92, 168, 289, 424);
+SteelManufactory.properties[SteelManufactory.ELF_08].coinMap = createTimeMap(-620, -1140, -1940, -2840);
+SteelManufactory.properties[SteelManufactory.ELF_08].suppliesMap = createTimeMap(-62, -114, -194, -284);
+SteelManufactory.properties[SteelManufactory.ELF_08].tier1ProductMap = createTimeMap(98, 179, 305, 446);
 
-SteelManufactory.properties[SteelManufactory.HUMAN_01].coin = -380 / 24;
-SteelManufactory.properties[SteelManufactory.HUMAN_01].supplies = -38 / 24;
-SteelManufactory.properties[SteelManufactory.HUMAN_02].coin = -500 / 24;
-SteelManufactory.properties[SteelManufactory.HUMAN_02].supplies = -50 / 24;
-SteelManufactory.properties[SteelManufactory.HUMAN_03].coin = -620 / 24;
-SteelManufactory.properties[SteelManufactory.HUMAN_03].supplies = -62 / 24;
-SteelManufactory.properties[SteelManufactory.HUMAN_04].coin = -760 / 24;
-SteelManufactory.properties[SteelManufactory.HUMAN_04].supplies = -76 / 24;
-SteelManufactory.properties[SteelManufactory.HUMAN_05].coin = -880 / 24;
-SteelManufactory.properties[SteelManufactory.HUMAN_05].supplies = -88 / 24;
-SteelManufactory.properties[SteelManufactory.HUMAN_10].coin = -3580 / 24;
-SteelManufactory.properties[SteelManufactory.HUMAN_10].supplies = -358 / 24;
+SteelManufactory.properties[SteelManufactory.HUMAN_01].coinMap = createTimeMap(-120, -220, -380, -560);
+SteelManufactory.properties[SteelManufactory.HUMAN_01].suppliesMap = createTimeMap(-12, -22, -38, -56);
+SteelManufactory.properties[SteelManufactory.HUMAN_01].tier1ProductMap = createTimeMap(19, 35, 60, 88);
+SteelManufactory.properties[SteelManufactory.HUMAN_02].coinMap = createTimeMap(-160, -300, -500, -740);
+SteelManufactory.properties[SteelManufactory.HUMAN_02].suppliesMap = createTimeMap(-16, -30, -50, -74);
+SteelManufactory.properties[SteelManufactory.HUMAN_02].tier1ProductMap = createTimeMap(26, 48, 79, 117);
+SteelManufactory.properties[SteelManufactory.HUMAN_03].coinMap = createTimeMap(-200, -360, -620, -920);
+SteelManufactory.properties[SteelManufactory.HUMAN_03].suppliesMap = createTimeMap(-20, -36, -62, -92);
+SteelManufactory.properties[SteelManufactory.HUMAN_03].tier1ProductMap = createTimeMap(32, 57, 98, 145);
+SteelManufactory.properties[SteelManufactory.HUMAN_04].coinMap = createTimeMap(-240, -440, -760, -1100);
+SteelManufactory.properties[SteelManufactory.HUMAN_04].suppliesMap = createTimeMap(-24, -44, -76, -110);
+SteelManufactory.properties[SteelManufactory.HUMAN_04].tier1ProductMap = createTimeMap(38, 70, 120, 173);
+SteelManufactory.properties[SteelManufactory.HUMAN_05].coinMap = createTimeMap(-280, -520, -880, -1280);
+SteelManufactory.properties[SteelManufactory.HUMAN_05].suppliesMap = createTimeMap(-28, -52, -88, -128);
+SteelManufactory.properties[SteelManufactory.HUMAN_05].tier1ProductMap = createTimeMap(44, 82, 139, 201);
+SteelManufactory.properties[SteelManufactory.HUMAN_06].coinMap = createTimeMap(-320, -580, -1000, -1480);
+SteelManufactory.properties[SteelManufactory.HUMAN_06].suppliesMap = createTimeMap(-32, -58, -100, -148);
+SteelManufactory.properties[SteelManufactory.HUMAN_06].tier1ProductMap = createTimeMap(51, 92, 157, 233);
+SteelManufactory.properties[SteelManufactory.HUMAN_07].coinMap = createTimeMap(-840, -1540, -2640, -3860);
+SteelManufactory.properties[SteelManufactory.HUMAN_07].suppliesMap = createTimeMap(-84, -154, -264, -386);
+SteelManufactory.properties[SteelManufactory.HUMAN_07].tier1ProductMap = createTimeMap(132, 242, 415, 607);
+SteelManufactory.properties[SteelManufactory.HUMAN_08].coinMap = createTimeMap(-940, -1720, -2960, -4320);
+SteelManufactory.properties[SteelManufactory.HUMAN_08].suppliesMap = createTimeMap(-94, -172, -296, -432);
+SteelManufactory.properties[SteelManufactory.HUMAN_08].tier1ProductMap = createTimeMap(148, 271, 465, 679);
+SteelManufactory.properties[SteelManufactory.HUMAN_09].coinMap = createTimeMap(-1040, -1900, -3260, -4780);
+SteelManufactory.properties[SteelManufactory.HUMAN_09].suppliesMap = createTimeMap(-104, -190, -326, -478);
+SteelManufactory.properties[SteelManufactory.HUMAN_09].tier1ProductMap = createTimeMap(148, 271, 465, 679);
+SteelManufactory.properties[SteelManufactory.HUMAN_10].coinMap = createTimeMap(-1140, -2080, -3580, -5240);
+SteelManufactory.properties[SteelManufactory.HUMAN_10].suppliesMap = createTimeMap(-114, -208, -358, -524);
+SteelManufactory.properties[SteelManufactory.HUMAN_10].tier1ProductMap = createTimeMap(179, 327, 563, 823);
 
 SteelManufactory.keys().forEach(function(buildingKey)
 {
@@ -650,6 +679,18 @@ SteelManufactory.keys().forEach(function(buildingKey)
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
 });
+
+function createTimeMap(value3, value9, value24, value48)
+{
+   const answer = {};
+
+   answer[TimeSpan.THREE_HOURS] = value3;
+   answer[TimeSpan.NINE_HOURS] = value9;
+   answer[TimeSpan.ONE_DAY] = value24;
+   answer[TimeSpan.TWO_DAYS] = value48;
+
+   return answer;
+}
 
 if (Object.freeze)
 {

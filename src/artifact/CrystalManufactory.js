@@ -1,5 +1,6 @@
 import BuildingType from "./BuildingType.js";
 import Race from "./Race.js";
+import TimeSpan from "./TimeSpan.js";
 
 const CrystalManufactory = {
    ELF_01: "elf01",
@@ -615,33 +616,49 @@ CrystalManufactory.values = function()
 };
 
 // Supplementary data.
-CrystalManufactory.properties[CrystalManufactory.ELF_01].coin = -2240 / 24;
-CrystalManufactory.properties[CrystalManufactory.ELF_01].supplies = -224 / 24;
-CrystalManufactory.properties[CrystalManufactory.ELF_02].coin = -3040 / 24;
-CrystalManufactory.properties[CrystalManufactory.ELF_02].supplies = -304 / 24;
-CrystalManufactory.properties[CrystalManufactory.ELF_03].coin = -3760 / 24;
-CrystalManufactory.properties[CrystalManufactory.ELF_03].supplies = -376 / 24;
-CrystalManufactory.properties[CrystalManufactory.ELF_04].coin = -4480 / 24;
-CrystalManufactory.properties[CrystalManufactory.ELF_04].supplies = -448 / 24;
-CrystalManufactory.properties[CrystalManufactory.ELF_08].coin = -11800 / 24;
-CrystalManufactory.properties[CrystalManufactory.ELF_08].supplies = -1180 / 24;
-CrystalManufactory.properties[CrystalManufactory.ELF_10].coin = -14300 / 24;
-CrystalManufactory.properties[CrystalManufactory.ELF_10].supplies = -1430 / 24;
+CrystalManufactory.properties[CrystalManufactory.ELF_01].coinMap = createTimeMap(-720, -1280, -2240, -3280);
+CrystalManufactory.properties[CrystalManufactory.ELF_01].suppliesMap = createTimeMap(-72, -128, -224, -328);
+CrystalManufactory.properties[CrystalManufactory.ELF_01].tier2ProductMap = createTimeMap(29, 51, 88, 129);
+CrystalManufactory.properties[CrystalManufactory.ELF_02].coinMap = createTimeMap(-960, -1760, -3040, -4400);
+CrystalManufactory.properties[CrystalManufactory.ELF_02].suppliesMap = createTimeMap(-96, -176, -304, -440);
+CrystalManufactory.properties[CrystalManufactory.ELF_02].tier2ProductMap = createTimeMap(38, 70, 120, 173);
+CrystalManufactory.properties[CrystalManufactory.ELF_03].coinMap = createTimeMap(-1200, -2160, -3760, -5520);
+CrystalManufactory.properties[CrystalManufactory.ELF_03].suppliesMap = createTimeMap(-120, -216, -376, -552);
+CrystalManufactory.properties[CrystalManufactory.ELF_03].tier2ProductMap = createTimeMap(48, 85, 148, 217);
+CrystalManufactory.properties[CrystalManufactory.ELF_04].coinMap = createTimeMap(-1440, -2640, -4480, -6640);
+CrystalManufactory.properties[CrystalManufactory.ELF_04].suppliesMap = createTimeMap(-144, -264, -448, -664);
+CrystalManufactory.properties[CrystalManufactory.ELF_04].tier2ProductMap = createTimeMap(57, 104, 176, 261);
+CrystalManufactory.properties[CrystalManufactory.ELF_05].coinMap = createTimeMap(-1680, -3040, -5280, -7680);
+CrystalManufactory.properties[CrystalManufactory.ELF_05].suppliesMap = createTimeMap(-168, -304, -528, -768);
+CrystalManufactory.properties[CrystalManufactory.ELF_05].tier2ProductMap = createTimeMap(66, 120, 208, 302);
+CrystalManufactory.properties[CrystalManufactory.ELF_08].coinMap = createTimeMap(-3760, -6880, -11800, -17300);
+CrystalManufactory.properties[CrystalManufactory.ELF_08].suppliesMap = createTimeMap(-376, -688, -1180, -1730);
+CrystalManufactory.properties[CrystalManufactory.ELF_08].tier2ProductMap = createTimeMap(148, 271, 465, 679);
+CrystalManufactory.properties[CrystalManufactory.ELF_10].coinMap = createTimeMap(-4560, -8320, -14300, -21000);
+CrystalManufactory.properties[CrystalManufactory.ELF_10].suppliesMap = createTimeMap(-456, -832, -1430, -2100);
+CrystalManufactory.properties[CrystalManufactory.ELF_10].tier2ProductMap = createTimeMap(179, 327, 563, 823);
 
-CrystalManufactory.properties[CrystalManufactory.HUMAN_01].coin = -2240 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_01].supplies = -224 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_02].coin = -3040 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_02].supplies = -304 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_03].coin = -3760 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_03].supplies = -376 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_04].coin = -4480 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_04].supplies = -448 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_05].coin = -8000 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_05].supplies = -800 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_06].coin = -9280 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_06].supplies = -928 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_07].coin = -10600 / 24;
-CrystalManufactory.properties[CrystalManufactory.HUMAN_07].supplies = -1060 / 24;
+CrystalManufactory.properties[CrystalManufactory.HUMAN_01].coinMap = createTimeMap(-720, -1280, -2240, -3280);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_01].suppliesMap = createTimeMap(-72, -128, -224, -328);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_01].tier2ProductMap = createTimeMap(29, 51, 88, 129);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_02].coinMap = createTimeMap(-960, -1760, -3040, -4400);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_02].suppliesMap = createTimeMap(-96, -176, -304, -440);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_02].tier2ProductMap = createTimeMap(38, 70, 120, 173);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_03].coinMap = createTimeMap(-1200, -2160, -3760, -5520);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_03].suppliesMap = createTimeMap(-120, -216, -376, -552);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_03].tier2ProductMap = createTimeMap(48, 85, 148, 217);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_04].coinMap = createTimeMap(-1440, -2640, -4480, -6640);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_04].suppliesMap = createTimeMap(-144, -264, -448, -664);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_04].tier2ProductMap = createTimeMap(52, 95, 161, 238);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_05].coinMap = createTimeMap(-2560, -4720, -8000, -11800);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_05].suppliesMap = createTimeMap(-256, -472, -800, -1180);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_05].tier2ProductMap = createTimeMap(101, 186, 314, 462);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_06].coinMap = createTimeMap(-2960, -5440, -9280, -13600);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_06].suppliesMap = createTimeMap(-296, -544, -928, -1360);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_06].tier2ProductMap = createTimeMap(117, 214, 365, 534);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_07].coinMap = createTimeMap(-3360, -6160, -10600, -15400);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_07].suppliesMap = createTimeMap(-336, -616, -1060, -1540);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_07].tier2ProductMap = createTimeMap(132, 242, 415, 607);
 
 CrystalManufactory.keys().forEach(function(buildingKey)
 {
@@ -650,6 +667,18 @@ CrystalManufactory.keys().forEach(function(buildingKey)
    building.race = Race.properties[building.raceKey];
    building.type = BuildingType.properties[building.typeKey];
 });
+
+function createTimeMap(value3, value9, value24, value48)
+{
+   const answer = {};
+
+   answer[TimeSpan.THREE_HOURS] = value3;
+   answer[TimeSpan.NINE_HOURS] = value9;
+   answer[TimeSpan.ONE_DAY] = value24;
+   answer[TimeSpan.TWO_DAYS] = value48;
+
+   return answer;
+}
 
 if (Object.freeze)
 {

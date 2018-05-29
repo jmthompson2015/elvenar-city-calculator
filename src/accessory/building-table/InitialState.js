@@ -2,6 +2,7 @@ import BuildingCategory from "../../artifact/BuildingCategory.js";
 import BuildingType from "../../artifact/BuildingType.js";
 import BuildingUtilities from "../../artifact/BuildingUtilities.js";
 import Race from "../../artifact/Race.js";
+import TimeSpan from "../../artifact/TimeSpan.js";
 
 import Construct from "../../model/Construct.js";
 
@@ -9,6 +10,7 @@ function InitialState()
 {
    this.raceKey = Race.ELF;
    this.categoryKey = BuildingCategory.BASICS;
+   this.timeSpanKey = TimeSpan.THREE_HOURS;
    this.typeKey = BuildingType.RESIDENCE;
    this.typeSelectDisabled = false;
    this.rowData = InitialState.initializeBuildings(this.raceKey, this.categoryKey, this.typeKey);

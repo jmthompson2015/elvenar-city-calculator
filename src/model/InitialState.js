@@ -1,12 +1,14 @@
 import BuildingCategory from "../artifact/BuildingCategory.js";
 import BuildingType from "../artifact/BuildingType.js";
 import Race from "../artifact/Race.js";
+import TimeSpan from "../artifact/TimeSpan.js";
 
 import Construct from "./Construct.js";
 
 function InitialState()
 {
    this.raceKey = Race.ELF;
+   this.timeSpanKey = TimeSpan.THREE_HOURS;
    this.rowData = InitialState.initializeBuildings(this.raceKey);
 }
 
