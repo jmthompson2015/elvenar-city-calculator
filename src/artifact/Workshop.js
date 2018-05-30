@@ -766,10 +766,15 @@ Workshop.properties[Workshop.ELF_01].suppliesMap = createTimeMap(7, 18, 45, 87, 
 Workshop.properties[Workshop.ELF_02].suppliesMap = createTimeMap(10, 25, 67, 128, 220, 322);
 Workshop.properties[Workshop.ELF_03].suppliesMap = createTimeMap(14, 35, 93, 179, 309, 453);
 Workshop.properties[Workshop.ELF_04].suppliesMap = createTimeMap(24, 56, 146, 281, 487, 713);
+Workshop.properties[Workshop.ELF_05].suppliesMap = createTimeMap(33, 80, 212, 409, 708, 1037);
+Workshop.properties[Workshop.ELF_06].suppliesMap = createTimeMap(39, 97, 255, 494, 856, 1251);
+Workshop.properties[Workshop.ELF_07].suppliesMap = createTimeMap(44, 105, 279, 539, 933, 1363);
 Workshop.properties[Workshop.ELF_08].suppliesMap = createTimeMap(39, 94, 249, 480, 832, 1220);
+Workshop.properties[Workshop.ELF_09].suppliesMap = createTimeMap(107, 259, 684, 1325, 2288, 3350);
 
 Workshop.properties[Workshop.HUMAN_01].suppliesMap = createTimeMap(6, 15, 38, 73, 125, 184);
 Workshop.properties[Workshop.HUMAN_02].suppliesMap = createTimeMap(8, 20, 53, 102, 176, 257);
+Workshop.properties[Workshop.HUMAN_03].suppliesMap = createTimeMap(15, 37, 97, 186, 322, 471);
 Workshop.properties[Workshop.HUMAN_07].suppliesMap = createTimeMap(44, 105, 279, 539, 933, 1363);
 Workshop.properties[Workshop.HUMAN_08].suppliesMap = createTimeMap(49, 118, 312, 600, 1040, 1525);
 Workshop.properties[Workshop.HUMAN_09].suppliesMap = createTimeMap(53, 130, 343, 662, 1145, 1675);

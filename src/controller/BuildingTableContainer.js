@@ -237,9 +237,14 @@ function determineValue(propertyName, building, count, timeSpan)
 
    if (timeSpan !== undefined && map !== undefined)
    {
-      const value = map[timeSpan.key];
-      const perHour = 60 / timeSpan.minutes;
-      answer = valueOrUndefined(Math.round(count * value * perHour));
+      const myTimeSpan = TimeSpan.determineTimeSpan(map, timeSpan.key);
+
+      if (myTimeSpan !== undefined)
+      {
+         const value = map[myTimeSpan.key];
+         const perHour = 60 / myTimeSpan.minutes;
+         answer = valueOrUndefined(Math.round(count * value * perHour));
+      }
    }
 
    if (answer === undefined)

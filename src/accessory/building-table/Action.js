@@ -4,6 +4,7 @@ const Action = {};
 
 Action.SET_CATEGORY = "setCategory";
 Action.SET_RACE = "setRace";
+Action.SET_TIME_SPAN = "setTimeSpan";
 Action.SET_TYPE = "setType";
 
 Action.setCategory = function(id, categoryKey)
@@ -27,6 +28,17 @@ Action.setRace = function(raceKey)
    {
       type: Action.SET_RACE,
       raceKey: raceKey,
+   });
+};
+
+Action.setTimeSpan = function(timeSpanKey)
+{
+   InputValidator.validateIsString("timeSpanKey", timeSpanKey);
+
+   return (
+   {
+      type: Action.SET_TIME_SPAN,
+      timeSpanKey: timeSpanKey,
    });
 };
 

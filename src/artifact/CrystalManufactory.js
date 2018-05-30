@@ -631,6 +631,12 @@ CrystalManufactory.properties[CrystalManufactory.ELF_04].tier2ProductMap = creat
 CrystalManufactory.properties[CrystalManufactory.ELF_05].coinMap = createTimeMap(-1680, -3040, -5280, -7680);
 CrystalManufactory.properties[CrystalManufactory.ELF_05].suppliesMap = createTimeMap(-168, -304, -528, -768);
 CrystalManufactory.properties[CrystalManufactory.ELF_05].tier2ProductMap = createTimeMap(66, 120, 208, 302);
+CrystalManufactory.properties[CrystalManufactory.ELF_06].coinMap = createTimeMap(-1920, -3520, -6000, -8800);
+CrystalManufactory.properties[CrystalManufactory.ELF_06].suppliesMap = createTimeMap(-192, -352, -600, -880);
+CrystalManufactory.properties[CrystalManufactory.ELF_06].tier2ProductMap = createTimeMap(79, 145, 246, 361);
+CrystalManufactory.properties[CrystalManufactory.ELF_07].coinMap = createTimeMap(-3360, -6160, -10600, -15400);
+CrystalManufactory.properties[CrystalManufactory.ELF_07].suppliesMap = createTimeMap(-336, -616, -1060, -1540);
+CrystalManufactory.properties[CrystalManufactory.ELF_07].tier2ProductMap = createTimeMap(138, 253, 433, 634);
 CrystalManufactory.properties[CrystalManufactory.ELF_08].coinMap = createTimeMap(-3760, -6880, -11800, -17300);
 CrystalManufactory.properties[CrystalManufactory.ELF_08].suppliesMap = createTimeMap(-376, -688, -1180, -1730);
 CrystalManufactory.properties[CrystalManufactory.ELF_08].tier2ProductMap = createTimeMap(148, 271, 465, 679);
@@ -659,6 +665,9 @@ CrystalManufactory.properties[CrystalManufactory.HUMAN_06].tier2ProductMap = cre
 CrystalManufactory.properties[CrystalManufactory.HUMAN_07].coinMap = createTimeMap(-3360, -6160, -10600, -15400);
 CrystalManufactory.properties[CrystalManufactory.HUMAN_07].suppliesMap = createTimeMap(-336, -616, -1060, -1540);
 CrystalManufactory.properties[CrystalManufactory.HUMAN_07].tier2ProductMap = createTimeMap(132, 242, 415, 607);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_08].coinMap = createTimeMap(-3760, -6880, -11800, -17300);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_08].suppliesMap = createTimeMap(-376, -688, -1180, -1730);
+CrystalManufactory.properties[CrystalManufactory.HUMAN_08].tier2ProductMap = createTimeMap(148, 271, 465, 679);
 
 CrystalManufactory.keys().forEach(function(buildingKey)
 {

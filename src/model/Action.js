@@ -9,6 +9,7 @@ Action.SET_CONSTRUCT = "setConstruct";
 Action.SET_COUNT = "setCount";
 Action.SET_LEVEL = "setLevel";
 Action.SET_RACE = "setRace";
+Action.SET_TIME_SPAN = "setTimeSpan";
 Action.SET_TYPE = "setType";
 
 Action.addRow = function()
@@ -85,6 +86,17 @@ Action.setRace = function(raceKey)
    {
       type: Action.SET_RACE,
       raceKey: raceKey,
+   });
+};
+
+Action.setTimeSpan = function(timeSpanKey)
+{
+   InputValidator.validateIsString("timeSpanKey", timeSpanKey);
+
+   return (
+   {
+      type: Action.SET_TIME_SPAN,
+      timeSpanKey: timeSpanKey,
    });
 };
 

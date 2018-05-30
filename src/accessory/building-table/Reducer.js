@@ -41,6 +41,13 @@ Reducer.root = function(state, action)
             raceKey: action.raceKey,
             rowData: newRowData,
          });
+      case Action.SET_TIME_SPAN:
+         LOGGER.info("Reducer timeSpanKey = " + action.timeSpanKey);
+         return Object.assign(
+         {}, state,
+         {
+            timeSpanKey: action.timeSpanKey,
+         });
       case Action.SET_TYPE:
          LOGGER.info("Reducer id = " + action.id + " typeKey = " + action.typeKey);
          newRowData = InitialState.initializeBuildings(state.raceKey, state.categoryKey, action.typeKey);

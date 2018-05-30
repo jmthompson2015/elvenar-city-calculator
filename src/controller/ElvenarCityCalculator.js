@@ -12,6 +12,7 @@ import ReactUtilities from "../view/ReactUtilities.js";
 
 import BuildingTableContainer from "./BuildingTableContainer.js";
 import RaceSelectContainer from "./RaceSelectContainer.js";
+import TimeSpanSelectContainer from "./TimeSpanSelectContainer.js";
 
 window.LOGGER = new Logger();
 LOGGER.setTraceEnabled(false);
@@ -24,6 +25,11 @@ const raceSelect = React.createElement(ReactRedux.Provider,
    key: "raceSelect",
    store: store,
 }, React.createElement(RaceSelectContainer));
+const timeSpanSelect = React.createElement(ReactRedux.Provider,
+{
+   key: "timeSpanSelect",
+   store: store,
+}, React.createElement(TimeSpanSelectContainer));
 const buildingTable = React.createElement(ReactRedux.Provider,
 {
    store: store,
@@ -98,12 +104,12 @@ const resetButton = ReactDOMFactories.button(
    },
 }, "Reset");
 
-const raceCell = ReactUtilities.createCell(["Race: ", raceSelect], "raceCell", "pt2 tc");
+const selectCell = ReactUtilities.createCell(["Race: ", raceSelect, " TimeSpan: ", timeSpanSelect], "selectCell", "pt2 tc");
 const tableCell = ReactUtilities.createCell(buildingTable, "tableCell", "ph2");
 const buttonCell = ReactUtilities.createCell([addRowButton, zarekLockElfButton, zarekLockHumanButton, resetButton], "buttonCell", "pb2 tc");
 
 const rows = [];
-rows.push(ReactUtilities.createRow(raceCell, "raceRow"));
+rows.push(ReactUtilities.createRow(selectCell, "selectRow"));
 rows.push(ReactUtilities.createRow(tableCell, "tableRow"));
 rows.push(ReactUtilities.createRow(buttonCell, "buttonRow"));
 
